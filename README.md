@@ -1,2 +1,1 @@
-# Aspose.PDF-Products
-Aspose.PDF product family landing pages
+This repository contains Aspose.PDF Product Family landing pages.
