@@ -62,6 +62,15 @@ View PDF documents within your favorite browser from anywhere.
 
 {{< /blocks/products/pf/product-card-row >}}
 
+{{< blocks/products/pf/product-card-row title="" >}}
+
+{{< blocks/products/pf/product pfName="" title="" imgSrc="" >}}
+{{< /blocks/products/pf/product >}}
+
+{{< blocks/products/pf/center-button href="" innerText="" >}}
+
+{{< /blocks/products/pf/product-card-row >}}
+
 {{< /blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/testimonials title="What People Are Saying" subTitle="Don't just take our word for it. See what users have to say about Aspose.PDF." >}}
@@ -71,9 +80,6 @@ Our search lead us to discover Aspose.PDF. In both our evaluation and later impl
 {{< /blocks/products/pf/testimonials-quote >}}
 {{< blocks/products/pf/testimonials-quote >}}
 Aspose.PDF .NET allowed us to very rapidly deliver an automated solution, freeing our team from the manual grind of repetitive tasks.
-{{< /blocks/products/pf/testimonials-quote >}}
-{{< blocks/products/pf/testimonials-quote >}}
-We are convinced that no other tool would better satisfy our needs and gladly recommend Aspose.Pdf without hesitation.
 {{< /blocks/products/pf/testimonials-quote >}}
 {{< /blocks/products/pf/testimonials >}}
 
