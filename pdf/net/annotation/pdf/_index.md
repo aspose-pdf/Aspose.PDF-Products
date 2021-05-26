@@ -72,6 +72,8 @@ document.Save("output.pdf");
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 
+<!-- aboutfile Starts -->
+
 {{< blocks/products/pf/agp/about-file-section >}}
 
     {{< blocks/products/pf/agp/demobox sectionTitle="Remove Annotation from PDF via Online App" sectionDescription="Delete PDF document annotations right now by visiting our [Live Demos website](https://products.aspose.app/pdf/annotation). The live demo has the following benefits" >}}
@@ -87,6 +89,9 @@ Portable Document Format (PDF) is a type of document created by Adobe back in 19
     {{< /blocks/products/pf/agp/about-file-text >}}
 
 {{< /blocks/products/pf/agp/about-file-section >}}
+
+<!-- aboutfile Ends -->
+
 {{< /blocks/products/pf/main-container >}}
     
 {{< /blocks/products/pf/main-wrap-class >}}

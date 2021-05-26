@@ -67,6 +67,8 @@ fileEditor.concatenate(files, "merged-tex.tex");
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 
+<!-- aboutfile Starts -->
+
 {{< blocks/products/pf/agp/about-file-section >}}
 
     {{< blocks/products/pf/agp/demobox sectionTitle="Online TEXВ Merger Live Demos" sectionDescription="MergeВ TEX documents right now by visiting our [Live Demos website](https://products.aspose.app/pdf/merger). The live demo has the following benefits" >}}
@@ -82,6 +84,9 @@ TeX is a language that comprises of programming as well as mark-up features, use
     {{< /blocks/products/pf/agp/about-file-text >}}
 
 {{< /blocks/products/pf/agp/about-file-section >}}
+
+<!-- aboutfile Ends -->
+
 {{< /blocks/products/pf/main-container >}}
     
 {{< /blocks/products/pf/main-wrap-class >}}

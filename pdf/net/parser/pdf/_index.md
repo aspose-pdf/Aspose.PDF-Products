@@ -28,8 +28,6 @@ url: /net/parser/pdf/
 
 {{% /blocks/products/pf/agp/text %}}
 
-1.+
-
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
 {{% blocks/products/pf/agp/feature-section-col title="System Requirements" %}}
@@ -59,6 +57,8 @@ code here
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 
+<!-- aboutfile Starts -->
+
 {{< blocks/products/pf/agp/about-file-section >}}
 
     {{< blocks/products/pf/agp/demobox sectionTitle="Online PDF Parser Live Demos" sectionDescription="Extract text and images fromВ PDF documents right now by visiting our [Live Demos website](https://products.aspose.app/pdf/parser). The live demo has the following benefits" >}}
@@ -74,6 +74,9 @@ Portable Document Format (PDF) is a type of document created by Adobe back in 19
     {{< /blocks/products/pf/agp/about-file-text >}}
 
 {{< /blocks/products/pf/agp/about-file-section >}}
+
+<!-- aboutfile Ends -->
+
 {{< /blocks/products/pf/main-container >}}
     
 {{< /blocks/products/pf/main-wrap-class >}}

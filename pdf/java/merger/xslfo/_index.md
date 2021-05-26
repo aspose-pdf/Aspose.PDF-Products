@@ -67,6 +67,8 @@ fileEditor.concatenate(files, "merged-xslfo.xslfo");
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 
+<!-- aboutfile Starts -->
+
 {{< blocks/products/pf/agp/about-file-section >}}
 
     {{< blocks/products/pf/agp/demobox sectionTitle="Online XSLFOВ Merger Live Demos" sectionDescription="MergeВ XSLFO documents right now by visiting our [Live Demos website](https://products.aspose.app/pdf/merger). The live demo has the following benefits" >}}
@@ -82,6 +84,9 @@ XSL-FO (XSL Formatting Objects) is a powerful stylesheet language for formatting
     {{< /blocks/products/pf/agp/about-file-text >}}
 
 {{< /blocks/products/pf/agp/about-file-section >}}
+
+<!-- aboutfile Ends -->
+
 {{< /blocks/products/pf/main-container >}}
     
 {{< /blocks/products/pf/main-wrap-class >}}

@@ -18,7 +18,276 @@ url: /cpp/
 <!--Diagrams Start-->
 {{< blocks/products/pf/carousel >}}
 
-{{< blocks/products/pf/carousel-item h3="" description="" >}}
+{{< blocks/products/pf/carousel-item h3="At a Glance" description="Some of the advanced capabilities of Aspose.PDF for C++." >}}
+<div class="diagram1 d1-cplus">
+ <div class="d1-row">
+  <div class="d1-col d1-left">
+   <header>
+    <i class="fa fa-cogs">
+    </i>
+    Manipulate PDF Files
+   </header>
+   <ul>
+    <li>
+     Create PDF files from Scratch
+    </li>
+    <li>
+     Read and Update existing files
+    </li>
+    <li>
+     Save as PDF/A format
+    </li>
+    <li>
+     Manage Images
+    </li>
+    <li>
+     Manage Attachments
+    </li>
+    <li>
+     Manage Watermarks
+    </li>
+    <li>
+     Manage Annotation
+    </li>
+    <li>
+     Manage Pages
+    </li>
+    <li>
+     Create &amp; Manage Forms
+    </li>
+   </ul>
+   <!-- 
+
+<header><i class="fa fa-pencil"> </i>Annotation</header>
+
+<ul>
+
+<li>Read Annotation from PDF</li>
+
+<li>Add Text Annotation</li>
+
+<li>Update Annotation Text</li>
+
+</ul>
+
+-->
+   <!-- 
+
+<header><i class="fa fa-lock"> </i>Secured PDF Files</header>
+
+<ul>
+
+<li>Encryption/Decryption</li>
+
+<li>Load Password Protected Files</li>
+
+<li>Digitally Sign Documents</li>
+
+</ul>
+
+-->
+  </div>
+  <!--/left-->
+  <div class="d1-col d1-right">
+   <!-- <header><i class="fa fa-random"> </i>Transform to PDF</header>
+
+<ul>
+
+<li>CGM</li>
+
+<li>ePUB</li>
+
+<li>HTML/MHT</li>
+
+<li>Images</li>
+
+<li>LaTex</li>
+
+<li>PCL</li>
+
+<li>SVG</li>
+
+<li>Text File</li>
+
+<li>XML</li>
+
+<li>XPS</li>
+
+<li>XSL-FO</li>
+
+</ul>
+
+-->
+   <header>
+    <i class="fa fa-reply">
+    </i>
+    Render PDF Pages As
+   </header>
+   <ul>
+    <li>
+     BMP
+    </li>
+    <li>
+     PNG
+    </li>
+    <li>
+     JPEG
+    </li>
+   </ul>
+  </div>
+  <!--/right-->
+ </div>
+ <!--/row-->
+ <div class="d1-logo">
+  <img alt="PDF C++ Library" src="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-cpp.png"/>
+  <header>
+   Aspose.PDF
+  </header>
+  <footer>
+   <small>
+    <em>
+     for
+    </em>
+    C++
+   </small>
+  </footer>
+ </div>
+ <!--/logo-->
+</div>
+
+{{< /blocks/products/pf/carousel-item >}}
+
+{{< blocks/products/pf/carousel-item h3="Platform Independence" description="Currently, the library is available for following platforms having [system requirements](https://docs.aspose.com/pdf/cpp/system-requirements/)  ." >}}
+<div class="diagram1 d1-cplus">
+ <div class="d1-row">
+  <div class="d1-col d1-left">
+   <header>
+    <i class="fa fa-cubes">
+    </i>
+    Windows 32 bit
+   </header>
+   <br/>
+   <header>
+    <i class="fa fa-cubes">
+    </i>
+    Windows 64 bit
+   </header>
+  </div>
+  <!--/left-->
+  <div class="d1-col d1-right">
+   <header>
+    <i class="fa fa-cubes">
+    </i>
+    Linux 64 bit
+   </header>
+  </div>
+  <!--/right-->
+ </div>
+ <!--/row-->
+ <div class="d1-logo">
+  <img alt="PDF Processing APIs" src="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-cpp.png"/>
+  <header>
+   Aspose.PDF
+  </header>
+  <footer>
+   <small>
+    <em>
+     for
+    </em>
+    C++
+   </small>
+  </footer>
+ </div>
+ <!--/logo-->
+</div>
+
+{{< /blocks/products/pf/carousel-item >}}
+
+{{< blocks/products/pf/carousel-item h3="Supported File Formats" description="Aspose.PDF for C++ supports PDF, Microsoft Word, most commonly used images and [more formats](https://docs.aspose.com/pdf/cpp/supported-file-formats/)  ." >}}
+<div class="diagram1 d2 d1-cplus">
+ <div class="d1-row">
+  <div class="d1-col d1-left">
+   <header>
+    <i class="fa fa-arrows-v">
+    </i>
+    Input/Output
+   </header>
+   <ul>
+    <li>
+     <b>
+      Fixed Layout:
+     </b>
+     PDF, PDF/A
+    </li>
+    <!-- <li><b>Books:</b> EPUB</li>
+
+<li><b>Web:</b> HTML, MHTML</li>-->
+    <li>
+     <b>
+      Others:
+     </b>
+     TEX, XPS, SVG
+    </li>
+   </ul>
+  </div>
+  <!--/left-->
+  <div class="d1-col d1-right">
+   <header>
+    <i class="fa fa-mail-forward">
+    </i>
+    Output Only
+   </header>
+   <ul>
+    <li>
+     <b>
+      Microsoft Word:
+     </b>
+     DOC, DOCX
+    </li>
+    <li>
+     <b>
+      Images:
+     </b>
+     JPEG, PNG, BMP
+    </li>
+    <li>
+     <strong>
+      Others
+     </strong>
+     : XLSX, PPTX
+    </li>
+   </ul>
+   <header>
+    <i class="fa fa-long-arrow-down">
+    </i>
+    Input Only
+   </header>
+   <ul>
+    <li>
+     XSLFO, PS
+    </li>
+   </ul>
+  </div>
+  <!--/right-->
+ </div>
+ <!--/row-->
+ <div class="d1-logo">
+  <img alt="PDF Manipulation API for C++" src="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-cpp.png"/>
+  <header>
+   Aspose.PDF
+  </header>
+  <footer>
+   <small>
+    <em>
+     for
+    </em>
+    C++
+   </small>
+  </footer>
+ </div>
+ <!--/logo-->
+</div>
+
 {{< /blocks/products/pf/carousel-item >}}
 
 {{< /blocks/products/pf/carousel >}}

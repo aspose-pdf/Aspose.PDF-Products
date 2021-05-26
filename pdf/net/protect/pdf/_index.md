@@ -75,6 +75,8 @@ using (var document = new Aspose.Pdf.Document("template.pdf"))
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 
+<!-- aboutfile Starts -->
+
 {{< blocks/products/pf/agp/about-file-section >}}
 
     {{< blocks/products/pf/agp/demobox sectionTitle="Free App to Protect PDF" sectionDescription="Check our live demos to [encrypt PDF files](https://products.aspose.app/pdf/protect/pdf) with following benefits." >}}
@@ -90,6 +92,9 @@ Portable Document Format (PDF) is a type of document created by Adobe back in 19
     {{< /blocks/products/pf/agp/about-file-text >}}
 
 {{< /blocks/products/pf/agp/about-file-section >}}
+
+<!-- aboutfile Ends -->
+
 {{< /blocks/products/pf/main-container >}}
     
 {{< /blocks/products/pf/main-wrap-class >}}

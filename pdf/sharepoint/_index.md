@@ -17,7 +17,150 @@ url: /sharepoint/
 <!--Diagrams Start-->
 {{< blocks/products/pf/carousel >}}
 
-{{< blocks/products/pf/carousel-item h3="" description="" >}}
+{{< blocks/products/pf/carousel-item h3="At a Glance" description="An overview of Aspose.PDF for SharePoint." >}}
+<div class="diagram1 d1-sharepoint">
+ <div class="d1-row">
+  <div class="d1-col d1-left">
+   <header>
+    <i class="fa fa-list-ul">
+    </i>
+    SharePoint Lists
+   </header>
+   <br/>
+   <header>
+    <i class="fa fa-list-alt">
+    </i>
+    SharePoint List Items
+   </header>
+  </div>
+  <!--/left-->
+  <div class="d1-col d1-right">
+   <header>
+    <i class="fa fa-wikipedia-w">
+    </i>
+    SharePoint Wiki Pages
+   </header>
+   <br/>
+   <header>
+    <i class="fa fa-file-pdf-o">
+    </i>
+    Export PDF Documents
+   </header>
+  </div>
+  <!--/right-->
+ </div>
+ <!--/row-->
+ <div class="d1-logo">
+  <img alt="SharePoint PDF Exporter" src="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-sharepoint.png"/>
+  <header>
+   Aspose.PDF
+  </header>
+  <footer>
+   <small>
+    <em>
+     for
+    </em>
+    SharePoint
+   </small>
+  </footer>
+ </div>
+ <!--/logo-->
+</div>
+
+{{< /blocks/products/pf/carousel-item >}}
+
+{{< blocks/products/pf/carousel-item h3="Platform Independence" description="Aspose.PDF for SharePoint supports following platforms." >}}
+<div class="diagram1 d1-sharepoint">
+ <div class="d1-row">
+  <div class="d1-col d1-left">
+   <header style="padding-left: 0px;">
+    <i class="fa fa-cubes">
+    </i>
+    SharePoint Server
+   </header>
+   <ul>
+    <li>
+     2010
+    </li>
+   </ul>
+  </div>
+  <!--/left-->
+  <div class="d1-col d1-right">
+   <header style="padding-left: 0px;">
+    <i class="fa fa-cubes">
+    </i>
+    SharePoint Foundation
+   </header>
+   <ul>
+    <li>
+     2010
+    </li>
+   </ul>
+  </div>
+  <!--/right-->
+ </div>
+ <!--/row-->
+ <div class="d1-logo">
+  <img alt="PDF App for SharePoint" src="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-sharepoint.png"/>
+  <header>
+   Aspose.PDF
+  </header>
+  <footer>
+   <small>
+    <em>
+     for
+    </em>
+    SharePoint
+   </small>
+  </footer>
+ </div>
+ <!--/logo-->
+</div>
+
+{{< /blocks/products/pf/carousel-item >}}
+
+{{< blocks/products/pf/carousel-item h3="Supported File Formats" description="Aspose.PDF for SharePoint supports the conversion of PDF & PDF/A [file formats](https://docs.aspose.com/pdf/sharepoint/supported-file-formats/)  ." >}}
+<div class="diagram1 d2 d1-sharepoint">
+ <div class="d1-row">
+  <div class="d1-col d1-left">
+   <header>
+    <i class="fa fa-arrows-v">
+    </i>
+    Input/Output
+   </header>
+   <ul>
+    <li>
+     <b>
+      Fixed Layout:
+     </b>
+     PDF, PDF/A
+    </li>
+   </ul>
+  </div>
+  <!--/left-->
+  <div class="d1-col d1-right">
+   <!--/right-->
+  </div>
+  <!--/row-->
+  <div class="d1-logo">
+   <img alt="SharePoint PDF Converter" src="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-sharepoint.png"/>
+   <header>
+    Aspose.PDF
+   </header>
+   <footer>
+    <small>
+     <em>
+      for
+     </em>
+     SharePoint
+    </small>
+   </footer>
+  </div>
+  <!--/logo-->
+ </div>
+ <!--/diagram2-->
+</div>
+
 {{< /blocks/products/pf/carousel-item >}}
 
 {{< /blocks/products/pf/carousel >}}

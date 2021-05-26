@@ -18,7 +18,152 @@ url: /jasperreports/
 <!--Diagrams Start-->
 {{< blocks/products/pf/carousel >}}
 
-{{< blocks/products/pf/carousel-item h3="" description="" >}}
+{{< blocks/products/pf/carousel-item h3="At a Glance" description="An overview of Aspose.PDF for JasperReports' features." >}}
+<div class="diagram1 d1-jasper">
+ <div class="d1-row">
+  <div class="d1-col d1-left">
+   <header>
+    <i class="fa fa-cog">
+    </i>
+    Lightweight Deployment
+   </header>
+  </div>
+  <!--/left-->
+  <div class="d1-col d1-right">
+   <header>
+    <i class="fa fa-table">
+    </i>
+    High Fidelity to Report Design
+   </header>
+  </div>
+  <!--/right-->
+ </div>
+ <!--/row-->
+ <div class="d1-logo">
+  <img alt="JasperReports Extension for PDF" src="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-jasperreports.png"/>
+  <header>
+   Aspose.PDF
+  </header>
+  <footer>
+   <small>
+    <em>
+     for
+    </em>
+    JasperReports
+   </small>
+  </footer>
+ </div>
+ <!--/logo-->
+</div>
+
+{{< /blocks/products/pf/carousel-item >}}
+
+{{< blocks/products/pf/carousel-item h3="Platform Independence" description="Aspose.PDF for JasperReports supports Java 2 SE, JasperReports and JasperServer." >}}
+<div class="diagram1 d1-jasper">
+ <div class="d1-row">
+  <div class="d1-col d1-left">
+   <header style="padding-left: 0px;">
+    <i class="fa fa-cubes">
+    </i>
+    J2SE 5.0 or higher
+   </header>
+  </div>
+  <!--/left-->
+  <div class="d1-col d1-right">
+   <!--<header style="padding-left: 0px;"><i class="fa fa-cubes"> </i>JasperReports 3.1 or higher</header><br />-->
+   <header style="padding-left: 0px;">
+    <i class="fa fa-cubes">
+    </i>
+    JasperReports 6.7.0
+   </header>
+   <br/>
+   <header style="padding-left: 0px;">
+    <i class="fa fa-cubes">
+    </i>
+    JasperServer 6.7.0 or higher
+   </header>
+  </div>
+  <!--/right-->
+ </div>
+ <!--/row-->
+ <div class="d1-logo">
+  <img alt="PDF Exporter for JasperReports" src="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-jasperreports.png"/>
+  <header>
+   Aspose.PDF
+  </header>
+  <footer>
+   <small>
+    <em>
+     for
+    </em>
+    JasperReports
+   </small>
+  </footer>
+ </div>
+ <!--/logo-->
+</div>
+
+{{< /blocks/products/pf/carousel-item >}}
+
+{{< blocks/products/pf/carousel-item h3="Supported File Formats" description="Use Aspose.PDF for JasperReports to convert JRXML reports to PDF files and [more formats](https://docs.aspose.com/pdf/jasperreports/supported-file-formats/)  ." >}}
+<div class="diagram1 d2 d1-jasper">
+ <div class="d1-row">
+  <div class="d1-col d1-left">
+   <br/>
+   <header>
+    <i class="fa fa-long-arrow-down">
+    </i>
+    Input Only
+   </header>
+   <ul>
+    <li>
+     JRXML
+    </li>
+   </ul>
+  </div>
+  <!--/left-->
+  <div class="d1-col d1-right">
+   <br/>
+   <header>
+    <i class="fa fa-mail-forward">
+    </i>
+    Output Only
+   </header>
+   <ul>
+    <li>
+     <b>
+      Fixed Layout:
+     </b>
+     PDF, PDF/A
+    </li>
+    <li>
+     <b>
+      Microsoft PowerPoint:
+     </b>
+     PPTX
+    </li>
+   </ul>
+  </div>
+  <!--/right-->
+ </div>
+ <!--/row-->
+ <div class="d1-logo">
+  <img alt="JasperReports to PDF Converter" src="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-jasperreports.png"/>
+  <header>
+   Aspose.PDF
+  </header>
+  <footer>
+   <small>
+    <em>
+     for
+    </em>
+    JasperReports
+   </small>
+  </footer>
+ </div>
+ <!--/logo-->
+</div>
+
 {{< /blocks/products/pf/carousel-item >}}
 
 {{< /blocks/products/pf/carousel >}}

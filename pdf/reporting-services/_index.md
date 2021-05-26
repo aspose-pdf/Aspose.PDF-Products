@@ -18,7 +18,194 @@ url: /reporting-services/
 <!--Diagrams Start-->
 {{< blocks/products/pf/carousel >}}
 
-{{< blocks/products/pf/carousel-item h3="" description="" >}}
+{{< blocks/products/pf/carousel-item h3="At a Glance" description="An overview of Aspose.PDF for Reporting Services." >}}
+<div class="diagram1 d1-rs">
+ <div class="d1-row">
+  <div class="d1-col d1-left">
+   <header>
+    <i class="fa fa-file-image-o">
+    </i>
+    RDL Support
+   </header>
+   <ul>
+    <li>
+     Sections
+    </li>
+    <li>
+     Header/Footer
+    </li>
+    <li>
+     Text Boxes
+    </li>
+    <li>
+     Images
+    </li>
+    <li>
+     Sub-reports
+    </li>
+    <li>
+     Charts
+    </li>
+    <li>
+     Lists
+    </li>
+    <li>
+     Tables
+    </li>
+    <li>
+     Gauge
+    </li>
+    <li>
+     Matrices
+    </li>
+    <li>
+     Rectangles/Lines
+    </li>
+    <li>
+     Styles
+    </li>
+    <li>
+     Tablix
+    </li>
+   </ul>
+  </div>
+  <!--/left-->
+  <div class="d1-col d1-right">
+  </div>
+  <!--/right-->
+ </div>
+ <!--/row-->
+ <div class="d1-logo">
+  <img alt="RDL to PDF Converter" src="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-reporting-services.png"/>
+  <header>
+   Aspose.PDF
+  </header>
+  <footer>
+   <small>
+    <em>
+     for
+    </em>
+    Reporting Services
+   </small>
+  </footer>
+ </div>
+ <!--/logo-->
+</div>
+
+{{< /blocks/products/pf/carousel-item >}}
+
+{{< blocks/products/pf/carousel-item h3="Platform Independence" description="Aspose.PDF for Reporting Services supports SQL Server Reporting Services." >}}
+<div class="diagram1 d1-rs">
+ <div class="d1-row">
+  <div class="d1-col d1-left">
+  </div>
+  <!--/left-->
+  <div class="d1-col d1-right">
+   <header style="padding-left: 0px;">
+    <i class="fa fa-cubes">
+    </i>
+    SQL Server Reporting Services
+   </header>
+   <ul>
+    <li>
+     2000
+    </li>
+    <li>
+     2005
+    </li>
+    <li>
+     2008
+    </li>
+    <li>
+     2012
+    </li>
+    <li>
+     2016
+    </li>
+   </ul>
+  </div>
+  <!--/right-->
+ </div>
+ <!--/row-->
+ <div class="d1-logo">
+  <img alt="PDF Exporter for Reporting Services" src="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-reporting-services.png"/>
+  <header>
+   Aspose.PDF
+  </header>
+  <footer>
+   <small>
+    <em>
+     for
+    </em>
+    Reporting Services
+   </small>
+  </footer>
+ </div>
+ <!--/logo-->
+</div>
+
+{{< /blocks/products/pf/carousel-item >}}
+
+{{< blocks/products/pf/carousel-item h3="Supported File Formats" description="Aspose.PDF for Reporting Services supports most commonly used fixed-layout [formats](https://docs.aspose.com/pdf/reportingservices/supported-file-formats/)  ." >}}
+<div class="diagram1 d2 d1-rs">
+ <div class="d1-row">
+  <div class="d1-col d1-left">
+   <header>
+    <i class="fa fa-long-arrow-down">
+    </i>
+    Input Only
+   </header>
+   <ul>
+    <li>
+     RDL
+    </li>
+    <li>
+     HTML
+    </li>
+   </ul>
+  </div>
+  <!--/left-->
+  <div class="d1-col d1-right">
+   <header>
+    <i class="fa fa-mail-forward">
+    </i>
+    Output Only
+   </header>
+   <ul>
+    <li>
+     PDF
+    </li>
+    <li>
+     PDF/A
+    </li>
+    <li>
+     XPS
+    </li>
+    <li>
+     EPUB
+    </li>
+   </ul>
+  </div>
+  <!--/right-->
+ </div>
+ <!--/row-->
+ <div class="d1-logo">
+  <img alt="PDF Rendering Extension" src="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-reporting-services.png"/>
+  <header>
+   Aspose.PDF
+  </header>
+  <footer>
+   <small>
+    <em>
+     for
+    </em>
+    Reporting Services
+   </small>
+  </footer>
+ </div>
+ <!--/logo-->
+</div>
+
 {{< /blocks/products/pf/carousel-item >}}
 
 {{< /blocks/products/pf/carousel >}}

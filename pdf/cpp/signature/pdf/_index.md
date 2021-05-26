@@ -28,8 +28,6 @@ url: /cpp/signature/pdf/
 
 {{% /blocks/products/pf/agp/text %}}
 
-1.+
-
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
 {{% blocks/products/pf/agp/feature-section-col title="System Requirements" %}}
@@ -57,6 +55,8 @@ url: /cpp/signature/pdf/
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 
+<!-- aboutfile Starts -->
+
 {{< blocks/products/pf/agp/about-file-section >}}
 
     {{< blocks/products/pf/agp/demobox sectionTitle="Online PDFВ eSignature Live Demos" sectionDescription="e-Sign PDF documents right now by visiting our [Live Demos website](https://products.aspose.app/pdf/signature). The live demo has the following benefits" >}}
@@ -72,6 +72,9 @@ Portable Document Format (PDF) is a type of document created by Adobe back in 19
     {{< /blocks/products/pf/agp/about-file-text >}}
 
 {{< /blocks/products/pf/agp/about-file-section >}}
+
+<!-- aboutfile Ends -->
+
 {{< /blocks/products/pf/main-container >}}
     
 {{< /blocks/products/pf/main-wrap-class >}}

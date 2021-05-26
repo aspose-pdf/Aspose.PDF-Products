@@ -19,9 +19,6 @@ url: /net/
 {{< blocks/products/pf/carousel >}}
 
 {{< blocks/products/pf/carousel-item h3="At a Glance" description="An overview of API capabilities." >}}
-{{< /blocks/products/pf/carousel-item >}}
-
-{{< blocks/products/pf/carousel-item h3="Platform Independence" description="Aspose.PDF for .NET supports .NET framework." >}}
 <div class="diagram1 d1-net">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -176,7 +173,7 @@ url: /net/
 
 {{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/carousel-item h3="Supported File Formats" description="Aspose.PDF for .NET supports most popular file formats." >}}
+{{< blocks/products/pf/carousel-item h3="Platform Independence" description="Aspose.PDF for .NET supports .NET framework." >}}
 <div class="diagram1 d1-net">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -219,6 +216,102 @@ url: /net/
  <!--/row-->
  <div class="d1-logo">
   <img alt="PDF Programming APIs" src="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-net.png"/>
+  <header>
+   Aspose.PDF
+  </header>
+  <footer>
+   <small>
+    <em>
+     for
+    </em>
+    .NET
+   </small>
+  </footer>
+ </div>
+ <!--/logo-->
+</div>
+
+{{< /blocks/products/pf/carousel-item >}}
+
+{{< blocks/products/pf/carousel-item h3="Supported File Formats" description="Aspose.PDF for .NET supports most popular [file formats](https://docs.aspose.com/pdf/net/supported-file-formats/)  ." >}}
+<div class="diagram1 d2 d1-net">
+ <div class="d1-row">
+  <div class="d1-col d1-left">
+   <header>
+    <i class="fa fa-arrows-v">
+    </i>
+    Input/Output
+   </header>
+   <ul>
+    <li>
+     <b>
+      Fixed Layout:
+     </b>
+     PDF, PDF/A, PDF/UA, XPS
+    </li>
+    <li>
+     <b>
+      Books:
+     </b>
+     EPUB
+    </li>
+    <li>
+     <b>
+      Web:
+     </b>
+     HTML, MHTML
+    </li>
+    <li>
+     <b>
+      Others:
+     </b>
+     TEX, XML, SVG
+    </li>
+   </ul>
+  </div>
+  <!--/left-->
+  <div class="d1-col d1-right">
+   <header>
+    <i class="fa fa-mail-forward">
+    </i>
+    Output Only
+   </header>
+   <ul>
+    <li>
+     <b>
+      Microsoft Office:
+     </b>
+     DOC, DOCX, XLS, XLSX, PPTX
+    </li>
+    <li>
+     <b>
+      Images:
+     </b>
+     JPEG, PNG, BMP, TIFF, EMF
+    </li>
+    <li>
+     <b>
+      Others:
+     </b>
+     MobiXML, XML
+    </li>
+   </ul>
+   <header>
+    <i class="fa fa-long-arrow-down">
+    </i>
+    Input Only
+   </header>
+   <ul>
+    <li>
+     XSLFO, MHT, PCL, PS, CGM
+    </li>
+   </ul>
+  </div>
+  <!--/right-->
+ </div>
+ <!--/row-->
+ <div class="d1-logo">
+  <img alt="PDF API for .NET Developers" src="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-net.png"/>
   <header>
    Aspose.PDF
   </header>

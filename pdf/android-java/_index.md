@@ -18,7 +18,199 @@ url: /android-java/
 <!--Diagrams Start-->
 {{< blocks/products/pf/carousel >}}
 
-{{< blocks/products/pf/carousel-item h3="" description="" >}}
+{{< blocks/products/pf/carousel-item h3="At a Glance" description="Some of the advanced capabilities of API." >}}
+<div class="diagram1 d1-android">
+ <div class="d1-row">
+  <div class="d1-col d1-left">
+   <header>
+    <i class="fa fa-cogs">
+    </i>
+    Transform to PDF
+   </header>
+   <ul>
+    <li>
+     XML
+    </li>
+    <li>
+     ePUB
+    </li>
+    <li>
+     HTML
+    </li>
+   </ul>
+  </div>
+  <!--/left-->
+  <div class="d1-col d1-right">
+   <header>
+    <i class="fa fa-file-text-o">
+    </i>
+    Save PDF As
+   </header>
+   <ul>
+    <li>
+     Microsoft Office Formats
+    </li>
+    <li>
+     XPS
+    </li>
+    <li>
+     Raster Images
+    </li>
+    <li>
+     SVG
+    </li>
+   </ul>
+  </div>
+  <!--/right-->
+ </div>
+ <!--/row-->
+ <div class="d1-logo">
+  <img alt="Android PDF API" src="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-android.png"/>
+  <header>
+   Aspose.PDF
+  </header>
+  <footer>
+   <small>
+    <em>
+     for
+    </em>
+    Android via Java
+   </small>
+  </footer>
+ </div>
+ <!--/logo-->
+</div>
+
+{{< /blocks/products/pf/carousel-item >}}
+
+{{< blocks/products/pf/carousel-item h3="Platform Independence" description="API only needs Android Runtime to work." >}}
+<div class="diagram1 d1-android">
+ <div class="d1-row">
+  <div class="d1-col d1-left">
+  </div>
+  <!--/left-->
+  <div class="d1-col d1-right">
+   <header style="padding-left: 0px;">
+    <i class="fa fa-cogs">
+    </i>
+    Android Runtime Environment
+   </header>
+   <ul>
+    <li>
+     Mobile Application
+    </li>
+   </ul>
+  </div>
+  <!--/right-->
+ </div>
+ <!--/row-->
+ <div class="d1-logo">
+  <img alt="PDF Manipulation APIs for Android" src="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-android.png"/>
+  <header>
+   Aspose.PDF
+  </header>
+  <footer>
+   <small>
+    <em>
+     for
+    </em>
+    Android via Java
+   </small>
+  </footer>
+ </div>
+ <!--/logo-->
+</div>
+
+{{< /blocks/products/pf/carousel-item >}}
+
+{{< blocks/products/pf/carousel-item h3="Supported File Formats" description="Android PDF Library supports the most commonly used [file formats](https://docs.aspose.com/pdf/java/supported-file-formats/)  ." >}}
+<div class="diagram1 d2 d1-android">
+ <div class="d1-row">
+  <div class="d1-col d1-left">
+   <header>
+    <i class="fa fa-arrows-v">
+    </i>
+    Input/Output
+   </header>
+   <ul>
+    <li>
+     PDF/A
+    </li>
+    <li>
+     <b>
+      Books:
+     </b>
+     EPUB
+    </li>
+    <li>
+     <b>
+      Web:
+     </b>
+     HTML
+    </li>
+    <li>
+     XML
+    </li>
+   </ul>
+   <header>
+    <i class="fa fa-long-arrow-down">
+    </i>
+    Input Only
+   </header>
+   <ul>
+    <li>
+     PDF
+    </li>
+   </ul>
+  </div>
+  <!--/left-->
+  <div class="d1-col d1-right">
+   <header>
+    <i class="fa fa-mail-forward">
+    </i>
+    Output Only
+   </header>
+   <ul>
+    <li>
+     <b>
+      Microsoft Office:
+     </b>
+     DOC, XLS
+    </li>
+    <li>
+     <b>
+      Images:
+     </b>
+     JPEG, PNG, BMP, TIFF
+    </li>
+    <li>
+     <b>
+      Others:
+     </b>
+     XPS, TEX, SVG
+    </li>
+   </ul>
+  </div>
+  <!--/row-->
+  <div class="d1-logo">
+   <img alt="Android PDF Processing Library" src="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-android.png"/>
+   <header>
+    Aspose.PDF
+   </header>
+   <footer>
+    <small>
+     <em>
+      for
+     </em>
+     Android via Java
+    </small>
+   </footer>
+  </div>
+  <!--/logo-->
+ </div>
+ <!--/diagram3-->
+</div>
+
 {{< /blocks/products/pf/carousel-item >}}
 
 {{< /blocks/products/pf/carousel >}}

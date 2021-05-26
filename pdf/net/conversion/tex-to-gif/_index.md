@@ -58,6 +58,8 @@ document.Save("output.gif", Aspose.Pdf.SaveFormat.Gif);
  
 {{< /blocks/products/pf/agp/faq >}}
 
+<!-- aboutfile Starts -->
+
 {{< blocks/products/pf/agp/demobox sectionTitle="[Free Online App for TEX to GIF Conversion](https://products.aspose.app/pdf/conversion/tex-to-gif)" sectionDescription="" >}}
         {{< blocks/products/pf/agp/democard icon="fa-cogs" text=" No need to download or setup anything" >}}
         {{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write or compile code" >}}
@@ -78,6 +80,9 @@ A GIF or Graphical Interchange Format is a type of highly compressed image. Owne
     {{< /blocks/products/pf/agp/about-file-text >}}
 
 {{< /blocks/products/pf/agp/about-file-section >}}
+
+<!-- aboutfile Ends -->
+
 {{< /blocks/products/pf/main-container >}}
     
 {{< /blocks/products/pf/main-wrap-class >}}

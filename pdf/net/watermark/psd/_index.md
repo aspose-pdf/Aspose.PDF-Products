@@ -82,6 +82,8 @@ document.Save("output.psd");
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
  
 
+<!-- aboutfile Starts -->
+
 {{< blocks/products/pf/agp/about-file-section >}}
 
     {{< blocks/products/pf/agp/demobox sectionTitle="Watermark PSD via Online App" sectionDescription="Add watermark to PSD documents by visiting our [Live Demos website](https://products.aspose.app/pdf/watermark). The live demo has the following benefits" >}}
@@ -97,6 +99,9 @@ PSD, Photoshop Document, represents Adobe Photoshop's native file format used fo
     {{< /blocks/products/pf/agp/about-file-text >}}
 
 {{< /blocks/products/pf/agp/about-file-section >}}
+
+<!-- aboutfile Ends -->
+
 {{< /blocks/products/pf/main-container >}}
     
 {{< /blocks/products/pf/main-wrap-class >}}

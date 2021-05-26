@@ -18,7 +18,298 @@ url: /java/
 <!--Diagrams Start-->
 {{< blocks/products/pf/carousel >}}
 
-{{< blocks/products/pf/carousel-item h3="" description="" >}}
+{{< blocks/products/pf/carousel-item h3="At a Glance" description="Some of the advanced capabilities of API." >}}
+<div class="diagram1 d1-java">
+ <div class="d1-row">
+  <div class="d1-col d1-left">
+   <header>
+    <i class="fa fa-cogs">
+    </i>
+    Manipulation of Files
+   </header>
+   <ul>
+    <li>
+     Create PDF from Scratch
+    </li>
+    <li>
+     Update Existing Ones
+    </li>
+    <li>
+     Save as PDF/A Format
+    </li>
+    <li>
+     Manage Images
+    </li>
+    <li>
+     Manage Attachments
+    </li>
+    <li>
+     Manage Pages
+    </li>
+    <li>
+     Create &amp; Manage Forms
+    </li>
+   </ul>
+   <header>
+    <i class="fa fa-pencil">
+    </i>
+    Annotation
+   </header>
+   <ul>
+    <li>
+     Read Annotation
+    </li>
+    <li>
+     Add Text Annotation
+    </li>
+    <li>
+     Format Annotation Text
+    </li>
+   </ul>
+   <header>
+    <i class="fa fa-lock">
+    </i>
+    Secure PDF Files
+   </header>
+   <ul>
+    <li>
+     Encryption/Decryption
+    </li>
+    <li>
+     Load Password Protected Files
+    </li>
+    <li>
+     Digitally Sign Documents
+    </li>
+   </ul>
+  </div>
+  <!--/left-->
+  <div class="d1-col d1-right">
+   <header>
+    <i class="fa fa-random">
+    </i>
+    Transform to PDF
+   </header>
+   <ul>
+    <li>
+     CGM
+    </li>
+    <li>
+     ePUB
+    </li>
+    <li>
+     HTML/MHT
+    </li>
+    <li>
+     Images
+    </li>
+    <li>
+     LaTex
+    </li>
+    <li>
+     PCL
+    </li>
+    <li>
+     SVG
+    </li>
+    <li>
+     Text File
+    </li>
+    <li>
+     XML
+    </li>
+    <li>
+     XPS
+    </li>
+    <li>
+     XSL-FO
+    </li>
+   </ul>
+   <header>
+    <i class="fa fa-reply">
+    </i>
+    Save PDF As
+   </header>
+   <ul>
+    <li>
+     XLS, XLSX
+    </li>
+    <li>
+     DOC, DOCX
+    </li>
+    <li>
+     PPTX
+    </li>
+   </ul>
+  </div>
+  <!--/right-->
+ </div>
+ <!--/row-->
+ <div class="d1-logo">
+  <img alt="PDF Java API" src="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-java.png"/>
+  <header>
+   Aspose.PDF
+  </header>
+  <footer>
+   <small>
+    <em>
+     for
+    </em>
+    Java
+   </small>
+  </footer>
+ </div>
+ <!--/logo-->
+</div>
+
+{{< /blocks/products/pf/carousel-item >}}
+
+{{< blocks/products/pf/carousel-item h3="Platform Independence" description="API is implemented using Java and it works with JDK 1.8 or above." >}}
+<div class="diagram1 d1-java">
+ <div class="d1-row">
+  <div class="d1-col d1-left">
+  </div>
+  <!--/left-->
+  <div class="d1-col d1-right">
+   <header>
+    <i class="fa fa-cubes">
+    </i>
+    Java Runtime Environment
+   </header>
+   <ul>
+    <li>
+     JSP/JSF Application
+    </li>
+    <li>
+     Desktop Application
+    </li>
+   </ul>
+  </div>
+  <!--/right-->
+ </div>
+ <!--/row-->
+ <div class="d1-logo">
+  <img alt="PDF Processing APIs" src="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-java.png"/>
+  <header>
+   Aspose.PDF
+  </header>
+  <footer>
+   <small>
+    <em>
+     for
+    </em>
+    Java
+   </small>
+  </footer>
+ </div>
+ <!--/logo-->
+</div>
+
+{{< /blocks/products/pf/carousel-item >}}
+
+{{< blocks/products/pf/carousel-item h3="Supported File Formats" description="Aspose.PDF for Java supports the most popular [document formats](https://docs.aspose.com/pdf/java/supported-document-formats/)  ." >}}
+<div class="diagram1 d2 d1-java">
+ <div class="d1-row">
+  <div class="d1-col d1-left">
+   <header>
+    <i class="fa fa-arrows-v">
+    </i>
+    Input/Output
+   </header>
+   <ul>
+    <li>
+     <b>
+      Fixed Layout:
+     </b>
+     PDF, XPS
+    </li>
+    <li>
+     <b>
+      Books:
+     </b>
+     EPUB
+    </li>
+    <li>
+     <b>
+      Web:
+     </b>
+     HTML
+    </li>
+    <li>
+     <b>
+      Others:
+     </b>
+     TEX, XML, SVG
+    </li>
+   </ul>
+  </div>
+  <!--/left-->
+  <div class="d1-col d1-right">
+   <header>
+    <i class="fa fa-mail-forward">
+    </i>
+    Output Only
+   </header>
+   <ul>
+    <li>
+     <b>
+      Microsoft Office:
+     </b>
+     DOC, DOCX, XLS, XLSX, PPTX
+    </li>
+    <li>
+     <b>
+      Images:
+     </b>
+     JPEG, PNG, BMP, TIFF, GIF
+    </li>
+    <li>
+     <b>
+      Others:
+     </b>
+     MobiXML, XML, EMF, TEXT
+    </li>
+   </ul>
+   <header>
+    <i class="fa fa-long-arrow-down">
+    </i>
+    Input Only
+   </header>
+   <ul>
+    <li>
+     <b>
+      PostScript:
+     </b>
+     PS
+    </li>
+    <li>
+     <strong>
+      Others:
+     </strong>
+     CGM, MHT, PCL, MD, XSLFO
+    </li>
+   </ul>
+  </div>
+  <!--/right-->
+ </div>
+ <!--/row-->
+ <div class="d1-logo">
+  <img alt="PDF Manipulation API for Java" src="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-java.png"/>
+  <header>
+   Aspose.PDF
+  </header>
+  <footer>
+   <small>
+    <em>
+     for
+    </em>
+    Java
+   </small>
+  </footer>
+ </div>
+ <!--/logo-->
+</div>
+
 {{< /blocks/products/pf/carousel-item >}}
 
 {{< /blocks/products/pf/carousel >}}

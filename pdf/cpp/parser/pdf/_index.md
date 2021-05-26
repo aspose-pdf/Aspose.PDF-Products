@@ -90,6 +90,11 @@ Console::WriteLine(allText);
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
+    {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
+ 
+
+<!-- aboutfile Starts -->
+
 {{% blocks/products/pf/agp/content h2="About Aspose.PDF for C++ API" %}}
 
  Aspose.PDF API can be used for PDF document manipulation and parsing within applications. One can create, modify, compress, secure, print or save PDF to TXT, HTML, PCL, XFA, XML, XPS, EPUB, TEX, Images and more formats. Aspose.PDF is a standalone API and it does not depend on any software including Adobe Acrobat. вЂЋ
@@ -97,9 +102,6 @@ Console::WriteLine(allText);
 
 
 {{% /blocks/products/pf/agp/content %}}
-
-    {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
- 
 
 {{< blocks/products/pf/agp/about-file-section >}}
 
@@ -116,6 +118,9 @@ Portable Document Format (PDF) is a type of document created by Adobe back in 19
     {{< /blocks/products/pf/agp/about-file-text >}}
 
 {{< /blocks/products/pf/agp/about-file-section >}}
+
+<!-- aboutfile Ends -->
+
 {{< /blocks/products/pf/main-container >}}
     
 {{< /blocks/products/pf/main-wrap-class >}}
