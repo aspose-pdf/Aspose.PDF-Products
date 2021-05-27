@@ -2,6 +2,7 @@
 title:  
 weight: 340
 url: /cpp/signature/pdf/ 
+description: Try our On-Premise document electronic signature APIs to eSgin PDF documents on C++ Runtime Environment for Windows 32 bit, Windows 64 bit and Linux 64 bit.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

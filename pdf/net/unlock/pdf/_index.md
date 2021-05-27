@@ -2,6 +2,7 @@
 title:  
 weight: 2920
 url: /net/unlock/pdf/ 
+description: Try our On-Premise document APIs to unlock password protected PDF file on .NET Framework, .NET Core, and PHP, VBScript, Delphi, C++ via COM Interop.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

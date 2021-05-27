@@ -2,6 +2,7 @@
 title:  
 weight: 1100
 url: /java/metadata/pdf/ 
+description: Try our On-Premise document metadata editing or viewer APIs to edit or view PDF format metadata on Java Runtime Environment for JSP/JSF Application and Desktop Applications.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

@@ -2,6 +2,7 @@
 title:  
 weight: 1240
 url: /net/conversion/eps-to-gif/ 
+description: Try our On-Premise APIs with your document on .NET Framework, .NET Core, and PHP, VBScript, Delphi, C++ via COM Interop.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

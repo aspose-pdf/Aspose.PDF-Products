@@ -2,6 +2,7 @@
 title:  
 weight: 1130
 url: /java/redaction/pdf/ 
+description: Try our On-Premise document redaction APIs to redact sensitive information in PDF file on Java Runtime Environment for JSP/JSF Application and Desktop Applications.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

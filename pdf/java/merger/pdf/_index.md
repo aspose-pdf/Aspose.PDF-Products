@@ -2,6 +2,7 @@
 title:  
 weight: 1030
 url: /java/merger/pdf/ 
+description: Try our On-Premise document merger APIs to combine PDF documents on Java Runtime Environment for JSP/JSF Application and Desktop Applications.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

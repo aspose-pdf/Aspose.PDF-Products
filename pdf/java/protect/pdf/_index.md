@@ -2,6 +2,7 @@
 title:  
 weight: 1120
 url: /java/protect/pdf/ 
+description: Try our On-Premise document APIs to lock PDF file using password on Java Runtime Environment for JSP/JSF Application and Desktop Applications.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

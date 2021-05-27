@@ -2,6 +2,7 @@
 title:  
 weight: 290
 url: /cpp/merger/xslfo/ 
+description: Try our On-Premise document merger APIs to combine XSLFO documents on C++ Runtime Environment for Windows 32 bit, Windows 64 bit and Linux 64 bit.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

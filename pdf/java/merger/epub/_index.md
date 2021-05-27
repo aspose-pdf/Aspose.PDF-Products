@@ -2,6 +2,7 @@
 title:  
 weight: 990
 url: /java/merger/epub/ 
+description: Try our On-Premise document merger APIs to combine EPUB documents on Java Runtime Environment for JSP/JSF Application and Desktop Applications.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

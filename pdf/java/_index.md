@@ -2,6 +2,7 @@
 title: Java PDF API - Create Load Modify and Convert Documents 
 weight: 970
 url: /java/ 
+description: Java PDF processing library to create read and edit files. Convert PDF to XPS EPUB HTML MHT PCL SVG XSLFO TEX file DOC DOCX XLS PPT PPTX and images
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}

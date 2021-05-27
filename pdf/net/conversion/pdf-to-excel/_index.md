@@ -2,6 +2,7 @@
 title:  
 weight: 2190
 url: /net/conversion/pdf-to-excel/ 
+description: PDF to XLS & XLSX Conversion Library
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

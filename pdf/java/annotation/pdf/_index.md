@@ -2,6 +2,7 @@
 title:  
 weight: 360
 url: /java/annotation/pdf/ 
+description: Try our On-Premise document annotation APIs to delete PDF format annotations on Java Runtime Environment for JSP/JSF Application and Desktop Applications.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

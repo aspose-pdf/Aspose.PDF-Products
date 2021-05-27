@@ -2,6 +2,7 @@
 title:  
 weight: 1160
 url: /java/splitter/pdf/ 
+description: Try our On-Premise multi option document splitter APIs to split PDF documents on Java Runtime Environment for JSP/JSF Application and Desktop Applications.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

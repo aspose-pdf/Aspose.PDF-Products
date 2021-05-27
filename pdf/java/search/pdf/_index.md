@@ -2,6 +2,7 @@
 title:  
 weight: 1140
 url: /java/search/pdf/ 
+description: Integrate On-Premise document APIs to search words with pattern in PDF file on Java Runtime Environment for JSP/JSF Application and Desktop Applications.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

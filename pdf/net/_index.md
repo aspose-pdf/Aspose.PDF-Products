@@ -2,6 +2,7 @@
 title: C# .NET PDF Manipulation API - Aspose 
 weight: 2730
 url: /net/ 
+description: C# ASP.NET VB.NET library to generate edit and parse PDF files. Library converts PDF to multiple formats including DOC, DOCX, XLS, XLSX, PPTX HTML and images
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}

@@ -2,6 +2,7 @@
 title:  
 weight: 2750
 url: /net/merger/epub/ 
+description: Try our On-Premise document merger APIs to combine EPUB documents on .NET Framework, .NET Core, and PHP, VBScript, Delphi, C++ via COM Interop.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

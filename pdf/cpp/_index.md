@@ -2,6 +2,7 @@
 title: C++ PDF Manipulation & Conversion API - Aspose 
 weight: 170
 url: /cpp/ 
+description: Integrate PDF library in your C++ applications to create manipulate or convert PDF files to raster image formats including BMP PNG JPEG
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}

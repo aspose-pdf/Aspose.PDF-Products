@@ -2,6 +2,7 @@
 title:  
 weight: 1070
 url: /java/merger/xml/ 
+description: Try our On-Premise document merger APIs to combine XML documents on Java Runtime Environment for JSP/JSF Application and Desktop Applications.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

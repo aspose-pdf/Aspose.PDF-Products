@@ -2,6 +2,7 @@
 title:  
 weight: 1110
 url: /java/parser/pdf/ 
+description: Try our On-Premise document parser APIs to extract text and images from PDF file on Java Runtime Environment for JSP/JSF Application and Desktop Applications.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

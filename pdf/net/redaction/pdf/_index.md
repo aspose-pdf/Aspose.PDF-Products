@@ -2,6 +2,7 @@
 title:  
 weight: 2890
 url: /net/redaction/pdf/ 
+description: Try our On-Premise document redaction APIs to redact sensitive information in PDF file on .NET Framework, .NET Core, and PHP, VBScript, Delphi, C++ via COM Interop.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

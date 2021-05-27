@@ -2,6 +2,7 @@
 title:  
 weight: 2900
 url: /net/search/pdf/ 
+description: Try our On-Premise document APIs to search words with pattern in PDF file on .NET Framework, .NET Core, and PHP, VBScript, Delphi, C++ via COM Interop.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

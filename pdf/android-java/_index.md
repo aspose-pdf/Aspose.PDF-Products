@@ -2,6 +2,7 @@
 title: Android PDF API | Create Parse and Convert PDF Files 
 weight: 20
 url: /android-java/ 
+description: PDF viewer and converter library for mobile apps. Generate merge split read write and protect PDF or PDF/A documents with ease
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}

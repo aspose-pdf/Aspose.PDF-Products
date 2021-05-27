@@ -2,6 +2,7 @@
 title:  
 weight: 2290
 url: /net/conversion/pdf-to-word/ 
+description: .NET PDF to DOC DOCX Conversion Library
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

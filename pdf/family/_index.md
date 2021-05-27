@@ -2,6 +2,7 @@
 title: .NET Java C++ and Android APIs for PDF | Parse PDF Documents 
 weight: 10
 url: /family
+description: Generate Write Manipulate Export and Print PDF documents in .NET Java SharePoint Android apps using the relevant library. Export PDF in SSRS and JasperReports
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}

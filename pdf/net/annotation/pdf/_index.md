@@ -2,6 +2,7 @@
 title:  
 weight: 1180
 url: /net/annotation/pdf/ 
+description: Try our On-Premise document annotation APIs to delete PDF format annotations on .NET Framework, .NET Core, and PHP, VBScript, Delphi, C++ via COM Interop.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

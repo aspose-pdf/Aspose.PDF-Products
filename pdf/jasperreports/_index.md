@@ -2,6 +2,7 @@
 title: Export Reports in PDF Format from JasperReports and JasperServer 
 weight: 350
 url: /jasperreports/ 
+description: Export PDF reports from Jasper Reports and JasperServer. Easily convert jrxml reports to PDF files
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
