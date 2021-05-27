@@ -5,13 +5,17 @@ url: /sharepoint/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1="SharePoint App to Manipulate PDF Documents" h2="Convert lists, list items and SharePoint Wiki pages to PDF with no effort." logoImageSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/header/aspose_pdf-for-sharepoint.png" pfName="Aspose.PDF" subTitlepfName="for SharePoint" downloadUrl="https://downloads.aspose.com/pdf/sharepoint" >}}
+{{< blocks/products/pf/upper-banner h1="SharePoint App to Manipulate PDF Documents" h2="Convert lists, list items and SharePoint Wiki pages to PDF with no effort." logoImageSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/header/aspose_pdf-for-sharepoint.png" pfName="Aspose.PDF for SharePoint" subTitlepfName="for SharePoint" downloadUrl="https://downloads.aspose.com/pdf/sharepoint" >}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.PDF" subTitlepfName="for SharePoint" >}}
 
 {{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-sharepoint.png" liveDemosLink="https://products.aspose.app/pdf/family" PricingLink="https://purchase.aspose.com/pricing/pdf/sharepoint" buyLink="https://purchase.aspose.com" docsLink="https://docs.aspose.com/pdf/sharepoint/release-notes/" instalationsDocsLink="" nugetLink="" nugetPackageName="Fixed Layout:" >}}
 
 {{< blocks/products/pf/tab-content >}}
+<p>
+ Aspose.PDF for SharePoint allows exporting lists, individual list item and Wiki pages to PDF file format. Aspose.PDF for SharePoint is designed to be used with Microsoft SharePoint Foundation and Microsoft SharePoint Server.
+</p>
+
 {{< /blocks/products/pf/tab-content >}}
 
 <!--Diagrams Start-->
@@ -230,12 +234,6 @@ url: /sharepoint/
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< blocks/products/pf/testimonials title="" subTitle="" >}}
-
-{{< blocks/products/pf/testimonials-quote >}}
-{{< /blocks/products/pf/testimonials-quote >}}
-
-{{< /blocks/products/pf/testimonials >}}
 
 {{< blocks/products/pf/support-learning-resources >}}
 {{< blocks/products/pf/slr-tab tabTitle="Learning Resources" tabId="resources" >}}
@@ -259,14 +257,14 @@ url: /sharepoint/
 
 {{< blocks/products/pf/download-section downloadFreeTrialLink="https://downloads.aspose.com/pdf/sharepoint" pricingInformationLink="https://purchase.aspose.com/pricing/pdf/sharepoint" >}}
 
-{{< blocks/products/pf/offers-section pfName="Aspose.PDF offers individual PDF APIs for other popular development environments as listed below:" >}}
+{{< blocks/products/pf/offers-section pfName="Aspose.PDF" description="Aspose.PDF offers individual PDF APIs for other popular development environments as listed below:" >}}
 
-    {{< blocks/products/pf/offers-section-item link="/pdf/net" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-net.png" sdkName="Aspose.PDF for .NET" >}}
-    {{< blocks/products/pf/offers-section-item link="/pdf/java" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-java.png" sdkName="Aspose.PDF for Java" >}}
-    {{< blocks/products/pf/offers-section-item link="/pdf/cpp" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-cpp.png" sdkName="Aspose.PDF for C++" >}}
-    {{< blocks/products/pf/offers-section-item link="/pdf/android-java" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-android.png" sdkName="Aspose.PDF for Android via Java" >}}
-    {{< blocks/products/pf/offers-section-item link="/pdf/reporting-services" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-reporting-services.png" sdkName="Aspose.PDF for Reporting Services" >}}
-    {{< blocks/products/pf/offers-section-item link="/pdf/jasperreports" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-jasperreports.png" sdkName="Aspose.PDF for JasperReports" >}}
+    {{< blocks/products/pf/offers-section-item link="/pdf/net" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-net.png" sdkName=".NET" >}}
+    {{< blocks/products/pf/offers-section-item link="/pdf/java" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-java.png" sdkName="Java" >}}
+    {{< blocks/products/pf/offers-section-item link="/pdf/cpp" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-cpp.png" sdkName="C++" >}}
+    {{< blocks/products/pf/offers-section-item link="/pdf/android-java" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-android.png" sdkName="Android via Java" >}}
+    {{< blocks/products/pf/offers-section-item link="/pdf/reporting-services" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-reporting-services.png" sdkName="Reporting Services" >}}
+    {{< blocks/products/pf/offers-section-item link="/pdf/jasperreports" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-jasperreports.png" sdkName="JasperReports" >}}
 
 {{< /blocks/products/pf/offers-section >}}
 

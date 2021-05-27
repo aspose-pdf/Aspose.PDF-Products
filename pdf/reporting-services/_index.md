@@ -5,14 +5,21 @@ url: /reporting-services/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1="Reporting Services Extension to Deliver Reports in PDF & XPS formats" h2="Export RDL reports to PDF, PDFA and XPS formats with great ease." logoImageSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/header/aspose_pdf-for-ssrs.png" pfName="Aspose.PDF" subTitlepfName="for Reporting Services" downloadUrl="https://downloads.aspose.com/pdf/reportingservices" >}}
+{{< blocks/products/pf/upper-banner h1="Reporting Services Extension to Deliver Reports in PDF & XPS formats" h2="Export RDL reports to PDF, PDFA and XPS formats with great ease." logoImageSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/header/aspose_pdf-for-ssrs.png" pfName="Aspose.PDF for Reporting Services" subTitlepfName="for Reporting Services" downloadUrl="https://downloads.aspose.com/pdf/reportingservices" >}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.PDF" subTitlepfName="for Reporting Services" >}}
 
 {{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-reporting-services.png" liveDemosLink="https://products.aspose.app/pdf/family" PricingLink="https://purchase.aspose.com/pricing/pdf/reporting-services" buyLink="https://purchase.aspose.com" docsLink="https://docs.aspose.com/pdf/reportingservices/release-notes/" instalationsDocsLink="" nugetLink="" nugetPackageName="" >}}
 
 {{< blocks/products/pf/tab-content >}}
-<p>Aspose.PDF for Reporting Services supports RDL report features like specifying page orientation within reports, Add footnotes & endnotes for text boxes, specify security constraints and add corresponding XMP metadata into resultant PDF documents, tables, charts, images and much more. This allows generating the highest quality PDF and XPS file which look almost similar to the main report design.</p>
+<p>
+ Aspose.PDF for Reporting Services is a robust rendering extension that fulfills the need to build business intelligence and reporting solutions for generating PDF, PDF/A and XPS reports from Microsoft SQL Server Reporting Services.
+</p>
+
+<p>
+ Aspose.PDF for Reporting Services supports RDL report features like specifying page orientation within reports, Add footnotes &amp; endnotes for text boxes, specify security constraints and add corresponding XMP metadata into resultant PDF documents, tables, charts, images and much more. This allows generating the highest quality PDF and XPS file which look almost similar to the main report design.
+</p>
+
 {{< /blocks/products/pf/tab-content >}}
 
 <!--Diagrams Start-->
@@ -480,12 +487,6 @@ url: /reporting-services/
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< blocks/products/pf/testimonials title="" subTitle="" >}}
-
-{{< blocks/products/pf/testimonials-quote >}}
-{{< /blocks/products/pf/testimonials-quote >}}
-
-{{< /blocks/products/pf/testimonials >}}
 
 {{< blocks/products/pf/support-learning-resources >}}
 {{< blocks/products/pf/slr-tab tabTitle="Learning Resources" tabId="resources" >}}
@@ -510,14 +511,14 @@ url: /reporting-services/
 
 {{< blocks/products/pf/download-section downloadFreeTrialLink="https://downloads.aspose.com/pdf/reportingservices" pricingInformationLink="https://purchase.aspose.com/pricing/pdf/reporting-services" >}}
 
-{{< blocks/products/pf/offers-section pfName="Aspose.PDF offers individual PDF APIs for other popular development environments as listed below:" >}}
+{{< blocks/products/pf/offers-section pfName="Aspose.PDF" description="Aspose.PDF offers individual PDF APIs for other popular development environments as listed below:" >}}
 
-    {{< blocks/products/pf/offers-section-item link="/pdf/net" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-net.png" sdkName="Aspose.PDF for .NET" >}}
-    {{< blocks/products/pf/offers-section-item link="/pdf/java" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-java.png" sdkName="Aspose.PDF for Java" >}}
-    {{< blocks/products/pf/offers-section-item link="/pdf/cpp" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-cpp.png" sdkName="Aspose.PDF for C++" >}}
-    {{< blocks/products/pf/offers-section-item link="/pdf/android-java" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-android.png" sdkName="Aspose.PDF for Android via Java" >}}
-    {{< blocks/products/pf/offers-section-item link="/pdf/sharepoint" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-sharepoint.png" sdkName="Aspose.PDF for SharePoint" >}}
-    {{< blocks/products/pf/offers-section-item link="/pdf/jasperreports" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-jasperreports.png" sdkName="Aspose.PDF for JasperReports" >}}
+    {{< blocks/products/pf/offers-section-item link="/pdf/net" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-net.png" sdkName=".NET" >}}
+    {{< blocks/products/pf/offers-section-item link="/pdf/java" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-java.png" sdkName="Java" >}}
+    {{< blocks/products/pf/offers-section-item link="/pdf/cpp" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-cpp.png" sdkName="C++" >}}
+    {{< blocks/products/pf/offers-section-item link="/pdf/android-java" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-android.png" sdkName="Android via Java" >}}
+    {{< blocks/products/pf/offers-section-item link="/pdf/sharepoint" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-sharepoint.png" sdkName="SharePoint" >}}
+    {{< blocks/products/pf/offers-section-item link="/pdf/jasperreports" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-jasperreports.png" sdkName="JasperReports" >}}
 
 {{< /blocks/products/pf/offers-section >}}
 

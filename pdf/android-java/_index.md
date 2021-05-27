@@ -5,14 +5,21 @@ url: /android-java/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1="PDF Processing API for Android Apps" h2="Generate, view, manipulate & convert PDF files from within Android apps without requiring Adobe Acrobat." logoImageSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/header/aspose_pdf-for-android.png" pfName="Aspose.PDF" subTitlepfName="for Android via Java" downloadUrl="https://downloads.aspose.com/pdf/androidjava" >}}
+{{< blocks/products/pf/upper-banner h1="PDF Processing API for Android Apps" h2="Generate, view, manipulate & convert PDF files from within Android apps without requiring Adobe Acrobat." logoImageSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/header/aspose_pdf-for-android.png" pfName="Aspose.PDF for Android via Java" subTitlepfName="for Android via Java" downloadUrl="https://downloads.aspose.com/pdf/androidjava" >}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.PDF" subTitlepfName="for Android via Java" >}}
 
 {{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-android.png" liveDemosLink="https://products.aspose.app/pdf/family" PricingLink="https://purchase.aspose.com/pricing/pdf/android-java" buyLink="https://purchase.aspose.com" docsLink="https://docs.aspose.com/pdf/java/aspose-pdf-for-android-via-java/" instalationsDocsLink="" nugetLink="" nugetPackageName="Books:" >}}
 
 {{< blocks/products/pf/tab-content >}}
-<p>Aspose.PDF for Android via Java is an affordable solution that offers compression options, support for graph objects, extended security controls, extensive hyperlink functionality, custom font handling, integration with data sources, bookmark features, ability to work with attachments, annotations, text & images and much more.</p>
+<p>
+ Aspose.PDF for Android Java is a PDF Processing API that enables the Android apps to read, write, manipulate &amp; render PDF documents. API supports a vast array of industry-standard file formats including HTML, TXT, EPUB, XPS &amp; images.
+</p>
+
+<p>
+ Aspose.PDF for Android via Java is an affordable solution that offers compression options, support for graph objects, extended security controls, extensive hyperlink functionality, custom font handling, integration with data sources, bookmark features, ability to work with attachments, annotations, text &amp; images and much more.
+</p>
+
 {{< /blocks/products/pf/tab-content >}}
 
 <!--Diagrams Start-->
@@ -394,12 +401,6 @@ pFile.save(SD_PATH + "output.html", SaveFormat.Html);</code></pre>
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< blocks/products/pf/testimonials title="" subTitle="" >}}
-
-{{< blocks/products/pf/testimonials-quote >}}
-{{< /blocks/products/pf/testimonials-quote >}}
-
-{{< /blocks/products/pf/testimonials >}}
 
 {{< blocks/products/pf/support-learning-resources >}}
 {{< blocks/products/pf/slr-tab tabTitle="Learning Resources" tabId="resources" >}}
@@ -424,14 +425,14 @@ pFile.save(SD_PATH + "output.html", SaveFormat.Html);</code></pre>
 
 {{< blocks/products/pf/download-section downloadFreeTrialLink="https://downloads.aspose.com/pdf/androidjava" pricingInformationLink="https://purchase.aspose.com/pricing/pdf/android-java" >}}
 
-{{< blocks/products/pf/offers-section pfName="Aspose.PDF offers individual PDF APIs for other popular development environments as listed below:" >}}
+{{< blocks/products/pf/offers-section pfName="Aspose.PDF" description="Aspose.PDF offers individual PDF APIs for other popular development environments as listed below:" >}}
 
-    {{< blocks/products/pf/offers-section-item link="/pdf/net" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-net.png" sdkName="Aspose.PDF for .NET" >}}
-    {{< blocks/products/pf/offers-section-item link="/pdf/java" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-java.png" sdkName="Aspose.PDF for Java" >}}
-    {{< blocks/products/pf/offers-section-item link="/pdf/cpp" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-cpp.png" sdkName="Aspose.PDF for C++" >}}
-    {{< blocks/products/pf/offers-section-item link="/pdf/sharepoint" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-sharepoint.png" sdkName="Aspose.PDF for SharePoint" >}}
-    {{< blocks/products/pf/offers-section-item link="/pdf/reporting-services" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-reporting-services.png" sdkName="Aspose.PDF for Reporting Services" >}}
-    {{< blocks/products/pf/offers-section-item link="/pdf/jasperreports" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-jasperreports.png" sdkName="Aspose.PDF for JasperReports" >}}
+    {{< blocks/products/pf/offers-section-item link="/pdf/net" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-net.png" sdkName=".NET" >}}
+    {{< blocks/products/pf/offers-section-item link="/pdf/java" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-java.png" sdkName="Java" >}}
+    {{< blocks/products/pf/offers-section-item link="/pdf/cpp" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-cpp.png" sdkName="C++" >}}
+    {{< blocks/products/pf/offers-section-item link="/pdf/sharepoint" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-sharepoint.png" sdkName="SharePoint" >}}
+    {{< blocks/products/pf/offers-section-item link="/pdf/reporting-services" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-reporting-services.png" sdkName="Reporting Services" >}}
+    {{< blocks/products/pf/offers-section-item link="/pdf/jasperreports" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-jasperreports.png" sdkName="JasperReports" >}}
 
 {{< /blocks/products/pf/offers-section >}}
 

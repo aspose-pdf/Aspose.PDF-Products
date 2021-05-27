@@ -64,14 +64,38 @@ View PDF documents within your favorite browser from anywhere.
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< blocks/products/pf/testimonials title="What People Are Saying" subTitle="Don't just take our word for it. See what users have to say about Aspose.PDF." >}}
+{{< blocks/products/pf/testimonials title="What People Are Saying" subTitle="Don't just take our word for it. See what users have to say about Aspose.PDF." caseStudiesLink="https://downloads.aspose.com/corporate/case-studies/aspose.pdf/" >}}
 
 {{< blocks/products/pf/testimonials-quote >}}
-Our search lead us to discover Aspose.PDF. In both our evaluation and later implementation to replace SyncFusion, we have found Aspose.PDF to be a winner.
+<p class="first">
+ Our search lead us to discover Aspose.PDF. In both our evaluation and later implementation to replace SyncFusion, we have found Aspose.PDF to be a winner.
+ <em>
+  Zeeshan Bhatti | CTO | BoardPro
+ </em>
+</p>
+
 {{< /blocks/products/pf/testimonials-quote >}}
+
 {{< blocks/products/pf/testimonials-quote >}}
-Aspose.PDF .NET allowed us to very rapidly deliver an automated solution, freeing our team from the manual grind of repetitive tasks.
+<p class="second">
+ Aspose.PDF .NET allowed us to very rapidly deliver an automated solution, freeing our team from the manual grind of repetitive tasks.
+ <em>
+  Max Hodges | CEO | White Rabbit Japan
+ </em>
+</p>
+
 {{< /blocks/products/pf/testimonials-quote >}}
+
+{{< blocks/products/pf/testimonials-quote >}}
+<p class="third">
+ We are convinced that no other tool would better satisfy our needs and gladly recommend Aspose.Pdf without hesitation.
+ <em>
+  Dominic St-Jacques | Vice-president &amp; CTO | Ludix Technologies
+ </em>
+</p>
+
+{{< /blocks/products/pf/testimonials-quote >}}
+
 {{< /blocks/products/pf/testimonials >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}

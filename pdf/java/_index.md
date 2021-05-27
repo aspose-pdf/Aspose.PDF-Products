@@ -5,14 +5,21 @@ url: /java/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1="PDF File Manipulation API for Java" h2="Create, parse, protect, sign and convert PDF files to various formats without requiring Adobe Acrobat." logoImageSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/header/aspose_pdf-for-java.png" pfName="Aspose.PDF" subTitlepfName="for Java" downloadUrl="https://downloads.aspose.com/pdf/java" >}}
+{{< blocks/products/pf/upper-banner h1="PDF File Manipulation API for Java" h2="Create, parse, protect, sign and convert PDF files to various formats without requiring Adobe Acrobat." logoImageSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/header/aspose_pdf-for-java.png" pfName="Aspose.PDF for Java" subTitlepfName="for Java" downloadUrl="https://downloads.aspose.com/pdf/java" >}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.PDF" subTitlepfName="for Java" >}}
 
 {{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-java.png" liveDemosLink="https://products.aspose.app/pdf/family" PricingLink="https://purchase.aspose.com/pricing/pdf/java" buyLink="https://purchase.aspose.com" docsLink="https://docs.aspose.com/pdf/java/" instalationsDocsLink="https://docs.aspose.com/pdf/java/installation" nugetLink="" nugetPackageName="Fixed Layout:" >}}
 
 {{< blocks/products/pf/tab-content >}}
-<p>Aspose.PDF for Java is an affordably priced, feature-rich API that offers table creation and manipulation, compression options, graph support, image functions, extensive hyperlink functionality, custom font handling, and extended security controls. Moreover, developers can create PDF files directly using API or via XML templates and can manage form fields embedded in the documents as well as create forms.</p>
+<p>
+ Aspose.PDF for Java is a fast and lightweight processing API to create, modify, render, secure as well as print PDF files without the use of Adobe Acrobat. API also supports working with TXT, HTML, PCL, XML, XPS and image file formats.
+</p>
+
+<p>
+ Aspose.PDF for Java is an affordably priced, feature-rich API that offers table creation and manipulation, compression options, graph support, image functions, extensive hyperlink functionality, custom font handling, and extended security controls. Moreover, developers can create PDF files directly using API or via XML templates and can manage form fields embedded in the documents as well as create forms.
+</p>
+
 {{< /blocks/products/pf/tab-content >}}
 
 <!--Diagrams Start-->
@@ -516,14 +523,24 @@ pfile.save(dir + "output.pdf");</code></pre>
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< blocks/products/pf/testimonials title="What People Are Saying" subTitle="Don't just take our word for it. See what users have to say about Aspose.PDF APIs." >}}
+{{< blocks/products/pf/testimonials title="What People Are Saying" subTitle="Don't just take our word for it. See what users have to say about Aspose.PDF APIs." caseStudiesLink="https://downloads.aspose.com/corporate/case-studies/aspose.pdf/" >}}
 
 {{< blocks/products/pf/testimonials-quote >}}
-The initial benefit was a reduction in licensing fees as Office no longer needed to be installed on each provided server. In addition to those immediate savings we saw an additional benefit in being able to programmatically lock and sign the PDF documents.
+<p class="first">
+ The initial benefit was a reduction in licensing fees as Office no longer needed to be installed on each provided server. In addition to those immediate savings we saw an additional benefit in being able to programmatically lock and sign the PDF documents.
+ <em>
+  Paul Allaire | Loryx Systems, USA
+ </em>
+</p>
 {{< /blocks/products/pf/testimonials-quote >}}
 
 {{< blocks/products/pf/testimonials-quote >}}
-Aspose.PDF worked exactly as we needed it to by integrating seamlessly with the rest of our product’s functionality. We were successful in using Aspose.PDF to tackle all of our objectives while expending minimal resources.
+<p class="second">
+ Aspose.PDF worked exactly as we needed it to by integrating seamlessly with the rest of our product’s functionality. We were successful in using Aspose.PDF to tackle all of our objectives while expending minimal resources.
+ <em>
+  Mike Dearborn | CrewBridge Technologies, USA
+ </em>
+</p>
 {{< /blocks/products/pf/testimonials-quote >}}
 
 {{< /blocks/products/pf/testimonials >}}
@@ -552,14 +569,14 @@ Aspose.PDF worked exactly as we needed it to by integrating seamlessly with the 
 
 {{< blocks/products/pf/download-section downloadFreeTrialLink="https://downloads.aspose.com/pdf/java" pricingInformationLink="https://purchase.aspose.com/pricing/pdf/java" >}}
 
-{{< blocks/products/pf/offers-section pfName="Aspose.PDF offers individual PDF APIs for other popular development environments as listed below:" >}}
+{{< blocks/products/pf/offers-section pfName="Aspose.PDF" description="Aspose.PDF offers individual PDF APIs for other popular development environments as listed below:" >}}
 
-    {{< blocks/products/pf/offers-section-item link="/pdf/net" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-net.png" sdkName="Aspose.PDF for .NET" >}}
-    {{< blocks/products/pf/offers-section-item link="/pdf/cpp" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-cpp.png" sdkName="Aspose.PDF for C++" >}}
-    {{< blocks/products/pf/offers-section-item link="/pdf/android-java" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-android.png" sdkName="Aspose.PDF for Android via Java" >}}
-    {{< blocks/products/pf/offers-section-item link="/pdf/sharepoint" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-sharepoint.png" sdkName="Aspose.PDF for SharePoint" >}}
-    {{< blocks/products/pf/offers-section-item link="/pdf/reporting-services" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-reporting-services.png" sdkName="Aspose.PDF for Reporting Services" >}}
-    {{< blocks/products/pf/offers-section-item link="/pdf/jasperreports" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-jasperreports.png" sdkName="Aspose.PDF for JasperReports" >}}
+    {{< blocks/products/pf/offers-section-item link="/pdf/net" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-net.png" sdkName=".NET" >}}
+    {{< blocks/products/pf/offers-section-item link="/pdf/cpp" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-cpp.png" sdkName="C++" >}}
+    {{< blocks/products/pf/offers-section-item link="/pdf/android-java" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-android.png" sdkName="Android via Java" >}}
+    {{< blocks/products/pf/offers-section-item link="/pdf/sharepoint" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-sharepoint.png" sdkName="SharePoint" >}}
+    {{< blocks/products/pf/offers-section-item link="/pdf/reporting-services" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-reporting-services.png" sdkName="Reporting Services" >}}
+    {{< blocks/products/pf/offers-section-item link="/pdf/jasperreports" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-jasperreports.png" sdkName="JasperReports" >}}
 
 {{< /blocks/products/pf/offers-section >}}
 
