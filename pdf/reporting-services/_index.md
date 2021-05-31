@@ -1,6 +1,6 @@
 ---
 title: Export RDL Reports to PDF &amp; XPS in SQL Server Reporting Services 
-weight: 2950
+weight: 2960
 url: /reporting-services/ 
 description: SQL Server Reporting Services rendering extension - Export PDF PDF/A and XPS reports containing tables charts and images from SQL Server
 ---

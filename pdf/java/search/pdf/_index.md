@@ -1,6 +1,6 @@
 ---
-title:  
-weight: 1140
+title: Search PDF document without opening via Java 
+weight: 1150
 url: /java/search/pdf/ 
 description: Integrate On-Premise document APIs to search words with pattern in PDF file on Java Runtime Environment for JSP/JSF Application and Desktop Applications.
 ---

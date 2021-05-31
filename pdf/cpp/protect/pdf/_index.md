@@ -1,5 +1,5 @@
 ---
-title:  
+title: Protect and lock PDF document via C++ 
 weight: 320
 url: /cpp/protect/pdf/ 
 description: Try our On-Premise document APIs to lock PDF file using password on C++ Runtime Environment for Windows 32 bit, Windows 64 bit and Linux 64 bit.

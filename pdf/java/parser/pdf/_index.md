@@ -1,6 +1,6 @@
 ---
-title:  
-weight: 1110
+title: Extract text and images from PDF document via Java 
+weight: 1120
 url: /java/parser/pdf/ 
 description: Try our On-Premise document parser APIs to extract text and images from PDF file on Java Runtime Environment for JSP/JSF Application and Desktop Applications.
 ---

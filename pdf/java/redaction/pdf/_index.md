@@ -1,6 +1,6 @@
 ---
-title:  
-weight: 1130
+title: Search and replace text in PDF document via Java 
+weight: 1140
 url: /java/redaction/pdf/ 
 description: Try our On-Premise document redaction APIs to redact sensitive information in PDF file on Java Runtime Environment for JSP/JSF Application and Desktop Applications.
 ---

@@ -1,6 +1,6 @@
 ---
-title:  
-weight: 330
+title: Search PDF document without opening via C++ 
+weight: 340
 url: /cpp/search/pdf/ 
 description: Try our On-Premise document APIs to search words with pattern in PDF file on C++ Runtime Environment for Windows 32 bit, Windows 64 bit and Linux 64 bit.
 ---
@@ -69,7 +69,7 @@ PM> Install-Package Aspose.PDF.Cpp
 
 ```cs
 // Search a particular text and change its style
-auto doc = MakeObject<Document>(L"..\directoryPath\sourceFile.pdf");
+auto doc = MakeObject<Document>(L"..\\directoryPath\\sourceFile.pdf");
 auto absorber = MakeObject<TextFragmentAbsorber>(L"Aspose.Pdf");
 doc->get_Pages()->idx_get(1)->Accept(absorber);
 
@@ -77,7 +77,7 @@ doc->get_Pages()->idx_get(1)->Accept(absorber);
 auto ts = absorber->get_TextFragments()->idx_get(1)->get_TextState();
 ts->set_Font(FontRepository::FindFont(L"TimesNewRoman"));
 ts->set_BackgroundColor(Aspose::Pdf::Color::get_Yellow());	
-doc->Save(L"..\directoryPath\outputFile.pdf");  
+doc->Save(L"..\\directoryPath\\outputFile.pdf");  
 
 ```
 

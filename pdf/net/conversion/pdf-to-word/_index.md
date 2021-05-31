@@ -1,6 +1,6 @@
 ---
-title:  
-weight: 2290
+title: Convert PDF to Word DOC DOCX | .NET PDF API 
+weight: 2300
 url: /net/conversion/pdf-to-word/ 
 description: .NET PDF to DOC DOCX Conversion Library
 ---
