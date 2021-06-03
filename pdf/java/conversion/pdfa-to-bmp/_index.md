@@ -1,6 +1,6 @@
 ---
 title: Convert PDFA to BMP via Java 
-weight: 750
+weight: 1280
 url: /java/conversion/pdfa-to-bmp/ 
 description: Try our On-Premise APIs for your document conversion on Java Runtime Environment for JSP/JSF Application and Desktop Applications.
 ---
@@ -13,7 +13,7 @@ description: Try our On-Premise APIs for your document conversion on Java Runtim
 
 {{% blocks/products/pf/agp/content h2="How to Convert PDFA to BMP Using Java" %}}
 
- In order to render PDFA to BMP, weвЂ™ll use
+ In order to render PDFA to BMP, we’ll use
  [Aspose.PDF for Java](https://products.aspose.com/pdf/java) 
  API which is a feature-rich, powerful and easy to use conversion API for Java platform. You can download its latest version directly from
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-pdf) 
@@ -75,7 +75,7 @@ description: Try our On-Premise APIs for your document conversion on Java Runtim
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
-{{% blocks/products/pf/agp/code-block title="Convert PDFA to BMP - JavaвЂЋ" offSpacer="" %}}
+{{% blocks/products/pf/agp/code-block title="Convert PDFA to BMP - Java‎" offSpacer="" %}}
 
 ```cs
 // load PDFA with an instance of Document
@@ -106,7 +106,7 @@ renderer.process(document.getPages().get_Item(1), "output.bmp");
 
     {{% blocks/products/pf/agp/content h2="Java PDF Document Manipulation Library" %}}
 
- Aspose.PDF API can be used for PDF document manipulation and parsing within applications. One can create, modify, compress, secure, print or save PDF to TXT, HTML, PCL, XFA, XML, XPS, EPUB, TEX, Images and more formats. Aspose.PDF is a standalone API and it does not depend on any software including Adobe Acrobat. вЂЋ
+ Aspose.PDF API can be used for PDF document manipulation and parsing within applications. One can create, modify, compress, secure, print or save PDF to TXT, HTML, PCL, XFA, XML, XPS, EPUB, TEX, Images and more formats. Aspose.PDF is a standalone API and it does not depend on any software including Adobe Acrobat. ‎
 
 
 

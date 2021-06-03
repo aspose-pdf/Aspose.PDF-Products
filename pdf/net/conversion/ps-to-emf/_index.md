@@ -1,6 +1,6 @@
 ---
 title: Convert PS to EMF via .NET 
-weight: 2380
+weight: 1740
 url: /net/conversion/ps-to-emf/ 
 description: Try our On-Premise APIs with your document on .NET Framework, .NET Core, and PHP, VBScript, Delphi, C++ via COM Interop.
 ---
@@ -13,7 +13,7 @@ description: Try our On-Premise APIs with your document on .NET Framework, .NET 
 
 {{% blocks/products/pf/agp/content h2="How to Convert PS to EMF Using C#" %}}
 
- In order to convert PS to EMF, weвЂ™ll use
+ In order to convert PS to EMF, we’ll use
  [Aspose.PDF for .NET](https://products.aspose.com/pdf/net) 
  API which is a feature-rich, powerful and easy to use document manipulation and conversion API for C# platform. Open
  [NuGet](https://www.nuget.org/packages/aspose.pdf) 

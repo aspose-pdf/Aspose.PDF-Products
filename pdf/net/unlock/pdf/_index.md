@@ -1,6 +1,6 @@
 ---
 title: Unlock PDF document via .NET 
-weight: 2930
+weight: 1860
 url: /net/unlock/pdf/ 
 description: Try our On-Premise document APIs to unlock password protected PDF file on .NET Framework, .NET Core, and PHP, VBScript, Delphi, C++ via COM Interop.
 ---
@@ -13,7 +13,7 @@ description: Try our On-Premise document APIs to unlock password protected PDF f
 
 {{% blocks/products/pf/agp/content h2="How to Unlock PDF File Using C#" %}}
 
- In order to remove protection PDF file, weвЂ™ll use
+ In order to remove protection PDF file, we’ll use
  [Aspose.PDF for .NET](https://products.aspose.com/pdf/net) 
  API which is a feature-rich, powerful and easy to use document protection API for C# platform. Open
  [NuGet](https://www.nuget.org/packages/aspose.pdf) 
@@ -78,7 +78,7 @@ PM> Install-Package Aspose.PDF
 
     {{% blocks/products/pf/agp/content h2="About Aspose.PDF for .NET API" %}}
 
- Aspose.PDF API can be used for PDF document manipulation and parsing within applications. One can create, modify, compress, secure, print or save PDF to TXT, HTML, PCL, XFA, XML, XPS, EPUB, TEX, Images and more formats. Aspose.PDF is a standalone API and it does not depend on any software including Adobe Acrobat. вЂЋ
+ Aspose.PDF API can be used for PDF document manipulation and parsing within applications. One can create, modify, compress, secure, print or save PDF to TXT, HTML, PCL, XFA, XML, XPS, EPUB, TEX, Images and more formats. Aspose.PDF is a standalone API and it does not depend on any software including Adobe Acrobat. ‎
 
 
 

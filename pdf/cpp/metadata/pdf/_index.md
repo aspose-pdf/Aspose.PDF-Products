@@ -1,6 +1,6 @@
 ---
 title: Edit or View PDF Document Metadata via C++ 
-weight: 300
+weight: 2390
 url: /cpp/metadata/pdf/ 
 description: Try our On-Premise document metadata editing or viewer APIs to edit or view PDF file metadata on C++ Runtime Environment for Windows 32 bit, Windows 64 bit and Linux 64 bit.
 ---
@@ -13,7 +13,7 @@ description: Try our On-Premise document metadata editing or viewer APIs to edit
 
 {{% blocks/products/pf/agp/content h2="How to Get PDF Metadata Using C++" %}}
 
- In order to extract PDF metadata, weвЂ™ll use
+ In order to extract PDF metadata, we’ll use
  [Aspose.PDF for C++](https://products.aspose.com/pdf/cpp) 
  API which is a feature-rich, powerful and easy to use document metadata extraction API for C++ platform. You can download its latest version directly, just open
  [NuGet](https://www.nuget.org/packages/aspose.pdf) 
@@ -101,7 +101,7 @@ Console::WriteLine(L"Get / Set document info finished.");
 
     {{% blocks/products/pf/agp/content h2="About Aspose.PDF for C++ API" %}}
 
- Aspose.PDF API can be used for PDF document manipulation and parsing within applications. One can create, modify, compress, secure, print or save PDF to TXT, HTML, PCL, XFA, XML, XPS, EPUB, TEX, Images and more formats. Aspose.PDF is a standalone API and it does not depend on any software including Adobe Acrobat. вЂЋ
+ Aspose.PDF API can be used for PDF document manipulation and parsing within applications. One can create, modify, compress, secure, print or save PDF to TXT, HTML, PCL, XFA, XML, XPS, EPUB, TEX, Images and more formats. Aspose.PDF is a standalone API and it does not depend on any software including Adobe Acrobat. ‎
 
 
 

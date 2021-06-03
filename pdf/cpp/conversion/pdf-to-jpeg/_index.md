@@ -1,6 +1,6 @@
 ---
 title: Convert PDF to JPEG via C++ application 
-weight: 60
+weight: 70
 url: /cpp/conversion/pdf-to-jpeg/ 
 description: Try our On-Premise APIs for your document conversion using C++ Runtime Environment for Windows 32 bit, Windows 64 bit and Linux 64 bit.
 ---
@@ -13,7 +13,7 @@ description: Try our On-Premise APIs for your document conversion using C++ Runt
 
 {{% blocks/products/pf/agp/content h2="How to Convert PDF to JPEG Using C++" %}}
 
- In order to convert PDF to JPEG, weвЂ™ll use
+ In order to convert PDF to JPEG, we’ll use
  [Aspose.PDF for C++](https://products.aspose.com/pdf/cpp) 
  API which is a feature-rich, powerful and easy to use document manipulation and conversion API for C++ platform. You can download its latest version directly, just open
  [NuGet](https://www.nuget.org/packages/aspose.pdf) 
@@ -61,7 +61,7 @@ PM> Install-Package Aspose.PDF.Cpp
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
-{{% blocks/products/pf/agp/code-block title="Convert PDF to JPEG - C++вЂЋ" offSpacer="" %}}
+{{% blocks/products/pf/agp/code-block title="Convert PDF to JPEG - C++‎" offSpacer="" %}}
 
 ```cs
 // Load the PDF.
@@ -89,7 +89,7 @@ doc->Save(u"convertedFile.jpeg", SaveFormat::Jpeg);
 
     {{% blocks/products/pf/agp/content h2="C++ PDF Document Manipulation Library" %}}
 
- Aspose.PDF API can be used for PDF document manipulation and parsing within applications. One can create, modify, compress, secure, print or save PDF to TXT, HTML, PCL, XFA, XML, XPS, EPUB, TEX, Images and more formats. Aspose.PDF is a standalone API and it does not depend on any software including Adobe Acrobat. вЂЋ
+ Aspose.PDF API can be used for PDF document manipulation and parsing within applications. One can create, modify, compress, secure, print or save PDF to TXT, HTML, PCL, XFA, XML, XPS, EPUB, TEX, Images and more formats. Aspose.PDF is a standalone API and it does not depend on any software including Adobe Acrobat. ‎
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: View or Edit PDF Files Metadata via .NET 
-weight: 2870
+weight: 2450
 url: /net/metadata/pdf/ 
 description: Try our On-Premise document metadata viewer or editing APIs to edit or view PDF format metadata on .NET Framework, .NET Core, and PHP, VBScript, Delphi, C++ via COM Interop.
 ---
@@ -13,7 +13,7 @@ description: Try our On-Premise document metadata viewer or editing APIs to edit
 
 {{% blocks/products/pf/agp/content h2="How to Extract PDF Metadata Using C#" %}}
 
- In order to extract PDF metadata, weвЂ™ll use
+ In order to extract PDF metadata, we’ll use
  [Aspose.PDF for .NET](https://products.aspose.com/pdf/net) 
  API which is a feature-rich, powerful and easy to use document metadata API for C# platform. Open
  [NuGet](https://www.nuget.org/packages/aspose.pdf) 
@@ -92,7 +92,7 @@ Console.WriteLine("Title: {0}", pdfInfo.Title);
 
     {{% blocks/products/pf/agp/content h2="About Aspose.PDF for .NET API" %}}
 
- Aspose.PDF API can be used for PDF document manipulation and parsing within applications. One can create, modify, compress, secure, print or save PDF to TXT, HTML, PCL, XFA, XML, XPS, EPUB, TEX, Images and more formats. Aspose.PDF is a standalone API and it does not depend on any software including Adobe Acrobat. вЂЋ
+ Aspose.PDF API can be used for PDF document manipulation and parsing within applications. One can create, modify, compress, secure, print or save PDF to TXT, HTML, PCL, XFA, XML, XPS, EPUB, TEX, Images and more formats. Aspose.PDF is a standalone API and it does not depend on any software including Adobe Acrobat. ‎
 
 
 

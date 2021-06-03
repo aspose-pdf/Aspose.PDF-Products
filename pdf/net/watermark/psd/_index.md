@@ -1,6 +1,6 @@
 ---
 title: Watermark PSD document via .NET 
-weight: 2940
+weight: 1010
 url: /net/watermark/psd/ 
 description: Try our On-Premise document APIs to add or remove watermark to PSD file on .NET Framework, .NET Core, and PHP, VBScript, Delphi, C++ via COM Interop.
 ---
@@ -13,7 +13,7 @@ description: Try our On-Premise document APIs to add or remove watermark to PSD 
 
 {{% blocks/products/pf/agp/content h2="How to Watermark PSD File Using C#" %}}
 
- In order to watermark PSD file, weвЂ™ll use
+ In order to watermark PSD file, we’ll use
  [Aspose.PDF for .NET](https://products.aspose.com/pdf/net) 
  API which is a feature-rich, powerful and easy to use document manipulation API for C# platform. Open
  [NuGet](https://www.nuget.org/packages/aspose.pdf) 
@@ -103,7 +103,7 @@ document.Save("output.psd");
 
     {{% blocks/products/pf/agp/content h2="About Aspose.PDF for .NET API" %}}
 
- Aspose.PDF API can be used for PDF document manipulation and parsing within applications. One can create, modify, compress, secure, print or save PDF to TXT, HTML, PCL, XFA, XML, XPS, EPUB, TEX, Images and more formats. Aspose.PDF is a standalone API and it does not depend on any software including Adobe Acrobat. вЂЋ
+ Aspose.PDF API can be used for PDF document manipulation and parsing within applications. One can create, modify, compress, secure, print or save PDF to TXT, HTML, PCL, XFA, XML, XPS, EPUB, TEX, Images and more formats. Aspose.PDF is a standalone API and it does not depend on any software including Adobe Acrobat. ‎
 
 
 

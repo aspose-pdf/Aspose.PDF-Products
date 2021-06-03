@@ -1,6 +1,6 @@
 ---
 title: Convert PDF to Word DOC DOCX | .NET PDF API 
-weight: 2300
+weight: 1040
 url: /net/conversion/pdf-to-word/ 
 description: .NET PDF to DOC DOCX Conversion Library
 ---
@@ -168,7 +168,7 @@ pdfDocument.Save("word.doc", saveOptions);
  *DocSaveOptions.Mode* 
  to
  *DocSaveOptions.RecognitionMode.Flow* 
- allows the conversion engine perform grouping and multi-level analysis to restore the original document as per the authorвЂ™s intent while producing an easily editable document. However, the resultant Word document may look different from the original PDF.
+ allows the conversion engine perform grouping and multi-level analysis to restore the original document as per the author’s intent while producing an easily editable document. However, the resultant Word document may look different from the original PDF.
 
 {{% /blocks/products/pf/agp/text %}}
 
@@ -202,7 +202,7 @@ pdfDocument.Save("word.docx", saveOptions);
 
 <!-- aboutfile Starts -->
 
-{{< blocks/products/pf/agp/demobox sectionTitle="[Free Online App for PDF toВ Word Conversion](https://products.aspose.app/pdf/conversion)" sectionDescription="" >}}
+{{< blocks/products/pf/agp/demobox sectionTitle="[Free Online App for PDF to Word Conversion](https://products.aspose.app/pdf/conversion)" sectionDescription="" >}}
         {{< blocks/products/pf/agp/democard icon="fa-cogs" text=" No need to download or setup anything" >}}
         {{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write or compile code" >}}
         {{< blocks/products/pf/agp/democard icon="fa-file-text" text=" Just upload PDF file and hit the \"Convert\" button" >}}

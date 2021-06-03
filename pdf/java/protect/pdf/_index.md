@@ -1,6 +1,6 @@
 ---
 title: Protect and lock PDF document via Java 
-weight: 1130
+weight: 1400
 url: /java/protect/pdf/ 
 description: Try our On-Premise document APIs to lock PDF file using password on Java Runtime Environment for JSP/JSF Application and Desktop Applications.
 ---
@@ -13,7 +13,7 @@ description: Try our On-Premise document APIs to lock PDF file using password on
 
 {{% blocks/products/pf/agp/content h2="How to Secure PDF File Using Java" %}}
 
- In order to protect PDF file, weвЂ™ll use
+ In order to protect PDF file, we’ll use
  [Aspose.PDF for Java](https://products.aspose.com/pdf/java) 
  API which is a feature-rich, powerful and easy to use encryption API for Java platform. You can download its latest version directly from
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-pdf) 
@@ -51,7 +51,7 @@ description: Try our On-Premise document APIs to lock PDF file using password on
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps toВ Protect PDF Files via Java" %}}
+{{% blocks/products/pf/agp/feature-section-col title="Steps to Protect PDF Files via Java" %}}
 
 {{% blocks/products/pf/agp/text %}}
 
@@ -104,7 +104,7 @@ pdfFile.save("EncryptedFile.pdf");
 
 {{% blocks/products/pf/agp/content h2="About Aspose.PDF for Java API" %}}
 
- Aspose.PDF API can be used for PDF document manipulation and parsing within applications. One can create, modify, compress, secure, print or save PDF to TXT, HTML, PCL, XFA, XML, XPS, EPUB, TEX, Images and more formats. Aspose.PDF is a standalone API and it does not depend on any software including Adobe Acrobat. вЂЋ
+ Aspose.PDF API can be used for PDF document manipulation and parsing within applications. One can create, modify, compress, secure, print or save PDF to TXT, HTML, PCL, XFA, XML, XPS, EPUB, TEX, Images and more formats. Aspose.PDF is a standalone API and it does not depend on any software including Adobe Acrobat. ‎
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: Protect and lock PDF document via C++ 
-weight: 320
+weight: 520
 url: /cpp/protect/pdf/ 
 description: Try our On-Premise document APIs to lock PDF file using password on C++ Runtime Environment for Windows 32 bit, Windows 64 bit and Linux 64 bit.
 ---
@@ -13,7 +13,7 @@ description: Try our On-Premise document APIs to lock PDF file using password on
 
 {{% blocks/products/pf/agp/content h2="How to Secure PDF File Using C++" %}}
 
- In order to protect PDF file, weвЂ™ll use
+ In order to protect PDF file, we’ll use
  [Aspose.PDF for C++](https://products.aspose.com/pdf/cpp) 
  API which is a feature-rich, powerful and easy to use document encryption API for C++ platform. You can download its latest version directly, just open
  [NuGet](https://www.nuget.org/packages/aspose.pdf) 
@@ -35,7 +35,7 @@ PM> Install-Package Aspose.PDF.Cpp
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps toВ Protect PDF Files via C++" %}}
+{{% blocks/products/pf/agp/feature-section-col title="Steps to Protect PDF Files via C++" %}}
 
 {{% blocks/products/pf/agp/text %}}
 
@@ -91,7 +91,7 @@ doc->Save(L"..\outputPath\protectedFile.pdf");
 
 {{% blocks/products/pf/agp/content h2="About Aspose.PDF for C++ API" %}}
 
- Aspose.PDF API can be used for PDF document manipulation and parsing within applications. One can create, modify, compress, secure, print or save PDF to TXT, HTML, PCL, XFA, XML, XPS, EPUB, TEX, Images and more formats. Aspose.PDF is a standalone API and it does not depend on any software including Adobe Acrobat. вЂЋ
+ Aspose.PDF API can be used for PDF document manipulation and parsing within applications. One can create, modify, compress, secure, print or save PDF to TXT, HTML, PCL, XFA, XML, XPS, EPUB, TEX, Images and more formats. Aspose.PDF is a standalone API and it does not depend on any software including Adobe Acrobat. ‎
 
 
 

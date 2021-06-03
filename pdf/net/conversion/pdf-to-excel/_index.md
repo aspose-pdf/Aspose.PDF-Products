@@ -1,6 +1,6 @@
 ---
 title: Convert PDF to Excel XLS XLSX C# | .NET PDF API 
-weight: 2200
+weight: 2020
 url: /net/conversion/pdf-to-excel/ 
 description: PDF to XLS & XLSX Conversion Library
 ---

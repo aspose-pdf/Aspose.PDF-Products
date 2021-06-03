@@ -1,6 +1,6 @@
 ---
 title: Convert MHTML to PDF via .NET 
-weight: 1850
+weight: 820
 url: /net/conversion/mhtml-to-pdf/ 
 description: Try our On-Premise APIs with your document on .NET Framework, .NET Core, and PHP, VBScript, Delphi, C++ via COM Interop.
 ---
@@ -13,7 +13,7 @@ description: Try our On-Premise APIs with your document on .NET Framework, .NET 
 
 {{% blocks/products/pf/agp/content h2="How to Convert MHTML to PDF Using C#" %}}
 
- In order to convert MHTML to PDF, weвЂ™ll use
+ In order to convert MHTML to PDF, we’ll use
  [Aspose.PDF for .NET](https://products.aspose.com/pdf/net) 
  API which is a feature-rich, powerful and easy to use document manipulation and conversion API for C# platform. Open
  [NuGet](https://www.nuget.org/packages/aspose.pdf) 

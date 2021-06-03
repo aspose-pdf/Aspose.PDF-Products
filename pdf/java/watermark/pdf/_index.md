@@ -1,6 +1,6 @@
 ---
 title: Watermark PDF document via Java 
-weight: 1180
+weight: 2380
 url: /java/watermark/pdf/ 
 description: Try our On-Premise document APIs to add or remove watermark to PDF file on Java Runtime Environment for JSP/JSF Application and Desktop Applications.
 ---
@@ -13,7 +13,7 @@ description: Try our On-Premise document APIs to add or remove watermark to PDF 
 
 {{% blocks/products/pf/agp/content h2="How to Watermark PDF File Using Java" %}}
 
- In order to watermark PDF file, weвЂ™ll use
+ In order to watermark PDF file, we’ll use
  [Aspose.PDF for Java](https://products.aspose.com/pdf/java) 
  API which is a feature-rich, powerful and easy to use warermarking API for Java platform. You can download its latest version directly from
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-pdf) 
@@ -114,7 +114,7 @@ pdfDocument.save("TextStamp_output.pdf");
 
     {{% blocks/products/pf/agp/content h2="About Aspose.PDF for Java API" %}}
 
- Aspose.PDF API can be used for PDF document manipulation and parsing within applications. One can create, modify, compress, secure, print or save PDF to TXT, HTML, PCL, XFA, XML, XPS, EPUB, TEX, Images and more formats. Aspose.PDF is a standalone API and it does not depend on any software including Adobe Acrobat. вЂЋ
+ Aspose.PDF API can be used for PDF document manipulation and parsing within applications. One can create, modify, compress, secure, print or save PDF to TXT, HTML, PCL, XFA, XML, XPS, EPUB, TEX, Images and more formats. Aspose.PDF is a standalone API and it does not depend on any software including Adobe Acrobat. ‎
 
 
 

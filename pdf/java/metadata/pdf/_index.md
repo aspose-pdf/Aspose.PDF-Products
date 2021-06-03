@@ -1,6 +1,6 @@
 ---
 title: Edit or View PDF Files Metadata via Java 
-weight: 1110
+weight: 2600
 url: /java/metadata/pdf/ 
 description: Try our On-Premise document metadata editing or viewer APIs to edit or view PDF format metadata on Java Runtime Environment for JSP/JSF Application and Desktop Applications.
 ---
@@ -13,7 +13,7 @@ description: Try our On-Premise document metadata editing or viewer APIs to edit
 
 {{% blocks/products/pf/agp/content h2="How to Extract PDF Metadata Using Java" %}}
 
- In order to get PDF file metadata, weвЂ™ll use
+ In order to get PDF file metadata, we’ll use
  [Aspose.PDF for Java](https://products.aspose.com/pdf/java) 
  API which is a feature-rich, powerful and easy to use metadata API for Java platform. You can download its latest version directly from
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-pdf) 
@@ -110,7 +110,7 @@ pdfDocument.save("Updated_Information.pdf");
 
     {{% blocks/products/pf/agp/content h2="About Aspose.PDF for Java API" %}}
 
- Aspose.PDF API can be used for PDF document manipulation and parsing within applications. One can create, modify, compress, secure, print or save PDF to TXT, HTML, PCL, XFA, XML, XPS, EPUB, TEX, Images and more formats. Aspose.PDF is a standalone API and it does not depend on any software including Adobe Acrobat. вЂЋ
+ Aspose.PDF API can be used for PDF document manipulation and parsing within applications. One can create, modify, compress, secure, print or save PDF to TXT, HTML, PCL, XFA, XML, XPS, EPUB, TEX, Images and more formats. Aspose.PDF is a standalone API and it does not depend on any software including Adobe Acrobat. ‎
 
 
 
