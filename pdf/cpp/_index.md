@@ -6,11 +6,11 @@ description: Integrate PDF library in your C++ applications to create manipulate
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1="C++ PDF Parser API" h2="Create, manipulate and convert PDF files within C++ applications without requiring Adobe Acrobat." logoImageSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/header/aspose_pdf-for-cpp.png" pfName="Aspose.PDF for C++" subTitlepfName="for C++" downloadUrl="https://downloads.aspose.com/pdf/cpp" >}}
+{{< blocks/products/pf/upper-banner h1="C++ PDF Parser API" h2="Create, manipulate and convert PDF files within C++ applications without requiring Adobe Acrobat." logoImageSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/header/aspose_pdf-for-cpp.png" pfName="Aspose.PDF" subTitlepfName="for C++" downloadUrl="https://downloads.aspose.com/pdf/cpp" >}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.PDF" subTitlepfName="for C++" >}}
 
-{{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-cpp.png" liveDemosLink="https://products.aspose.app/pdf/family" PricingLink="https://purchase.aspose.com/pricing/pdf/cpp" buyLink="https://purchase.aspose.com" docsLink="https://docs.aspose.com/pdf/cpp/" instalationsDocsLink="https://docs.aspose.com/pdf/cpp/installation" nugetLink="https://www.nuget.org/packages/Aspose.PDF.Cpp/" nugetPackageName="Aspose.PDF.Cpp" >}}
+{{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-cpp.png" liveDemosLink="https://products.aspose.app/pdf/family" PricingLink="https://purchase.aspose.com/pricing/pdf/cpp" buyLink="https://purchase.aspose.com/pricing/pdf/cpp" docsLink="https://docs.aspose.com/pdf/cpp/" installationsDocsLink="https://docs.aspose.com/pdf/cpp/installation" nugetLink="https://www.nuget.org/packages/Aspose.PDF.Cpp/" nugetPackageName="Aspose.PDF.Cpp" mavenRepoLink="" directDownloadLink="https://downloads.aspose.com/pdf/cpp" >}}
 
 {{< blocks/products/pf/tab-content >}}
 <p>

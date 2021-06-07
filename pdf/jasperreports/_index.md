@@ -6,11 +6,11 @@ description: Export PDF reports from Jasper Reports and JasperServer. Easily con
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1="JasperReports Extension to Deliver Reports in PDF Format" h2="Export reports to PDF and PDF/A formats from JasperReports & JasperServer with great ease." logoImageSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/header/aspose_pdf-for-jasperreports.png" pfName="Aspose.PDF for JasperReports" subTitlepfName="for JasperReports" downloadUrl="https://downloads.aspose.com/pdf/jassperreport" >}}
+{{< blocks/products/pf/upper-banner h1="JasperReports Extension to Deliver Reports in PDF Format" h2="Export reports to PDF and PDF/A formats from JasperReports & JasperServer with great ease." logoImageSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/header/aspose_pdf-for-jasperreports.png" pfName="Aspose.PDF" subTitlepfName="for JasperReports" downloadUrl="https://downloads.aspose.com/pdf/jassperreport" >}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.PDF" subTitlepfName="for JasperReports" >}}
 
-{{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-jasperreports.png" liveDemosLink="https://products.aspose.app/pdf/family" PricingLink="https://purchase.aspose.com/pricing/pdf/jasperreports" buyLink="https://purchase.aspose.com" docsLink="https://docs.aspose.com/pdf/jasperreports/release-notes/" instalationsDocsLink="" nugetLink="" nugetPackageName="Fixed Layout:" >}}
+{{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-jasperreports.png" liveDemosLink="https://products.aspose.app/pdf/family" PricingLink="https://purchase.aspose.com/pricing/pdf/jasperreports" buyLink="https://purchase.aspose.com/pricing/pdf/jasperreports" docsLink="https://docs.aspose.com/pdf/jasperreports/release-notes/" installationsDocsLink="" nugetLink="" nugetPackageName="Fixed Layout:" mavenRepoLink="" directDownloadLink="https://downloads.aspose.com/pdf/jassperreport" >}}
 
 {{< blocks/products/pf/tab-content >}}
 <p>

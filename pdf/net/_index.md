@@ -6,11 +6,11 @@ description: C# ASP.NET VB.NET library to generate edit and parse PDF files. Lib
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1="PDF File Processing API for .NET" h2="Create, edit, protect and convert PDF documents to multiple formats within .NET-based applications without any Adobe Acrobat dependencies." logoImageSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/header/aspose_pdf-for-net.png" pfName="Aspose.PDF for .NET" subTitlepfName="for .NET" downloadUrl="https://downloads.aspose.com/pdf/net" >}}
+{{< blocks/products/pf/upper-banner h1="PDF File Processing API for .NET" h2="Create, edit, protect and convert PDF documents to multiple formats within .NET-based applications without any Adobe Acrobat dependencies." logoImageSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/header/aspose_pdf-for-net.png" pfName="Aspose.PDF" subTitlepfName="for .NET" downloadUrl="https://downloads.aspose.com/pdf/net" >}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.PDF" subTitlepfName="for .NET" >}}
 
-{{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-net.png" liveDemosLink="https://products.aspose.app/pdf/family" PricingLink="https://purchase.aspose.com/pricing/pdf/net" buyLink="https://purchase.aspose.com" docsLink="https://docs.aspose.com/pdf/net/" instalationsDocsLink="https://docs.aspose.com/pdf/net/installation" nugetLink="https://www.nuget.org/packages/Aspose.PDF/" nugetPackageName="Aspose.PDF" >}}
+{{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-net.png" liveDemosLink="https://products.aspose.app/pdf/family" PricingLink="https://purchase.aspose.com/pricing/pdf/net" buyLink="https://purchase.aspose.com/pricing/pdf/net" docsLink="https://docs.aspose.com/pdf/net/" installationsDocsLink="https://docs.aspose.com/pdf/net/installation" nugetLink="https://www.nuget.org/packages/Aspose.PDF/" nugetPackageName="Aspose.PDF" mavenRepoLink="" directDownloadLink="https://downloads.aspose.com/pdf/net" >}}
 
 {{< blocks/products/pf/tab-content >}}
 <p>

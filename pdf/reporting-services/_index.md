@@ -6,11 +6,11 @@ description: SQL Server Reporting Services rendering extension - Export PDF PDF/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1="Reporting Services Extension to Deliver Reports in PDF & XPS formats" h2="Export RDL reports to PDF, PDFA and XPS formats with great ease." logoImageSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/header/aspose_pdf-for-ssrs.png" pfName="Aspose.PDF for Reporting Services" subTitlepfName="for Reporting Services" downloadUrl="https://downloads.aspose.com/pdf/reportingservices" >}}
+{{< blocks/products/pf/upper-banner h1="Reporting Services Extension to Deliver Reports in PDF & XPS formats" h2="Export RDL reports to PDF, PDFA and XPS formats with great ease." logoImageSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/header/aspose_pdf-for-ssrs.png" pfName="Aspose.PDF" subTitlepfName="for Reporting Services" downloadUrl="https://downloads.aspose.com/pdf/reportingservices" >}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.PDF" subTitlepfName="for Reporting Services" >}}
 
-{{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-reporting-services.png" liveDemosLink="https://products.aspose.app/pdf/family" PricingLink="https://purchase.aspose.com/pricing/pdf/reporting-services" buyLink="https://purchase.aspose.com" docsLink="https://docs.aspose.com/pdf/reportingservices/release-notes/" instalationsDocsLink="" nugetLink="" nugetPackageName="" >}}
+{{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-reporting-services.png" liveDemosLink="https://products.aspose.app/pdf/family" PricingLink="https://purchase.aspose.com/pricing/pdf/reporting-services" buyLink="https://purchase.aspose.com/pricing/pdf/reporting-services" docsLink="https://docs.aspose.com/pdf/reportingservices/release-notes/" installationsDocsLink="" nugetLink="" nugetPackageName="" mavenRepoLink="" directDownloadLink="https://downloads.aspose.com/pdf/reportingservices" >}}
 
 {{< blocks/products/pf/tab-content >}}
 <p>

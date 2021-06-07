@@ -6,11 +6,11 @@ description: SharePoint PDF Converter App that exports SharePoint Lists list Ite
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1="SharePoint App to Manipulate PDF Documents" h2="Convert lists, list items and SharePoint Wiki pages to PDF with no effort." logoImageSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/header/aspose_pdf-for-sharepoint.png" pfName="Aspose.PDF for SharePoint" subTitlepfName="for SharePoint" downloadUrl="https://downloads.aspose.com/pdf/sharepoint" >}}
+{{< blocks/products/pf/upper-banner h1="SharePoint App to Manipulate PDF Documents" h2="Convert lists, list items and SharePoint Wiki pages to PDF with no effort." logoImageSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/header/aspose_pdf-for-sharepoint.png" pfName="Aspose.PDF" subTitlepfName="for SharePoint" downloadUrl="https://downloads.aspose.com/pdf/sharepoint" >}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.PDF" subTitlepfName="for SharePoint" >}}
 
-{{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-sharepoint.png" liveDemosLink="https://products.aspose.app/pdf/family" PricingLink="https://purchase.aspose.com/pricing/pdf/sharepoint" buyLink="https://purchase.aspose.com" docsLink="https://docs.aspose.com/pdf/sharepoint/release-notes/" instalationsDocsLink="" nugetLink="" nugetPackageName="Fixed Layout:" >}}
+{{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-sharepoint.png" liveDemosLink="https://products.aspose.app/pdf/family" PricingLink="https://purchase.aspose.com/pricing/pdf/sharepoint" buyLink="https://purchase.aspose.com/pricing/pdf/sharepoint" docsLink="https://docs.aspose.com/pdf/sharepoint/release-notes/" installationsDocsLink="" nugetLink="" nugetPackageName="Fixed Layout:" mavenRepoLink="" directDownloadLink="https://downloads.aspose.com/pdf/sharepoint" >}}
 
 {{< blocks/products/pf/tab-content >}}
 <p>
