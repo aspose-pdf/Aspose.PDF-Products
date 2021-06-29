@@ -126,6 +126,12 @@ PSD, Photoshop Document, represents Adobe Photoshop's native file format used fo
 
 <!-- aboutfile Ends -->
 
+{{< blocks/products/pf/agp/other-supported-section title="Other Supported Watermarking Formats" subTitle="Using C#, one can easily watermark different formats including." >}}
+
+{{< blocks/products/pf/agp/other-supported-section-item href="" name="" description="" >}}
+
+{{< /blocks/products/pf/agp/other-supported-section >}}
+
 {{< /blocks/products/pf/main-container >}}
     
 {{< /blocks/products/pf/main-wrap-class >}}

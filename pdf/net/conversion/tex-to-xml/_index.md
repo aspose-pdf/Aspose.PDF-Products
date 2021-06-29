@@ -114,6 +114,29 @@ XML stands for Extensible Markup Language that is similar to HTML but different 
 
 <!-- aboutfile Ends -->
 
+{{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert TEX into many other file formats including few listed below." >}}
+
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/conversion/tex-to-bmp" name="TEX TO BMP" description="Bitmap Image" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/conversion/tex-to-doc" name="TEX TO DOC" description="Microsoft Word Binary Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/conversion/tex-to-docx" name="TEX TO DOCX" description="Office 2007+ Words Document" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/conversion/tex-to-emf" name="TEX TO EMF" description="Enhanced Metafile Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/conversion/tex-to-epub" name="TEX TO EPUB" description="E-book Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/conversion/tex-to-gif" name="TEX TO GIF" description="Graphical Interchange Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/conversion/tex-to-html" name="TEX TO HTML" description="Hyper Text Markup Language" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/conversion/tex-to-jpeg" name="TEX TO JPEG" description="JPEG Image" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/conversion/tex-to-pdf" name="TEX TO PDF" description="Portable Document Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/conversion/tex-to-png" name="TEX TO PNG" description="Portable Network Graphics" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/conversion/tex-to-pptx" name="TEX TO PPTX" description="Open XML presentation Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/conversion/tex-to-svg" name="TEX TO SVG" description="Scalable Vector Graphics" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/conversion/tex-to-tex" name="TEX TO TEX" description="LaTeX Output Text" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/conversion/tex-to-tiff" name="TEX TO TIFF" description="Tagged Image Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/conversion/tex-to-txt" name="TEX TO TXT" description="Text Document" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/conversion/tex-to-xls" name="TEX TO XLS" description="Excel Binary Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/conversion/tex-to-xlsx" name="TEX TO XLSX" description="OOXML Excel File" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/conversion/tex-to-xps" name="TEX TO XPS" description="XML Paper Specifications" >}}
+
+{{< /blocks/products/pf/agp/other-supported-section >}}
+
 {{< /blocks/products/pf/main-container >}}
     
 {{< /blocks/products/pf/main-wrap-class >}}

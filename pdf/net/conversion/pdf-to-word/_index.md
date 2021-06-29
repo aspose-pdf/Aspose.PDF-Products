@@ -225,6 +225,8 @@ DOCX is a well-known format for Microsoft Word documents. Introduced from 2007 w
 
 <!-- aboutfile Ends -->
 
+{{< blocks/products/pf/agp/other-supported-section-item href="" name="" description="" >}}
+
 {{< /blocks/products/pf/main-container >}}
     
 {{< /blocks/products/pf/main-wrap-class >}}

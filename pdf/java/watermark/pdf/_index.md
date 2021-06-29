@@ -137,6 +137,12 @@ Portable Document Format (PDF) is a type of document created by Adobe back in 19
 
 <!-- aboutfile Ends -->
 
+{{< blocks/products/pf/agp/other-supported-section title="Other Supported Watermarking Formats" subTitle="Using Java, one can easily watermark different formats including." >}}
+
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/psd/java/watermark/psd" name="PSD" description="Adobe Photoshop Native Format" >}}
+
+{{< /blocks/products/pf/agp/other-supported-section >}}
+
 {{< /blocks/products/pf/main-container >}}
     
 {{< /blocks/products/pf/main-wrap-class >}}

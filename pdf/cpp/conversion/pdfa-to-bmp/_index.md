@@ -117,6 +117,17 @@ Read More
 
 <!-- aboutfile Ends -->
 
+{{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert PDFA into many other file formats including few listed below." >}}
+
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/cpp/conversion/pdfa-to-doc" name="PDFA TO DOC" description="Microsoft Word Binary Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/cpp/conversion/pdfa-to-docx" name="PDFA TO DOCX" description="Office 2007+ Words Document" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/cpp/conversion/pdfa-to-jpeg" name="PDFA TO JPEG" description="JPEG Image" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/cpp/conversion/pdfa-to-pdf" name="PDFA TO PDF" description="Portable Document Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/cpp/conversion/pdfa-to-png" name="PDFA TO PNG" description="Portable Network Graphics" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/cpp/conversion/pdfa-to-svg" name="PDFA TO SVG" description="Scalable Vector Graphics" >}}
+
+{{< /blocks/products/pf/agp/other-supported-section >}}
+
 {{< /blocks/products/pf/main-container >}}
     
 {{< /blocks/products/pf/main-wrap-class >}}

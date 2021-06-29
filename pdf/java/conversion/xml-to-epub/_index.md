@@ -130,6 +130,22 @@ Read More
 
 <!-- aboutfile Ends -->
 
+{{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert XML into many other file formats including few listed below." >}}
+
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/java/conversion/xml-to-bmp" name="XML TO BMP" description="Bitmap Image" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/java/conversion/xml-to-doc" name="XML TO DOC" description="Microsoft Word Binary Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/java/conversion/xml-to-html" name="XML TO HTML" description="Hyper Text Markup Language" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/java/conversion/xml-to-jpeg" name="XML TO JPEG" description="JPEG Image" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/java/conversion/xml-to-pdfa" name="XML TO PDFA" description="{{pdfa_name}}" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/java/conversion/xml-to-png" name="XML TO PNG" description="Portable Network Graphics" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/java/conversion/xml-to-svg" name="XML TO SVG" description="Scalable Vector Graphics" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/java/conversion/xml-to-tex" name="XML TO TEX" description="LaTeX Output Text" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/java/conversion/xml-to-tiff" name="XML TO TIFF" description="Tagged Image Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/java/conversion/xml-to-xls" name="XML TO XLS" description="Excel Binary Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/java/conversion/xml-to-xps" name="XML TO XPS" description="XML Paper Specifications" >}}
+
+{{< /blocks/products/pf/agp/other-supported-section >}}
+
 {{< /blocks/products/pf/main-container >}}
     
 {{< /blocks/products/pf/main-wrap-class >}}

@@ -116,6 +116,20 @@ Computer Graphics Metafile (CGM) is free, platform-independent, international st
 
 <!-- aboutfile Ends -->
 
+{{< blocks/products/pf/agp/other-supported-section title="Other Supported Merging Formats" subTitle="Using C++, One can also merge many other file formats including.." >}}
+
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/cpp/merger/epub" name="EPUB" description="E-book Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/cpp/merger/html" name="HTML" description="Hyper Text Markup Language" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/cpp/merger/md" name="MD" description="Markdown Language" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/cpp/merger/pcl" name="PCL" description="Printer Command Language" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/cpp/merger/svg" name="SVG" description="Scalable Vector Graphics" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/cpp/merger/tex" name="TEX" description="LaTeX Output Text" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/cpp/merger/xml" name="XML" description="Extensible Markup Language" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/cpp/merger/xps" name="XPS" description="XML Paper Specifications" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/cpp/merger/xslfo" name="XSLFO" description="XSL Formatting Objects" >}}
+
+{{< /blocks/products/pf/agp/other-supported-section >}}
+
 {{< /blocks/products/pf/main-container >}}
     
 {{< /blocks/products/pf/main-wrap-class >}}

@@ -126,6 +126,12 @@ PostScript (PS) is a general-purpose page description language used in the busin
 
 <!-- aboutfile Ends -->
 
+{{< blocks/products/pf/agp/other-supported-section title="Other Supported Merging Formats" subTitle="Using Java, One can also merge many other file formats including.." >}}
+
+{{< blocks/products/pf/agp/other-supported-section-item href="" name="" description="" >}}
+
+{{< /blocks/products/pf/agp/other-supported-section >}}
+
 {{< /blocks/products/pf/main-container >}}
     
 {{< /blocks/products/pf/main-wrap-class >}}

@@ -117,6 +117,20 @@ TeX is a language that comprises of programming as well as mark-up features, use
 
 <!-- aboutfile Ends -->
 
+{{< blocks/products/pf/agp/other-supported-section title="Other Supported Merging Formats" subTitle="Using C#, One can also merge many other file formats including." >}}
+
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/merger/cgm" name="CGM" description="Computer Graphics Metafile" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/merger/epub" name="EPUB" description="E-book Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/merger/html" name="HTML" description="Hyper Text Markup Language" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/merger/md" name="MD" description="Markdown Language" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/merger/pcl" name="PCL" description="Printer Command Language" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/merger/svg" name="SVG" description="Scalable Vector Graphics" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/merger/xml" name="XML" description="Extensible Markup Language" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/merger/xps" name="XPS" description="XML Paper Specifications" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/merger/xslfo" name="XSLFO" description="XSL Formatting Objects" >}}
+
+{{< /blocks/products/pf/agp/other-supported-section >}}
+
 {{< /blocks/products/pf/main-container >}}
     
 {{< /blocks/products/pf/main-wrap-class >}}

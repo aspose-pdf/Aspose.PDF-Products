@@ -114,6 +114,29 @@ Files with PPTX extension are presentation files created with popular Microsoft 
 
 <!-- aboutfile Ends -->
 
+{{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert EPUB into many other file formats including few listed below." >}}
+
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/conversion/epub-to-bmp" name="EPUB TO BMP" description="Bitmap Image" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/conversion/epub-to-doc" name="EPUB TO DOC" description="Microsoft Word Binary Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/conversion/epub-to-docx" name="EPUB TO DOCX" description="Office 2007+ Words Document" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/conversion/epub-to-emf" name="EPUB TO EMF" description="Enhanced Metafile Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/conversion/epub-to-epub" name="EPUB TO EPUB" description="E-book Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/conversion/epub-to-gif" name="EPUB TO GIF" description="Graphical Interchange Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/conversion/epub-to-html" name="EPUB TO HTML" description="Hyper Text Markup Language" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/conversion/epub-to-jpeg" name="EPUB TO JPEG" description="JPEG Image" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/conversion/epub-to-pdf" name="EPUB TO PDF" description="Portable Document Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/conversion/epub-to-png" name="EPUB TO PNG" description="Portable Network Graphics" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/conversion/epub-to-svg" name="EPUB TO SVG" description="Scalable Vector Graphics" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/conversion/epub-to-tex" name="EPUB TO TEX" description="LaTeX Output Text" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/conversion/epub-to-tiff" name="EPUB TO TIFF" description="Tagged Image Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/conversion/epub-to-txt" name="EPUB TO TXT" description="Text Document" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/conversion/epub-to-xls" name="EPUB TO XLS" description="Excel Binary Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/conversion/epub-to-xlsx" name="EPUB TO XLSX" description="OOXML Excel File" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/conversion/epub-to-xml" name="EPUB TO XML" description="Extensible Markup Language" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/conversion/epub-to-xps" name="EPUB TO XPS" description="XML Paper Specifications" >}}
+
+{{< /blocks/products/pf/agp/other-supported-section >}}
+
 {{< /blocks/products/pf/main-container >}}
     
 {{< /blocks/products/pf/main-wrap-class >}}
