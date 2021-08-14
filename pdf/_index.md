@@ -11,15 +11,15 @@ description: Create PDF file manipulation applications using On Premise or Cloud
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/product-card-row title="Aspose.PDF On Premise APIs Include" >}}
 
-{{< blocks/products/pf/product pfName="Aspose.PDF for " title=".NET" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-net.png" productLink="https://products.aspose.com/pdf/net" >}}
+{{< blocks/products/pf/product pfName="Aspose.PDF for " title=".NET" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-net.svg" productLink="https://products.aspose.com/pdf/net" >}}
 On Premise APIs to target .NET Framework, .NET Core & COM Interop to develop PDF files processing applications for Windows, Web applications and Web Services.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.PDF for " title="Java" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-java.png" productLink="https://products.aspose.com/pdf/java" >}}
+{{< blocks/products/pf/product pfName="Aspose.PDF for " title="Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-java.svg" productLink="https://products.aspose.com/pdf/java" >}}
 Java APIs to create, manipulate and convert PDF documents in any application based on Java SE or EE.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.PDF for " title="C++" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-cpp.png" productLink="https://products.aspose.com/pdf/cpp" >}}
+{{< blocks/products/pf/product pfName="Aspose.PDF for " title="C++" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-cpp.svg" productLink="https://products.aspose.com/pdf/cpp" >}}
 Native C++ library to create, load, manipulate, and render PDF documents from within pure C++ apps.
 {{< /blocks/products/pf/product >}}
 

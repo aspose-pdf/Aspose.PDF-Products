@@ -6,36 +6,36 @@ description: Generate Write Manipulate Export and Print PDF documents in .NET Ja
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1="Manipulate PDF Documents" h2="Native APIs to generate, manipulate, compress, secure or convert PDF files to multiple formats without Adobe Acrobat." logoImageSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/header/aspose_pdf.png?v1.1" pfName="Aspose.PDF" downloadUrl="https://downloads.aspose.com/pdf" tryOnlineUrl="https://products.aspose.app/pdf/family" >}}
+{{< blocks/products/pf/upper-banner h1="Manipulate PDF Documents" h2="Native APIs to generate, manipulate, compress, secure or convert PDF files to multiple formats without Adobe Acrobat." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf.svg" pfName="Aspose.PDF" downloadUrl="https://downloads.aspose.com/pdf" tryOnlineUrl="https://products.aspose.app/pdf/family" >}}
 
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/product-card-row title="Aspose.PDF On Premise APIs Include" >}}
 
-{{< blocks/products/pf/product pfName="Aspose.PDF for" title=".NET" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-net.png" productLink="/pdf/net" >}}
+{{< blocks/products/pf/product pfName="Aspose.PDF for" title=".NET" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-net.svg" productLink="/pdf/net/" >}}
 Target Windows Forms, ASP.NET, WPF, WCF or any type of application based on .NET Framework 2.0 or later.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.PDF for" title="Java" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-java.png" productLink="/pdf/java" >}}
+{{< blocks/products/pf/product pfName="Aspose.PDF for" title="Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-java.svg" productLink="/pdf/java/" >}}
 Native Java APIs for the desktop, web or any kind of application based on Java SE or EE.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.PDF for" title="C++" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-cpp.png" productLink="/pdf/cpp" >}}
+{{< blocks/products/pf/product pfName="Aspose.PDF for" title="C++" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-cpp.svg" productLink="/pdf/cpp/" >}}
 Create, read, edit or render PDF documents from within C++ applications.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.PDF for" title="Android via Java" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-android.png" productLink="/pdf/android-java" >}}
+{{< blocks/products/pf/product pfName="Aspose.PDF for" title="Android via Java" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-android-java.svg" productLink="/pdf/android-java/" >}}
 Add PDF manipulation capabilities in your Android mobile applications.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.PDF for" title="SharePoint" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-sharepoint.png" productLink="/pdf/sharepoint" >}}
+{{< blocks/products/pf/product pfName="Aspose.PDF for" title="SharePoint" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-sharepoint.svg" productLink="/pdf/sharepoint/" >}}
 Export lists to PDF documents in SharePoint Foundation and SharePoint Server.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.PDF for" title="Reporting Services" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-reporting-services.png" productLink="/pdf/reporting-services" >}}
+{{< blocks/products/pf/product pfName="Aspose.PDF for" title="Reporting Services" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-reporting-services.svg" productLink="/pdf/reporting-services/" >}}
 Export RDL reports to PDF and XPS file formats from SQL Server Reporting Services.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.PDF for" title="JasperReports" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-jasperreports.png" productLink="/pdf/jasperreports" >}}
+{{< blocks/products/pf/product pfName="Aspose.PDF for" title="JasperReports" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-jasperreports.svg" productLink="/pdf/jasperreports/" >}}
 Export reports to PDF from JasperReports or JasperServer.
 {{< /blocks/products/pf/product >}}
 

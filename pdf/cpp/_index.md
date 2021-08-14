@@ -10,7 +10,7 @@ description: Integrate PDF library in your C++ applications to create manipulate
 
 {{< blocks/products/pf/main-container pfName="Aspose.PDF" subTitlepfName="for C++" >}}
 
-{{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-cpp.png" liveDemosLink="https://products.aspose.app/pdf/family" PricingLink="https://purchase.aspose.com/pricing/pdf/cpp" buyLink="https://purchase.aspose.com/pricing/pdf/cpp" docsLink="https://docs.aspose.com/pdf/cpp/" installationsDocsLink="https://docs.aspose.com/pdf/cpp/installation" nugetLink="https://www.nuget.org/packages/Aspose.PDF.Cpp/" nugetPackageName="Aspose.PDF.Cpp" mavenRepoLink="" directDownloadLink="https://downloads.aspose.com/pdf/cpp" >}}
+{{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-cpp.svg" liveDemosLink="https://products.aspose.app/pdf/family" PricingLink="https://purchase.aspose.com/pricing/pdf/cpp" buyLink="https://purchase.aspose.com/pricing/pdf/cpp" docsLink="https://docs.aspose.com/pdf/cpp/" installationsDocsLink="https://docs.aspose.com/pdf/cpp/installation" nugetLink="https://www.nuget.org/packages/Aspose.PDF.Cpp/" nugetPackageName="Aspose.PDF.Cpp" mavenRepoLink="" directDownloadLink="https://downloads.aspose.com/pdf/cpp" >}}
 
 {{< blocks/products/pf/tab-content >}}
 <p>
@@ -147,7 +147,7 @@ description: Integrate PDF library in your C++ applications to create manipulate
  </div>
  <!--/row-->
  <div class="d1-logo">
-  <img alt="PDF C++ Library" src="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-cpp.png"/>
+  <img alt="PDF C++ Library" src="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-cpp.svg"/>
   <header>
    Aspose.PDF
   </header>
@@ -193,7 +193,7 @@ description: Integrate PDF library in your C++ applications to create manipulate
  </div>
  <!--/row-->
  <div class="d1-logo">
-  <img alt="PDF Processing APIs" src="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-cpp.png"/>
+  <img alt="PDF Processing APIs" src="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-cpp.svg"/>
   <header>
    Aspose.PDF
   </header>
@@ -280,7 +280,7 @@ description: Integrate PDF library in your C++ applications to create manipulate
  </div>
  <!--/row-->
  <div class="d1-logo">
-  <img alt="PDF Manipulation API for C++" src="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-cpp.png"/>
+  <img alt="PDF Manipulation API for C++" src="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-cpp.svg"/>
   <header>
    Aspose.PDF
   </header>
@@ -503,12 +503,12 @@ while (converter-&gt;HasNextImage())
 
 {{< blocks/products/pf/offers-section pfName="Aspose.PDF" description="Aspose.PDF offers individual PDF APIs for other popular development environments as listed below:" >}}
 
-    {{< blocks/products/pf/offers-section-item link="/pdf/net" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-net.png" sdkName=".NET" >}}
-    {{< blocks/products/pf/offers-section-item link="/pdf/java" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-java.png" sdkName="Java" >}}
-    {{< blocks/products/pf/offers-section-item link="/pdf/android-java" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-android.png" sdkName="Android via Java" >}}
-    {{< blocks/products/pf/offers-section-item link="/pdf/sharepoint" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-sharepoint.png" sdkName="SharePoint" >}}
-    {{< blocks/products/pf/offers-section-item link="/pdf/reporting-services" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-reporting-services.png" sdkName="Reporting Services" >}}
-    {{< blocks/products/pf/offers-section-item link="/pdf/jasperreports" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-jasperreports.png" sdkName="JasperReports" >}}
+    {{< blocks/products/pf/offers-section-item link="/pdf/net/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-net.svg" sdkName=".NET" >}}
+    {{< blocks/products/pf/offers-section-item link="/pdf/java/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-java.svg" sdkName="Java" >}}
+    {{< blocks/products/pf/offers-section-item link="/pdf/android-java/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-android-java.svg" sdkName="Android via Java" >}}
+    {{< blocks/products/pf/offers-section-item link="/pdf/sharepoint/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-sharepoint.svg" sdkName="SharePoint" >}}
+    {{< blocks/products/pf/offers-section-item link="/pdf/reporting-services/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-reporting-services.svg" sdkName="Reporting Services" >}}
+    {{< blocks/products/pf/offers-section-item link="/pdf/jasperreports/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-jasperreports.svg" sdkName="JasperReports" >}}
 
 {{< /blocks/products/pf/offers-section >}}
 

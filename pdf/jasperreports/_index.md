@@ -10,7 +10,7 @@ description: Export PDF reports from Jasper Reports and JasperServer. Easily con
 
 {{< blocks/products/pf/main-container pfName="Aspose.PDF" subTitlepfName="for JasperReports" >}}
 
-{{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-jasperreports.png" liveDemosLink="https://products.aspose.app/pdf/family" PricingLink="https://purchase.aspose.com/pricing/pdf/jasperreports" buyLink="https://purchase.aspose.com/pricing/pdf/jasperreports" docsLink="https://docs.aspose.com/pdf/jasperreports/release-notes/" installationsDocsLink="" nugetLink="" nugetPackageName="Fixed Layout:" mavenRepoLink="" directDownloadLink="https://downloads.aspose.com/pdf/jassperreport" >}}
+{{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-jasperreports.svg" liveDemosLink="https://products.aspose.app/pdf/family" PricingLink="https://purchase.aspose.com/pricing/pdf/jasperreports" buyLink="https://purchase.aspose.com/pricing/pdf/jasperreports" docsLink="https://docs.aspose.com/pdf/jasperreports/release-notes/" installationsDocsLink="" nugetLink="" nugetPackageName="Fixed Layout:" mavenRepoLink="" directDownloadLink="https://downloads.aspose.com/pdf/jassperreport" >}}
 
 {{< blocks/products/pf/tab-content >}}
 <p>
@@ -48,7 +48,7 @@ description: Export PDF reports from Jasper Reports and JasperServer. Easily con
  </div>
  <!--/row-->
  <div class="d1-logo">
-  <img alt="JasperReports Extension for PDF" src="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-jasperreports.png"/>
+  <img alt="JasperReports Extension for PDF" src="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-jasperreports.svg"/>
   <header>
    Aspose.PDF
   </header>
@@ -95,7 +95,7 @@ description: Export PDF reports from Jasper Reports and JasperServer. Easily con
  </div>
  <!--/row-->
  <div class="d1-logo">
-  <img alt="PDF Exporter for JasperReports" src="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-jasperreports.png"/>
+  <img alt="PDF Exporter for JasperReports" src="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-jasperreports.svg"/>
   <header>
    Aspose.PDF
   </header>
@@ -156,7 +156,7 @@ description: Export PDF reports from Jasper Reports and JasperServer. Easily con
  </div>
  <!--/row-->
  <div class="d1-logo">
-  <img alt="JasperReports to PDF Converter" src="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-jasperreports.png"/>
+  <img alt="JasperReports to PDF Converter" src="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-jasperreports.svg"/>
   <header>
    Aspose.PDF
   </header>
@@ -274,12 +274,12 @@ description: Export PDF reports from Jasper Reports and JasperServer. Easily con
 
 {{< blocks/products/pf/offers-section pfName="Aspose.PDF" description="Aspose.PDF offers individual PDF APIs for other popular development environments as listed below:" >}}
 
-    {{< blocks/products/pf/offers-section-item link="/pdf/net" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-net.png" sdkName=".NET" >}}
-    {{< blocks/products/pf/offers-section-item link="/pdf/java" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-java.png" sdkName="Java" >}}
-    {{< blocks/products/pf/offers-section-item link="/pdf/cpp" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-cpp.png" sdkName="C++" >}}
-    {{< blocks/products/pf/offers-section-item link="/pdf/android-java" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-android.png" sdkName="Android via Java" >}}
-    {{< blocks/products/pf/offers-section-item link="/pdf/sharepoint" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-sharepoint.png" sdkName="SharePoint" >}}
-    {{< blocks/products/pf/offers-section-item link="/pdf/reporting-services" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-reporting-services.png" sdkName="Reporting Services" >}}
+    {{< blocks/products/pf/offers-section-item link="/pdf/net/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-net.svg" sdkName=".NET" >}}
+    {{< blocks/products/pf/offers-section-item link="/pdf/java/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-java.svg" sdkName="Java" >}}
+    {{< blocks/products/pf/offers-section-item link="/pdf/cpp/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-cpp.svg" sdkName="C++" >}}
+    {{< blocks/products/pf/offers-section-item link="/pdf/android-java/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-android-java.svg" sdkName="Android via Java" >}}
+    {{< blocks/products/pf/offers-section-item link="/pdf/sharepoint/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-sharepoint.svg" sdkName="SharePoint" >}}
+    {{< blocks/products/pf/offers-section-item link="/pdf/reporting-services/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-reporting-services.svg" sdkName="Reporting Services" >}}
 
 {{< /blocks/products/pf/offers-section >}}
 

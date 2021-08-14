@@ -10,7 +10,7 @@ description: PDF viewer and converter library for mobile apps. Generate merge sp
 
 {{< blocks/products/pf/main-container pfName="Aspose.PDF" subTitlepfName="for Android via Java" >}}
 
-{{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-android.png" liveDemosLink="https://products.aspose.app/pdf/family" PricingLink="https://purchase.aspose.com/pricing/pdf/android-java" buyLink="https://purchase.aspose.com/pricing/pdf/android-java" docsLink="https://docs.aspose.com/pdf/java/aspose-pdf-for-android-via-java/" installationsDocsLink="https://docs.aspose.com/pdf/java/install-aspose-pdf-for-android-via-java/" nugetLink="" nugetPackageName="Books:" mavenRepoLink="https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-pdf" directDownloadLink="https://downloads.aspose.com/pdf/androidjava" >}}
+{{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-android-java.svg" liveDemosLink="https://products.aspose.app/pdf/family" PricingLink="https://purchase.aspose.com/pricing/pdf/android-java" buyLink="https://purchase.aspose.com/pricing/pdf/android-java" docsLink="https://docs.aspose.com/pdf/java/aspose-pdf-for-android-via-java/" installationsDocsLink="https://docs.aspose.com/pdf/java/install-aspose-pdf-for-android-via-java/" nugetLink="" nugetPackageName="Books:" mavenRepoLink="https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-pdf" directDownloadLink="https://downloads.aspose.com/pdf/androidjava" >}}
 
 {{< blocks/products/pf/tab-content >}}
 <p>
@@ -73,7 +73,7 @@ description: PDF viewer and converter library for mobile apps. Generate merge sp
  </div>
  <!--/row-->
  <div class="d1-logo">
-  <img alt="Android PDF API" src="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-android.png"/>
+  <img alt="Android PDF API" src="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-android-java.svg"/>
   <header>
    Aspose.PDF
   </header>
@@ -113,7 +113,7 @@ description: PDF viewer and converter library for mobile apps. Generate merge sp
  </div>
  <!--/row-->
  <div class="d1-logo">
-  <img alt="PDF Manipulation APIs for Android" src="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-android.png"/>
+  <img alt="PDF Manipulation APIs for Android" src="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-android-java.svg"/>
   <header>
    Aspose.PDF
   </header>
@@ -201,7 +201,7 @@ description: PDF viewer and converter library for mobile apps. Generate merge sp
   </div>
   <!--/row-->
   <div class="d1-logo">
-   <img alt="Android PDF Processing Library" src="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-android.png"/>
+   <img alt="Android PDF Processing Library" src="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-android-java.svg"/>
    <header>
     Aspose.PDF
    </header>
@@ -428,12 +428,12 @@ pFile.save(SD_PATH + "output.html", SaveFormat.Html);</code></pre>
 
 {{< blocks/products/pf/offers-section pfName="Aspose.PDF" description="Aspose.PDF offers individual PDF APIs for other popular development environments as listed below:" >}}
 
-    {{< blocks/products/pf/offers-section-item link="/pdf/net" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-net.png" sdkName=".NET" >}}
-    {{< blocks/products/pf/offers-section-item link="/pdf/java" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-java.png" sdkName="Java" >}}
-    {{< blocks/products/pf/offers-section-item link="/pdf/cpp" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-cpp.png" sdkName="C++" >}}
-    {{< blocks/products/pf/offers-section-item link="/pdf/sharepoint" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-sharepoint.png" sdkName="SharePoint" >}}
-    {{< blocks/products/pf/offers-section-item link="/pdf/reporting-services" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-reporting-services.png" sdkName="Reporting Services" >}}
-    {{< blocks/products/pf/offers-section-item link="/pdf/jasperreports" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-jasperreports.png" sdkName="JasperReports" >}}
+    {{< blocks/products/pf/offers-section-item link="/pdf/net/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-net.svg" sdkName=".NET" >}}
+    {{< blocks/products/pf/offers-section-item link="/pdf/java/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-java.svg" sdkName="Java" >}}
+    {{< blocks/products/pf/offers-section-item link="/pdf/cpp/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-cpp.svg" sdkName="C++" >}}
+    {{< blocks/products/pf/offers-section-item link="/pdf/sharepoint/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-sharepoint.svg" sdkName="SharePoint" >}}
+    {{< blocks/products/pf/offers-section-item link="/pdf/reporting-services/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-reporting-services.svg" sdkName="Reporting Services" >}}
+    {{< blocks/products/pf/offers-section-item link="/pdf/jasperreports/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-jasperreports.svg" sdkName="JasperReports" >}}
 
 {{< /blocks/products/pf/offers-section >}}
 

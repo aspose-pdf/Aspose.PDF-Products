@@ -10,7 +10,7 @@ description: C# ASP.NET VB.NET library to generate edit and parse PDF files. Lib
 
 {{< blocks/products/pf/main-container pfName="Aspose.PDF" subTitlepfName="for .NET" >}}
 
-{{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-net.png" liveDemosLink="https://products.aspose.app/pdf/family" PricingLink="https://purchase.aspose.com/pricing/pdf/net" buyLink="https://purchase.aspose.com/pricing/pdf/net" docsLink="https://docs.aspose.com/pdf/net/" installationsDocsLink="https://docs.aspose.com/pdf/net/installation" nugetLink="https://www.nuget.org/packages/Aspose.PDF/" nugetPackageName="Aspose.PDF" mavenRepoLink="" directDownloadLink="https://downloads.aspose.com/pdf/net" >}}
+{{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-net.svg" liveDemosLink="https://products.aspose.app/pdf/family" PricingLink="https://purchase.aspose.com/pricing/pdf/net" buyLink="https://purchase.aspose.com/pricing/pdf/net" docsLink="https://docs.aspose.com/pdf/net/" installationsDocsLink="https://docs.aspose.com/pdf/net/installation" nugetLink="https://www.nuget.org/packages/Aspose.PDF/" nugetPackageName="Aspose.PDF" mavenRepoLink="" directDownloadLink="https://downloads.aspose.com/pdf/net" >}}
 
 {{< blocks/products/pf/tab-content >}}
 <p>
@@ -163,7 +163,7 @@ description: C# ASP.NET VB.NET library to generate edit and parse PDF files. Lib
  </div>
  <!--/row-->
  <div class="d1-logo">
-  <img alt="PDF .NET API" src="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-net.png"/>
+  <img alt="PDF .NET API" src="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-net.svg"/>
   <header>
    Aspose.PDF
   </header>
@@ -223,7 +223,7 @@ description: C# ASP.NET VB.NET library to generate edit and parse PDF files. Lib
  </div>
  <!--/row-->
  <div class="d1-logo">
-  <img alt="PDF Programming APIs" src="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-net.png"/>
+  <img alt="PDF Programming APIs" src="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-net.svg"/>
   <header>
    Aspose.PDF
   </header>
@@ -319,7 +319,7 @@ description: C# ASP.NET VB.NET library to generate edit and parse PDF files. Lib
  </div>
  <!--/row-->
  <div class="d1-logo">
-  <img alt="PDF API for .NET Developers" src="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-net.png"/>
+  <img alt="PDF API for .NET Developers" src="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-net.svg"/>
   <header>
    Aspose.PDF
   </header>
@@ -650,12 +650,12 @@ using (var converter = new Aspose.Pdf.Facades.PdfConverter())
 
 {{< blocks/products/pf/offers-section pfName="Aspose.PDF" description="Aspose.PDF offers individual PDF APIs for other popular development environments as listed below:" >}}
 
-    {{< blocks/products/pf/offers-section-item link="/pdf/java" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-java.png" sdkName="Java" >}}
-    {{< blocks/products/pf/offers-section-item link="/pdf/cpp" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-cpp.png" sdkName="C++" >}}
-    {{< blocks/products/pf/offers-section-item link="/pdf/android-java" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-android.png" sdkName="Android via Java" >}}
-    {{< blocks/products/pf/offers-section-item link="/pdf/sharepoint" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-sharepoint.png" sdkName="SharePoint" >}}
-    {{< blocks/products/pf/offers-section-item link="/pdf/reporting-services" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-reporting-services.png" sdkName="Reporting Services" >}}
-    {{< blocks/products/pf/offers-section-item link="/pdf/jasperreports" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-jasperreports.png" sdkName="JasperReports" >}}
+    {{< blocks/products/pf/offers-section-item link="/pdf/java/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-java.svg" sdkName="Java" >}}
+    {{< blocks/products/pf/offers-section-item link="/pdf/cpp/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-cpp.svg" sdkName="C++" >}}
+    {{< blocks/products/pf/offers-section-item link="/pdf/android-java/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-android-java.svg" sdkName="Android via Java" >}}
+    {{< blocks/products/pf/offers-section-item link="/pdf/sharepoint/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-sharepoint.svg" sdkName="SharePoint" >}}
+    {{< blocks/products/pf/offers-section-item link="/pdf/reporting-services/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-reporting-services.svg" sdkName="Reporting Services" >}}
+    {{< blocks/products/pf/offers-section-item link="/pdf/jasperreports/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-jasperreports.svg" sdkName="JasperReports" >}}
 
 {{< /blocks/products/pf/offers-section >}}
 

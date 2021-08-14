@@ -10,7 +10,7 @@ description: SQL Server Reporting Services rendering extension - Export PDF PDF/
 
 {{< blocks/products/pf/main-container pfName="Aspose.PDF" subTitlepfName="for Reporting Services" >}}
 
-{{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-reporting-services.png" liveDemosLink="https://products.aspose.app/pdf/family" PricingLink="https://purchase.aspose.com/pricing/pdf/reporting-services" buyLink="https://purchase.aspose.com/pricing/pdf/reporting-services" docsLink="https://docs.aspose.com/pdf/reportingservices/release-notes/" installationsDocsLink="" nugetLink="" nugetPackageName="" mavenRepoLink="" directDownloadLink="https://downloads.aspose.com/pdf/reportingservices" >}}
+{{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-reporting-services.svg" liveDemosLink="https://products.aspose.app/pdf/family" PricingLink="https://purchase.aspose.com/pricing/pdf/reporting-services" buyLink="https://purchase.aspose.com/pricing/pdf/reporting-services" docsLink="https://docs.aspose.com/pdf/reportingservices/release-notes/" installationsDocsLink="" nugetLink="" nugetPackageName="" mavenRepoLink="" directDownloadLink="https://downloads.aspose.com/pdf/reportingservices" >}}
 
 {{< blocks/products/pf/tab-content >}}
 <p>
@@ -84,7 +84,7 @@ description: SQL Server Reporting Services rendering extension - Export PDF PDF/
  </div>
  <!--/row-->
  <div class="d1-logo">
-  <img alt="RDL to PDF Converter" src="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-reporting-services.png"/>
+  <img alt="RDL to PDF Converter" src="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-reporting-services.svg"/>
   <header>
    Aspose.PDF
   </header>
@@ -136,7 +136,7 @@ description: SQL Server Reporting Services rendering extension - Export PDF PDF/
  </div>
  <!--/row-->
  <div class="d1-logo">
-  <img alt="PDF Exporter for Reporting Services" src="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-reporting-services.png"/>
+  <img alt="PDF Exporter for Reporting Services" src="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-reporting-services.svg"/>
   <header>
    Aspose.PDF
   </header>
@@ -198,7 +198,7 @@ description: SQL Server Reporting Services rendering extension - Export PDF PDF/
  </div>
  <!--/row-->
  <div class="d1-logo">
-  <img alt="PDF Rendering Extension" src="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-reporting-services.png"/>
+  <img alt="PDF Rendering Extension" src="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-reporting-services.svg"/>
   <header>
    Aspose.PDF
   </header>
@@ -514,12 +514,12 @@ description: SQL Server Reporting Services rendering extension - Export PDF PDF/
 
 {{< blocks/products/pf/offers-section pfName="Aspose.PDF" description="Aspose.PDF offers individual PDF APIs for other popular development environments as listed below:" >}}
 
-    {{< blocks/products/pf/offers-section-item link="/pdf/net" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-net.png" sdkName=".NET" >}}
-    {{< blocks/products/pf/offers-section-item link="/pdf/java" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-java.png" sdkName="Java" >}}
-    {{< blocks/products/pf/offers-section-item link="/pdf/cpp" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-cpp.png" sdkName="C++" >}}
-    {{< blocks/products/pf/offers-section-item link="/pdf/android-java" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-android.png" sdkName="Android via Java" >}}
-    {{< blocks/products/pf/offers-section-item link="/pdf/sharepoint" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-sharepoint.png" sdkName="SharePoint" >}}
-    {{< blocks/products/pf/offers-section-item link="/pdf/jasperreports" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-jasperreports.png" sdkName="JasperReports" >}}
+    {{< blocks/products/pf/offers-section-item link="/pdf/net/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-net.svg" sdkName=".NET" >}}
+    {{< blocks/products/pf/offers-section-item link="/pdf/java/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-java.svg" sdkName="Java" >}}
+    {{< blocks/products/pf/offers-section-item link="/pdf/cpp/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-cpp.svg" sdkName="C++" >}}
+    {{< blocks/products/pf/offers-section-item link="/pdf/android-java/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-android-java.svg" sdkName="Android via Java" >}}
+    {{< blocks/products/pf/offers-section-item link="/pdf/sharepoint/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-sharepoint.svg" sdkName="SharePoint" >}}
+    {{< blocks/products/pf/offers-section-item link="/pdf/jasperreports/" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-jasperreports.svg" sdkName="JasperReports" >}}
 
 {{< /blocks/products/pf/offers-section >}}
 
