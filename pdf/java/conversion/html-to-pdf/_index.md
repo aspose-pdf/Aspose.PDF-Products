@@ -73,6 +73,9 @@ description: HTML5 to PDF Java conversion to convert single or multiple HTML pag
 
 {{% /blocks/products/pf/agp/text %}}
 
+- Microsoft Windows or a compatible OS with Java Runtime Environment for JSP/JSF Application and Desktop Applications.
+- Get latest version of Aspose.PDF for Java directly from Maven.
+
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
 {{% blocks/products/pf/agp/code-block title="Java Code Sample to Convert HTML to PDF" offSpacer="" %}}
