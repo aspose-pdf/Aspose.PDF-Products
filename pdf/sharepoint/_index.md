@@ -124,7 +124,7 @@ description: SharePoint PDF Converter App that exports SharePoint Lists list Ite
 
 {{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/carousel-item h3="Supported File Formats" description="Aspose.PDF for SharePoint supports the conversion of PDF & PDF/A [file formats](https://docs.aspose.com/pdf/sharepoint/supported-file-formats/)  ." >}}
+{{< blocks/products/pf/carousel-item h3="Supported File Formats" description="Aspose.PDF for SharePoint supports the conversion of PDF & PDF/A [file formats](https://docs.aspose.com/pdf/sharepoint/supported-file-formats/)." >}}
 <div class="diagram1 d2 d1-sharepoint">
  <div class="d1-row">
   <div class="d1-col d1-left">

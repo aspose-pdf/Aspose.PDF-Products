@@ -131,7 +131,7 @@ description: PDF viewer and converter library for mobile apps. Generate merge sp
 
 {{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/carousel-item h3="Supported File Formats" description="Android PDF Library supports the most commonly used [file formats](https://docs.aspose.com/pdf/java/supported-file-formats/)  ." >}}
+{{< blocks/products/pf/carousel-item h3="Supported File Formats" description="Android PDF Library supports the most commonly used [file formats](https://docs.aspose.com/pdf/java/supported-file-formats/)." >}}
 <div class="diagram1 d2 d1-android">
  <div class="d1-row">
   <div class="d1-col d1-left">

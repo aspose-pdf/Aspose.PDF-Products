@@ -241,7 +241,7 @@ description: C# ASP.NET VB.NET library to generate edit and parse PDF files. Lib
 
 {{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/carousel-item h3="Supported File Formats" description="Aspose.PDF for .NET supports most popular [file formats](https://docs.aspose.com/pdf/net/supported-file-formats/)  ." >}}
+{{< blocks/products/pf/carousel-item h3="Supported File Formats" description="Aspose.PDF for .NET supports most popular [file formats](https://docs.aspose.com/pdf/net/supported-file-formats/)." >}}
 <div class="diagram1 d2 d1-net">
  <div class="d1-row">
   <div class="d1-col d1-left">

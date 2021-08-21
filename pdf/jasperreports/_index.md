@@ -113,7 +113,7 @@ description: Export PDF reports from Jasper Reports and JasperServer. Easily con
 
 {{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/carousel-item h3="Supported File Formats" description="Use Aspose.PDF for JasperReports to convert JRXML reports to PDF files and [more formats](https://docs.aspose.com/pdf/jasperreports/supported-file-formats/)  ." >}}
+{{< blocks/products/pf/carousel-item h3="Supported File Formats" description="Use Aspose.PDF for JasperReports to convert JRXML reports to PDF files and [more formats](https://docs.aspose.com/pdf/jasperreports/supported-file-formats/)." >}}
 <div class="diagram1 d2 d1-jasper">
  <div class="d1-row">
   <div class="d1-col d1-left">

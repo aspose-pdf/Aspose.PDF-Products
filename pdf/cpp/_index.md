@@ -165,7 +165,7 @@ description: Integrate PDF library in your C++ applications to create manipulate
 
 {{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/carousel-item h3="Platform Independence" description="Currently, the library is available for following platforms having [system requirements](https://docs.aspose.com/pdf/cpp/system-requirements/)  ." >}}
+{{< blocks/products/pf/carousel-item h3="Platform Independence" description="Currently, the library is available for following platforms having [system requirements](https://docs.aspose.com/pdf/cpp/system-requirements/)." >}}
 <div class="diagram1 d1-cplus">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -211,7 +211,7 @@ description: Integrate PDF library in your C++ applications to create manipulate
 
 {{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/carousel-item h3="Supported File Formats" description="Aspose.PDF for C++ supports PDF, Microsoft Word, most commonly used images and [more formats](https://docs.aspose.com/pdf/cpp/supported-file-formats/)  ." >}}
+{{< blocks/products/pf/carousel-item h3="Supported File Formats" description="Aspose.PDF for C++ supports PDF, Microsoft Word, most commonly used images and [more formats](https://docs.aspose.com/pdf/cpp/supported-file-formats/)." >}}
 <div class="diagram1 d2 d1-cplus">
  <div class="d1-row">
   <div class="d1-col d1-left">
