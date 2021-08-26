@@ -74,7 +74,7 @@ description: Sample Java conversion code for EPS format to GIF file. Programmers
 {{% /blocks/products/pf/agp/text %}}
 
 - Microsoft Windows or a compatible OS with Java Runtime Environment for JSP/JSF Application and Desktop Applications.
-- Get latest version of Aspose.Cells for Java directly from Maven.
+- Get latest version of Aspose.PDF for Java directly from Maven.
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
