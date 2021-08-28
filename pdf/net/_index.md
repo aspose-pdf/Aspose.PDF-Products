@@ -6,7 +6,7 @@ description: C# ASP.NET VB.NET library to generate edit and parse PDF files. Lib
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1="PDF File Processing API for .NET" h2="Create, edit, protect and convert PDF documents to multiple formats within .NET-based applications without any Adobe Acrobat dependencies." logoImageSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/header/aspose_pdf-for-net.png" pfName="Aspose.PDF" subTitlepfName="for .NET" downloadUrl="https://downloads.aspose.com/pdf/net" >}}
+{{< blocks/products/pf/upper-banner h1="PDF File Processing API for .NET" h2="Create, edit, protect and convert PDF documents to multiple formats within .NET-based applications without any Adobe Acrobat dependencies." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/pdf/headers/aspose_pdf-for-net.svg" pfName="Aspose.PDF" subTitlepfName="for .NET" downloadUrl="https://downloads.aspose.com/pdf/net" >}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.PDF" subTitlepfName="for .NET" >}}
 

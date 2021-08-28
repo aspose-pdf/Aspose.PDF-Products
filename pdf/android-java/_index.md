@@ -6,7 +6,7 @@ description: PDF viewer and converter library for mobile apps. Generate merge sp
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1="PDF Processing API for Android Apps" h2="Generate, view, manipulate & convert PDF files from within Android apps without requiring Adobe Acrobat." logoImageSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/header/aspose_pdf-for-android.png" pfName="Aspose.PDF" subTitlepfName="for Android via Java" downloadUrl="https://downloads.aspose.com/pdf/androidjava" >}}
+{{< blocks/products/pf/upper-banner h1="PDF Processing API for Android Apps" h2="Generate, view, manipulate & convert PDF files from within Android apps without requiring Adobe Acrobat." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/pdf/headers/aspose_pdf-for-android-java.svg" pfName="Aspose.PDF" subTitlepfName="for Android via Java" downloadUrl="https://downloads.aspose.com/pdf/androidjava" >}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.PDF" subTitlepfName="for Android via Java" >}}
 

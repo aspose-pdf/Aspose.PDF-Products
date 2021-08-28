@@ -191,7 +191,7 @@ pdfDocument.Save("word.docx", saveOptions);
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq imgSrc="https://www.aspose.com/templates/brand/images/pdf/aspose_pdf-brand.png" >}}
+{{< blocks/products/pf/agp/faq imgSrc="https://www.aspose.cloud/templates/aspose/img/products/pdf/headers/aspose_pdf-brand.svg" >}}
 
     {{< blocks/products/pf/agp/faq-item question="How can I get the Aspose.PDF DLL?" answer="Simply execute Install-Package Aspose.PDF in Package Manager console of Visual Studio or get it from [Downloads](https://downloads.aspose.com/pdf/net) in MSI or ZIP formats." >}}
     {{< blocks/products/pf/agp/faq-item question="What other output formats are supported?" answer="Along with Word (DOC & DOCX) formats, Aspose.PDF can also convert PDF to Excel (XLS & XLSX), PowerPoint (PPTX) as well as XML, EPUB, TEX, HTML & image formats." >}}

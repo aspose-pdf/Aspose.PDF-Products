@@ -6,7 +6,7 @@ description: Integrate PDF library in your C++ applications to create manipulate
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1="C++ PDF Parser API" h2="Create, manipulate and convert PDF files within C++ applications without requiring Adobe Acrobat." logoImageSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/header/aspose_pdf-for-cpp.png" pfName="Aspose.PDF" subTitlepfName="for C++" downloadUrl="https://downloads.aspose.com/pdf/cpp" >}}
+{{< blocks/products/pf/upper-banner h1="C++ PDF Parser API" h2="Create, manipulate and convert PDF files within C++ applications without requiring Adobe Acrobat." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/pdf/headers/aspose_pdf-for-cpp.svg" pfName="Aspose.PDF" subTitlepfName="for C++" downloadUrl="https://downloads.aspose.com/pdf/cpp" >}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.PDF" subTitlepfName="for C++" >}}
 

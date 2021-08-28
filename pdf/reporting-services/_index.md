@@ -6,7 +6,7 @@ description: SQL Server Reporting Services rendering extension - Export PDF PDF/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1="Reporting Services Extension to Deliver Reports in PDF & XPS formats" h2="Export RDL reports to PDF, PDFA and XPS formats with great ease." logoImageSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/header/aspose_pdf-for-ssrs.png" pfName="Aspose.PDF" subTitlepfName="for Reporting Services" downloadUrl="https://downloads.aspose.com/pdf/reportingservices" >}}
+{{< blocks/products/pf/upper-banner h1="Reporting Services Extension to Deliver Reports in PDF & XPS formats" h2="Export RDL reports to PDF, PDFA and XPS formats with great ease." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/pdf/headers/aspose_pdf-for-reporting-services.svg" pfName="Aspose.PDF" subTitlepfName="for Reporting Services" downloadUrl="https://downloads.aspose.com/pdf/reportingservices" >}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.PDF" subTitlepfName="for Reporting Services" >}}
 

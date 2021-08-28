@@ -6,7 +6,7 @@ description: Export PDF reports from Jasper Reports and JasperServer. Easily con
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1="JasperReports Extension to Deliver Reports in PDF Format" h2="Export reports to PDF and PDF/A formats from JasperReports & JasperServer with great ease." logoImageSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/header/aspose_pdf-for-jasperreports.png" pfName="Aspose.PDF" subTitlepfName="for JasperReports" downloadUrl="https://downloads.aspose.com/pdf/jassperreport" >}}
+{{< blocks/products/pf/upper-banner h1="JasperReports Extension to Deliver Reports in PDF Format" h2="Export reports to PDF and PDF/A formats from JasperReports & JasperServer with great ease." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/pdf/headers/aspose_pdf-for-jasperreports.svg" pfName="Aspose.PDF" subTitlepfName="for JasperReports" downloadUrl="https://downloads.aspose.com/pdf/jassperreport" >}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.PDF" subTitlepfName="for JasperReports" >}}
 
