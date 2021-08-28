@@ -63,6 +63,6 @@ Export reports to PDF from JasperReports or JasperServer.
 
 {{< /blocks/products/pf/support-learning-resources >}}
 
-{{< blocks/products/pf/download-section downloadFreeTrialLink="https://downloads.aspose.com/pdf" pricingInformationLink="https://purchase.aspose.com/pricing/pdf" >}}
+{{< blocks/products/pf/download-section downloadFreeTrialLink="https://downloads.aspose.com/pdf" pricingInformationLink="https://purchase.aspose.com/pricing/pdf/family" >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
