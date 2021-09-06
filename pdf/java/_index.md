@@ -6,7 +6,7 @@ description: Java PDF processing library to create read and edit files. Convert 
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1="PDF File Manipulation API for Java" h2="Create, parse, protect, sign and convert PDF files to various formats without requiring Adobe Acrobat." logoImageSrc=https://www.aspose.cloud/templates/aspose/img/products/pdf/headers/aspose_pdf-for-java.svg" pfName="Aspose.PDF" subTitlepfName="for Java" downloadUrl="https://downloads.aspose.com/pdf/java" >}}
+{{< blocks/products/pf/upper-banner h1="PDF File Manipulation API for Java" h2="Create, parse, protect, sign and convert PDF files to various formats without requiring Adobe Acrobat." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/pdf/headers/aspose_pdf-for-java.svg" pfName="Aspose.PDF" subTitlepfName="for Java" downloadUrl="https://downloads.aspose.com/pdf/java" >}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.PDF" subTitlepfName="for Java" >}}
 
