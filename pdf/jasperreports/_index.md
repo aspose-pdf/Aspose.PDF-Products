@@ -10,7 +10,7 @@ description: Export PDF reports from Jasper Reports and JasperServer. Easily con
 
 {{< blocks/products/pf/main-container pfName="Aspose.PDF" subTitlepfName="for JasperReports" >}}
 
-{{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-jasperreports.svg" liveDemosLink="https://products.aspose.app/pdf/family" PricingLink="https://purchase.aspose.com/pricing/pdf/jasperreports" buyLink="https://purchase.aspose.com/pricing/pdf/jasperreports" docsLink="https://docs.aspose.com/pdf/jasperreports/release-notes/" installationsDocsLink="" nugetLink="" nugetPackageName="Fixed Layout:" mavenRepoLink="" directDownloadLink="https://downloads.aspose.com/pdf/jassperreport" >}}
+{{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-jasperreports.svg" liveDemosLink="https://products.aspose.app/pdf/family" PricingLink="https://purchase.aspose.com/pricing/pdf/jasperreports" buyLink="https://purchase.aspose.com/buy" docsLink="https://docs.aspose.com/pdf/jasperreports/release-notes/" installationsDocsLink="" nugetLink="" nugetPackageName="Fixed Layout:" mavenRepoLink="" directDownloadLink="https://downloads.aspose.com/pdf/jassperreport" >}}
 
 {{< blocks/products/pf/tab-content >}}
 <p>

@@ -10,7 +10,7 @@ description: SharePoint PDF Converter App that exports SharePoint Lists list Ite
 
 {{< blocks/products/pf/main-container pfName="Aspose.PDF" subTitlepfName="for SharePoint" >}}
 
-{{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-sharepoint.svg" liveDemosLink="https://products.aspose.app/pdf/family" PricingLink="https://purchase.aspose.com/pricing/pdf/sharepoint" buyLink="https://purchase.aspose.com/pricing/pdf/sharepoint" docsLink="https://docs.aspose.com/pdf/sharepoint/release-notes/" installationsDocsLink="" nugetLink="" nugetPackageName="Fixed Layout:" mavenRepoLink="" directDownloadLink="https://downloads.aspose.com/pdf/sharepoint" >}}
+{{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-sharepoint.svg" liveDemosLink="https://products.aspose.app/pdf/family" PricingLink="https://purchase.aspose.com/pricing/pdf/sharepoint" buyLink="https://purchase.aspose.com/buy" docsLink="https://docs.aspose.com/pdf/sharepoint/release-notes/" installationsDocsLink="" nugetLink="" nugetPackageName="Fixed Layout:" mavenRepoLink="" directDownloadLink="https://downloads.aspose.com/pdf/sharepoint" >}}
 
 {{< blocks/products/pf/tab-content >}}
 <p>

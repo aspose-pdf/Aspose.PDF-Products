@@ -10,7 +10,7 @@ description: Java PDF processing library to create read and edit files. Convert 
 
 {{< blocks/products/pf/main-container pfName="Aspose.PDF" subTitlepfName="for Java" >}}
 
-{{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-java.svg" liveDemosLink="https://products.aspose.app/pdf/family" PricingLink="https://purchase.aspose.com/pricing/pdf/java" buyLink="https://purchase.aspose.com/pricing/pdf/java" docsLink="https://docs.aspose.com/pdf/java/" installationsDocsLink="https://docs.aspose.com/pdf/java/installation" nugetLink="" nugetPackageName="Fixed Layout:" mavenRepoLink="https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-pdf" directDownloadLink="https://downloads.aspose.com/pdf/java" >}}
+{{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-java.svg" liveDemosLink="https://products.aspose.app/pdf/family" PricingLink="https://purchase.aspose.com/pricing/pdf/java" buyLink="https://purchase.aspose.com/buy" docsLink="https://docs.aspose.com/pdf/java/" installationsDocsLink="https://docs.aspose.com/pdf/java/installation" nugetLink="" nugetPackageName="Fixed Layout:" mavenRepoLink="https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-pdf" directDownloadLink="https://downloads.aspose.com/pdf/java" >}}
 
 {{< blocks/products/pf/tab-content >}}
 <p>

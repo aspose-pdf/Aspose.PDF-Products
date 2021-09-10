@@ -10,7 +10,7 @@ description: PDF viewer and converter library for mobile apps. Generate merge sp
 
 {{< blocks/products/pf/main-container pfName="Aspose.PDF" subTitlepfName="for Android via Java" >}}
 
-{{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-android-java.svg" liveDemosLink="https://products.aspose.app/pdf/family" PricingLink="https://purchase.aspose.com/pricing/pdf/android-java" buyLink="https://purchase.aspose.com/pricing/pdf/android-java" docsLink="https://docs.aspose.com/pdf/java/aspose-pdf-for-android-via-java/" installationsDocsLink="https://docs.aspose.com/pdf/java/install-aspose-pdf-for-android-via-java/" nugetLink="" nugetPackageName="Books:" mavenRepoLink="https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-pdf" directDownloadLink="https://downloads.aspose.com/pdf/androidjava" >}}
+{{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-android-java.svg" liveDemosLink="https://products.aspose.app/pdf/family" PricingLink="https://purchase.aspose.com/pricing/pdf/android-java" buyLink="https://purchase.aspose.com/buy" docsLink="https://docs.aspose.com/pdf/java/aspose-pdf-for-android-via-java/" installationsDocsLink="https://docs.aspose.com/pdf/java/install-aspose-pdf-for-android-via-java/" nugetLink="" nugetPackageName="Books:" mavenRepoLink="https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-pdf" directDownloadLink="https://downloads.aspose.com/pdf/androidjava" >}}
 
 {{< blocks/products/pf/tab-content >}}
 <p>

@@ -10,7 +10,7 @@ description: SQL Server Reporting Services rendering extension - Export PDF PDF/
 
 {{< blocks/products/pf/main-container pfName="Aspose.PDF" subTitlepfName="for Reporting Services" >}}
 
-{{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-reporting-services.svg" liveDemosLink="https://products.aspose.app/pdf/family" PricingLink="https://purchase.aspose.com/pricing/pdf/reporting-services" buyLink="https://purchase.aspose.com/pricing/pdf/reporting-services" docsLink="https://docs.aspose.com/pdf/reportingservices/release-notes/" installationsDocsLink="" nugetLink="" nugetPackageName="" mavenRepoLink="" directDownloadLink="https://downloads.aspose.com/pdf/reportingservices" >}}
+{{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-reporting-services.svg" liveDemosLink="https://products.aspose.app/pdf/family" PricingLink="https://purchase.aspose.com/pricing/pdf/reporting-services" buyLink="https://purchase.aspose.com/buy" docsLink="https://docs.aspose.com/pdf/reportingservices/release-notes/" installationsDocsLink="" nugetLink="" nugetPackageName="" mavenRepoLink="" directDownloadLink="https://downloads.aspose.com/pdf/reportingservices" >}}
 
 {{< blocks/products/pf/tab-content >}}
 <p>

@@ -10,7 +10,7 @@ description: C# ASP.NET VB.NET library to generate edit and parse PDF files. Lib
 
 {{< blocks/products/pf/main-container pfName="Aspose.PDF" subTitlepfName="for .NET" >}}
 
-{{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-net.svg" liveDemosLink="https://products.aspose.app/pdf/family" PricingLink="https://purchase.aspose.com/pricing/pdf/net" buyLink="https://purchase.aspose.com/pricing/pdf/net" docsLink="https://docs.aspose.com/pdf/net/" installationsDocsLink="https://docs.aspose.com/pdf/net/installation" nugetLink="https://www.nuget.org/packages/Aspose.PDF/" nugetPackageName="Aspose.PDF" mavenRepoLink="" directDownloadLink="https://downloads.aspose.com/pdf/net" >}}
+{{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-net.svg" liveDemosLink="https://products.aspose.app/pdf/family" PricingLink="https://purchase.aspose.com/pricing/pdf/net" buyLink="https://purchase.aspose.com/buy" docsLink="https://docs.aspose.com/pdf/net/" installationsDocsLink="https://docs.aspose.com/pdf/net/installation" nugetLink="https://www.nuget.org/packages/Aspose.PDF/" nugetPackageName="Aspose.PDF" mavenRepoLink="" directDownloadLink="https://downloads.aspose.com/pdf/net" >}}
 
 {{< blocks/products/pf/tab-content >}}
 <p>

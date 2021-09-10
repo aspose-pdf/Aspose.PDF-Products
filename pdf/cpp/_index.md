@@ -10,7 +10,7 @@ description: Integrate PDF library in your C++ applications to create manipulate
 
 {{< blocks/products/pf/main-container pfName="Aspose.PDF" subTitlepfName="for C++" >}}
 
-{{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-cpp.svg" liveDemosLink="https://products.aspose.app/pdf/family" PricingLink="https://purchase.aspose.com/pricing/pdf/cpp" buyLink="https://purchase.aspose.com/pricing/pdf/cpp" docsLink="https://docs.aspose.com/pdf/cpp/" installationsDocsLink="https://docs.aspose.com/pdf/cpp/installation" nugetLink="https://www.nuget.org/packages/Aspose.PDF.Cpp/" nugetPackageName="Aspose.PDF.Cpp" mavenRepoLink="" directDownloadLink="https://downloads.aspose.com/pdf/cpp" >}}
+{{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-cpp.svg" liveDemosLink="https://products.aspose.app/pdf/family" PricingLink="https://purchase.aspose.com/pricing/pdf/cpp" buyLink="https://purchase.aspose.com/buy" docsLink="https://docs.aspose.com/pdf/cpp/" installationsDocsLink="https://docs.aspose.com/pdf/cpp/installation" nugetLink="https://www.nuget.org/packages/Aspose.PDF.Cpp/" nugetPackageName="Aspose.PDF.Cpp" mavenRepoLink="" directDownloadLink="https://downloads.aspose.com/pdf/cpp" >}}
 
 {{< blocks/products/pf/tab-content >}}
 <p>
