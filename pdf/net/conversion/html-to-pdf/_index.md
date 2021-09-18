@@ -38,7 +38,7 @@ PM> Install-Package Aspose.PDF
 
 {{% blocks/products/pf/agp/text %}}
 
- Aspose.PDF makes it easy for the developers to load & convert HTML files to PDF in just a few lines of code.
+ API makes it easy for the developers to load & convert HTML files to PDF in just a few lines of code.
 
 {{% /blocks/products/pf/agp/text %}}
 
@@ -55,13 +55,14 @@ PM> Install-Package Aspose.PDF
 
 {{% blocks/products/pf/agp/text %}}
 
- Aspose.PDF for .NET is supported on all major operating systems. Just make sure that you have the following prerequisites.
+ Just make sure that you have the following prerequisites.
 
 {{% /blocks/products/pf/agp/text %}}
 
 -  Microsoft Windows or a compatible OS with .NET Framework, .NET Core, and PHP, VBScript, Delphi, C++ via COM Interop.
 -  Development environment like Microsoft Visual Studio.
 -  Aspose.PDF for .NET DLL referenced in your project.
+- Add namespace in relevant class
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
@@ -69,11 +70,11 @@ PM> Install-Package Aspose.PDF
 
 ```cs
 // Load HTML Document
-var htmlDoc = new Aspose.Pdf.Document("template.html");
+var htmlDoc = new Document("template.html");
 // For HTML to encrypted PDF Set encryption parameters
 htmlDoc.Encrypt("user_password", "owner_Password", Permissions.ModifyContent, CryptoAlgorithm.AESx256);
 // save document in PDF format
-htmlDoc.Save("output.pdf", Aspose.Pdf.SaveFormat.Pdf); 
+htmlDoc.Save("output.pdf", SaveFormat.Pdf); 
 
 ```
 

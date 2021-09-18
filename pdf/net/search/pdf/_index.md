@@ -1,8 +1,8 @@
 ---
-title: Search PDF document without opening via .NET 
+title: Search PDF document without opening via C# 
 weight: 2430
 url: /net/search/pdf/ 
-description: C# source code to search words with pattern in PDF file on .NET Framework, .NET Core, and PHP, VBScript, Delphi, C++ via COM Interop.
+description: C# source code to search words with pattern in PDF file on .NET Framework, .NET Core.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

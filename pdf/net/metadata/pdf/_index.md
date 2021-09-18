@@ -1,8 +1,8 @@
 ---
-title: View or Edit PDF Files Metadata via .NET 
+title: View or Edit PDF Metadata via C# 
 weight: 2450
 url: /net/metadata/pdf/ 
-description: C# source code to edit or view PDF format metadata on .NET Framework, .NET Core, and PHP, VBScript, Delphi, C++ via COM Interop.
+description: C# source code to edit or view PDF format metadata on .NET Framework, .NET Core.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -53,11 +53,11 @@ PM> Install-Package Aspose.PDF
 
 {{% blocks/products/pf/agp/text %}}
 
- Aspose.PDF for .NET is supported on all major operating systems. Just make sure that you have the following prerequisites.
+ Just make sure that you have the following prerequisites.
 
 {{% /blocks/products/pf/agp/text %}}
 
--  Microsoft Windows or a compatible OS with .NET Framework, .NET Core, and PHP, VBScript, Delphi, C++ via COM Interop.
+-  Microsoft Windows or a compatible OS with .NET Framework, .NET Core.
 -  Development environment like Microsoft Visual Studio.
 -  Aspose.PDF for .NET referenced in your project.
 
@@ -68,7 +68,7 @@ PM> Install-Package Aspose.PDF
 ```cs
 
 // load PDF file with Document object
-var document = new Aspose.Pdf.Document("template.pdf");
+var document = new Document("template.pdf");
 // get document information
 var pdfInfo = document.Info;
 // show document information
