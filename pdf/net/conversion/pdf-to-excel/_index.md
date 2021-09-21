@@ -179,7 +179,7 @@ PDF was created by Adobe in 1990s to introduce a standard document representatio
 
 <!-- aboutfile Ends -->
 
-{{< blocks/products/pf/agp/other-supported-section-item href="" name="" description="" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/" name="" description="" >}}
 
 {{< /blocks/products/pf/main-container >}}
     

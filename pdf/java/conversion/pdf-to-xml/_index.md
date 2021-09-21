@@ -135,18 +135,18 @@ XML stands for Extensible Markup Language that is similar to HTML but different 
 
 {{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert PDF into many other file formats including few listed below." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/java/conversion/pdf-to-bmp" name="PDF TO BMP" description="Bitmap Image" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/java/conversion/pdf-to-doc" name="PDF TO DOC" description="Microsoft Word Binary Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/java/conversion/pdf-to-epub" name="PDF TO EPUB" description="E-book Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/java/conversion/pdf-to-html" name="PDF TO HTML" description="Hyper Text Markup Language" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/java/conversion/pdf-to-jpeg" name="PDF TO JPEG" description="JPEG Image" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/java/conversion/pdf-to-pdfa" name="PDF TO PDFA" description="{{pdfa_name}}" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/java/conversion/pdf-to-png" name="PDF TO PNG" description="Portable Network Graphics" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/java/conversion/pdf-to-svg" name="PDF TO SVG" description="Scalable Vector Graphics" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/java/conversion/pdf-to-tex" name="PDF TO TEX" description="LaTeX Output Text" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/java/conversion/pdf-to-tiff" name="PDF TO TIFF" description="Tagged Image Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/java/conversion/pdf-to-xls" name="PDF TO XLS" description="Excel Binary Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/java/conversion/pdf-to-xps" name="PDF TO XPS" description="XML Paper Specifications" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/java/conversion/pdf-to-bmp/" name="PDF TO BMP" description="Bitmap Image" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/java/conversion/pdf-to-doc/" name="PDF TO DOC" description="Microsoft Word Binary Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/java/conversion/pdf-to-epub/" name="PDF TO EPUB" description="E-book Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/java/conversion/pdf-to-html/" name="PDF TO HTML" description="Hyper Text Markup Language" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/java/conversion/pdf-to-jpeg/" name="PDF TO JPEG" description="JPEG Image" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/java/conversion/pdf-to-pdfa/" name="PDF TO PDFA" description="{{pdfa_name}}" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/java/conversion/pdf-to-png/" name="PDF TO PNG" description="Portable Network Graphics" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/java/conversion/pdf-to-svg/" name="PDF TO SVG" description="Scalable Vector Graphics" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/java/conversion/pdf-to-tex/" name="PDF TO TEX" description="LaTeX Output Text" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/java/conversion/pdf-to-tiff/" name="PDF TO TIFF" description="Tagged Image Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/java/conversion/pdf-to-xls/" name="PDF TO XLS" description="Excel Binary Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/java/conversion/pdf-to-xps/" name="PDF TO XPS" description="XML Paper Specifications" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

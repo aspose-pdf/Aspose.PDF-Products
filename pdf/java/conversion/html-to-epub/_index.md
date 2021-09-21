@@ -135,17 +135,17 @@ Files with .EPUB extension are an e-book file format that provide a standard dig
 
 {{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert HTML into many other file formats including few listed below." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/java/conversion/html-to-bmp" name="HTML TO BMP" description="Bitmap Image" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/java/conversion/html-to-doc" name="HTML TO DOC" description="Microsoft Word Binary Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/java/conversion/html-to-jpeg" name="HTML TO JPEG" description="JPEG Image" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/java/conversion/html-to-pdfa" name="HTML TO PDFA" description="{{pdfa_name}}" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/java/conversion/html-to-png" name="HTML TO PNG" description="Portable Network Graphics" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/java/conversion/html-to-svg" name="HTML TO SVG" description="Scalable Vector Graphics" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/java/conversion/html-to-tex" name="HTML TO TEX" description="LaTeX Output Text" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/java/conversion/html-to-tiff" name="HTML TO TIFF" description="Tagged Image Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/java/conversion/html-to-xls" name="HTML TO XLS" description="Excel Binary Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/java/conversion/html-to-xml" name="HTML TO XML" description="Extensible Markup Language" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/java/conversion/html-to-xps" name="HTML TO XPS" description="XML Paper Specifications" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/java/conversion/html-to-bmp/" name="HTML TO BMP" description="Bitmap Image" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/java/conversion/html-to-doc/" name="HTML TO DOC" description="Microsoft Word Binary Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/java/conversion/html-to-jpeg/" name="HTML TO JPEG" description="JPEG Image" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/java/conversion/html-to-pdfa/" name="HTML TO PDFA" description="{{pdfa_name}}" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/java/conversion/html-to-png/" name="HTML TO PNG" description="Portable Network Graphics" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/java/conversion/html-to-svg/" name="HTML TO SVG" description="Scalable Vector Graphics" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/java/conversion/html-to-tex/" name="HTML TO TEX" description="LaTeX Output Text" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/java/conversion/html-to-tiff/" name="HTML TO TIFF" description="Tagged Image Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/java/conversion/html-to-xls/" name="HTML TO XLS" description="Excel Binary Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/java/conversion/html-to-xml/" name="HTML TO XML" description="Extensible Markup Language" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/java/conversion/html-to-xps/" name="HTML TO XPS" description="XML Paper Specifications" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 
