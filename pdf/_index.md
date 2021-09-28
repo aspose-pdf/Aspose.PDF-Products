@@ -50,6 +50,23 @@ PDF converter and manipulation REST API to create, load, parse and render PDF fi
 {{< blocks/products/pf/product pfName="Aspose.PDF " title="Conversion" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" productLink="https://products.aspose.app/pdf/conversion" >}}
 Easily converts PDF files to Microsoft Office formats, images, Web and many other popular file formats without leaving your favorite browser.
 {{< /blocks/products/pf/product >}}
+<script type='application/ld+json'> 
+{
+    "@context": "https://www.schema.org",
+    "@type": "Product",
+    "brand": "Aspose.PDF ",
+    "logo": "https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png",
+    "name": "Conversion",
+    "url": "https://products.aspose.app/pdf/conversion/"
+    "category": "Productivity",
+    "image": "",
+    "description": "Easily converts PDF files to Microsoft Office formats, images, Web and many other popular file formats without leaving your favorite browser.",
+    "aggregateRating": {
+        "@type": "aggregateRating",
+        "ratingValue": "4.6",
+        "reviewCount": "21"
+    }
+}
 
 {{< blocks/products/pf/product pfName="Aspose.PDF " title="Metadata" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" productLink="https://products.aspose.app/pdf/metadata" >}}
 Just upload your PDF file to view or edit the metadata from any browser. No installation or additional tools required. 
