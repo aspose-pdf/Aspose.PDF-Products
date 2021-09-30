@@ -57,7 +57,7 @@ Easily converts PDF files to Microsoft Office formats, images, Web and many othe
     "brand": "Aspose.PDF ",
     "logo": "https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png",
     "name": "Conversion",
-    "url": "https://products.aspose.app/pdf/conversion/"
+    "url": "https://products.aspose.app/pdf/conversion/",
     "category": "Productivity",
     "image": "",
     "description": "Easily converts PDF files to Microsoft Office formats, images, Web and many other popular file formats without leaving your favorite browser.",
