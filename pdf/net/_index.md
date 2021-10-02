@@ -580,7 +580,7 @@ using (var converter = new Aspose.Pdf.Facades.PdfConverter())
      Aspose.PDF for .NET also allows you to add, replace, extract or delete images already present in a PDF file. You may also add images as a watermark while generating documents or manipulating existing files.
     </p>
     <p>
-     Conversion of Pdf files to raster image formats powered by
+     Conversion of PDF documents to raster images powered by
      <a href="https://products.aspose.com/imaging/net">
       Aspose.Imaging
      </a>
