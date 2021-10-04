@@ -41,7 +41,7 @@ description: PDF to XLS & XLSX Conversion Library
 ```cs
 
 // load PDF document
-var pdfDocument = new Aspose.Pdf.Document("sampleTable.pdf");
+var pdfDocument = new Document("sampleTable.pdf");
 // create ExcelSaveOptions for export
 var options = new Aspose.Pdf.ExcelSaveOptions();
 // save Excel table in XLS format
@@ -85,7 +85,7 @@ pdfDocument.Save("excel.xls", options);
 
 ```cs
 // load PDF document
-var pdfDocument = new Aspose.Pdf.Document("sampleTable.pdf");
+var pdfDocument = new Document("sampleTable.pdf");
 // create ExcelSaveOptions for export
 var options = new Aspose.Pdf.ExcelSaveOptions();
 // set output format to XLSX
@@ -131,7 +131,7 @@ pdfDocument.Save("excel.xlsx", options);
 
 ```cs
 // load PDF document
-var pdfDocument = new Aspose.Pdf.Document("sampleTable.pdf");
+var pdfDocument = new Document("sampleTable.pdf");
 // create ExcelSaveOptions for export
 var options = new Aspose.Pdf.ExcelSaveOptions();
 // set output to single worksheet

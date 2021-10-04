@@ -41,7 +41,7 @@ description: .NET PDF to DOC DOCX Conversion Library
 
 ```cs
 
-var pdfDocument = new Aspose.Pdf.Document("template.pdf");
+var pdfDocument = new Document("template.pdf");
 var saveOptions = new Aspose.Pdf.DocSaveOptions
 {
     Format = Aspose.Pdf.DocSaveOptions.DocFormat.Doc,
@@ -85,7 +85,7 @@ pdfDocument.Save("word.doc", saveOptions);
 {{% blocks/products/pf/agp/code-block title="C# Code for PDF to DOCX Conversion" offSpacer="" %}}
 
 ```cs
-var pdfDocument = new Aspose.Pdf.Document("template.pdf");
+var pdfDocument = new Document("template.pdf");
 var saveOptions = new Aspose.Pdf.DocSaveOptions
 {
     Format = Aspose.Pdf.DocSaveOptions.DocFormat.DocX,
@@ -130,7 +130,7 @@ pdfDocument.Save("word.docx", saveOptions);
 {{% blocks/products/pf/agp/code-block title="C# Code to Convert PDF to Single Worksheet" offSpacer="" %}}
 
 ```cs
-var pdfDocument = new Aspose.Pdf.Document("template.pdf");
+var pdfDocument = new Document("template.pdf");
 var saveOptions = new Aspose.Pdf.DocSaveOptions
 {
     Format = Aspose.Pdf.DocSaveOptions.DocFormat.Doc,
@@ -177,7 +177,7 @@ pdfDocument.Save("word.doc", saveOptions);
 {{% blocks/products/pf/agp/code-block title="C# Code to Convert PDF to Word in Flow Mode" offSpacer="" %}}
 
 ```cs
-var pdfDocument = new Aspose.Pdf.Document("template.pdf");
+var pdfDocument = new Document("template.pdf");
 var saveOptions = new Aspose.Pdf.DocSaveOptions
 {
     Format = Aspose.Pdf.DocSaveOptions.DocFormat.DocX,
