@@ -78,7 +78,7 @@ Aspose.Pdf.Document pdfDocument = new Aspose.Pdf.Document(input_Stream);
       
      {{% blocks/products/pf/agp/content h2="" %}}
 
-A Document Processing Library to perform a wide range of document management and manipulation tasks including PDF generation, editing, conversion, rendering and printing. .NET Word API supports all of word-processing formats as well as allows exporting or **converting PDF to PDF**, HTML, fixed-layout and most commonly used image & multimedia formats.
+A Document Processing Library to perform a wide range of document management and manipulation tasks including PDF generation, editing, conversion, rendering and printing. .NET Word API supports all of word-processing formats as well as allows exporting or **converting PDF to Word**, HTML, fixed-layout and most commonly used image & multimedia formats.
 
 
 
