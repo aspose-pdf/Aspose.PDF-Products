@@ -15,7 +15,7 @@ description: C++ Sample code for creating PDF documents. Use this code to genera
 
  Creating Adobe Acrobat PDF file dynamically within running application is easy. In order to create PDF documents from scratch without requiring Adobe Acrobat, we’ll use
  [Aspose.PDF for C++](https://products.aspose.com/pdf/cpp) 
- API that offers different features for PDF creation, manipulation and conversion using C++ platform. Beside **create PDF C++** code, programmers can enhance and update code to create graphics, images, insert tables and submission forms easily.
+ API that offers different features for PDF creation, manipulation and conversion using C++ platform. Beside **create PDF C++** code, programmers can enhance and update code to create graphics, images and insert tables easily.
 {{% /blocks/products/pf/agp/content %}}
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
