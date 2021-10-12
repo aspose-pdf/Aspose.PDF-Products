@@ -14,7 +14,7 @@ description: C# Sample code for creating PDF documents. Use this code for creati
 {{% blocks/products/pf/agp/content h2="" %}}
 
  Creating Adobe Acrobat PDF file dynamically within running application is easy. In order to create PDF documents from scratch without requiring Adobe Acrobat, we’ll use
- [Aspose.Pdf for .NET](https://products.aspose.com/pdf/net) 
+ [Aspose.PDF for .NET](https://products.aspose.com/pdf/net) 
  API that offers different features for PDF creation, manipulation and conversion using .NET platform. Beside **create PDF C#** code, programmers can enhance and update code to create graphics, images, insert tables and submission forms easily.
 {{% /blocks/products/pf/agp/content %}}
 
