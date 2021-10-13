@@ -2,7 +2,7 @@
 title: Convert PDF to Excel XLS XLSX C# | .NET PDF API 
 weight: 2020
 url: /net/conversion/pdf-to-excel/ 
-description: PDF to XLS & XLSX Conversion Library
+description: PDF to Microsoft Excel XLS and XLSX C# conversion example code. Implement it within and reports generation automation solution.  
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -55,7 +55,7 @@ pdfDocument.Save("excel.xls", options);
 
 {{< blocks/products/pf/agp/feature-section isGrey="" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Convert PDF to XLSX via .NET" %}}
+{{% blocks/products/pf/agp/feature-section-col title="Convert PDF to Microsoft Excel XLSX via .NET" %}}
 
 {{% blocks/products/pf/agp/text %}}
 
