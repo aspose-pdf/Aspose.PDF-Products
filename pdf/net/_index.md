@@ -13,13 +13,9 @@ description: C# ASP.NET VB.NET library to generate edit and parse PDF files. Lib
 {{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-net.svg" liveDemosLink="https://products.aspose.app/pdf/family" PricingLink="https://purchase.aspose.com/pricing/pdf/net" buyLink="https://purchase.aspose.com/buy" docsLink="https://docs.aspose.com/pdf/net/" installationsDocsLink="https://docs.aspose.com/pdf/net/installation" nugetLink="https://www.nuget.org/packages/Aspose.PDF/" nugetPackageName="Aspose.PDF" mavenRepoLink="" directDownloadLink="https://downloads.aspose.com/pdf/net" >}}
 
 {{< blocks/products/pf/tab-content >}}
-<p>
- Aspose.PDF for .NET is an advanced PDF Processing API for .NET Core to perform document management and manipulation tasks within cross-platform applications. API can easily be used to generate, modify, convert, render, secure and print documents without using Adobe Acrobat. Moreover, API offers compression options, table creation &amp; manipulation, graph &amp; image functions, extensive hyperlink functionality, stamp and watermark tasks, extended security controls and custom font handling.
-</p>
+<p>Aspose.PDF for .NET is an advanced PDF Processing API for .NET Core to perform document management and manipulation tasks within cross-platform applications. API can easily be used to generate, modify, convert, render, secure and print documents without using Adobe Acrobat. Moreover, API offers compression options, table creation &amp; manipulation, graph &amp; image functions, extensive hyperlink functionality, stamp and watermark tasks, extended security controls and custom font handling.</p>
 
-<p>
- Aspose.PDF for .NET supports popular file formats such as PDF, XFA, TXT, HTML, PCL, XML, XPS, EPUB, TEX and image formats as well as allows to create PDF documents directly through the API or via XML templates and can create forms or manage form fields embedded in the documents.
-</p>
+<p>Aspose.PDF for .NET supports popular file formats such as PDF, XFA, TXT, HTML, PCL, XML, XPS, EPUB, TEX and image formats as well as allows to create PDF documents directly through the API or via XML templates and can create forms or manage form fields embedded in the documents.</p>
 
 {{< /blocks/products/pf/tab-content >}}
 
