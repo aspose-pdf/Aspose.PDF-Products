@@ -475,12 +475,11 @@ description: C# ASP.NET VB.NET library to generate edit and parse PDF files. Lib
      <h3>
       Save PDF in different formats - C#
      </h3>
-     <pre><code class="cs">// load the file to be converted
-
+     <pre><code class="cs">
+// load the file to be converted
 var pfile = new Aspose.Pdf.Document(dir + "template.pdf");
 
 // save in different formats
-
 pfile.Save(dir + "output.docx", Aspose.Pdf.SaveFormat.DocX);
 
 pfile.Save(dir + "output.pptx", Aspose.Pdf.SaveFormat.Pptx);
@@ -544,32 +543,22 @@ pfile.Save(dir + "output.html", Aspose.Pdf.SaveFormat.Html);</code></pre>
      <h3>
       Convert PDF to CCITT4 compressed TIFF - C#
      </h3>
-     <pre><code class="cs">// load the PDF in PdfConverter
-
+     <pre><code class="cs">
+// load the PDF in PdfConverter
 using (var converter = new Aspose.Pdf.Facades.PdfConverter())
-
 {
-
     converter.BindPdf(dir + "template.pdf");
 
     // initiate conversion
-
     converter.DoConvert();
 
     // create TiffSettings &amp; set compression type
-
     var settings = new Aspose.Pdf.Devices.TiffSettings()
-
     {
-
         Compression = Aspose.Pdf.Devices.CompressionType.CCITT4,
-
     };
-
     // save PDF as TIFF
-
     converter.SaveAsTIFF(dir + "output.tiff", settings);
-
 }</code></pre>
     </div>
     <p>
