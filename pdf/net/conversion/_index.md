@@ -70,7 +70,7 @@ pdfDoc.Save("pdf-to-excel-output.xlsx", opts);
 
 {{% blocks/products/pf/feature-page-section  h2="Convert PDF to PowerPoint Presentations" %}}
 .NET PDF API supports converting PDF pages to PowerPoint Presentation Slides with selectable text or images by rendering slides as images. Pattern of saving Portable Document Format to PowerPoint is almost same, Loading the file using Document class and then calling the Save method with output file path and SaveFormat as parameters. In case of rendering with special presentation options, Programmers can use [PptxSaveOptions class](https://apireference.aspose.com/pdf/net/aspose.pdf/pptxsaveoptions) with any relevant specific rendering options. Calling the save method and passing the options as parameter.
-{{% blocks/products/pf/feature-page-code h3="C# Code for JSON to Excel Conversion" %}}
+{{% blocks/products/pf/feature-page-code h3="PDF to PowerPoint Conversion C# Code" %}}
 ```cs
 // Load PDF document
 Document pdfDocument = new Document("document.pdf");
@@ -86,7 +86,7 @@ pdfDocument.Save("PDF to PPT.ppt", pptxOptions);
 
 {{% blocks/products/pf/feature-page-section  h2="Portable Document Format PDF to HTML Conversion" %}}
 PDF Parsing Library supports saving PDF to HTML as whole as well as with embedded resources including images. Procedure of conversion is same as PDF to other formats for generic cases, like loading the source document and calling the Save method with output HTML file path and SaveFormat.Html as parameters. In case of saving with embedded resources, there is a [HtmlSaveOptions class](https://apireference.aspose.com/pdf/net/aspose.pdf/htmlsaveoptions) having multiple options like saving images to a specific folder during the conversion, splitting the resultant HTML into multiple pages and more. 
-{{% blocks/products/pf/feature-page-code h3="C# Code for Excel to Image Conversion" %}}
+{{% blocks/products/pf/feature-page-code h3="C# Code for PDF to HTML Conversion" %}}
 
 ```cs
 // Load source PDF document
