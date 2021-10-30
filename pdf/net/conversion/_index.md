@@ -43,7 +43,7 @@ pdfFile.Save("PDF-To-Word.doc", saveOpts);
 ```
 {{% /blocks/products/pf/feature-page-code  %}}
 {{% /blocks/products/pf/feature-page-section %}}
-{{< blocks/products/pf/feature-page-options pairs="pdf-to-doc pdf-to-docx" >}}
+{{< blocks/products/pf/feature-page-options pairs="pdf-to-word pdf-to-doc pdf-to-docx" >}}
 
 
 {{% blocks/products/pf/feature-page-section  h2="Save PDF as Excel Files" %}}
@@ -66,7 +66,7 @@ pdfDoc.Save("pdf-to-excel-output.xlsx", opts);
 {{% /blocks/products/pf/feature-page-code  %}}
 {{% /blocks/products/pf/feature-page-section %}}
 
-{{< blocks/products/pf/feature-page-options pairs="pdf-to-xls pdf-to-xlsx" >}}
+{{< blocks/products/pf/feature-page-options pairs="pdf-to-excel pdf-to-xls pdf-to-xlsx" >}}
 
 {{% blocks/products/pf/feature-page-section  h2="Convert PDF to PowerPoint Presentations" %}}
 .NET PDF API supports converting PDF pages to PowerPoint Presentation Slides with selectable text or images by rendering slides as images. Pattern of saving Portable Document Format to PowerPoint is almost same, Loading the file using Document class and then calling the Save method with output file path and SaveFormat as parameters. In case of rendering with special presentation options, Programmers can use [PptxSaveOptions class](https://apireference.aspose.com/pdf/net/aspose.pdf/pptxsaveoptions) with any relevant specific rendering options. Calling the save method and passing the options as parameter.
