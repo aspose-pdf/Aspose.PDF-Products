@@ -133,7 +133,7 @@ renderToImages.Process(srcFile.Pages[1], streamObj);
 
 // Close stream
 streamObj.Close();
-}
+
 ```
 {{% /blocks/products/pf/feature-page-code %}}
 {{% /blocks/products/pf/feature-page-section %}}
