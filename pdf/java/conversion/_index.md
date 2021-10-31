@@ -148,4 +148,4 @@ imgStream.close();
 Java PDF Parsing API loads other multiple [formats](https://docs.aspose.com/pdf/java/supported-file-formats/) for parsing and conversion. API loads the relevant supported format and save into the required format.
 {{% /blocks/products/pf/feature-page-section %}}
 
-{{< blocks/products/pf/feature-page-options pairs="cgm-to-pdf epub-to-pdf html-to-pdf md-to-html md-to-pdf pcl-to-pdf svg-to-png tex-to-pdf xps-to-html" >}}
+{{< blocks/products/pf/feature-page-options pairs="epub-to-pdf html-to-pdf md-to-html md-to-pdf pcl-to-pdf tex-to-pdf" >}}

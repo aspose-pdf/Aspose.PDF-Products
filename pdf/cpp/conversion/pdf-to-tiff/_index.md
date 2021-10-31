@@ -42,8 +42,9 @@ PM> Install-Package Aspose.PDF.Cpp
 
 {{% /blocks/products/pf/agp/text %}}
 
-1. Load PDF file.
-1. Call the Save() method.
+1. Load PDF file using BindPdf of PdfConverter class.
+1. Call the DoConvert method.
+1. Loop through each page to convert page by page
 1. Pass the output file path with (TIFF) file extension.
 1. TIFF file will be saved at the specified path.
 1. Open TIFF file in compatible program.
@@ -67,11 +68,10 @@ PM> Install-Package Aspose.PDF.Cpp
 {{% blocks/products/pf/agp/code-block title="PDF to TIFF C++ Conversion Source Code" offSpacer="" %}}
 
 ```cs
-// Load the PDF.
-auto doc = MakeObject<Document>(u"sourceFile.pdf");
-
-// Save in TIFF format.
-doc->Save(u"convertedFile.tiff", SaveFormat::Tiff);
+System::SharedPtr<Aspose::Pdf::Facades::PdfConverter> TiffConverter = System::MakeObject<Aspose::Pdf::Facades::PdfConverter>();
+TiffConverter->BindPdf(L"D:\\Test\\test.pdf");
+TiffConverter->DoConvert();
+TiffConverter->SaveAsTIFFClassF(L"D:\\Test\\test.tiff");
 
 ```
 
@@ -90,9 +90,9 @@ doc->Save(u"convertedFile.tiff", SaveFormat::Tiff);
         {{< blocks/products/pf/agp/democard icon="fa-file-text" text=" Just upload your PDF file, it will be converted instantly to TIFF." >}}
         {{< blocks/products/pf/agp/democard icon="fa-download" text=" You will get the download link." >}}
 
-    {{% blocks/products/pf/agp/content h2="C++ PDF Document Manipulation Library" %}}
+    {{% blocks/products/pf/agp/content h2="" %}}
 
- Aspose.PDF API can be used for PDF document manipulation and parsing within applications. One can create, modify, compress, secure, print or save PDF to TXT, HTML, PCL, XFA, XML, XPS, EPUB, TEX, Images and more formats. Aspose.PDF is a standalone API and it does not depend on any software including Adobe Acrobat. ‎
+ C++ PDF API can be used for PDF document manipulation and parsing within applications. One can create, modify, compress, secure, print or save PDF to TXT, HTML, PCL, XFA, XML, XPS, EPUB, TEX, Images and more formats. It is a standalone API and it does not depend on any software including Adobe Acrobat. ‎
 
 
 

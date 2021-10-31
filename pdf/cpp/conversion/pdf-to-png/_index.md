@@ -43,8 +43,8 @@ PM> Install-Package Aspose.PDF.Cpp
 
 {{% /blocks/products/pf/agp/text %}}
 
-1.  Load PDF file.
-1.  Call the Save() method.
+1.  Load PDF file via PdfConverter class BindPdf.
+1.  Call DoConvert and Loop through each page to save Page by Page
 1.  Pass the output file path with (PNG) file extension.
 1.  PNG file will be saved at the specified path.
 1.  Open PNG file in compatible program.
@@ -67,11 +67,17 @@ PM> Install-Package Aspose.PDF.Cpp
 {{% blocks/products/pf/agp/code-block title="PDF to PNG Image C++ Conversion Source Code" offSpacer="" %}}
 
 ```cs
-// Load the PDF.
-auto doc = MakeObject<Document>(u"sourceFile.pdf");
-
-// Save in PNG format.
-doc->Save(u"convertedFile.png", SaveFormat::Png);
+System::SharedPtr<Aspose::Pdf::Facades::PdfConverter> PngConverter = System::MakeObject<Aspose::Pdf::Facades::PdfConverter>();
+PngConverter->BindPdf(L"D:\\Test\\test.pdf");
+PngConverter->DoConvert();
+System::String prefix = L"D:\\Test\\";
+System::String suffix = L".png";
+int32_t imageCount = 1;
+while (PngConverter->HasNextImage())
+{
+  PngConverter->GetNextImage(prefix + imageCount + suffix, System::Drawing::Imaging::ImageFormat::get_Png());
+  imageCount++;
+}
 
 ```
 
@@ -90,9 +96,9 @@ doc->Save(u"convertedFile.png", SaveFormat::Png);
         {{< blocks/products/pf/agp/democard icon="fa-file-text" text=" Just upload your PDF file, it will be converted instantly to PNG." >}}
         {{< blocks/products/pf/agp/democard icon="fa-download" text=" You will get the download link." >}}
 
-    {{% blocks/products/pf/agp/content h2="C++ PDF Document Manipulation Library" %}}
+    {{% blocks/products/pf/agp/content h2="" %}}
 
- Aspose.PDF API can be used for PDF document manipulation and parsing within applications. One can create, modify, compress, secure, print or save PDF to TXT, HTML, PCL, XFA, XML, XPS, EPUB, TEX, Images and more formats. Aspose.PDF is a standalone API and it does not depend on any software including Adobe Acrobat. ‎
+ C++ PDF API can be used for PDF document manipulation and parsing within applications. One can create, modify, compress, secure, print or save PDF to TXT, HTML, PCL, XFA, XML, XPS, EPUB, TEX, Images and more formats. It is a standalone API and it does not depend on any software including Adobe Acrobat. ‎
 
 
 

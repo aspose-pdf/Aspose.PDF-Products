@@ -43,8 +43,9 @@ PM> Install-Package Aspose.PDF.Cpp
 
 {{% /blocks/products/pf/agp/text %}}
 
-1.  Load PDF file.
-1.  Call the Save() method.
+1.  Load PDF file using BindPdf of PdfConverter Class.
+1.  Call the DoConvert method.
+1.  Loop through each page to convert page by page.
 1.  Pass the output file path with (JPEG) file extension.
 1.  JPEG file will be saved at the specified path.
 1.  Open JPEG file in compatible program.
@@ -67,11 +68,18 @@ PM> Install-Package Aspose.PDF.Cpp
 {{% blocks/products/pf/agp/code-block title="PDF to JPEG C++ Conversion Source Code" offSpacer="" %}}
 
 ```cs
-// Load the PDF.
-auto doc = MakeObject<Document>(u"sourceFile.pdf");
-
-// Save in JPEG format.
-doc->Save(u"convertedFile.jpeg", SaveFormat::Jpeg);
+// instantiate PdfConverter 
+System::SharedPtr<Aspose::Pdf::Facades::PdfConverter> JpegConverter = System::MakeObject<Aspose::Pdf::Facades::PdfConverter>();
+// load an existing PDF document 
+JpegConverter->BindPdf(dir + L"sourceFile.pdf"); 
+// convert PDF pages to images 
+JpegConverter->DoConvert(); 
+int32_t imageNumber = 1; 
+while (JpegConverter->HasNextImage()) { 
+// save each page in JPG format 
+PdfImageConverter->GetNextImage(dir + imageNumber + L".jpg", System::Drawing::Imaging::ImageFormat::get_Jpeg(), 800, 1000); 
+imageNumber++; 
+}
 
 ```
 
@@ -90,9 +98,9 @@ doc->Save(u"convertedFile.jpeg", SaveFormat::Jpeg);
         {{< blocks/products/pf/agp/democard icon="fa-file-text" text=" Just upload your PDF file, it will be converted instantly to JPEG." >}}
         {{< blocks/products/pf/agp/democard icon="fa-download" text=" You will get the download link." >}}
 
-    {{% blocks/products/pf/agp/content h2="C++ PDF Document Manipulation Library" %}}
+    {{% blocks/products/pf/agp/content h2="" %}}
 
- Aspose.PDF API can be used for PDF document manipulation and parsing within applications. One can create, modify, compress, secure, print or save PDF to TXT, HTML, PCL, XFA, XML, XPS, EPUB, TEX, Images and more formats. Aspose.PDF is a standalone API and it does not depend on any software including Adobe Acrobat. ‎
+ C++ PDF API can be used for PDF document manipulation and parsing within applications. One can create, modify, compress, secure, print or save PDF to TXT, HTML, PCL, XFA, XML, XPS, EPUB, TEX, Images and more formats. It is a standalone API and it does not depend on any software including Adobe Acrobat. ‎
 
 
 
