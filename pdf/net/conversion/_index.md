@@ -5,7 +5,7 @@ description: Convert PDF to Microsoft Word, Excel, PowerPoint Slides, HTML, Imag
 ---
 
 {{< blocks/products/pf/feature-page-wrap >}}
-{{< blocks/products/pf/feature-page-header h1="PDF Documents Conversion via .NET" h2="Export PDF files to Microsoft Office Word, Excel, PowerPoint Presentations, Images, HTML and fixed-layout formats" >}}
+{{< blocks/products/pf/feature-page-header h1="PDF Document Conversion via .NET" h2="Export PDF to Microsoft Office® Word, Excel, PowerPoint Presentations, Images, HTML and fixed-layout formats" >}}
 
 {{% blocks/products/pf/feature-page-summary %}}
 There are few cases when there is need to manipulate documents other then PDF while having the parsing data available in PDF formats. So for such applications there will be two scenarios either they add functionality of PDF parsing within their own solution or add the PDF conversion functionality to manipulate data as of supported formats. For the second scenario to **convert PDF to Word**, Excel, HTML, Images or any required format, implementing **C# PDF reader and converter** code within .NET based is simple. We are discussing here few cases so that programmers can modify these conversion code snippets as of their requirements. 

@@ -5,7 +5,7 @@ description: Convert PDF to Microsoft Excel Word PowerPoint Slides, HTML, Images
 ---
 
 {{< blocks/products/pf/feature-page-wrap >}}
-{{< blocks/products/pf/feature-page-header h1="PDF Files Conversion via Java" h2="Export PDF documents to Microsoft Office Word, Excel, PowerPoint Presentations, HTML, Images and fixed-layout formats" >}}
+{{< blocks/products/pf/feature-page-header h1="PDF File Conversion via Java" h2="Export PDF to Microsoft Office® Word, Excel, PowerPoint Presentations, HTML, Images and fixed-layout formats" >}}
 
 {{% blocks/products/pf/feature-page-summary %}}
 When your solution does not support PDF manipulation inside the application and there is need to convert whole PDF data into other formats. **Java PDF library** is there to support your application. Enhancing application for PDF conversion functionality to manipulate data as of supported formats is easy and simple. To **convert PDF to Excel**, Word, HTML, Images or any required format, Few **Java PDF converter** code snippets, We are discussing here so that programmers can modify these conversion codes as of their requirements. Developers can easily automates conversion processes using these codes.

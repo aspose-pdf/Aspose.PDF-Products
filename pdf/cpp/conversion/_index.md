@@ -5,7 +5,7 @@ description: Convert PDF to HTML Image Microsoft Word and many other formats wit
 ---
 
 {{< blocks/products/pf/feature-page-wrap >}}
-{{< blocks/products/pf/feature-page-header h1="PDF Files Conversion via C++" h2="PDF documents to Microsoft Office Word, HTML, Images and various other formats Conversion" >}}
+{{< blocks/products/pf/feature-page-header h1="PDF File Conversion via C++" h2="PDF to Microsoft Office® Word, HTML, Images and various other formats Conversion" >}}
 
 {{% blocks/products/pf/feature-page-summary %}}
 For enhancing the functionality of a C++ software to handle PDF files conversion to other formats. C++ PDF manipulation and rendering library makes it easy for developers. As it supports multiple conversion including PDF to Image, HTML and Microsoft Office Word formats. Programmers can utilize codes listed below as well as enhance as of their relevant requirements.
