@@ -12,7 +12,7 @@ For enhancing the functionality of a C++ software to handle PDF files conversion
 {{% /blocks/products/pf/feature-page-summary  %}}
 
 {{% blocks/products/pf/feature-page-section  h2="Convert PDF to Word Formats" %}}
-PDF C++ library makes the conversion process simple. So PDF to Word formats conversion including DOC and DOCX files using C++ is just few lines of coding. C++ API provides [Document class](https://apireference.aspose.com/pdf/cpp/class/aspose.pdf.document) that load the Microsoft Word files. After loading call the Save method for **PDF to Word conversion**.
+PDF C++ library makes the conversion process simple. So PDF to Word formats conversion including DOC and DOCX files using C++ is just few lines of coding. C++ API provides [Document class](https://apireference.aspose.com/pdf/cpp/class/aspose.pdf.document) that load the Microsoft Word<sup>&reg;</sup> files. After loading call the Save method for **PDF to Word conversion**.
 {{% blocks/products/pf/feature-page-code h3="C++ PDF to Word Converter Code" %}}
 
 ```cs

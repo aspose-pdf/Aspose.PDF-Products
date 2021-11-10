@@ -12,7 +12,7 @@ When your solution does not support PDF manipulation inside the application and 
 {{% /blocks/products/pf/feature-page-summary  %}}
 
 {{% blocks/products/pf/feature-page-section  h2="Convert PDF to Microsoft Word DOCX / DOC Formats" %}}
-PDF Parser Java library supports all PDF to Microsoft Word format conversions. In case we are just converting Microsoft Word documents without any special settings, Then after loading the PDF file using [Document class](https://apireference.aspose.com/pdf/java/com.aspose.pdf/document), library's Save method will used with output Word document path and [SaveFormat](https://apireference.aspose.com/pdf/java/com.aspose.pdf/saveformat) as parameters.  For the special cases where there is need more settings before conversion, API has [DocSaveOptions class](https://apireference.aspose.com/java/pdf/com.aspose.pdf/DocSaveOptions) class that exposes all such settings. 
+PDF Parser Java library supports all PDF to Microsoft<sup>&reg;</sup> Word format conversions. In case we are just converting Microsoft Word documents without any special settings, Then after loading the PDF file using [Document class](https://apireference.aspose.com/pdf/java/com.aspose.pdf/document), library's Save method will used with output Word document path and [SaveFormat](https://apireference.aspose.com/pdf/java/com.aspose.pdf/saveformat) as parameters.  For the special cases where there is need more settings before conversion, API has [DocSaveOptions class](https://apireference.aspose.com/java/pdf/com.aspose.pdf/DocSaveOptions) class that exposes all such settings. 
 {{% blocks/products/pf/feature-page-code h3="Java PDF to Word Converter Code" %}}
 
 ```cs

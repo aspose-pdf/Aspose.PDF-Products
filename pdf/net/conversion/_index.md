@@ -12,7 +12,7 @@ There are few cases when there is need to manipulate documents other then PDF wh
 {{% /blocks/products/pf/feature-page-summary  %}}
 
 {{% blocks/products/pf/feature-page-section  h2="Convert PDF to Word DOC DOCX and More Formats" %}}
-C# PDF library supports all PDF to Word conversions. In case we are just converting Microsoft Word documents without any special settings, Then after loading the PDF file using [Document class](https://apireference.aspose.com/pdf/net/aspose.pdf/document), library's [Save method](https://apireference.aspose.com/pdf/net/aspose.pdf.document/save/methods/4) will used with output Word document path and SaveFormat as parameters.  For the special cases where there is need to enhance the lines distance, image resolution and more settings, API has [DocSaveOptions](https://apireference.aspose.com/net/pdf/aspose.pdf/docsaveoptions) class that exposes all such settings. 
+C# PDF library supports all PDF to Word conversions. In case we are just converting Microsoft<sup>&reg;</sup> Word documents without any special settings, Then after loading the PDF file using [Document class](https://apireference.aspose.com/pdf/net/aspose.pdf/document), library's [Save method](https://apireference.aspose.com/pdf/net/aspose.pdf.document/save/methods/4) will used with output Word document path and SaveFormat as parameters.  For the special cases where there is need to enhance the lines distance, image resolution and more settings, API has [DocSaveOptions](https://apireference.aspose.com/net/pdf/aspose.pdf/docsaveoptions) class that exposes all such settings. 
 {{% blocks/products/pf/feature-page-code h3="C# Code for PDF to Word Conversion" %}}
 
 ```cs
