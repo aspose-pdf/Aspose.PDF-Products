@@ -23,7 +23,7 @@ description: C# source code to lock PDF file using password on .NET Framework, .
 
 {{% blocks/products/pf/agp/code-block title="Aspose.PDF" offSpacer="true" %}}
 
-```cs
+```powershell
 
 PM> Install-Package Aspose.PDF
 

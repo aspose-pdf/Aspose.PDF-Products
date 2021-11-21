@@ -23,7 +23,7 @@ description: C++ example code to combine XSLFO documents on C++ Runtime Environm
 
 {{% blocks/products/pf/agp/code-block title="Command" offSpacer="true" %}}
 
-```cs
+```powershell
 
 PM> Install-Package Aspose.PDF.Cpp
 

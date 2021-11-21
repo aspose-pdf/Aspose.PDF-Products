@@ -16,7 +16,7 @@ In order to view XSLFO file, we’ll use <a href="https://products.aspose.com/pd
 
 {{% blocks/products/pf/agp/code-block title="Package Manager Console Command" offSpacer="true" %}}
 
-```cs
+```powershell
 
 PM> Install-Package Aspose.PDF
 

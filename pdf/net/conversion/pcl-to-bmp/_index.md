@@ -23,7 +23,7 @@ description: Sample code for PCL to BMP C# conversion. Use API example code for 
 
 {{% blocks/products/pf/agp/code-block title="Package Manager Console Command" offSpacer="true" %}}
 
-```cs
+```powershell
 
 PM> Install-Package Aspose.PDF
 
@@ -142,5 +142,5 @@ Files having extension .BMP represent Bitmap Image files that are used to store 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-    
+
 {{< /blocks/products/pf/main-wrap-class >}}

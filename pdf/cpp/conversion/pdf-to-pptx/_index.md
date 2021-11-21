@@ -22,7 +22,7 @@ description: Sample C++ conversion code for PDF document to PPTX file. Programme
 
 {{% blocks/products/pf/agp/code-block title="Command" offSpacer="true" %}}
 
-```cs
+```powershell
 
 PM> Install-Package Aspose.PDF.Cpp
 

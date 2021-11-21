@@ -23,7 +23,7 @@ description: Sample code for EPUB to BMP C# conversion. Use API example code for
 
 {{% blocks/products/pf/agp/code-block title="Package Manager Console Command" offSpacer="true" %}}
 
-```cs
+```powershell
 
 PM> Install-Package Aspose.PDF
 
@@ -39,13 +39,13 @@ PM> Install-Package Aspose.PDF
 
 {{% blocks/products/pf/agp/text %}}
 
- .NET developers can easily load & convert EPUB files to BMP in just a few lines of code.
+.NET developers can easily load & convert EPUB files to BMP in just a few lines of code.
 
 {{% /blocks/products/pf/agp/text %}}
 
-1.  Load EPUB file with an instance of Document class
-1.  Create & set the instance of BmpDevice class with Size & Resolution
-1.  Call BmpDevice.Process method with page index & output file path as parameters
+1. Load EPUB file with an instance of Document class
+1. Create & set the instance of BmpDevice class with Size & Resolution
+1. Call BmpDevice.Process method with page index & output file path as parameters
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
@@ -57,9 +57,9 @@ PM> Install-Package Aspose.PDF
 
 {{% /blocks/products/pf/agp/text %}}
 
--  Microsoft Windows or a compatible OS with .NET Framework, .NET Core, and PHP, VBScript, Delphi, C++ via COM Interop.
--  Development environment like Microsoft Visual Studio.
--  Aspose.PDF for .NET DLL referenced in your project.
+- Microsoft Windows or a compatible OS with .NET Framework, .NET Core, and PHP, VBScript, Delphi, C++ via COM Interop.
+- Development environment like Microsoft Visual Studio.
+- Aspose.PDF for .NET DLL referenced in your project.
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
@@ -67,7 +67,8 @@ PM> Install-Package Aspose.PDF
 
 ```cs
 // load EPUB with an instance of Document
-var document = new Document("template.epub");
+EpubLoadOptions option = new EpubLoadOptions();
+var document = new Document("template.epub", option);
 
 // create an object of bmpDevice
 var renderer = new Devices.BmpDevice();
@@ -81,8 +82,7 @@ renderer.Process(document.Pages[1], "output.bmp");
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-    {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
- 
+{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
 
 <!-- aboutfile Starts -->
 
@@ -92,27 +92,25 @@ renderer.Process(document.Pages[1], "output.bmp");
         {{< blocks/products/pf/agp/democard icon="fa-file-text" text=" Just upload your EPUB file and hit the \"Convert\" button." >}}
         {{< blocks/products/pf/agp/democard icon="fa-download" text=" You will instantly get the download link for resultant BMP file." >}}
 
-    {{% blocks/products/pf/agp/content h2="" %}}
+{{% blocks/products/pf/agp/content h2="" %}}
 
  A PDF Processing Library to create cross-platform applications with the ability to generate, modify, convert, render, secure and print documents without using Adobe Acrobat. .NET PDF API offers compression, table creation, graph & image functions, hyperlinks, stamp and watermarking tasks, extended security controls & custom font handling.
 
+{{% /blocks/products/pf/agp/content %}}
 
+{{< blocks/products/pf/agp/about-file-section >}}
 
-    {{% /blocks/products/pf/agp/content %}}
-
-    {{< blocks/products/pf/agp/about-file-section >}}
-
-        {{< blocks/products/pf/agp/about-file-text fileFormat="EPUB" readMoreLink="https://docs.fileformat.com/ebook/epub/" >}}
+{{< blocks/products/pf/agp/about-file-text fileFormat="EPUB" readMoreLink="https://docs.fileformat.com/ebook/epub/" >}}
 Files with .EPUB extension are an e-book file format that provide a standard digital publication format for publishers and consumers. The format has been so common by now that it is supported by many e-readers and software applications. For example, on Mac OS, the pre-installed Books software provides the support for opening such files. In addition, there are a lot of compatible software available for smartphones, tablets and computers. EPUB file standards are maintained by the International Digital Publishing Forum (IDPF). The version EPUB 3 is also endorsed by the Book Industry Study Group (BISG), a leading book trade association for standardized best practices, research, information and events, for packaging of content.
 
-        {{< /blocks/products/pf/agp/about-file-text >}}
+{{< /blocks/products/pf/agp/about-file-text >}}
 
-        {{< blocks/products/pf/agp/about-file-text fileFormat="bmp" readMoreLink="https://docs.fileformat.com/image/bmp/" >}}
+{{< blocks/products/pf/agp/about-file-text fileFormat="bmp" readMoreLink="https://docs.fileformat.com/image/bmp/" >}}
 Files having extension .BMP represent Bitmap Image files that are used to store bitmap digital images. These images are independent of graphics adapter and are also called device independent bitmap (DIB) file format. This independency serves the purpose of opening the file on multiple platforms such as Microsoft Windows and Mac. The BMP file format can store data as two-dimensional digital images  in both monochrome as well as color format with various colour depths.
 
-        {{< /blocks/products/pf/agp/about-file-text >}}
+{{< /blocks/products/pf/agp/about-file-text >}}
 
-    {{< /blocks/products/pf/agp/about-file-section >}}
+{{< /blocks/products/pf/agp/about-file-section >}}
 
 {{< /blocks/products/pf/agp/demobox >}}
 
@@ -142,5 +140,5 @@ Files having extension .BMP represent Bitmap Image files that are used to store 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-    
+
 {{< /blocks/products/pf/main-wrap-class >}}

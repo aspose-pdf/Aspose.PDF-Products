@@ -23,7 +23,7 @@ description: Sample code for EPUB to DOC C# conversion. Use API example code for
 
 {{% blocks/products/pf/agp/code-block title="Package Manager Console Command" offSpacer="true" %}}
 
-```cs
+```powershell
 
 PM> Install-Package Aspose.PDF
 
@@ -43,9 +43,9 @@ PM> Install-Package Aspose.PDF
 
 {{% /blocks/products/pf/agp/text %}}
 
-1.  Load EPUB file with an instance of Document
-1.  Call the Document.Save method while passing the output file path & SaveFormat.Doc as parameters
-1.  DOC file will be saved at the specified path
+1. Load EPUB file with an instance of Document
+1. Call the Document.Save method while passing the output file path & SaveFormat.Doc as parameters
+1. DOC file will be saved at the specified path
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
@@ -57,17 +57,19 @@ PM> Install-Package Aspose.PDF
 
 {{% /blocks/products/pf/agp/text %}}
 
--  Microsoft Windows or a compatible OS with .NET Framework, .NET Core, and PHP, VBScript, Delphi, C++ via COM Interop.
--  Development environment like Microsoft Visual Studio.
--  Aspose.PDF for .NET DLL referenced in your project.
+- Microsoft Windows or a compatible OS with .NET Framework, .NET Core, and PHP, VBScript, Delphi, C++ via COM Interop.
+- Development environment like Microsoft Visual Studio.
+- Aspose.PDF for .NET DLL referenced in your project.
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
 {{% blocks/products/pf/agp/code-block title="This sample code shows EPUB to DOC C# Conversion" offSpacer="" %}}
 
 ```cs
+
 // load EPUB with an instance of Document
-var document = new Document("template.epub");
+EpubLoadOptions option = new EpubLoadOptions();
+var document = new Document("template.epub", option);
 // save document in DOC format
 document.Save("output.doc", Aspose.Pdf.SaveFormat.Doc); 
 

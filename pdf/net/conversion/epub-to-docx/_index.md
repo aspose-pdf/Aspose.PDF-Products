@@ -23,7 +23,7 @@ description: Sample code for EPUB to DOCX C# conversion. Use API example code fo
 
 {{% blocks/products/pf/agp/code-block title="Package Manager Console Command" offSpacer="true" %}}
 
-```cs
+```powershell
 
 PM> Install-Package Aspose.PDF
 
@@ -67,7 +67,8 @@ PM> Install-Package Aspose.PDF
 
 ```cs
 // load EPUB with an instance of Document
-var document = new Document("template.epub");
+EpubLoadOptions option = new EpubLoadOptions();
+var document = new Document("template.epub", option);
 // save document in DOCX format
 document.Save("output.docx", Aspose.Pdf.SaveFormat.Docx); 
 

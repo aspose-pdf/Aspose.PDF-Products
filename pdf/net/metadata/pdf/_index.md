@@ -23,7 +23,7 @@ description: C# source code to edit or view PDF format metadata on .NET Framewor
 
 {{% blocks/products/pf/agp/code-block title="Command" offSpacer="true" %}}
 
-```cs
+```powershell
 
 PM> Install-Package Aspose.PDF
 

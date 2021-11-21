@@ -23,7 +23,7 @@ description: C++ example code to lock PDF file using password on C++ Runtime Env
 
 {{% blocks/products/pf/agp/code-block title="Aspose.PDF" offSpacer="true" %}}
 
-```cs
+```powershell
 
 PM> Install-Package Aspose.PDF.Cpp
 

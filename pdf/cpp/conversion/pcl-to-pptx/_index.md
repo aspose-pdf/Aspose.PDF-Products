@@ -22,7 +22,7 @@ description: Sample C++ conversion code for PCL document to PPTX format. Program
 
 {{% blocks/products/pf/agp/code-block title="Command" offSpacer="true" %}}
 
-```cs
+```powershell
 
 PM> Install-Package Aspose.PDF.Cpp
 

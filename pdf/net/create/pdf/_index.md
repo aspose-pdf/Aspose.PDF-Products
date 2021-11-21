@@ -28,13 +28,13 @@ description: C# Sample code for creating PDF documents. Use this code for creati
 
 {{% /blocks/products/pf/agp/text %}}
 
-1.  Include the namespace in your class file
-1.  Intialize Document class object.
-1.  Add a page using Pages.Add() method.
-1.  Create a new TextFragment object and set its text.
-1.  Add TextFragment to the Paragraphs collection of the page.
-1.  Save the PDF using Save(String) method.
-1.  Double click and open the PDF file to view content.
+1. Include the namespace in your class file
+1. Intialize Document class object.
+1. Add a page using Pages.Add() method.
+1. Create a new TextFragment object and set its text.
+1. Add TextFragment to the Paragraphs collection of the page.
+1. Save the PDF using Save(String) method.
+1. Double click and open the PDF file to view content.
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
@@ -74,26 +74,22 @@ pdf_doc.Save("created_one.pdf");
 
 <!-- aboutfile Starts -->
 
-     
-     {{% blocks/products/pf/agp/content h2="" %}}
+{{% blocks/products/pf/agp/content h2="" %}}
 
- A PDF Processing Library to create cross-platform applications with the ability to generate, modify, convert, render, secure and print documents without using Adobe Acrobat. It supports converting various file formats into PDF including HTML and converting PDF documents into various output formats. Developers can easily render all HTML content in a single Page PDF as well as convert HTML files with SVG graphic tags to Tagged PDF files. .NET PDF API offers compression, table creation, graph & image functions, hyperlinks, stamp and watermarking tasks, extended security controls & custom font handling.
+A PDF Processing Library to create cross-platform applications with the ability to generate, modify, convert, render, secure and print documents without using Adobe Acrobat. It supports converting various file formats into PDF including HTML and converting PDF documents into various output formats. Developers can easily render all HTML content in a single Page PDF as well as convert HTML files with SVG graphic tags to Tagged PDF files. .NET PDF API offers compression, table creation, graph & image functions, hyperlinks, stamp and watermarking tasks, extended security controls & custom font handling.
 
+{{% /blocks/products/pf/agp/content %}}
 
+{{< blocks/products/pf/agp/about-file-section >}}
 
-    {{% /blocks/products/pf/agp/content %}}
-
-    {{< blocks/products/pf/agp/about-file-section >}}
-
-        {{< blocks/products/pf/agp/about-file-text fileFormat="PDF" readMoreLink="https://docs.fileformat.com/view/pdf/" >}}
+{{< blocks/products/pf/agp/about-file-text fileFormat="PDF" readMoreLink="https://docs.fileformat.com/view/pdf/" >}}
 Portable Document Format (PDF) is a type of document created by Adobe back in 1990s. The purpose of this file format was to introduce a standard for representation of documents and other reference material in a format that is independent of application software, hardware as well as Operating System. PDF files can be opened in Adobe Acrobat Reader/Writer as well in most modern browsers like Chrome, Safari, Firefox via extensions/plug-ins. Most of the commercially available software suites also offer conversion of their documents to PDF file format without the requirement of any additional software component.
 
-        {{< /blocks/products/pf/agp/about-file-text >}}
+{{< /blocks/products/pf/agp/about-file-text >}}
 {{< /blocks/products/pf/agp/about-file-section >}}  
-          
 
 <!-- aboutfile Ends -->
 
 {{< /blocks/products/pf/main-container >}}
-    
+
 {{< /blocks/products/pf/main-wrap-class >}}

@@ -23,7 +23,7 @@ description: Sample code for MHTML to SVG C# conversion. Use API example code fo
 
 {{% blocks/products/pf/agp/code-block title="Package Manager Console Command" offSpacer="true" %}}
 
-```cs
+```powershell
 
 PM> Install-Package Aspose.PDF
 

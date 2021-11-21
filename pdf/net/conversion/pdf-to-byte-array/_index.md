@@ -28,12 +28,12 @@ description: C# Sample code for PDF to Byte Array conversion. Use this code for 
 
 {{% /blocks/products/pf/agp/text %}}
 
-1.  Include the namespace in your class file
-1.  Load input PDF File
-1.  Initialize a Byte Array
-1.  Initialize FileStream object
-1.  Load the contents into the byte array 
-1.  Process byte array as of your requirement
+1. Include the namespace in your class file
+1. Load input PDF File
+1. Initialize a Byte Array
+1. Initialize FileStream object
+1. Load the contents into the byte array 
+1. Process byte array as of your requirement
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
@@ -74,8 +74,7 @@ Aspose.Pdf.Document pdfDocument = new Aspose.Pdf.Document(input_Stream);
 
 <!-- aboutfile Starts -->
 
-      
-     {{% blocks/products/pf/agp/content h2="" %}}
+{{% blocks/products/pf/agp/content h2="" %}}
 
 A Document Processing Library to perform a wide range of document management and manipulation tasks including PDF generation, editing, conversion, rendering and printing. .NET Word API supports all of word-processing formats as well as allows exporting or **converting PDF to Word**, HTML, fixed-layout and most commonly used image & multimedia formats.
 

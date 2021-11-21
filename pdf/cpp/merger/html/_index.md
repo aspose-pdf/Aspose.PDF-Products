@@ -23,7 +23,7 @@ description: C++ example code to combine HTML documents on C++ Runtime Environme
 
 {{% blocks/products/pf/agp/code-block title="Command" offSpacer="true" %}}
 
-```cs
+```powershell
 
 PM> Install-Package Aspose.PDF.Cpp
 

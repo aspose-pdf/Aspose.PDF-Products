@@ -23,7 +23,7 @@ description: C# source code to unlock password protected PDF file on .NET Framew
 
 {{% blocks/products/pf/agp/code-block title="Aspose.PDF" offSpacer="true" %}}
 
-```cs
+```powershell
 
 PM> Install-Package Aspose.PDF
 

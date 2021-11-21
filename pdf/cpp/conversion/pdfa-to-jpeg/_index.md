@@ -23,7 +23,7 @@ description: Sample C++ conversion code for PDFA document to JPEG format. Progra
 
 {{% blocks/products/pf/agp/code-block title="Command" offSpacer="true" %}}
 
-```cs
+```powershell
 
 PM> Install-Package Aspose.PDF.Cpp
 

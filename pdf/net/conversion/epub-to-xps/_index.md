@@ -13,7 +13,7 @@ description: Sample code for EPUB to XPS C# conversion. Use API example code for
 
 {{% blocks/products/pf/agp/content h2="How to Convert EPUB to XPS Using C#" %}}
 
- In order to convert EPUB to XPS, we’ll use
+ In order to convert EPUB to XPS, we'll use
  [Aspose.PDF for .NET](https://products.aspose.com/pdf/net) 
  API which is a feature-rich, powerful and easy to use document manipulation and conversion API for C# platform. Open
  [NuGet](https://www.nuget.org/packages/aspose.pdf) 
@@ -23,7 +23,7 @@ description: Sample code for EPUB to XPS C# conversion. Use API example code for
 
 {{% blocks/products/pf/agp/code-block title="Package Manager Console Command" offSpacer="true" %}}
 
-```cs
+```powershell
 
 PM> Install-Package Aspose.PDF
 
@@ -43,9 +43,9 @@ PM> Install-Package Aspose.PDF
 
 {{% /blocks/products/pf/agp/text %}}
 
-1.  Load EPUB file with an instance of Document
-1.  Call the Document.Save method while passing the output file path & SaveFormat.Xps as parameters
-1.  XPS file will be saved at the specified path
+1. Load EPUB file with an instance of Document
+1. Call the Document.Save method while passing the output file path & SaveFormat.Xps as parameters
+1. XPS file will be saved at the specified path
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
@@ -57,9 +57,9 @@ PM> Install-Package Aspose.PDF
 
 {{% /blocks/products/pf/agp/text %}}
 
--  Microsoft Windows or a compatible OS with .NET Framework, .NET Core, and PHP, VBScript, Delphi, C++ via COM Interop.
--  Development environment like Microsoft Visual Studio.
--  Aspose.PDF for .NET DLL referenced in your project.
+- Microsoft Windows or a compatible OS with .NET Framework, .NET Core, and PHP, VBScript, Delphi, C++ via COM Interop.
+- Development environment like Microsoft Visual Studio.
+- Aspose.PDF for .NET DLL referenced in your project.
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
@@ -77,8 +77,7 @@ document.Save("output.xps", Aspose.Pdf.SaveFormat.Xps);
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-    {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
- 
+{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
 
 <!-- aboutfile Starts -->
 

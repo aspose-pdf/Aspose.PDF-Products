@@ -75,7 +75,7 @@ create_pdf.save("generated-one.pdf");
 <!-- aboutfile Starts -->
 
      
-     {{% blocks/products/pf/agp/content h2="" %}}
+{{% blocks/products/pf/agp/content h2="" %}}
 
  A PDF Processing Library to create cross-platform applications with the ability to generate, modify, convert, render, secure and print documents without using Adobe Acrobat. It supports converting various file formats into PDF including HTML and converting PDF documents into various output formats. Developers can easily render all HTML content in a single Page PDF as well as convert HTML files with SVG graphic tags to Tagged PDF files. Java PDF API offers compression, table creation, graph & image functions, hyperlinks, stamp and watermarking tasks, extended security controls & custom font handling.
 

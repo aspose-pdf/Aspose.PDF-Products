@@ -23,7 +23,7 @@ description: C++ example code to extract text and images from PDF file on C++ Ru
 
 {{% blocks/products/pf/agp/code-block title="Command" offSpacer="true" %}}
 
-```cs
+```powershell
 
 PM> Install-Package Aspose.PDF.Cpp
 

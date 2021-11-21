@@ -16,13 +16,11 @@ description: Sample code for HTML to BMP C# conversion. Use API example code for
  [Aspose.PDF for .NET](https://products.aspose.com/pdf/net) 
  API which is a feature-rich, powerful and easy to use document manipulation and conversion API for C# platform. Open
  [NuGet](https://www.nuget.org/packages/aspose.pdf) 
- package manager, search for
- Aspose.PDF 
- and install. You may also use the following command from the Package Manager Console.
+ package manager, search for Aspose.PDF and install. You may also use the following command from the Package Manager Console.
 
 {{% blocks/products/pf/agp/code-block title="Package Manager Console Command" offSpacer="true" %}}
 
-```cs
+```powershell
 
 PM> Install-Package Aspose.PDF
 

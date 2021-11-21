@@ -23,7 +23,7 @@ description: C++ example code to edit or view PDF file metadata on C++ Runtime E
 
 {{% blocks/products/pf/agp/code-block title="Command" offSpacer="true" %}}
 
-```cs
+```powershell
 
 PM> Install-Package Aspose.PDF.Cpp
 

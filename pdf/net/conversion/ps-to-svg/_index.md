@@ -23,7 +23,7 @@ description: Sample code for PS to SVG C# conversion. Use API example code for b
 
 {{% blocks/products/pf/agp/code-block title="Package Manager Console Command" offSpacer="true" %}}
 
-```cs
+```powershell
 
 PM> Install-Package Aspose.PDF
 

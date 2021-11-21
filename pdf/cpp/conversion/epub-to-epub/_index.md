@@ -22,7 +22,7 @@ description: Sample C++ conversion code for EPUB document to EPUB format. Progra
 
 {{% blocks/products/pf/agp/code-block title="Command" offSpacer="true" %}}
 
-```cs
+```powershell
 
 PM> Install-Package Aspose.PDF.Cpp
 

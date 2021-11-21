@@ -23,7 +23,7 @@ description: C# source code to merge multiple PDF documents on .NET Framework, .
 
 {{% blocks/products/pf/agp/code-block title="Command" offSpacer="true" %}}
 
-```cs
+```powershell
 
 PM> Install-Package Aspose.PDF
 

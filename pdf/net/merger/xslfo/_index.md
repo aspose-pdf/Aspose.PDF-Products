@@ -23,7 +23,7 @@ description: C# source code to combine XSLFO documents on .NET Framework, .NET C
 
 {{% blocks/products/pf/agp/code-block title="Command" offSpacer="true" %}}
 
-```cs
+```powershell
 
 PM> Install-Package Aspose.PDF
 

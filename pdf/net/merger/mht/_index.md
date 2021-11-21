@@ -16,7 +16,7 @@ In order to merge MHT file, we’ll use <a href="https://products.aspose.com/pdf
 
 {{% blocks/products/pf/agp/code-block title="Command" offSpacer="true" %}}
 
-```cs
+```powershell
 
 PM> Install-Package Aspose.PDF
 

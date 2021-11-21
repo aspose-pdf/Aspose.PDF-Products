@@ -23,7 +23,7 @@ description: Sample code for PDF to XLS C# conversion. Use API example code for 
 
 {{% blocks/products/pf/agp/code-block title="Package Manager Console Command" offSpacer="true" %}}
 
-```cs
+```powershell
 
 PM> Install-Package Aspose.PDF
 
