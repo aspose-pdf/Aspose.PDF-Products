@@ -1,7 +1,7 @@
 ---
-title: Convert EPUB to PNG via C# 
+title: Convert EPUB to PNG via C#
 weight: 610
-url: /net/conversion/epub-to-png/ 
+url: /net/conversion/epub-to-png/
 description: Sample code for EPUB to PNG C# conversion. Use API example code for batch EPUB files to PNG conversion within VB.NET, Asp.NET or any .NET based application.
 ---
 
@@ -14,11 +14,11 @@ description: Sample code for EPUB to PNG C# conversion. Use API example code for
 {{% blocks/products/pf/agp/content h2="How to Convert EPUB to PNG Using C#" %}}
 
  In order to convert EPUB to PNG, we’ll use
- [Aspose.PDF for .NET](https://products.aspose.com/pdf/net) 
+ [Aspose.PDF for .NET](https://products.aspose.com/pdf/net)
  API which is a feature-rich, powerful and easy to use document manipulation and conversion API for C# platform. Open
- [NuGet](https://www.nuget.org/packages/aspose.pdf) 
+ [NuGet](https://www.nuget.org/packages/aspose.pdf)
  package manager, search for
- Aspose.PDF 
+ Aspose.PDF
  and install. You may also use the following command from the Package Manager Console.
 
 {{% blocks/products/pf/agp/code-block title="Package Manager Console Command" offSpacer="true" %}}
@@ -67,13 +67,13 @@ PM> Install-Package Aspose.PDF
 
 ```cs
 // load EPUB with an instance of Document
-var document = new Document("template.epub");
+var document = new Document("template.epub", new EpubLoadOptions());
 
-// create an object of pngDevice
-var renderer = new Devices.PngDevice();
+// create an object of EmfDevice
+var renderer = new Aspose.Pdf.Devices.PngDevice();
 
-// convert a particular page and save the image in PNG format
-renderer.Process(document.Pages[1], "output.png"); 
+// convert a particular page and save the image in EMF format
+renderer.Process(document.Pages[1], "output.png");
 
 ```
 
@@ -82,7 +82,7 @@ renderer.Process(document.Pages[1], "output.png");
 {{< /blocks/products/pf/agp/feature-section >}}
 
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
- 
+
 
 <!-- aboutfile Starts -->
 
@@ -142,5 +142,5 @@ PNG, Portable Network Graphics, refers to a type of raster image file format tha
 {{< /blocks/products/pf/agp/other-supported-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-    
+
 {{< /blocks/products/pf/main-wrap-class >}}

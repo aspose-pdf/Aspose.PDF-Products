@@ -1,7 +1,7 @@
 ---
-title: Convert EPUB to PPTX via C# 
+title: Convert EPUB to PPTX via C#
 weight: 1840
-url: /net/conversion/epub-to-pptx/ 
+url: /net/conversion/epub-to-pptx/
 description: Sample code for EPUB to PPTX C# conversion. Use API example code for batch EPUB files to PPTX conversion within VB.NET, Asp.NET or any .NET based application.
 ---
 
@@ -14,11 +14,11 @@ description: Sample code for EPUB to PPTX C# conversion. Use API example code fo
 {{% blocks/products/pf/agp/content h2="How to Convert EPUB to PPTX Using C#" %}}
 
  In order to convert EPUB to PPTX, we’ll use
- [Aspose.PDF for .NET](https://products.aspose.com/pdf/net) 
+ [Aspose.PDF for .NET](https://products.aspose.com/pdf/net)
  API which is a feature-rich, powerful and easy to use document manipulation and conversion API for C# platform. Open
- [NuGet](https://www.nuget.org/packages/aspose.pdf) 
+ [NuGet](https://www.nuget.org/packages/aspose.pdf)
  package manager, search for
- Aspose.PDF 
+ Aspose.PDF
  and install. You may also use the following command from the Package Manager Console.
 
 {{% blocks/products/pf/agp/code-block title="Package Manager Console Command" offSpacer="true" %}}
@@ -67,10 +67,10 @@ PM> Install-Package Aspose.PDF
 
 ```cs
 // load EPUB with an instance of Document
-var document = new Document("template.epub");
-// save document in PPTX format
-document.Save("output.pptx", Aspose.Pdf.SaveFormat.Pptx); 
+var document = new Document("template.epub", new EpubLoadOptions());
 
+// save document in PPTX format
+document.Save("output.pptx", Aspose.Pdf.SaveFormat.Pptx);
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
@@ -78,7 +78,7 @@ document.Save("output.pptx", Aspose.Pdf.SaveFormat.Pptx);
 {{< /blocks/products/pf/agp/feature-section >}}
 
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
- 
+
 
 <!-- aboutfile Starts -->
 
@@ -92,9 +92,7 @@ document.Save("output.pptx", Aspose.Pdf.SaveFormat.Pptx);
 
  A PDF Processing Library to create cross-platform applications with the ability to generate, modify, convert, render, secure and print documents without using Adobe Acrobat. .NET PDF API offers compression, table creation, graph & image functions, hyperlinks, stamp and watermarking tasks, extended security controls & custom font handling.
 
-
-
-    {{% /blocks/products/pf/agp/content %}}
+{{% /blocks/products/pf/agp/content %}}
 
     {{< blocks/products/pf/agp/about-file-section >}}
 
@@ -138,5 +136,5 @@ Files with PPTX extension are presentation files created with popular Microsoft 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-    
+
 {{< /blocks/products/pf/main-wrap-class >}}

@@ -1,7 +1,7 @@
 ---
-title: Convert EPUB to BMP via C# 
+title: Convert EPUB to BMP via C#
 weight: 1950
-url: /net/conversion/epub-to-bmp/ 
+url: /net/conversion/epub-to-bmp/
 description: Sample code for EPUB to BMP C# conversion. Use API example code for batch EPUB files to BMP conversion within VB.NET, Asp.NET or any .NET based application.
 ---
 
@@ -14,11 +14,11 @@ description: Sample code for EPUB to BMP C# conversion. Use API example code for
 {{% blocks/products/pf/agp/content h2="How to Convert EPUB to BMP Using C#" %}}
 
  In order to convert EPUB to BMP, we’ll use
- [Aspose.PDF for .NET](https://products.aspose.com/pdf/net) 
+ [Aspose.PDF for .NET](https://products.aspose.com/pdf/net)
  API which is a feature-rich, powerful and easy to use document manipulation and conversion API for C# platform. Open
- [NuGet](https://www.nuget.org/packages/aspose.pdf) 
+ [NuGet](https://www.nuget.org/packages/aspose.pdf)
  package manager, search for
- Aspose.PDF 
+ Aspose.PDF
  and install. You may also use the following command from the Package Manager Console.
 
 {{% blocks/products/pf/agp/code-block title="Package Manager Console Command" offSpacer="true" %}}
@@ -67,15 +67,13 @@ PM> Install-Package Aspose.PDF
 
 ```cs
 // load EPUB with an instance of Document
-EpubLoadOptions option = new EpubLoadOptions();
-var document = new Document("template.epub", option);
+var document = new Document("template.epub", new EpubLoadOptions());
 
 // create an object of bmpDevice
-var renderer = new Devices.BmpDevice();
+var renderer = new Aspose.Pdf.Devices.BmpDevice();
 
 // convert a particular page and save the image in BMP format
-renderer.Process(document.Pages[1], "output.bmp"); 
-
+renderer.Process(document.Pages[1], "output.bmp");
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
