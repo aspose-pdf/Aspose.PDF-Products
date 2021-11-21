@@ -1,7 +1,7 @@
 ---
-title: Convert EPS to TXT via C# 
+title: Convert EPS to TXT via C#
 weight: 810
-url: /net/conversion/eps-to-txt/ 
+url: /net/conversion/eps-to-txt/
 description: Sample code for EPS to TXT C# conversion. Use API example code for batch EPS files to TXT conversion within VB.NET, Asp.NET or any .NET based application.
 ---
 
@@ -14,11 +14,11 @@ description: Sample code for EPS to TXT C# conversion. Use API example code for 
 {{% blocks/products/pf/agp/content h2="How to Convert EPS to TXT Using C#" %}}
 
  In order to convert EPS to TXT, we’ll use
- [Aspose.PDF for .NET](https://products.aspose.com/pdf/net) 
+ [Aspose.PDF for .NET](https://products.aspose.com/pdf/net)
  API which is a feature-rich, powerful and easy to use document manipulation and conversion API for C# platform. Open
- [NuGet](https://www.nuget.org/packages/aspose.pdf) 
+ [NuGet](https://www.nuget.org/packages/aspose.pdf)
  package manager, search for
- Aspose.PDF 
+ Aspose.PDF
  and install. You may also use the following command from the Package Manager Console.
 
 {{% blocks/products/pf/agp/code-block title="Package Manager Console Command" offSpacer="true" %}}
@@ -57,9 +57,9 @@ PM> Install-Package Aspose.PDF
 
 {{% /blocks/products/pf/agp/text %}}
 
--  Microsoft Windows or a compatible OS with .NET Framework, .NET Core, and PHP, VBScript, Delphi, C++ via COM Interop.
--  Development environment like Microsoft Visual Studio.
--  Aspose.PDF for .NET DLL referenced in your project.
+- Microsoft Windows or a compatible OS with .NET Framework, .NET Core, and PHP, VBScript, Delphi, C++ via COM Interop.
+- Development environment like Microsoft Visual Studio.
+- Aspose.PDF for .NET DLL referenced in your project.
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
@@ -67,48 +67,48 @@ PM> Install-Package Aspose.PDF
 
 ```cs
 // load EPS with an instance of Document
-var document = new Document("template.eps");
-// save document in TXT format
-document.Save("output.txt", Aspose.Pdf.SaveFormat.Txt); 
+var document = new Document("template.eps", new PsLoadOptions());
 
+// create an object of TextDevice
+var renderer = new Aspose.Pdf.Devices.TextDevice();
+
+renderer.Process(document.Pages[1],"output.txt");
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-    {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
- 
+{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
 
 <!-- aboutfile Starts -->
 
 {{< blocks/products/pf/agp/demobox sectionTitle="Free App to Convert EPS to TXT" sectionDescription="Check our live demos for [EPS to TXT conversion](https://products.aspose.app/pdf/conversion/eps-to-txt) with following benefits." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-cogs" text=" No need to download or setup anything." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write any code." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-file-text" text=" Just upload your EPS file and hit the \"Convert\" button." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-download" text=" You will instantly get the download link for resultant TXT file." >}}
+{{< blocks/products/pf/agp/democard icon="fa-cogs" text=" No need to download or setup anything." >}}
+{{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write any code." >}}
+{{< blocks/products/pf/agp/democard icon="fa-file-text" text=" Just upload your EPS file and hit the \"Convert\" button." >}}
+{{< blocks/products/pf/agp/democard icon="fa-download" text=" You will instantly get the download link for resultant TXT file." >}}
 
-    {{% blocks/products/pf/agp/content h2="" %}}
+{{% blocks/products/pf/agp/content h2="" %}}
 
  A PDF Processing Library to create cross-platform applications with the ability to generate, modify, convert, render, secure and print documents without using Adobe Acrobat. .NET PDF API offers compression, table creation, graph & image functions, hyperlinks, stamp and watermarking tasks, extended security controls & custom font handling.
 
+{{% /blocks/products/pf/agp/content %}}
 
+{{< blocks/products/pf/agp/about-file-section >}}
 
-    {{% /blocks/products/pf/agp/content %}}
-
-    {{< blocks/products/pf/agp/about-file-section >}}
-
-        {{< blocks/products/pf/agp/about-file-text fileFormat="EPS" readMoreLink="https://docs.fileformat.com/page-description-language/eps/" >}}
+{{< blocks/products/pf/agp/about-file-text fileFormat="EPS" readMoreLink="https://docs.fileformat.com/page-description-language/eps/" >}}
 FIles with EPS extension essentially describe an Encapsulated PostScript language program that describes the appearance of a single page. The name "Encapsulated" because it can be included or encapsulated in another PostScript language page description. This script based file format may contain any combination of text, graphics and images. EPS files may include a bitmap preview image encapsulated inside for display by applications that can open such files. EPS files can be converted to standard image formats such as JPG, PNG, TIFF and PDF using different applications e.g. Adobe Illustrator, Photoshop and PaintShop Pro. Because of a security vulnerability in EPS files, Office 2016, Office 2013, Office 2010, and Office 365 have turned off the ability to insert EPS files into Office documents.
 
-        {{< /blocks/products/pf/agp/about-file-text >}}
+{{< /blocks/products/pf/agp/about-file-text >}}
 
-        {{< blocks/products/pf/agp/about-file-text fileFormat="txt" readMoreLink="https://docs.fileformat.com/word-processing/txt/" >}}
+{{< blocks/products/pf/agp/about-file-text fileFormat="txt" readMoreLink="https://docs.fileformat.com/word-processing/txt/" >}}
+
 A file with .TXT extension represents a text document that contains plain text in the form of lines. Paragraphs in a text document are recognized by carriage returns and are used for better arrangement of file contents. A standard text document can be opened in any text editor or word processing application on different operating systems. All the text contained in such a file is in human-readable format and represented by sequence of characters.
 
-        {{< /blocks/products/pf/agp/about-file-text >}}
+{{< /blocks/products/pf/agp/about-file-text >}}
 
-    {{< /blocks/products/pf/agp/about-file-section >}}
+{{< /blocks/products/pf/agp/about-file-section >}}
 
 {{< /blocks/products/pf/agp/demobox >}}
 
@@ -138,5 +138,5 @@ A file with .TXT extension represents a text document that contains plain text i
 {{< /blocks/products/pf/agp/other-supported-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-    
+
 {{< /blocks/products/pf/main-wrap-class >}}

@@ -1,7 +1,7 @@
 ---
-title: Convert EPS to XPS via C# 
+title: Convert EPS to XPS via C#
 weight: 2310
-url: /net/conversion/eps-to-xps/ 
+url: /net/conversion/eps-to-xps/
 description: Sample code for EPS to XPS C# conversion. Use API example code for batch EPS files to XPS conversion within VB.NET, Asp.NET or any .NET based application.
 ---
 
@@ -14,11 +14,11 @@ description: Sample code for EPS to XPS C# conversion. Use API example code for 
 {{% blocks/products/pf/agp/content h2="How to Convert EPS to XPS Using C#" %}}
 
  In order to convert EPS to XPS, we’ll use
- [Aspose.PDF for .NET](https://products.aspose.com/pdf/net) 
+ [Aspose.PDF for .NET](https://products.aspose.com/pdf/net)
  API which is a feature-rich, powerful and easy to use document manipulation and conversion API for C# platform. Open
- [NuGet](https://www.nuget.org/packages/aspose.pdf) 
+ [NuGet](https://www.nuget.org/packages/aspose.pdf)
  package manager, search for
- Aspose.PDF 
+ Aspose.PDF
  and install. You may also use the following command from the Package Manager Console.
 
 {{% blocks/products/pf/agp/code-block title="Package Manager Console Command" offSpacer="true" %}}
@@ -67,18 +67,17 @@ PM> Install-Package Aspose.PDF
 
 ```cs
 // load EPS with an instance of Document
-var document = new Document("template.eps");
-// save document in XPS format
-document.Save("output.xps", Aspose.Pdf.SaveFormat.Xps); 
+var document = new Document("template.eps", new PsLoadOptions());
 
+// save document in TEX format
+document.Save("output.xps", Aspose.Pdf.SaveFormat.Xps);
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-    {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
- 
+{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
 
 <!-- aboutfile Starts -->
 
@@ -138,5 +137,5 @@ An XPS file represents page layout files that are based on XML Paper Specificati
 {{< /blocks/products/pf/agp/other-supported-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-    
+
 {{< /blocks/products/pf/main-wrap-class >}}

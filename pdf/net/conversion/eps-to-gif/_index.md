@@ -1,7 +1,7 @@
 ---
-title: Convert EPS to GIF via C# 
+title: Convert EPS to GIF via C#
 weight: 1030
-url: /net/conversion/eps-to-gif/ 
+url: /net/conversion/eps-to-gif/
 description: Sample code for EPS to GIF C# conversion. Use API example code for batch EPS files to GIF conversion within VB.NET, Asp.NET or any .NET based application.
 ---
 
@@ -14,11 +14,11 @@ description: Sample code for EPS to GIF C# conversion. Use API example code for 
 {{% blocks/products/pf/agp/content h2="How to Convert EPS to GIF Using C#" %}}
 
  In order to convert EPS to GIF, we’ll use
- [Aspose.PDF for .NET](https://products.aspose.com/pdf/net) 
+ [Aspose.PDF for .NET](https://products.aspose.com/pdf/net)
  API which is a feature-rich, powerful and easy to use document manipulation and conversion API for C# platform. Open
- [NuGet](https://www.nuget.org/packages/aspose.pdf) 
+ [NuGet](https://www.nuget.org/packages/aspose.pdf)
  package manager, search for
- Aspose.PDF 
+ Aspose.PDF
  and install. You may also use the following command from the Package Manager Console.
 
 {{% blocks/products/pf/agp/code-block title="Package Manager Console Command" offSpacer="true" %}}
@@ -43,9 +43,9 @@ PM> Install-Package Aspose.PDF
 
 {{% /blocks/products/pf/agp/text %}}
 
-1.  Load EPS file with an instance of Document
-1.  Call the Document.Save method while passing the output file path & SaveFormat.Gif as parameters
-1.  GIF file will be saved at the specified path
+1. Load EPS file with an instance of Document
+1. Call the Document.Save method while passing the output file path & SaveFormat.Gif as parameters
+1. GIF file will be saved at the specified path
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
@@ -57,9 +57,9 @@ PM> Install-Package Aspose.PDF
 
 {{% /blocks/products/pf/agp/text %}}
 
--  Microsoft Windows or a compatible OS with .NET Framework, .NET Core, and PHP, VBScript, Delphi, C++ via COM Interop.
--  Development environment like Microsoft Visual Studio.
--  Aspose.PDF for .NET DLL referenced in your project.
+- Microsoft Windows or a compatible OS with .NET Framework, .NET Core, and PHP, VBScript, Delphi, C++ via COM Interop.
+- Development environment like Microsoft Visual Studio.
+- Aspose.PDF for .NET DLL referenced in your project.
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
@@ -67,9 +67,13 @@ PM> Install-Package Aspose.PDF
 
 ```cs
 // load EPS with an instance of Document
-var document = new Document("template.eps");
-// save document in GIF format
-document.Save("output.gif", Aspose.Pdf.SaveFormat.Gif); 
+var document = new Document("template.eps", new PsLoadOptions());
+
+// create an object of GifDevice
+var renderer = new Aspose.Pdf.Devices.GifDevice();
+
+// convert a particular page and save the image in EMF format
+renderer.Process(document.Pages[1], "output.gif");
 
 ```
 
@@ -78,7 +82,7 @@ document.Save("output.gif", Aspose.Pdf.SaveFormat.Gif);
 {{< /blocks/products/pf/agp/feature-section >}}
 
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
- 
+
 
 <!-- aboutfile Starts -->
 
@@ -138,5 +142,5 @@ A GIF or Graphical Interchange Format is a type of highly compressed image. Owne
 {{< /blocks/products/pf/agp/other-supported-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-    
+
 {{< /blocks/products/pf/main-wrap-class >}}

@@ -1,7 +1,7 @@
 ---
-title: Convert EPS to XLSX via C# 
+title: Convert EPS to XLSX via C#
 weight: 1450
-url: /net/conversion/eps-to-xlsx/ 
+url: /net/conversion/eps-to-xlsx/
 description: Sample code for EPS to XLSX C# conversion. Use API example code for batch EPS files to XLSX conversion within VB.NET, Asp.NET or any .NET based application.
 ---
 
@@ -14,11 +14,11 @@ description: Sample code for EPS to XLSX C# conversion. Use API example code for
 {{% blocks/products/pf/agp/content h2="How to Convert EPS to XLSX Using C#" %}}
 
  In order to convert EPS to XLSX, we’ll use
- [Aspose.PDF for .NET](https://products.aspose.com/pdf/net) 
+ [Aspose.PDF for .NET](https://products.aspose.com/pdf/net)
  API which is a feature-rich, powerful and easy to use document manipulation and conversion API for C# platform. Open
- [NuGet](https://www.nuget.org/packages/aspose.pdf) 
+ [NuGet](https://www.nuget.org/packages/aspose.pdf)
  package manager, search for
- Aspose.PDF 
+ Aspose.PDF
  and install. You may also use the following command from the Package Manager Console.
 
 {{% blocks/products/pf/agp/code-block title="Package Manager Console Command" offSpacer="true" %}}
@@ -67,10 +67,10 @@ PM> Install-Package Aspose.PDF
 
 ```cs
 // load EPS with an instance of Document
-var document = new Document("template.eps");
-// save document in XLSX format
-document.Save("output.xlsx", Aspose.Pdf.SaveFormat.Xlsx); 
+var document = new Document("template.eps", new PsLoadOptions());
 
+// save document in XLS format
+document.Save("output.xlsx", new ExcelSaveOptions());
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
@@ -78,7 +78,7 @@ document.Save("output.xlsx", Aspose.Pdf.SaveFormat.Xlsx);
 {{< /blocks/products/pf/agp/feature-section >}}
 
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
- 
+
 
 <!-- aboutfile Starts -->
 
@@ -138,5 +138,5 @@ XLSX is well-known format for Microsoft Excel documents that was introduced by M
 {{< /blocks/products/pf/agp/other-supported-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-    
+
 {{< /blocks/products/pf/main-wrap-class >}}
