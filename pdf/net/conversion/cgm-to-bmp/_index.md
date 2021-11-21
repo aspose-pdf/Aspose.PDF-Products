@@ -59,15 +59,14 @@ PM> Install-Package Aspose.PDF
 {{% blocks/products/pf/agp/code-block title="This sample code shows CGM to BMP C# Conversion" offSpacer="" %}}
 
 ```cs
-// load CGM with an instance of Document
-var document = new Document("template.cgm");
+// load CGM with an instance of Document                        
+var document = new Document("template.cgm", new CgmLoadOptions());
 
 // create an object of bmpDevice
-var renderer = new Devices.BmpDevice();
+var renderer = new Aspose.Pdf.Devices.BmpDevice();
 
 // convert a particular page and save the image in BMP format
-renderer.Process(document.Pages[1], "output.bmp"); 
-
+renderer.Process(document.Pages[1], "output.bmp");
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

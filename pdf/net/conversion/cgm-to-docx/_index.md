@@ -67,7 +67,7 @@ PM> Install-Package Aspose.PDF
 
 ```cs
 // load CGM with an instance of Document
-var document = new Document("template.cgm");
+var document = new Document("template.cgm", new CgmLoadOptions());
 // save document in DOCX format
 document.Save("output.docx", Aspose.Pdf.SaveFormat.Docx); 
 

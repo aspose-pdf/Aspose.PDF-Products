@@ -65,11 +65,10 @@ PM> Install-Package Aspose.PDF
 {{% blocks/products/pf/agp/code-block title="This sample code shows CGM to DOC C# Conversion" offSpacer="" %}}
 
 ```cs
-// load CGM with an instance of Document
-var document = new Document("template.cgm");
+// load CGM with an instance of Document                        
+var document = new Document("template.cgm", new CgmLoadOptions());
 // save document in DOC format
-document.Save("output.doc", Aspose.Pdf.SaveFormat.Doc); 
-
+document.Save("output.doc", Aspose.Pdf.SaveFormat.Doc);
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
