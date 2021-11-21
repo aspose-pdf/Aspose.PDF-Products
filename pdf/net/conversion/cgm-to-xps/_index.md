@@ -1,6 +1,6 @@
 ---
-title: Convert CGM to XPS via C# 
-url: /net/conversion/cgm-to-xps/ 
+title: Convert CGM to XPS via C#
+url: /net/conversion/cgm-to-xps/
 description: Sample code for CGM to XPS C# conversion. Use API example code for batch CGM files to XPS conversion within VB.NET, Asp.NET or any .NET based application.
 ---
 
@@ -13,8 +13,8 @@ description: Sample code for CGM to XPS C# conversion. Use API example code for 
 {{% blocks/products/pf/agp/content h2="How to Convert CGM to XPS Using C#" %}}
 
  In order to convert CGM to XPS, we’ll use
- [Aspose.PDF for .NET](https://products.aspose.com/pdf/net) 
- API which is a feature-rich, powerful and easy to use document manipulation and conversion API for C# platform. Open [NuGet](https://www.nuget.org/packages/aspose.pdf) 
+ [Aspose.PDF for .NET](https://products.aspose.com/pdf/net)
+ API which is a feature-rich, powerful and easy to use document manipulation and conversion API for C# platform. Open [NuGet](https://www.nuget.org/packages/aspose.pdf)
  package manager, search for Aspose.PDF and install. You may also use the following command from the Package Manager Console.
 
 {{% blocks/products/pf/agp/code-block title="Package Manager Console Command" offSpacer="true" %}}
@@ -43,7 +43,6 @@ PM> Install-Package Aspose.PDF
 1. Call the Document.Save method while passing the output file path & SaveFormat.Xps as parameters
 1. XPS file will be saved at the specified path
 
-
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
 {{% blocks/products/pf/agp/feature-section-col title="System Requirements" %}}
@@ -63,7 +62,7 @@ PM> Install-Package Aspose.PDF
 {{% blocks/products/pf/agp/code-block title="This sample code shows CGM to XPS C# Conversion" offSpacer="" %}}
 
 ```cs
-// load CGM with an instance of Document                        
+// load CGM with an instance of Document
 var document = new Document("template.cgm", new CgmLoadOptions());
 
 // save document in TEX format
