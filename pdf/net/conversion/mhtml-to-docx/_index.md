@@ -66,11 +66,11 @@ PM> Install-Package Aspose.PDF
 {{% blocks/products/pf/agp/code-block title="This sample code shows MHTML to DOCX C# Conversion" offSpacer="" %}}
 
 ```cs
-// load MHTML with an instance of Document
-var document = new Document("template.mhtml");
-// save document in DOCX format
-document.Save("output.docx", Aspose.Pdf.SaveFormat.Docx);
+// load MHT with an instance of Document
+var document = new Document("template.mht", new MhtLoadOptions());
 
+// save document in DOC format
+document.Save("output.doc", Aspose.Pdf.SaveFormat.DocX);
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

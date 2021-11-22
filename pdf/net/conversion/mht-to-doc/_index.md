@@ -67,7 +67,7 @@ PM> Install-Package Aspose.PDF
 
 ```cs
 // load MHT with an instance of Document
-var document = new Document("template.mht");
+var document = new Document("template.mht", new MhtLoadOptions());
 // save document in DOC format
 document.Save("output.doc", Aspose.Pdf.SaveFormat.Doc);
 

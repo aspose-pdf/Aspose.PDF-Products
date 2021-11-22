@@ -66,11 +66,13 @@ PM> Install-Package Aspose.PDF
 {{% blocks/products/pf/agp/code-block title="This sample code shows MHTML to TXT C# Conversion" offSpacer="" %}}
 
 ```cs
-// load MHTML with an instance of Document
-var document = new Document("template.mhtml");
-// save document in TXT format
-document.Save("output.txt", Aspose.Pdf.SaveFormat.Txt);
+// load MHT with an instance of Document
+var document = new Document("template.mht", new MhtLoadOptions());
 
+// create an object of TextDevice
+var renderer = new Aspose.Pdf.Devices.TextDevice();
+
+renderer.Process(document.Pages[1], "output.txt");
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

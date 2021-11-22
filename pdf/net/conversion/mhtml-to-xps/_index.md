@@ -67,17 +67,17 @@ PM> Install-Package Aspose.PDF
 
 ```cs
 // load MHTML with an instance of Document
-var document = new Document("template.mhtml");
+var document = new Document("template.mhtml", new MhtLoadOptions());
+
 // save document in XPS format
 document.Save("output.xps", Aspose.Pdf.SaveFormat.Xps);
-
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-    {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
+{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
 
 
 <!-- aboutfile Starts -->

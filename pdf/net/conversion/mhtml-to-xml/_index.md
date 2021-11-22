@@ -67,10 +67,10 @@ PM> Install-Package Aspose.PDF
 
 ```cs
 // load MHTML with an instance of Document
-var document = new Document("template.mhtml");
-// save document in XML format
-document.Save("output.xml", Aspose.Pdf.SaveFormat.Xml);
+var document = new Document("template.mht", new MhtLoadOptions());
 
+// save document in XLS format
+document.Save("output.xml", Aspose.Pdf.SaveFormat.Xml);
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

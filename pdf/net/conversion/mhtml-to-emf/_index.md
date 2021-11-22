@@ -66,15 +66,14 @@ PM> Install-Package Aspose.PDF
 {{% blocks/products/pf/agp/code-block title="This sample code shows MHTML to EMF C# Conversion" offSpacer="" %}}
 
 ```cs
-// load MHTML with an instance of Document
-var document = new Document("template.mhtml");
+// load MHT with an instance of Document
+var document = new Document("template.mht", new MhtLoadOptions());
 
 // create an object of emfDevice
-var renderer = new Devices.EmfDevice();
+var renderer = new Aspose.Pdf.Devices.EmfDevice();
 
 // convert a particular page and save the image in EMF format
 renderer.Process(document.Pages[1], "output.emf");
-
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

@@ -67,8 +67,9 @@ PM> Install-Package Aspose.PDF
 
 ```cs
 // load MHT with an instance of Document
-var document = new Document("template.mht");
-// save document in EPUB format
+var document = new Document("template.mht", new MhtLoadOptions());
+
+// save document in EPUBformat
 document.Save("output.epub", Aspose.Pdf.SaveFormat.Epub);
 
 ```

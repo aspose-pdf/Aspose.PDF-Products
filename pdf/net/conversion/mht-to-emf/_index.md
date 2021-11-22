@@ -67,10 +67,10 @@ PM> Install-Package Aspose.PDF
 
 ```cs
 // load MHT with an instance of Document
-var document = new Document("template.mht");
+var document = new Document("template.mht", new MhtLoadOptions());
 
 // create an object of emfDevice
-var renderer = new Devices.EmfDevice();
+var renderer = new Aspose.Pdf.Devices.EmfDevice();
 
 // convert a particular page and save the image in EMF format
 renderer.Process(document.Pages[1], "output.emf");

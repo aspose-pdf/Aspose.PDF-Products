@@ -66,11 +66,11 @@ PM> Install-Package Aspose.PDF
 {{% blocks/products/pf/agp/code-block title="This sample code shows MHTML to XLS C# Conversion" offSpacer="" %}}
 
 ```cs
-// load MHTML with an instance of Document
-var document = new Document("template.mhtml");
-// save document in XLS format
-document.Save("output.xls", Aspose.Pdf.SaveFormat.Xls);
+// load MHT with an instance of Document
+var document = new Document("template.mht", new MhtLoadOptions());
 
+// save document in XLS format
+document.Save("output.xls", Aspose.Pdf.SaveFormat.Excel);
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

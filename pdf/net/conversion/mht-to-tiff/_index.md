@@ -67,14 +67,13 @@ PM> Install-Package Aspose.PDF
 
 ```cs
 // load MHT with an instance of Document
-var document = new Document("template.mht");
+var document = new Document("template.mht", new MhtLoadOptions());
 
 // create an object of tiffDevice
-var renderer = new Devices.TiffDevice();
+var renderer = new Aspose.Pdf.Devices.TiffDevice();
 
 // convert a particular page and save the image in TIFF format
-renderer.Process(document.Pages[1], "output.tiff");
-
+renderer.Process(document, "output.tiff");
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

@@ -66,11 +66,11 @@ PM> Install-Package Aspose.PDF
 {{% blocks/products/pf/agp/code-block title="This sample code shows MHTML to PPTX C# Conversion" offSpacer="" %}}
 
 ```cs
-// load MHTML with an instance of Document
-var document = new Document("template.mhtml");
+// load MHT with an instance of Document
+var document = new Document("template.mhtml", new MhtLoadOptions());
+
 // save document in PPTX format
 document.Save("output.pptx", Aspose.Pdf.SaveFormat.Pptx);
-
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

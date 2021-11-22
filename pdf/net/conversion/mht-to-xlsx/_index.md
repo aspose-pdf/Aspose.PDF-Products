@@ -67,18 +67,17 @@ PM> Install-Package Aspose.PDF
 
 ```cs
 // load MHT with an instance of Document
-var document = new Document("template.mht");
-// save document in XLSX format
-document.Save("output.xlsx", Aspose.Pdf.SaveFormat.Xlsx);
+var document = new Document("template.mht", new MhtLoadOptions());
 
+// save document in XLS format
+document.Save("output.xlsx", new ExcelSaveOptions());
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-    {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
-
+{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
 
 <!-- aboutfile Starts -->
 

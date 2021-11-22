@@ -66,13 +66,13 @@ PM> Install-Package Aspose.PDF
 {{% blocks/products/pf/agp/code-block title="This sample code shows MHTML to JPEG C# Conversion" offSpacer="" %}}
 
 ```cs
-// load MHTML with an instance of Document
-var document = new Document("template.mhtml");
+// load MHT with an instance of Document
+var document = new Document("template.mht", new MhtLoadOptions());
 
-// create an object of jpegDevice
-var renderer = new Devices.JpegDevice();
+// create an object of EmfDevice
+var renderer = new Aspose.Pdf.Devices.JpegDevice();
 
-// convert a particular page and save the image in JPEG format
+// convert a particular page and save the image in EMF format
 renderer.Process(document.Pages[1], "output.jpeg");
 
 ```

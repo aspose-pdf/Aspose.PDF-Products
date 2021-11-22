@@ -67,18 +67,17 @@ PM> Install-Package Aspose.PDF
 
 ```cs
 // load MHTML with an instance of Document
-var document = new Document("template.mhtml");
-// save document in SVG format
-document.Save("output.svg", Aspose.Pdf.SaveFormat.Svg);
+var document = new Document("template.mhtml", new MhtLoadOptions());
 
+// save document in PPTX format
+document.Save("output.svg", Aspose.Pdf.SaveFormat.Svg);
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-    {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
-
+{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
 
 <!-- aboutfile Starts -->
 

@@ -66,11 +66,11 @@ PM> Install-Package Aspose.PDF
 {{% blocks/products/pf/agp/code-block title="This sample code shows MHTML to HTML C# Conversion" offSpacer="" %}}
 
 ```cs
-// load MHTML with an instance of Document
-var document = new Document("template.mhtml");
+// load MHT with an instance of Document
+var document = new Document("template.mht", new MhtLoadOptions());
+
 // save document in HTML format
 document.Save("output.html", Aspose.Pdf.SaveFormat.Html);
-
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

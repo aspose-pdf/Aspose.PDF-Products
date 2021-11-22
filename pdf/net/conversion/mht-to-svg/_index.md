@@ -67,10 +67,10 @@ PM> Install-Package Aspose.PDF
 
 ```cs
 // load MHT with an instance of Document
-var document = new Document("template.mht");
-// save document in SVG format
-document.Save("output.svg", Aspose.Pdf.SaveFormat.Svg);
+var document = new Document("template.mht", new MhtLoadOptions());
 
+// save document in PPTX format
+document.Save("output.svg", Aspose.Pdf.SaveFormat.Svg);
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

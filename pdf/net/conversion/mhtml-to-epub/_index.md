@@ -66,11 +66,11 @@ PM> Install-Package Aspose.PDF
 {{% blocks/products/pf/agp/code-block title="This sample code shows MHTML to EPUB C# Conversion" offSpacer="" %}}
 
 ```cs
-// load MHTML with an instance of Document
-var document = new Document("template.mhtml");
-// save document in EPUB format
-document.Save("output.epub", Aspose.Pdf.SaveFormat.Epub);
+// load MHT with an instance of Document
+var document = new Document("template.mht", new MhtLoadOptions());
 
+// save document in EPUBformat
+document.Save("output.epub", Aspose.Pdf.SaveFormat.Epub);
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

@@ -67,9 +67,10 @@ PM> Install-Package Aspose.PDF
 
 ```cs
 // load MHT with an instance of Document
-var document = new Document("template.mht");
-// save document in DOCX format
-document.Save("output.docx", Aspose.Pdf.SaveFormat.Docx);
+var document = new Document("template.mht", new MhtLoadOptions());
+
+// save document in DOC format
+document.Save("output.doc", Aspose.Pdf.SaveFormat.DocX);
 
 ```
 
@@ -77,8 +78,7 @@ document.Save("output.docx", Aspose.Pdf.SaveFormat.Docx);
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-    {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
-
+{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
 
 <!-- aboutfile Starts -->
 
@@ -88,9 +88,9 @@ document.Save("output.docx", Aspose.Pdf.SaveFormat.Docx);
         {{< blocks/products/pf/agp/democard icon="fa-file-text" text=" Just upload your MHT file and hit the \"Convert\" button." >}}
         {{< blocks/products/pf/agp/democard icon="fa-download" text=" You will instantly get the download link for resultant DOCX file." >}}
 
-    {{% blocks/products/pf/agp/content h2="" %}}
+{{% blocks/products/pf/agp/content h2="" %}}
 
- A PDF Processing Library to create cross-platform applications with the ability to generate, modify, convert, render, secure and print documents without using Adobe Acrobat. .NET PDF API offers compression, table creation, graph & image functions, hyperlinks, stamp and watermarking tasks, extended security controls & custom font handling.
+A PDF Processing Library to create cross-platform applications with the ability to generate, modify, convert, render, secure and print documents without using Adobe Acrobat. .NET PDF API offers compression, table creation, graph & image functions, hyperlinks, stamp and watermarking tasks, extended security controls & custom font handling.
 
 
 
