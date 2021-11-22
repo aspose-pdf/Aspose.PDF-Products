@@ -46,7 +46,6 @@ PM> Install-Package Aspose.PDF
 1. Call the Document.Save method while passing the output file path & SaveFormat.Pptx as parameters
 1. PPTX file will be saved at the specified path
 
-
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
 {{% blocks/products/pf/agp/feature-section-col title="System Requirements" %}}
@@ -67,10 +66,10 @@ PM> Install-Package Aspose.PDF
 
 ```cs
 // load HTML with an instance of Document
-var document = new Document("template.html");
+var document = new Document("template.html", new HtmlLoadOptions());
+
 // save document in PPTX format
 document.Save("output.pptx", Aspose.Pdf.SaveFormat.Pptx);
-
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

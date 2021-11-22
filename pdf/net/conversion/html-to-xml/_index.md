@@ -46,7 +46,6 @@ PM> Install-Package Aspose.PDF
 1. Call the Document.Save method while passing the output file path & SaveFormat.Xml as parameters
 1. XML file will be saved at the specified path
 
-
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
 {{% blocks/products/pf/agp/feature-section-col title="System Requirements" %}}
@@ -67,10 +66,10 @@ PM> Install-Package Aspose.PDF
 
 ```cs
 // load HTML with an instance of Document
-var document = new Document("template.html");
-// save document in XML format
-document.Save("output.xml", Aspose.Pdf.SaveFormat.Xml);
+var document = new Document("template.html", new HtmlLoadOptions());
 
+// save document in XLS format
+document.Save("output.xlsx", Aspose.Pdf.SaveFormat.Xml);
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

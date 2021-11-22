@@ -46,7 +46,6 @@ PM> Install-Package Aspose.PDF
 1. Call the Document.Save method while passing the output file path & SaveFormat.Txt as parameters
 1. TXT file will be saved at the specified path
 
-
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
 {{% blocks/products/pf/agp/feature-section-col title="System Requirements" %}}
@@ -67,10 +66,12 @@ PM> Install-Package Aspose.PDF
 
 ```cs
 // load HTML with an instance of Document
-var document = new Document("template.html");
-// save document in TXT format
-document.Save("output.txt", Aspose.Pdf.SaveFormat.Txt);
+var document = new Document("template.html", new HtmlLoadOptions());
 
+// create an object of TextDevice
+var renderer = new Aspose.Pdf.Devices.TextDevice();
+
+renderer.Process(document.Pages[1], "output.txt");
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
@@ -93,7 +94,6 @@ document.Save("output.txt", Aspose.Pdf.SaveFormat.Txt);
  A PDF Processing Library to create cross-platform applications with the ability to generate, modify, convert, render, secure and print documents without using Adobe Acrobat. .NET PDF API offers compression, table creation, graph & image functions, hyperlinks, stamp and watermarking tasks, extended security controls & custom font handling.
 
 
-
     {{% /blocks/products/pf/agp/content %}}
 
     {{< blocks/products/pf/agp/about-file-section >}}
@@ -113,8 +113,6 @@ A file with .TXT extension represents a text document that contains plain text i
 {{< /blocks/products/pf/agp/demobox >}}
 
 <!-- aboutfile Ends -->
-
-
 
 {{< /blocks/products/pf/main-container >}}
 

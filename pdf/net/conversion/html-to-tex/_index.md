@@ -67,10 +67,10 @@ PM> Install-Package Aspose.PDF
 
 ```cs
 // load HTML with an instance of Document
-var document = new Document("template.html");
-// save document in TEX format
-document.Save("output.tex", Aspose.Pdf.SaveFormat.Tex);
+var document = new Document("template.html", new HtmlLoadOptions());
 
+// save document in TeX format
+document.Save("output.tex", Aspose.Pdf.SaveFormat.TeX);
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

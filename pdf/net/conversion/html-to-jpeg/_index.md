@@ -67,14 +67,13 @@ PM> Install-Package Aspose.PDF
 
 ```cs
 // load HTML with an instance of Document
-var document = new Document("template.html");
+var document = new Document("template.html", new HtmlLoadOptions());
 
-// create an object of jpegDevice
-var renderer = new Devices.JpegDevice();
+// create an object of EmfDevice
+var renderer = new Aspose.Pdf.Devices.JpegDevice();
 
-// convert a particular page and save the image in JPEG format
+// convert a particular page and save the image in EMF format
 renderer.Process(document.Pages[1], "output.jpeg");
-
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

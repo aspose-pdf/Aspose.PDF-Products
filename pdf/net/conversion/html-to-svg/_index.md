@@ -46,7 +46,6 @@ PM> Install-Package Aspose.PDF
 1. Call the Document.Save method while passing the output file path & SaveFormat.Svg as parameters
 1. SVG file will be saved at the specified path
 
-
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
 {{% blocks/products/pf/agp/feature-section-col title="System Requirements" %}}
@@ -67,10 +66,10 @@ PM> Install-Package Aspose.PDF
 
 ```cs
 // load HTML with an instance of Document
-var document = new Document("template.html");
-// save document in SVG format
-document.Save("output.svg", Aspose.Pdf.SaveFormat.Svg);
+var document = new Document("template.html", new HtmlLoadOptions());
 
+// save document in PPTX format
+document.Save("output.svg", Aspose.Pdf.SaveFormat.Svg);
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

@@ -46,7 +46,6 @@ PM> Install-Package Aspose.PDF
 1. Create & set the instance of PngDevice class with Size & Resolution
 1. Call PngDevice.Process method with page index & output file path as parameters
 
-
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
 {{% blocks/products/pf/agp/feature-section-col title="System Requirements" %}}
@@ -67,14 +66,13 @@ PM> Install-Package Aspose.PDF
 
 ```cs
 // load HTML with an instance of Document
-var document = new Document("template.html");
+var document = new Document("template.html", new HtmlLoadOptions());
 
-// create an object of pngDevice
-var renderer = new Devices.PngDevice();
+// create an object of EmfDevice
+var renderer = new Aspose.Pdf.Devices.PngDevice();
 
-// convert a particular page and save the image in PNG format
+// convert a particular page and save the image in EMF format
 renderer.Process(document.Pages[1], "output.png");
-
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
