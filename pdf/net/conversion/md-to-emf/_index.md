@@ -67,14 +67,13 @@ PM> Install-Package Aspose.PDF
 
 ```cs
 // load MD with an instance of Document
-var document = new Document("template.md");
+var document = new Document("template.md", new MdLoadOptions());
 
 // create an object of emfDevice
-var renderer = new Devices.EmfDevice();
+var renderer = new Aspose.Pdf.Devices.EmfDevice();
 
 // convert a particular page and save the image in EMF format
 renderer.Process(document.Pages[1], "output.emf");
-
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

@@ -67,18 +67,16 @@ PM> Install-Package Aspose.PDF
 
 ```cs
 // load MD with an instance of Document
-var document = new Document("template.md");
+var document = new Document("template.md", new MdLoadOptions());
 // save document in XPS format
 document.Save("output.xps", Aspose.Pdf.SaveFormat.Xps);
-
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-    {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
-
+{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
 
 <!-- aboutfile Starts -->
 

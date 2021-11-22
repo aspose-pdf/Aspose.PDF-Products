@@ -67,7 +67,7 @@ PM> Install-Package Aspose.PDF
 
 ```cs
 // load MD with an instance of Document
-var document = new Document("template.md");
+var document = new Document("template.md", new MdLoadOptions());
 // save document in HTML format
 document.Save("output.html", Aspose.Pdf.SaveFormat.Html);
 

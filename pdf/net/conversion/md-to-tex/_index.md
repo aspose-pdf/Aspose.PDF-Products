@@ -67,17 +67,17 @@ PM> Install-Package Aspose.PDF
 
 ```cs
 // load MD with an instance of Document
-var document = new Document("template.md");
-// save document in TEX format
-document.Save("output.tex", Aspose.Pdf.SaveFormat.Tex);
+var document = new Document("template.md", new MdLoadOptions());
 
+// save document in TEX format
+document.Save("output.tex", Aspose.Pdf.SaveFormat.TeX);
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-    {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
+{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
 
 
 <!-- aboutfile Starts -->

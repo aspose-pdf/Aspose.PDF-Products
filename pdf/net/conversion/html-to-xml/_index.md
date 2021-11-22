@@ -69,7 +69,7 @@ PM> Install-Package Aspose.PDF
 var document = new Document("template.html", new HtmlLoadOptions());
 
 // save document in XLS format
-document.Save("output.xlsx", Aspose.Pdf.SaveFormat.Xml);
+document.Save("output.xml", Aspose.Pdf.SaveFormat.Xml);
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

@@ -67,10 +67,10 @@ PM> Install-Package Aspose.PDF
 
 ```cs
 // load MD with an instance of Document
-var document = new Document("template.md");
+var document = new Document("template.md", new MdLoadOptions());
+
 // save document in PPTX format
 document.Save("output.pptx", Aspose.Pdf.SaveFormat.Pptx);
-
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

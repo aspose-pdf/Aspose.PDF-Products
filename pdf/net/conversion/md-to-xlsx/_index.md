@@ -67,9 +67,10 @@ PM> Install-Package Aspose.PDF
 
 ```cs
 // load MD with an instance of Document
-var document = new Document("template.md");
-// save document in XLSX format
-document.Save("output.xlsx", Aspose.Pdf.SaveFormat.Xlsx);
+var document = new Document("template.md", new MdLoadOptions());
+
+// save document in XLS format
+document.Save("output.xlsx", new ExcelSaveOptions());
 
 ```
 
