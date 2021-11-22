@@ -67,14 +67,13 @@ PM> Install-Package Aspose.PDF
 
 ```cs
 // load PCL with an instance of Document
-var document = new Document("template.pcl");
+var document = new Document("template.pcl", new PclLoadOptions());
 
 // create an object of bmpDevice
-var renderer = new Devices.BmpDevice();
+var renderer = new Aspose.Pdf.Devices.BmpDevice();
 
 // convert a particular page and save the image in BMP format
 renderer.Process(document.Pages[1], "output.bmp");
-
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

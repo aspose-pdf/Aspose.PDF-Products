@@ -67,10 +67,10 @@ PM> Install-Package Aspose.PDF
 
 ```cs
 // load PCL with an instance of Document
-var document = new Document("template.pcl");
-// save document in EPUB format
-document.Save("output.epub", Aspose.Pdf.SaveFormat.Epub);
+var document = new Document("template.pcl", new PclLoadOptions());
 
+// save document in EPUBformat
+document.Save("output.epub", Aspose.Pdf.SaveFormat.Epub);
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

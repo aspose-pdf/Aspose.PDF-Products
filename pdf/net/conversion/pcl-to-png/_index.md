@@ -67,14 +67,13 @@ PM> Install-Package Aspose.PDF
 
 ```cs
 // load PCL with an instance of Document
-var document = new Document("template.pcl");
+var document = new Document("template.pcl", new PclLoadOptions());
 
-// create an object of pngDevice
-var renderer = new Devices.PngDevice();
+// create an object of EmfDevice
+var renderer = new Aspose.Pdf.Devices.PngDevice();
 
-// convert a particular page and save the image in PNG format
+// convert a particular page and save the image in EMF format
 renderer.Process(document.Pages[1], "output.png");
-
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

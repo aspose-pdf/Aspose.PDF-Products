@@ -67,10 +67,10 @@ PM> Install-Package Aspose.PDF
 
 ```cs
 // load PCL with an instance of Document
-var document = new Document("template.pcl");
-// save document in XLS format
-document.Save("output.xls", Aspose.Pdf.SaveFormat.Xls);
+var document = new Document("template.pcl", new PclLoadOptions());
 
+// save document in XLS format
+document.Save("output.xls", Aspose.Pdf.SaveFormat.Excel);
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
