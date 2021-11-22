@@ -12,13 +12,8 @@ description: Sample code for SVG to TXT C# conversion. Use API example code for 
 
 {{% blocks/products/pf/agp/content h2="How to Convert SVG to TXT Using C#" %}}
 
- In order to convert SVG to TXT, we’ll use
- [Aspose.PDF for .NET](https://products.aspose.com/pdf/net)
- API which is a feature-rich, powerful and easy to use document manipulation and conversion API for C# platform. Open
- [NuGet](https://www.nuget.org/packages/aspose.pdf)
- package manager, search for
- Aspose.PDF
- and install. You may also use the following command from the Package Manager Console.
+ In order to convert SVG to TXT, we’ll use [Aspose.PDF for .NET](https://products.aspose.com/pdf/net) API which is a feature-rich, powerful and easy to use document manipulation and conversion API for C# platform. Open [NuGet](https://www.nuget.org/packages/aspose.pdf)
+ package manager, search for Aspose.PDF and install. You may also use the following command from the Package Manager Console.
 
 {{% blocks/products/pf/agp/code-block title="Package Manager Console Command" offSpacer="true" %}}
 
@@ -67,10 +62,12 @@ PM> Install-Package Aspose.PDF
 
 ```cs
 // load SVG with an instance of Document
-var document = new Document("template.svg");
-// save document in TXT format
-document.Save("output.txt", Aspose.Pdf.SaveFormat.Txt);
+var document = new Document("template.svg", new SvgLoadOptions());
 
+// create an object of TextDevice
+var renderer = new Aspose.Pdf.Devices.TextDevice();
+
+renderer.Process(document.Pages[1], "output.txt");
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

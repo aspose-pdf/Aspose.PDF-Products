@@ -67,10 +67,10 @@ PM> Install-Package Aspose.PDF
 
 ```cs
 // load SVG with an instance of Document
-var document = new Document("template.svg");
+var document = new Document("template.svg", new SvgLoadOptions());
 
 // create an object of bmpDevice
-var renderer = new Devices.BmpDevice();
+var renderer = new Aspose.Pdf.Devices.BmpDevice();
 
 // convert a particular page and save the image in BMP format
 renderer.Process(document.Pages[1], "output.bmp");

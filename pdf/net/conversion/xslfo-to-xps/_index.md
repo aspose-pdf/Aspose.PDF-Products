@@ -66,18 +66,24 @@ PM> Install-Package Aspose.PDF
 {{% blocks/products/pf/agp/code-block title="This sample code shows XSLFO to XPS C# Conversion" offSpacer="" %}}
 
 ```cs
-// load XSLFO with an instance of Document
-var document = new Document("template.xslfo");
+// Instantiate XslFoLoadOption object
+var options = new XslFoLoadOptions("template.xslt")
+{
+    // Set error handling strategy
+    ParsingErrorsHandlingType = XslFoLoadOptions.ParsingErrorsHandlingTypes.ThrowExceptionImmediately
+};
+// Create Document object
+var document = new Aspose.Pdf.Document("template.xml", options);
+
 // save document in XPS format
 document.Save("output.xps", Aspose.Pdf.SaveFormat.Xps);
-
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-    {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
+{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
 
 
 <!-- aboutfile Starts -->

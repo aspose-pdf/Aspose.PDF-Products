@@ -1,6 +1,6 @@
 ---
-title: Convert CGM to JPEG via C# 
-url: /net/conversion/cgm-to-jpeg/ 
+title: Convert CGM to JPEG via C#
+url: /net/conversion/cgm-to-jpeg/
 description: Sample code for CGM to JPEG C# conversion. Use API example code for batch CGM files to JPEG conversion within VB.NET, Asp.NET or any .NET based application.
 ---
 
@@ -37,7 +37,7 @@ PM> Install-Package Aspose.PDF
 {{% /blocks/products/pf/agp/text %}}
 
 1. Load CGM file with an instance of Document class
-1. Create & set the instance of JpegDevice class with Size & Resolution 
+1. Create & set the instance of JpegDevice class with Size & Resolution
 1. Call JpegDevice.Process method with page index & output file path as parameters
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
@@ -63,10 +63,10 @@ PM> Install-Package Aspose.PDF
 var document = new Document("template.cgm");
 
 // create an object of jpegDevice
-var renderer = new Devices.JpegDevice();
+var renderer = new Aspose.Pdf.Devices.JpegDevice();
 
 // convert a particular page and save the image in JPEG format
-renderer.Process(document.Pages[1], "output.jpeg"); 
+renderer.Process(document.Pages[1], "output.jpeg");
 
 ```
 

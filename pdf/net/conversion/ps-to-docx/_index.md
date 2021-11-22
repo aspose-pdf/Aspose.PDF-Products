@@ -67,9 +67,9 @@ PM> Install-Package Aspose.PDF
 
 ```cs
 // load PS with an instance of Document
-var document = new Document("template.ps");
-// save document in DOCX format
-document.Save("output.docx", Aspose.Pdf.SaveFormat.Docx);
+var document = new Document("template.ps", new PsLoadOptions());
+// save document in DOC format
+document.Save("output.doc", Aspose.Pdf.SaveFormat.DocX);
 
 ```
 

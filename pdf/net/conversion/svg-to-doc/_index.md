@@ -67,10 +67,9 @@ PM> Install-Package Aspose.PDF
 
 ```cs
 // load SVG with an instance of Document
-var document = new Document("template.svg");
+var document = new Document("template.svg", new SvgLoadOptions());
 // save document in DOC format
 document.Save("output.doc", Aspose.Pdf.SaveFormat.Doc);
-
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
@@ -92,9 +91,7 @@ document.Save("output.doc", Aspose.Pdf.SaveFormat.Doc);
 
  A PDF Processing Library to create cross-platform applications with the ability to generate, modify, convert, render, secure and print documents without using Adobe Acrobat. .NET PDF API offers compression, table creation, graph & image functions, hyperlinks, stamp and watermarking tasks, extended security controls & custom font handling.
 
-
-
-    {{% /blocks/products/pf/agp/content %}}
+{{% /blocks/products/pf/agp/content %}}
 
     {{< blocks/products/pf/agp/about-file-section >}}
 

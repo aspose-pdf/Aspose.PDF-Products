@@ -46,7 +46,6 @@ PM> Install-Package Aspose.PDF
 1. Call the Document.Save method while passing the output file path & SaveFormat.Epub as parameters
 1. EPUB file will be saved at the specified path
 
-
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
 {{% blocks/products/pf/agp/feature-section-col title="System Requirements" %}}
@@ -67,10 +66,10 @@ PM> Install-Package Aspose.PDF
 
 ```cs
 // load SVG with an instance of Document
-var document = new Document("template.svg");
+var document = new Document("template.svg", new SvgLoadOptions());
+
 // save document in EPUB format
 document.Save("output.epub", Aspose.Pdf.SaveFormat.Epub);
-
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

@@ -1,6 +1,6 @@
 ---
-title: Convert CGM to GIF via C# 
-url: /net/conversion/cgm-to-gif/ 
+title: Convert CGM to GIF via C#
+url: /net/conversion/cgm-to-gif/
 description: Sample code for CGM to GIF C# conversion. Use API example code for batch CGM files to GIF conversion within VB.NET, Asp.NET or any .NET based application.
 ---
 
@@ -13,11 +13,11 @@ description: Sample code for CGM to GIF C# conversion. Use API example code for 
 {{% blocks/products/pf/agp/content h2="How to Convert CGM to GIF Using C#" %}}
 
  In order to convert CGM to GIF, we’ll use
- [Aspose.PDF for .NET](https://products.aspose.com/pdf/net) 
+ [Aspose.PDF for .NET](https://products.aspose.com/pdf/net)
  API which is a feature-rich, powerful and easy to use document manipulation and conversion API for C# platform. Open
- [NuGet](https://www.nuget.org/packages/aspose.pdf) 
+ [NuGet](https://www.nuget.org/packages/aspose.pdf)
  package manager, search for
- Aspose.PDF 
+ Aspose.PDF
  and install. You may also use the following command from the Package Manager Console.
 
 {{% blocks/products/pf/agp/code-block title="Package Manager Console Command" offSpacer="true" %}}
@@ -65,13 +65,13 @@ PM> Install-Package Aspose.PDF
 {{% blocks/products/pf/agp/code-block title="This sample code shows CGM to GIF C# Conversion" offSpacer="" %}}
 
 ```cs
-// load CGM with an instance of Document                        
+// load CGM with an instance of Document
 var document = new Document("template.cgm", new CgmLoadOptions());
 
 // create an object of GifDevice
 var renderer = new Aspose.Pdf.Devices.GifDevice();
 
-// convert a particular page and save the image in EMF format
+// convert a particular page and save the image in GIF format
 renderer.Process(document.Pages[1], "output.gif");
 ```
 

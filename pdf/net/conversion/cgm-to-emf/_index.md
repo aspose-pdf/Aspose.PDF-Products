@@ -1,6 +1,6 @@
 ---
-title: Convert CGM to EMF via C# 
-url: /net/conversion/cgm-to-emf/ 
+title: Convert CGM to EMF via C#
+url: /net/conversion/cgm-to-emf/
 description: Sample code for CGM to EMF C# conversion. Use API example code for batch CGM files to EMF conversion within VB.NET, Asp.NET or any .NET based application.
 ---
 
@@ -13,9 +13,9 @@ description: Sample code for CGM to EMF C# conversion. Use API example code for 
 {{% blocks/products/pf/agp/content h2="How to Convert CGM to EMF Using C#" %}}
 
  In order to convert CGM to EMF, we’ll use
- [Aspose.PDF for .NET](https://products.aspose.com/pdf/net) 
+ [Aspose.PDF for .NET](https://products.aspose.com/pdf/net)
  API which is a feature-rich, powerful and easy to use document manipulation and conversion API for C# platform. Open
- [NuGet](https://www.nuget.org/packages/aspose.pdf) 
+ [NuGet](https://www.nuget.org/packages/aspose.pdf)
  package manager, search for Aspose.PDF and install. You may also use the following command from the Package Manager Console.
 
 {{% blocks/products/pf/agp/code-block title="Package Manager Console Command" offSpacer="true" %}}
@@ -64,10 +64,10 @@ PM> Install-Package Aspose.PDF
 {{% blocks/products/pf/agp/code-block title="This sample code shows CGM to EMF C# Conversion" offSpacer="" %}}
 
 ```cs
-// load CGM with an instance of Document                        
+// load CGM with an instance of Document
 var document = new Document("template.cgm", new CgmLoadOptions());
 
-// create an object of emfDevice
+// create an object of EmfDevice
 var renderer = new Aspose.Pdf.Devices.EmfDevice();
 
 // convert a particular page and save the image in EMF format

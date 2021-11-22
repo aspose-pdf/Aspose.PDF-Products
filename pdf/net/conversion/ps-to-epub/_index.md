@@ -67,10 +67,10 @@ PM> Install-Package Aspose.PDF
 
 ```cs
 // load PS with an instance of Document
-var document = new Document("template.ps");
+var document = new Document("template.ps", new PsLoadOptions());
+
 // save document in EPUB format
 document.Save("output.epub", Aspose.Pdf.SaveFormat.Epub);
-
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
@@ -78,7 +78,6 @@ document.Save("output.epub", Aspose.Pdf.SaveFormat.Epub);
 {{< /blocks/products/pf/agp/feature-section >}}
 
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
-
 
 <!-- aboutfile Starts -->
 

@@ -77,8 +77,7 @@ document.Save("output.epub", Aspose.Pdf.SaveFormat.Epub);
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-    {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
-
+{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
 
 <!-- aboutfile Starts -->
 
@@ -90,11 +89,9 @@ document.Save("output.epub", Aspose.Pdf.SaveFormat.Epub);
 
     {{% blocks/products/pf/agp/content h2="" %}}
 
- A PDF Processing Library to create cross-platform applications with the ability to generate, modify, convert, render, secure and print documents without using Adobe Acrobat. .NET PDF API offers compression, table creation, graph & image functions, hyperlinks, stamp and watermarking tasks, extended security controls & custom font handling.
+A PDF Processing Library to create cross-platform applications with the ability to generate, modify, convert, render, secure and print documents without using Adobe Acrobat. .NET PDF API offers compression, table creation, graph & image functions, hyperlinks, stamp and watermarking tasks, extended security controls & custom font handling.
 
-
-
-    {{% /blocks/products/pf/agp/content %}}
+{{% /blocks/products/pf/agp/content %}}
 
     {{< blocks/products/pf/agp/about-file-section >}}
 

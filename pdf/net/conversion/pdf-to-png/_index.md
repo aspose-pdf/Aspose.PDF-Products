@@ -70,7 +70,7 @@ PM> Install-Package Aspose.PDF
 var document = new Document("template.pdf");
 
 // create an object of pngDevice
-var renderer = new Devices.PngDevice();
+var renderer = new Aspose.Pdf.Devices.PngDevice();
 
 // convert a particular page and save the image in PNG format
 renderer.Process(document.Pages[1], "output.png");
@@ -81,8 +81,7 @@ renderer.Process(document.Pages[1], "output.png");
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-    {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
-
+{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
 
 <!-- aboutfile Starts -->
 
@@ -95,8 +94,6 @@ renderer.Process(document.Pages[1], "output.png");
     {{% blocks/products/pf/agp/content h2="" %}}
 
  A PDF Processing Library to create cross-platform applications with the ability to generate, modify, convert, render, secure and print documents without using Adobe Acrobat. .NET PDF API offers compression, table creation, graph & image functions, hyperlinks, stamp and watermarking tasks, extended security controls & custom font handling.
-
-
 
     {{% /blocks/products/pf/agp/content %}}
 

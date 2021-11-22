@@ -67,10 +67,10 @@ PM> Install-Package Aspose.PDF
 
 ```cs
 // load XPS with an instance of Document
-var document = new Document("template.xps");
+var document = new Document("template.xps", new XpsLoadOptions());
 
 // create an object of pngDevice
-var renderer = new Devices.PngDevice();
+var renderer = new Aspose.Pdf.Devices.PngDevice();
 
 // convert a particular page and save the image in PNG format
 renderer.Process(document.Pages[1], "output.png");

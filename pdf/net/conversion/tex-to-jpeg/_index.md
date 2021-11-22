@@ -67,10 +67,10 @@ PM> Install-Package Aspose.PDF
 
 ```cs
 // load TEX with an instance of Document
-var document = new Document("template.tex");
+var document = new Document("template.tex", new TeXLoadOptions());
 
 // create an object of jpegDevice
-var renderer = new Devices.JpegDevice();
+var renderer = new Aspose.Pdf.Devices.JpegDevice();
 
 // convert a particular page and save the image in JPEG format
 renderer.Process(document.Pages[1], "output.jpeg");

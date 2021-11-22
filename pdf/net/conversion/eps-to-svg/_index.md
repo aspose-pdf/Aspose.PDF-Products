@@ -64,7 +64,7 @@ PM> Install-Package Aspose.PDF
 // load EPS with an instance of Document
 var document = new Document("template.eps", new PsLoadOptions());
 
-// save document in PPTX format
+// save document in SVG format
 document.Save("output.svg", Aspose.Pdf.SaveFormat.Svg);
 
 ```

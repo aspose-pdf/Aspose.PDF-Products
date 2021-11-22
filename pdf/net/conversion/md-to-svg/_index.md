@@ -69,7 +69,7 @@ PM> Install-Package Aspose.PDF
 // load MD with an instance of Document
 var document = new Document("template.md", new MdLoadOptions());
 
-// save document in PPTX format
+// save document in SVG format
 document.Save("output.svg", Aspose.Pdf.SaveFormat.Svg);
 ```
 

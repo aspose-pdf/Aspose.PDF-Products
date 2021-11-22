@@ -67,10 +67,10 @@ PM> Install-Package Aspose.PDF
 
 ```cs
 // load XPS with an instance of Document
-var document = new Document("template.xps");
+var document = new Document("template.xps", new XpsLoadOptions());
 
 // create an object of bmpDevice
-var renderer = new Devices.BmpDevice();
+var renderer = new Aspose.Pdf.Devices.BmpDevice();
 
 // convert a particular page and save the image in BMP format
 renderer.Process(document.Pages[1], "output.bmp");

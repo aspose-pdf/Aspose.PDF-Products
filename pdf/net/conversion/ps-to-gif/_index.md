@@ -67,9 +67,13 @@ PM> Install-Package Aspose.PDF
 
 ```cs
 // load PS with an instance of Document
-var document = new Document("template.ps");
-// save document in GIF format
-document.Save("output.gif", Aspose.Pdf.SaveFormat.Gif);
+var document = new Document("template.ps", new PsLoadOptions());
+
+// create an object of GifDevice
+var renderer = new Aspose.Pdf.Devices.GifDevice();
+
+// convert a particular page and save the image in GIF format
+renderer.Process(document.Pages[1], "output.gif");
 
 ```
 

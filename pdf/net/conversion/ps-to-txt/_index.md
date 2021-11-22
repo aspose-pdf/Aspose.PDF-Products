@@ -67,10 +67,12 @@ PM> Install-Package Aspose.PDF
 
 ```cs
 // load PS with an instance of Document
-var document = new Document("template.ps");
-// save document in TXT format
-document.Save("output.txt", Aspose.Pdf.SaveFormat.Txt);
+var document = new Document("template.ps", new PsLoadOptions());
 
+// create an object of TextDevice
+var renderer = new Aspose.Pdf.Devices.TextDevice();
+
+renderer.Process(document.Pages[1], "output.txt");
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

@@ -53,7 +53,7 @@ PM> Install-Package Aspose.PDF
 
 {{% blocks/products/pf/agp/text %}}
 
- Before running the **PDF to Microsoft PowerPoint PPTX C# conversion** sample code, make sure that you have the following prerequisites.
+Before running the **PDF to Microsoft PowerPoint PPTX C# conversion** sample code, make sure that you have the following prerequisites.
 
 {{% /blocks/products/pf/agp/text %}}
 

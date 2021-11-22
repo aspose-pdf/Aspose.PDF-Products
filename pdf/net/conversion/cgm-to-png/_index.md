@@ -1,6 +1,6 @@
 ---
-title: Convert CGM to PNG via C# 
-url: /net/conversion/cgm-to-png/ 
+title: Convert CGM to PNG via C#
+url: /net/conversion/cgm-to-png/
 description: Sample code for CGM to PNG C# conversion. Use API example code for batch CGM files to PNG conversion within VB.NET, Asp.NET or any .NET based application.
 ---
 
@@ -13,9 +13,9 @@ description: Sample code for CGM to PNG C# conversion. Use API example code for 
 {{% blocks/products/pf/agp/content h2="How to Convert CGM to PNG Using C#" %}}
 
  In order to convert CGM to PNG, we’ll use
- [Aspose.PDF for .NET](https://products.aspose.com/pdf/net) 
+ [Aspose.PDF for .NET](https://products.aspose.com/pdf/net)
  API which is a feature-rich, powerful and easy to use document manipulation and conversion API for C# platform. Open
- [NuGet](https://www.nuget.org/packages/aspose.pdf) 
+ [NuGet](https://www.nuget.org/packages/aspose.pdf)
  package manager, search for Aspose.PDF and install. You may also use the following command from the Package Manager Console.
 
 {{% blocks/products/pf/agp/code-block title="Package Manager Console Command" offSpacer="true" %}}
@@ -41,7 +41,7 @@ PM> Install-Package Aspose.PDF
 {{% /blocks/products/pf/agp/text %}}
 
 1. Load CGM file with an instance of Document class
-1. Create & set the instance of PngDevice class with Size & Resolution 
+1. Create & set the instance of PngDevice class with Size & Resolution
 1. Call PngDevice.Process method with page index & output file path as parameters
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
@@ -63,13 +63,13 @@ Before running the .NET conversion sample code, make sure that you have the foll
 {{% blocks/products/pf/agp/code-block title="This sample code shows CGM to PNG C# Conversion" offSpacer="" %}}
 
 ```cs
-// load CGM with an instance of Document                        
+// load CGM with an instance of Document
 var document = new Document("template.cgm", new CgmLoadOptions());
 
-// create an object of EmfDevice
+// create an object of PngDevice
 var renderer = new Aspose.Pdf.Devices.PngDevice();
 
-// convert a particular page and save the image in EMF format
+// convert a particular page and save the image in PNG format
 renderer.Process(document.Pages[1], "output.png");
 ```
 

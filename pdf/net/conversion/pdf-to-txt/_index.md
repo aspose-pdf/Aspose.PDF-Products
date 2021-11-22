@@ -44,8 +44,8 @@ PM> Install-Package Aspose.PDF
 {{% /blocks/products/pf/agp/text %}}
 
 1. Load PDF file with an instance of Document
-1. Call the Document.Save method while passing the output file path & SaveFormat.Txt as parameters
-1. TXT file will be saved at the specified path
+1. Create & set the instance of TextDevice class with Size & Resolution
+1. Call TextDevice.Process method with page index & output file path as parameters
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
@@ -68,9 +68,11 @@ PM> Install-Package Aspose.PDF
 ```cs
 // load PDF with an instance of Document
 var document = new Document("template.pdf");
-// save document in TXT format
-document.Save("output.txt", Aspose.Pdf.SaveFormat.Txt);
 
+// create an object of TextDevice
+var renderer = new Aspose.Pdf.Devices.TextDevice();
+
+renderer.Process(document.Pages[1], "output.txt");
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

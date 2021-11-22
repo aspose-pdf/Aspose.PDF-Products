@@ -72,7 +72,7 @@ var document = new Document("template.mht", new MhtLoadOptions());
 // create an object of EmfDevice
 var renderer = new Aspose.Pdf.Devices.JpegDevice();
 
-// convert a particular page and save the image in EMF format
+// convert a particular page and save the image in JPEG format
 renderer.Process(document.Pages[1], "output.jpeg");
 
 ```

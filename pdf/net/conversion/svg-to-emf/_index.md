@@ -46,7 +46,6 @@ PM> Install-Package Aspose.PDF
 1. Create & set the instance of EmfDevice class with Size & Resolution
 1. Call EmfDevice.Process method with page index & output file path as parameters
 
-
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
 {{% blocks/products/pf/agp/feature-section-col title="System Requirements" %}}
@@ -67,14 +66,12 @@ PM> Install-Package Aspose.PDF
 
 ```cs
 // load SVG with an instance of Document
-var document = new Document("template.svg");
-
+var document = new Document("template.svg", new SvgLoadOptions());
 // create an object of emfDevice
-var renderer = new Devices.EmfDevice();
+var renderer = new Aspose.Pdf.Devices.EmfDevice();
 
 // convert a particular page and save the image in EMF format
 renderer.Process(document.Pages[1], "output.emf");
-
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

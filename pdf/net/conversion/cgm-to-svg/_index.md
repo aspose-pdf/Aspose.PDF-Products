@@ -1,6 +1,6 @@
 ---
-title: Convert CGM to SVG via C# 
-url: /net/conversion/cgm-to-svg/ 
+title: Convert CGM to SVG via C#
+url: /net/conversion/cgm-to-svg/
 description: Sample code for CGM to SVG C# conversion. Use API example code for batch CGM files to SVG conversion within VB.NET, Asp.NET or any .NET based application.
 ---
 
@@ -59,10 +59,10 @@ PM> Install-Package Aspose.PDF
 {{% blocks/products/pf/agp/code-block title="This sample code shows CGM to SVG C# Conversion" offSpacer="" %}}
 
 ```cs
-// load CGM with an instance of Document                        
+// load CGM with an instance of Document
 var document = new Document("template.cgm", new CgmLoadOptions());
 
-// save document in PPTX format
+// save document in SVG format
 document.Save("output.svg", Aspose.Pdf.SaveFormat.Svg);
 ```
 

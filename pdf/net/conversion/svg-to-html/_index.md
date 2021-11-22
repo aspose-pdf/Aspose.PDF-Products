@@ -67,10 +67,9 @@ PM> Install-Package Aspose.PDF
 
 ```cs
 // load SVG with an instance of Document
-var document = new Document("template.svg");
+var document = new Document("template.svg", new SvgLoadOptions());
 // save document in HTML format
 document.Save("output.html", Aspose.Pdf.SaveFormat.Html);
-
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

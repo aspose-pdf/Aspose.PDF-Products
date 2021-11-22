@@ -67,14 +67,13 @@ PM> Install-Package Aspose.PDF
 
 ```cs
 // load SVG with an instance of Document
-var document = new Document("template.svg");
+var document = new Document("template.svg", new SvgLoadOptions());
 
 // create an object of pngDevice
-var renderer = new Devices.PngDevice();
+var renderer = new Aspose.Pdf.Devices.PngDevice();
 
 // convert a particular page and save the image in PNG format
 renderer.Process(document.Pages[1], "output.png");
-
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

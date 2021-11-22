@@ -66,11 +66,17 @@ PM> Install-Package Aspose.PDF
 {{% blocks/products/pf/agp/code-block title="This sample code shows XSLFO to HTML C# Conversion" offSpacer="" %}}
 
 ```cs
-// load XSLFO with an instance of Document
-var document = new Document("template.xslfo");
+// Instantiate XslFoLoadOption object
+var options = new XslFoLoadOptions("template.xslt")
+{
+    // Set error handling strategy
+    ParsingErrorsHandlingType = XslFoLoadOptions.ParsingErrorsHandlingTypes.ThrowExceptionImmediately
+};
+// Create Document object
+var document = new Aspose.Pdf.Document("template.xml", options);
+
 // save document in HTML format
 document.Save("output.html", Aspose.Pdf.SaveFormat.Html);
-
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

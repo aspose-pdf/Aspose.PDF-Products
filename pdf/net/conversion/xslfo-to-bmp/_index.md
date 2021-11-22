@@ -66,11 +66,17 @@ PM> Install-Package Aspose.PDF
 {{% blocks/products/pf/agp/code-block title="This sample code shows XSLFO to BMP C# Conversion" offSpacer="" %}}
 
 ```cs
-// load XSLFO with an instance of Document
-var document = new Document("template.xslfo");
+// Instantiate XslFoLoadOption object
+var options = new XslFoLoadOptions("template.xslt")
+{
+    // Set error handling strategy
+    ParsingErrorsHandlingType = XslFoLoadOptions.ParsingErrorsHandlingTypes.ThrowExceptionImmediately
+};
+// Create Document object
+var document = new Aspose.Pdf.Document("template.xml", options);
 
 // create an object of bmpDevice
-var renderer = new Devices.BmpDevice();
+var renderer = new Aspose.Pdf.Devices.BmpDevice();
 
 // convert a particular page and save the image in BMP format
 renderer.Process(document.Pages[1], "output.bmp");

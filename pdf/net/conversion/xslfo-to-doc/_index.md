@@ -66,8 +66,14 @@ PM> Install-Package Aspose.PDF
 {{% blocks/products/pf/agp/code-block title="This sample code shows XSLFO to DOC C# Conversion" offSpacer="" %}}
 
 ```cs
-// load XSLFO with an instance of Document
-var document = new Document("template.xslfo");
+// Instantiate XslFoLoadOption object
+var options = new XslFoLoadOptions("template.xslt")
+{
+    // Set error handling strategy
+    ParsingErrorsHandlingType = XslFoLoadOptions.ParsingErrorsHandlingTypes.ThrowExceptionImmediately
+};
+// Create Document object
+var document = new Aspose.Pdf.Document("template.xml", options);
 // save document in DOC format
 document.Save("output.doc", Aspose.Pdf.SaveFormat.Doc);
 

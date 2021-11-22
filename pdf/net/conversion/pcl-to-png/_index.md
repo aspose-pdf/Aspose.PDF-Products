@@ -72,7 +72,7 @@ var document = new Document("template.pcl", new PclLoadOptions());
 // create an object of EmfDevice
 var renderer = new Aspose.Pdf.Devices.PngDevice();
 
-// convert a particular page and save the image in EMF format
+// convert a particular page and save the image in PNG format
 renderer.Process(document.Pages[1], "output.png");
 ```
 

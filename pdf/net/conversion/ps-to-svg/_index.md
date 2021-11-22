@@ -67,7 +67,8 @@ PM> Install-Package Aspose.PDF
 
 ```cs
 // load PS with an instance of Document
-var document = new Document("template.ps");
+var document = new Document("template.ps", new PsLoadOptions());
+
 // save document in SVG format
 document.Save("output.svg", Aspose.Pdf.SaveFormat.Svg);
 

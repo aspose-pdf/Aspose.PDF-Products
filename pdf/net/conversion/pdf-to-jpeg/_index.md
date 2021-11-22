@@ -70,7 +70,7 @@ PM> Install-Package Aspose.PDF
 var document = new Document("template.pdf");
 
 // create an object of jpegDevice
-var renderer = new Devices.JpegDevice();
+var renderer = new Aspose.Pdf.Devices.JpegDevice();
 
 // convert a particular page and save the image in JPEG format
 renderer.Process(document.Pages[1], "output.jpeg");
@@ -81,38 +81,35 @@ renderer.Process(document.Pages[1], "output.jpeg");
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-    {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
-
+{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
 
 <!-- aboutfile Starts -->
 
 {{< blocks/products/pf/agp/demobox sectionTitle="Free App to Convert PDF to JPEG" sectionDescription="Check our live demos for [PDF to JPEG conversion](https://products.aspose.app/pdf/conversion/pdf-to-jpeg) with following benefits." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-cogs" text=" No need to download or setup anything." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write any code." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-file-text" text=" Just upload your PDF file and hit the \"Convert\" button." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-download" text=" You will instantly get the download link for resultant JPEG file." >}}
+{{< blocks/products/pf/agp/democard icon="fa-cogs" text=" No need to download or setup anything." >}}
+{{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write any code." >}}
+{{< blocks/products/pf/agp/democard icon="fa-file-text" text=" Just upload your PDF file and hit the \"Convert\" button." >}}
+{{< blocks/products/pf/agp/democard icon="fa-download" text=" You will instantly get the download link for resultant JPEG file." >}}
 
-    {{% blocks/products/pf/agp/content h2="" %}}
+{{% blocks/products/pf/agp/content h2="" %}}
 
  A PDF Processing Library to create cross-platform applications with the ability to generate, modify, convert, render, secure and print documents without using Adobe Acrobat. .NET PDF API offers compression, table creation, graph & image functions, hyperlinks, stamp and watermarking tasks, extended security controls & custom font handling.
 
+{{% /blocks/products/pf/agp/content %}}
 
+{{< blocks/products/pf/agp/about-file-section >}}
 
-    {{% /blocks/products/pf/agp/content %}}
-
-    {{< blocks/products/pf/agp/about-file-section >}}
-
-        {{< blocks/products/pf/agp/about-file-text fileFormat="PDF" readMoreLink="https://docs.fileformat.com/view/pdf/" >}}
+{{< blocks/products/pf/agp/about-file-text fileFormat="PDF" readMoreLink="https://docs.fileformat.com/view/pdf/" >}}
 Portable Document Format (PDF) is a type of document created by Adobe back in 1990s. The purpose of this file format was to introduce a standard for representation of documents and other reference material in a format that is independent of application software, hardware as well as Operating System. PDF files can be opened in Adobe Acrobat Reader/Writer as well in most modern browsers like Chrome, Safari, Firefox via extensions/plug-ins. Most of the commercially available software suites also offer conversion of their documents to PDF file format without the requirement of any additional software component. Thus, PDF file format has full capability to contain information like text, images, hyperlinks, form-fields, rich media, digital signatures, attachments, metadata, Geospatial features and 3D objects in it that can become as part of source document.
 
-        {{< /blocks/products/pf/agp/about-file-text >}}
+{{< /blocks/products/pf/agp/about-file-text >}}
 
-        {{< blocks/products/pf/agp/about-file-text fileFormat="jpeg" readMoreLink="https://docs.fileformat.com/image/jpeg/" >}}
+{{< blocks/products/pf/agp/about-file-text fileFormat="jpeg" readMoreLink="https://docs.fileformat.com/image/jpeg/" >}}
 A JPEG is a type of image format that is saved using the method of lossy compression. The output image, as result of compression, is a trade-off between storage size and image quality. Users can adjust the compression level to achieve the desired quality level while at the same time reduce the storage size. Image quality is negligibly affected if 10:1 compression is applied to the image.  The higher the compression value, the higher the degradation in image quality. JPEG image file format was standardized by the Joint Photographic Experts Group and, hence, the name JPEG. The format has been the choice of storing and transmitting photographic images on the web. Almost all Operating systems now have viewers that support visualization of JPEG images, which are often stored with JPG extension as well. Even the web browsers support visualization of JPEG images.
 
-        {{< /blocks/products/pf/agp/about-file-text >}}
+{{< /blocks/products/pf/agp/about-file-text >}}
 
-    {{< /blocks/products/pf/agp/about-file-section >}}
+{{< /blocks/products/pf/agp/about-file-section >}}
 
 {{< /blocks/products/pf/agp/demobox >}}
 

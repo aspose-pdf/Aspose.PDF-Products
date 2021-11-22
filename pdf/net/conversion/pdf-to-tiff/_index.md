@@ -70,7 +70,7 @@ PM> Install-Package Aspose.PDF
 var document = new Document("template.pdf");
 
 // create an object of tiffDevice
-var renderer = new Devices.TiffDevice();
+var renderer = new Aspose.Pdf.Devices.TiffDevice();
 
 // convert a particular page and save the image in TIFF format
 renderer.Process(document.Pages[1], "output.tiff");

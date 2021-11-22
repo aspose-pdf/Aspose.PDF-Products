@@ -68,7 +68,7 @@ PM> Install-Package Aspose.PDF
 // load HTML with an instance of Document
 var document = new Document("template.html", new HtmlLoadOptions());
 
-// save document in PPTX format
+// save document in SVG format
 document.Save("output.svg", Aspose.Pdf.SaveFormat.Svg);
 ```
 

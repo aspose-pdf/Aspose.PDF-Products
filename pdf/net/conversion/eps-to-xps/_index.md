@@ -69,7 +69,7 @@ PM> Install-Package Aspose.PDF
 // load EPS with an instance of Document
 var document = new Document("template.eps", new PsLoadOptions());
 
-// save document in TEX format
+// save document in XPS format
 document.Save("output.xps", Aspose.Pdf.SaveFormat.Xps);
 ```
 

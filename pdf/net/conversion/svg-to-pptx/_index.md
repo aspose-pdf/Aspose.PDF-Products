@@ -67,7 +67,8 @@ PM> Install-Package Aspose.PDF
 
 ```cs
 // load SVG with an instance of Document
-var document = new Document("template.svg");
+var document = new Document("template.svg", new SvgLoadOptions());
+
 // save document in PPTX format
 document.Save("output.pptx", Aspose.Pdf.SaveFormat.Pptx);
 
@@ -77,8 +78,7 @@ document.Save("output.pptx", Aspose.Pdf.SaveFormat.Pptx);
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-    {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
-
+{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
 
 <!-- aboutfile Starts -->
 

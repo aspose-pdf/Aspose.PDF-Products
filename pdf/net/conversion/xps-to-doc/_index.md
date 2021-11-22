@@ -67,7 +67,7 @@ PM> Install-Package Aspose.PDF
 
 ```cs
 // load XPS with an instance of Document
-var document = new Document("template.xps");
+var document = new Document("template.xps", new XpsLoadOptions());
 // save document in DOC format
 document.Save("output.doc", Aspose.Pdf.SaveFormat.Doc);
 

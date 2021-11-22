@@ -67,7 +67,7 @@ PM> Install-Package Aspose.PDF
 
 ```cs
 // load TEX with an instance of Document
-var document = new Document("template.tex");
+var document = new Document("template.tex", new TeXLoadOptions());
 // save document in XLS format
 document.Save("output.xls", Aspose.Pdf.SaveFormat.Xls);
 

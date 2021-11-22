@@ -67,22 +67,20 @@ PM> Install-Package Aspose.PDF
 
 ```cs
 // load PS with an instance of Document
-var document = new Document("template.ps");
+var document = new Document("template.ps", new PsLoadOptions());
 
 // create an object of bmpDevice
-var renderer = new Devices.BmpDevice();
+var renderer = new Aspose.Pdf.Devices.BmpDevice();
 
 // convert a particular page and save the image in BMP format
 renderer.Process(document.Pages[1], "output.bmp");
-
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-    {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
-
+{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
 
 <!-- aboutfile Starts -->
 
@@ -92,13 +90,11 @@ renderer.Process(document.Pages[1], "output.bmp");
         {{< blocks/products/pf/agp/democard icon="fa-file-text" text=" Just upload your PS file and hit the \"Convert\" button." >}}
         {{< blocks/products/pf/agp/democard icon="fa-download" text=" You will instantly get the download link for resultant BMP file." >}}
 
-    {{% blocks/products/pf/agp/content h2="" %}}
+{{% blocks/products/pf/agp/content h2="" %}}
 
- A PDF Processing Library to create cross-platform applications with the ability to generate, modify, convert, render, secure and print documents without using Adobe Acrobat. .NET PDF API offers compression, table creation, graph & image functions, hyperlinks, stamp and watermarking tasks, extended security controls & custom font handling.
+A PDF Processing Library to create cross-platform applications with the ability to generate, modify, convert, render, secure and print documents without using Adobe Acrobat. .NET PDF API offers compression, table creation, graph & image functions, hyperlinks, stamp and watermarking tasks, extended security controls & custom font handling.
 
-
-
-    {{% /blocks/products/pf/agp/content %}}
+{{% /blocks/products/pf/agp/content %}}
 
     {{< blocks/products/pf/agp/about-file-section >}}
 

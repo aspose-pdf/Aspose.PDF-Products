@@ -67,47 +67,43 @@ PM> Install-Package Aspose.PDF
 
 ```cs
 // load PS with an instance of Document
-var document = new Document("template.ps");
+var document = new Document("template.ps", new PsLoadOptions());
 
 // create an object of emfDevice
-var renderer = new Devices.EmfDevice();
+var renderer = new Aspose.Pdf.Devices.EmfDevice();
 
 // convert a particular page and save the image in EMF format
 renderer.Process(document.Pages[1], "output.emf");
-
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-    {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
-
+{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
 
 <!-- aboutfile Starts -->
 
 {{< blocks/products/pf/agp/demobox sectionTitle="Free App to Convert PS to EMF" sectionDescription="Check our live demos for [PS to EMF conversion](https://products.aspose.app/pdf/conversion/ps-to-emf) with following benefits." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-cogs" text=" No need to download or setup anything." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write any code." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-file-text" text=" Just upload your PS file and hit the \"Convert\" button." >}}
-        {{< blocks/products/pf/agp/democard icon="fa-download" text=" You will instantly get the download link for resultant EMF file." >}}
+{{< blocks/products/pf/agp/democard icon="fa-cogs" text=" No need to download or setup anything." >}}
+{{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write any code." >}}
+{{< blocks/products/pf/agp/democard icon="fa-file-text" text=" Just upload your PS file and hit the \"Convert\" button." >}}
+{{< blocks/products/pf/agp/democard icon="fa-download" text=" You will instantly get the download link for resultant EMF file." >}}
 
-    {{% blocks/products/pf/agp/content h2="" %}}
+{{% blocks/products/pf/agp/content h2="" %}}
 
- A PDF Processing Library to create cross-platform applications with the ability to generate, modify, convert, render, secure and print documents without using Adobe Acrobat. .NET PDF API offers compression, table creation, graph & image functions, hyperlinks, stamp and watermarking tasks, extended security controls & custom font handling.
+A PDF Processing Library to create cross-platform applications with the ability to generate, modify, convert, render, secure and print documents without using Adobe Acrobat. .NET PDF API offers compression, table creation, graph & image functions, hyperlinks, stamp and watermarking tasks, extended security controls & custom font handling.
 
+{{% /blocks/products/pf/agp/content %}}
 
+{{< blocks/products/pf/agp/about-file-section >}}
 
-    {{% /blocks/products/pf/agp/content %}}
-
-    {{< blocks/products/pf/agp/about-file-section >}}
-
-        {{< blocks/products/pf/agp/about-file-text fileFormat="PS" readMoreLink="https://docs.fileformat.com/page-description-language/ps/" >}}
+{{< blocks/products/pf/agp/about-file-text fileFormat="PS" readMoreLink="https://docs.fileformat.com/page-description-language/ps/" >}}
 PostScript (PS) is a general-purpose page description language used in the business of desktop and electronic publishing. The main focus of PostScript (PS) is to facilitate the two-dimensional graphic design. Most languages require a distinct compilation stage before the code execution while Post Script (PS) format support a runtime straight forward interpretation. Its early version defines the graphical shapes, different text appearances and modelled imageries on printed pages or displayed pages, following the rules of Adobe imaging model. A program of PS is able to intercommunicate a document description between a composition and printing system keeping the device independent and high-level. Moreover this program is also capable of governing the appearance of text and graphics on a display.
 
-        {{< /blocks/products/pf/agp/about-file-text >}}
+{{< /blocks/products/pf/agp/about-file-text >}}
 
-        {{< blocks/products/pf/agp/about-file-text fileFormat="emf" readMoreLink="https://docs.fileformat.com/image/emf/" >}}
+{{< blocks/products/pf/agp/about-file-text fileFormat="emf" readMoreLink="https://docs.fileformat.com/image/emf/" >}}
 Enhanced metafile format (EMF) stores graphical images device-independently. Metafiles of EMF comprises of variable-length records in chronological order that can render the stored image after parsing on any output device. These variable-length records can be definitions of enclosed objects, commands for drawing, and graphics properties critical to render the image accurately. When a device opens an EMF metafile using its own graphics environment, the proportions, dimensions, colors and other graphic properties of original image remains same regardless of the opening device platform.
 
         {{< /blocks/products/pf/agp/about-file-text >}}

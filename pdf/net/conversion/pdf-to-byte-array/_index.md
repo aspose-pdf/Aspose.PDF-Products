@@ -1,7 +1,7 @@
 ---
-title: Convert PDF to Byte Array via C# 
+title: Convert PDF to Byte Array via C#
 weight: 7690
-url: /net/conversion/pdf-to-byte-array/ 
+url: /net/conversion/pdf-to-byte-array/
 description: C# Sample code for PDF to Byte Array conversion. Use this code for PDF to Byte Array conversion within VB.NET, Asp.NET or any .NET based application.
 ---
 
@@ -14,8 +14,8 @@ description: C# Sample code for PDF to Byte Array conversion. Use this code for 
 {{% blocks/products/pf/agp/content h2="" %}}
 
  Byte Array is helpful for data processing or storing. You can convert PDF file to Byte Array as well as a **Byte Array to PDF** using C#. In order to convert PDF to byte array, we’ll use
- [Aspose.PDF for .NET](https://products.aspose.com/pdf/net) 
- API that offers different features for PDF document manipulation and conversion using .NET platform. 
+ [Aspose.PDF for .NET](https://products.aspose.com/pdf/net)
+ API that offers different features for PDF document manipulation and conversion using .NET platform.
 {{% /blocks/products/pf/agp/content %}}
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
@@ -32,7 +32,7 @@ description: C# Sample code for PDF to Byte Array conversion. Use this code for 
 1. Load input PDF File
 1. Initialize a Byte Array
 1. Initialize FileStream object
-1. Load the contents into the byte array 
+1. Load the contents into the byte array
 1. Process byte array as of your requirement
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
@@ -41,7 +41,7 @@ description: C# Sample code for PDF to Byte Array conversion. Use this code for 
 
 {{% blocks/products/pf/agp/text %}}
 
- Just make sure that system have Microsoft Windows or a compatible OS with .NET Framework, .NET Core, Windows Azure, Mono or Xamarin Platforms as well as development environment like Microsoft Visual Studio. 
+ Just make sure that system have Microsoft Windows or a compatible OS with .NET Framework, .NET Core, Windows Azure, Mono or Xamarin Platforms as well as development environment like Microsoft Visual Studio.
 
 {{% /blocks/products/pf/agp/text %}}
 
@@ -53,19 +53,16 @@ description: C# Sample code for PDF to Byte Array conversion. Use this code for 
 {{% blocks/products/pf/agp/code-block title="This sample code shows PDF to byte array C# Conversion" offSpacer="" %}}
 
 ```cs
-// Initialize FileStream object
-FileStream fs = new FileStream("source_file.pdf", FileMode.Open, FileAccess.Read);
-BinaryReader br = new BinaryReader(fs);
-long numBytes = new FileInfo("source_file.pdf").Length;
-
-// Load the file contents in the byte array
-byte[] buff = br.ReadBytes((int)numBytes);
-fs.Close();
-// Process the byte array as of your requirement
-MemoryStream input_Stream = new MemoryStream(buff);
-Aspose.Pdf.Document pdfDocument = new Aspose.Pdf.Document(input_Stream);
-// Save data into image or in your required format 
-
+// load PDF with an instance of Document
+var document = new Document("template.pdf");
+// Add an additional page
+document.Pages.Add();
+// create Memory Stream
+var memoryStream = new System.IO.MemoryStream();
+document.Save(memoryStream);
+// create Byte Array with PDF content
+var byteArray = memoryStream.ToArray();
+System.Console.WriteLine(byteArray.Length);
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
@@ -78,28 +75,25 @@ Aspose.Pdf.Document pdfDocument = new Aspose.Pdf.Document(input_Stream);
 
 A Document Processing Library to perform a wide range of document management and manipulation tasks including PDF generation, editing, conversion, rendering and printing. .NET Word API supports all of word-processing formats as well as allows exporting or **converting PDF to Word**, HTML, fixed-layout and most commonly used image & multimedia formats.
 
+{{% /blocks/products/pf/agp/content %}}
 
+{{< blocks/products/pf/agp/about-file-section >}}
 
-    {{% /blocks/products/pf/agp/content %}}
-
-    {{< blocks/products/pf/agp/about-file-section >}}
-
-        {{< blocks/products/pf/agp/about-file-text fileFormat="PDF" readMoreLink="https://docs.fileformat.com/view/pdf/" >}}
+{{< blocks/products/pf/agp/about-file-text fileFormat="PDF" readMoreLink="https://docs.fileformat.com/view/pdf/" >}}
 Portable Document Format (PDF) is a type of document created by Adobe back in 1990s. The purpose of this file format was to introduce a standard for representation of documents and other reference material in a format that is independent of application software, hardware as well as Operating System. PDF files can be opened in Adobe Acrobat Reader/Writer as well in most modern browsers like Chrome, Safari, Firefox via extensions/plug-ins. Most of the commercially available software suites also offer conversion of their documents to PDF file format without the requirement of any additional software component.
 
-        {{< /blocks/products/pf/agp/about-file-text >}}
+{{< /blocks/products/pf/agp/about-file-text >}}
 
-           {{< /blocks/products/pf/agp/about-file-section >}}
-
+{{< /blocks/products/pf/agp/about-file-section >}}
 
 <!-- aboutfile Ends -->
 
 {{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert other file formats into byte array or vice versa including few listed below." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/conversion/pdf-to-doc/" name="PDF To DOC" description="Microsoft Word Binary Format" >}} {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/conversion/pdf-to-html/" name="PDF To HTML" description="Hyper Text Markup Language" >}} {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/conversion/pdf-to-docx/" name="PDF To DOCX" description="Office 2007+ Words Document" >}} {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/conversion/pdf-to-word/" name="PDF To Word" description="Office Word Documents" >}} {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/conversion/pdf-to-xls/" name="PDF To XLS" description="Excel Binary Format" >}} {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/conversion/pdf-to-xlsx/" name="PDF To XLSX" description="OOXML Excel File" >}} {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/conversion/pdf-to-xps/" name="PDF To XPS" description="XML Paper Specifications" >}} {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/conversion/pdf-to-excel/" name="PDF To Excel" description="Microsoft Excel Files" >}} {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/conversion/pdf-to-pptx/" name="PDF To PPTX" description="Open XML presentation Format" >}} {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/conversion/pdf-to-png/" name="PDF To PNG" description="Portable Network Graphics" >}} 
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/conversion/pdf-to-doc/" name="PDF To DOC" description="Microsoft Word Binary Format" >}} {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/conversion/pdf-to-html/" name="PDF To HTML" description="Hyper Text Markup Language" >}} {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/conversion/pdf-to-docx/" name="PDF To DOCX" description="Office 2007+ Words Document" >}} {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/conversion/pdf-to-word/" name="PDF To Word" description="Office Word Documents" >}} {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/conversion/pdf-to-xls/" name="PDF To XLS" description="Excel Binary Format" >}} {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/conversion/pdf-to-xlsx/" name="PDF To XLSX" description="OOXML Excel File" >}} {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/conversion/pdf-to-xps/" name="PDF To XPS" description="XML Paper Specifications" >}} {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/conversion/pdf-to-excel/" name="PDF To Excel" description="Microsoft Excel Files" >}} {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/conversion/pdf-to-pptx/" name="PDF To PPTX" description="Open XML presentation Format" >}} {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/conversion/pdf-to-png/" name="PDF To PNG" description="Portable Network Graphics" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-    
+
 {{< /blocks/products/pf/main-wrap-class >}}

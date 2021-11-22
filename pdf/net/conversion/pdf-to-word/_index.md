@@ -44,7 +44,7 @@ description: PDF to Microsoft Word DOC DOCX C# conversion source code. Easily in
 var pdfDocument = new Document("template.pdf");
 var saveOptions = new Aspose.Pdf.DocSaveOptions
 {
-    Format = Aspose.Pdf.DocSaveOptions.DocFormat.Doc,
+    Format = Aspose.Pdf.DocSaveOptions.DocFormat.Doc
 };
 pdfDocument.Save("word.doc", saveOptions);
 

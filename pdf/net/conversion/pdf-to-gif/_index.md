@@ -44,8 +44,8 @@ PM> Install-Package Aspose.PDF
 {{% /blocks/products/pf/agp/text %}}
 
 1. Load PDF file with an instance of Document
-1. Call the Document.Save method while passing the output file path & SaveFormat.Gif as parameters
-1. GIF file will be saved at the specified path
+1. Create & set the instance of GifDevice class with Size & Resolution
+1. Call GifDevice.Process method with page index & output file path as parameters
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
@@ -68,9 +68,12 @@ PM> Install-Package Aspose.PDF
 ```cs
 // load PDF with an instance of Document
 var document = new Document("template.pdf");
-// save document in GIF format
-document.Save("output.gif", Aspose.Pdf.SaveFormat.Gif);
 
+// create an object of GifDevice
+var renderer = new Aspose.Pdf.Devices.GifDevice();
+
+// convert a particular page and save the image in Gif format
+renderer.Process(document.Pages[1], "output.gif");
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
@@ -121,7 +124,7 @@ A GIF or Graphical Interchange Format is a type of highly compressed image. Owne
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/conversion/pdf-to-bmp/" name="PDF TO BMP" description="Bitmap Image" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/conversion/pdf-to-doc/" name="PDF TO DOC" description="Microsoft Word Binary Format" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/conversion/pdf-to-docx/" name="PDF TO DOCX" description="Office 2007+ Words Document" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/conversion/pdf-to-emf/" name="PDF TO EMF" description="Enhanced Metafile Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/conversion/pdf-to-Gif/" name="PDF TO Gif" description="Enhanced Metafile Format" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/conversion/pdf-to-epub/" name="PDF TO EPUB" description="E-book Format" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/conversion/pdf-to-html/" name="PDF TO HTML" description="Hyper Text Markup Language" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/conversion/pdf-to-jpeg/" name="PDF TO JPEG" description="JPEG Image" >}}

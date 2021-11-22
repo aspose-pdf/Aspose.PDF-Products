@@ -67,9 +67,10 @@ PM> Install-Package Aspose.PDF
 
 ```cs
 // load PS with an instance of Document
-var document = new Document("template.ps");
+var document = new Document("template.ps", new PsLoadOptions());
+
 // save document in XLS format
-document.Save("output.xls", Aspose.Pdf.SaveFormat.Xls);
+document.Save("output.xls", Aspose.Pdf.SaveFormat.Excel);
 
 ```
 
