@@ -1,7 +1,7 @@
 ---
-title: Convert PDF to TIFF Images via Java 
+title: Convert PDF to TIFF Images via Java
 weight: 1660
-url: /java/conversion/pdf-to-tiff/ 
+url: /java/conversion/pdf-to-tiff/
 description: Sample Java conversion code for PDF format to TIFF image. Programmers can use this example code to export PDF to TIFF within any Web or Desktop Java based Application.
 ---
 
@@ -14,9 +14,9 @@ description: Sample Java conversion code for PDF format to TIFF image. Programme
 {{% blocks/products/pf/agp/content h2="How to Convert PDF to TIFF Image Using Java" %}}
 
  In order to render PDF to TIFF, we’ll use
- [Aspose.PDF for Java](https://products.aspose.com/pdf/java) 
+ [Aspose.PDF for Java](https://products.aspose.com/pdf/java)
  API which is a feature-rich, powerful and easy to use conversion API for Java platform. You can download its latest version directly from
- [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-pdf) 
+ [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-pdf)
  and install it within your Maven-based project by adding the following configurations to the pom.xml.
 
 {{% blocks/products/pf/agp/code-block title="Repository" offSpacer="true" %}}
@@ -59,9 +59,9 @@ description: Sample Java conversion code for PDF format to TIFF image. Programme
 
 {{% /blocks/products/pf/agp/text %}}
 
-1.  Load PDF file with an instance of Document class
-1.  Create & set TiffDevice class object with Size & Resolution
-1.  Call TiffDevice.process method with page index & output file path
+1. Load PDF file with an instance of Document class
+1. Create & set TiffDevice class object with Size & Resolution
+1. Call TiffDevice.process method with page index & output file path
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
@@ -88,7 +88,7 @@ Document document = new Document("template.pdf");
 PngDevice renderer = new TiffDevice();
 
 // convert first of a particular PDF page to TIFF format
-renderer.process(document.getPages().get_Item(1), "output.tiff");   
+renderer.process(document.getPages().get_Item(1), "output.tiff");
 
 ```
 
@@ -97,7 +97,7 @@ renderer.process(document.getPages().get_Item(1), "output.tiff");
 {{< /blocks/products/pf/agp/feature-section >}}
 
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
- 
+
 
 <!-- aboutfile Starts -->
 
@@ -155,5 +155,5 @@ TIFF or TIF, Tagged Image File Format, represents raster images that are meant f
 {{< /blocks/products/pf/agp/other-supported-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-    
+
 {{< /blocks/products/pf/main-wrap-class >}}

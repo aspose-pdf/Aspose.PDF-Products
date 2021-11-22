@@ -1,7 +1,7 @@
 ---
-title: Convert PCL to SVG via C# 
+title: Convert PCL to SVG via C#
 weight: 270
-url: /net/conversion/pcl-to-svg/ 
+url: /net/conversion/pcl-to-svg/
 description: Sample code for PCL to SVG C# conversion. Use API example code for batch PCL files to SVG conversion within VB.NET, Asp.NET or any .NET based application.
 ---
 
@@ -14,11 +14,11 @@ description: Sample code for PCL to SVG C# conversion. Use API example code for 
 {{% blocks/products/pf/agp/content h2="How to Convert PCL to SVG Using C#" %}}
 
  In order to convert PCL to SVG, we’ll use
- [Aspose.PDF for .NET](https://products.aspose.com/pdf/net) 
+ [Aspose.PDF for .NET](https://products.aspose.com/pdf/net)
  API which is a feature-rich, powerful and easy to use document manipulation and conversion API for C# platform. Open
- [NuGet](https://www.nuget.org/packages/aspose.pdf) 
+ [NuGet](https://www.nuget.org/packages/aspose.pdf)
  package manager, search for
- Aspose.PDF 
+ Aspose.PDF
  and install. You may also use the following command from the Package Manager Console.
 
 {{% blocks/products/pf/agp/code-block title="Package Manager Console Command" offSpacer="true" %}}
@@ -43,9 +43,9 @@ PM> Install-Package Aspose.PDF
 
 {{% /blocks/products/pf/agp/text %}}
 
-1.  Load PCL file with an instance of Document
-1.  Call the Document.Save method while passing the output file path & SaveFormat.Svg as parameters
-1.  SVG file will be saved at the specified path
+1. Load PCL file with an instance of Document
+1. Call the Document.Save method while passing the output file path & SaveFormat.Svg as parameters
+1. SVG file will be saved at the specified path
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
@@ -69,7 +69,7 @@ PM> Install-Package Aspose.PDF
 // load PCL with an instance of Document
 var document = new Document("template.pcl");
 // save document in SVG format
-document.Save("output.svg", Aspose.Pdf.SaveFormat.Svg); 
+document.Save("output.svg", Aspose.Pdf.SaveFormat.Svg);
 
 ```
 
@@ -78,7 +78,7 @@ document.Save("output.svg", Aspose.Pdf.SaveFormat.Svg);
 {{< /blocks/products/pf/agp/feature-section >}}
 
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
- 
+
 
 <!-- aboutfile Starts -->
 
@@ -138,5 +138,5 @@ SVG files are Scalable Vector Graphics Files that use XML based text format for 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-    
+
 {{< /blocks/products/pf/main-wrap-class >}}

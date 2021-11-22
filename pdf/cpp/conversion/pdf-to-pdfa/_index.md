@@ -1,7 +1,7 @@
 ---
-title: Convert PDF to PDFA via C++ application 
+title: Convert PDF to PDFA via C++ application
 weight: 1220
-url: /cpp/conversion/pdf-to-pdfa/ 
+url: /cpp/conversion/pdf-to-pdfa/
 description: Sample C++ conversion code for PDF document to PDFA format. Programmers can use this source code for batch PDF to PDFA conversion within any C++ application.
 ---
 
@@ -14,11 +14,11 @@ description: Sample C++ conversion code for PDF document to PDFA format. Program
 {{% blocks/products/pf/agp/content h2="How to Convert PDF to PDFA Using C++" %}}
 
  In order to convert PDF to PDFA, we’ll use
- [Aspose.PDF for C++](https://products.aspose.com/pdf/cpp) 
+ [Aspose.PDF for C++](https://products.aspose.com/pdf/cpp)
  API which is a feature-rich, powerful and easy to use document manipulation and conversion API for C++ platform. You can download its latest version directly, just open
- [NuGet](https://www.nuget.org/packages/aspose.pdf) 
+ [NuGet](https://www.nuget.org/packages/aspose.pdf)
  package manager, search for
- Aspose.PDF.Cpp 
+ Aspose.PDF.Cpp
  and install. You may also use the following command from the Package Manager Console.
 
 {{% blocks/products/pf/agp/code-block title="Command" offSpacer="true" %}}
@@ -43,11 +43,11 @@ PM> Install-Package Aspose.PDF.Cpp
 
 {{% /blocks/products/pf/agp/text %}}
 
-1.  Load PDF file with Aspose.PDF for C++.
-1.  Call the Save() method.
-1.  Pass the output file path with (PDFA) file extension.
-1.  PDFA file will be saved at the specified path.
-1.  Open PDFA file in compatible program.
+1. Load PDF file with Aspose.PDF for C++.
+1. Call the Save() method.
+1. Pass the output file path with (PDFA) file extension.
+1. PDFA file will be saved at the specified path.
+1. Open PDFA file in compatible program.
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
@@ -80,7 +80,7 @@ doc->Save(u"convertedFile.pdfa", SaveFormat::Pdfa);
 {{< /blocks/products/pf/agp/feature-section >}}
 
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
- 
+
 
 <!-- aboutfile Starts -->
 
@@ -132,5 +132,5 @@ Electronic Documents in PDF
 {{< /blocks/products/pf/agp/other-supported-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-    
+
 {{< /blocks/products/pf/main-wrap-class >}}

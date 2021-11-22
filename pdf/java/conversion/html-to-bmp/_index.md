@@ -1,7 +1,7 @@
 ---
-title: Convert HTML to BMP via Java 
+title: Convert HTML to BMP via Java
 weight: 230
-url: /java/conversion/html-to-bmp/ 
+url: /java/conversion/html-to-bmp/
 description: Sample Java conversion code for HTML format to BMP file. Programmers can use this example code to export HTML to BMP within any Web or Desktop Java based Application.
 ---
 
@@ -14,9 +14,9 @@ description: Sample Java conversion code for HTML format to BMP file. Programmer
 {{% blocks/products/pf/agp/content h2="How to Convert HTML to BMP Using Java" %}}
 
  In order to render HTML to BMP, we’ll use
- [Aspose.PDF for Java](https://products.aspose.com/pdf/java) 
+ [Aspose.PDF for Java](https://products.aspose.com/pdf/java)
  API which is a feature-rich, powerful and easy to use conversion API for Java platform. You can download its latest version directly from
- [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-pdf) 
+ [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-pdf)
  and install it within your Maven-based project by adding the following configurations to the pom.xml.
 
 {{% blocks/products/pf/agp/code-block title="Repository" offSpacer="true" %}}
@@ -59,9 +59,9 @@ description: Sample Java conversion code for HTML format to BMP file. Programmer
 
 {{% /blocks/products/pf/agp/text %}}
 
-1.  Load HTML file with an instance of Document class
-1.  Create & set BmpDevice class object with Size & Resolution
-1.  Call BmpDevice.process method with page index & output file path
+1. Load HTML file with an instance of Document class
+1. Create & set BmpDevice class object with Size & Resolution
+1. Call BmpDevice.process method with page index & output file path
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
@@ -88,7 +88,7 @@ Document document = new Document("template.html");
 PngDevice renderer = new BmpDevice();
 
 // convert first of a particular PDF page to BMP format
-renderer.process(document.getPages().get_Item(1), "output.bmp");   
+renderer.process(document.getPages().get_Item(1), "output.bmp");
 
 ```
 
@@ -97,7 +97,7 @@ renderer.process(document.getPages().get_Item(1), "output.bmp");
 {{< /blocks/products/pf/agp/feature-section >}}
 
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
- 
+
 
 <!-- aboutfile Starts -->
 
@@ -154,5 +154,5 @@ Files having extension .BMP represent Bitmap Image files that are used to store 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-    
+
 {{< /blocks/products/pf/main-wrap-class >}}

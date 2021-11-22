@@ -1,7 +1,7 @@
 ---
-title: Convert PDFA to HTML via Java 
+title: Convert PDFA to HTML via Java
 weight: 420
-url: /java/conversion/pdfa-to-html/ 
+url: /java/conversion/pdfa-to-html/
 description: Sample Java conversion code for PDFA format to HTML file. Programmers can use this example code to export PDFA to HTML within any Web or Desktop Java based Application.
 ---
 
@@ -14,9 +14,9 @@ description: Sample Java conversion code for PDFA format to HTML file. Programme
 {{% blocks/products/pf/agp/content h2="How to Convert PDFA to HTML Using Java" %}}
 
  In order to render PDFA to HTML, we’ll use
- [Aspose.PDF for Java](https://products.aspose.com/pdf/java) 
+ [Aspose.PDF for Java](https://products.aspose.com/pdf/java)
  API which is a feature-rich, powerful and easy to use conversion API for Java platform. You can download its latest version directly from
- [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-pdf) 
+ [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-pdf)
  and install it within your Maven-based project by adding the following configurations to the pom.xml.
 
 {{% blocks/products/pf/agp/code-block title="Repository" offSpacer="true" %}}
@@ -59,9 +59,9 @@ description: Sample Java conversion code for PDFA format to HTML file. Programme
 
 {{% /blocks/products/pf/agp/text %}}
 
-1.  Load PDFA file with an instance of Document
-1.  Call Document.save method while passing the output file path & SaveFormat as parameters
-1.  HTML file will be saved at the specified path
+1. Load PDFA file with an instance of Document
+1. Call Document.save method while passing the output file path & SaveFormat as parameters
+1. HTML file will be saved at the specified path
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
@@ -84,7 +84,7 @@ description: Sample Java conversion code for PDFA format to HTML file. Programme
 // load PDFA with an instance of Document
 Document document = new Document("template.pdfa");
 // save document in HTML format
-document.save("output.html", SaveFormat.Html);   
+document.save("output.html", SaveFormat.Html);
 
 ```
 
@@ -93,7 +93,7 @@ document.save("output.html", SaveFormat.Html);
 {{< /blocks/products/pf/agp/feature-section >}}
 
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
- 
+
 
 <!-- aboutfile Starts -->
 
@@ -149,5 +149,5 @@ HTML (Hyper Text Markup Language) is the extension for web pages created for dis
 {{< /blocks/products/pf/agp/other-supported-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-    
+
 {{< /blocks/products/pf/main-wrap-class >}}

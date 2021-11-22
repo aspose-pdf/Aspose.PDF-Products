@@ -1,7 +1,7 @@
 ---
-title: Convert PDF to Microsoft Word DOC via Java 
+title: Convert PDF to Microsoft Word DOC via Java
 weight: 300
-url: /java/conversion/pdf-to-doc/ 
+url: /java/conversion/pdf-to-doc/
 description: Sample Java conversion code for PDF to DOC file. Programmers can use this example code to export PDF to Word DOC within any Web or Desktop Java based Application.
 ---
 
@@ -14,9 +14,9 @@ description: Sample Java conversion code for PDF to DOC file. Programmers can us
 {{% blocks/products/pf/agp/content h2="How to Convert PDF to DOC Using Java" %}}
 
  In order to render PDF to DOC, we’ll use
- [Aspose.PDF for Java](https://products.aspose.com/pdf/java) 
+ [Aspose.PDF for Java](https://products.aspose.com/pdf/java)
  API which is a feature-rich, powerful and easy to use conversion API for Java platform. You can download its latest version directly from
- [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-pdf) 
+ [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-pdf)
  and install it within your Maven-based project by adding the following configurations to the pom.xml.
 
 {{% blocks/products/pf/agp/code-block title="Repository" offSpacer="true" %}}
@@ -59,9 +59,9 @@ description: Sample Java conversion code for PDF to DOC file. Programmers can us
 
 {{% /blocks/products/pf/agp/text %}}
 
-1.  Load PDF file with an instance of Document
-1.  Call Document.save method while passing the output file path & SaveFormat as parameters
-1.  DOC file will be saved at the specified path
+1. Load PDF file with an instance of Document
+1. Call Document.save method while passing the output file path & SaveFormat as parameters
+1. DOC file will be saved at the specified path
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
@@ -84,7 +84,7 @@ description: Sample Java conversion code for PDF to DOC file. Programmers can us
 // load PDF with an instance of Document
 Document document = new Document("template.pdf");
 // save document in DOC format
-document.save("word_output.doc", SaveFormat.Doc);   
+document.save("word_output.doc", SaveFormat.Doc);
 
 ```
 
@@ -93,7 +93,7 @@ document.save("word_output.doc", SaveFormat.Doc);
 {{< /blocks/products/pf/agp/feature-section >}}
 
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
- 
+
 
 <!-- aboutfile Starts -->
 
@@ -110,7 +110,7 @@ document.save("word_output.doc", SaveFormat.Doc);
 
 
     {{% /blocks/products/pf/agp/content %}}
-    
+
 {{< /blocks/products/pf/agp/demobox >}}
 
 <!-- aboutfile Ends -->
@@ -133,5 +133,5 @@ document.save("word_output.doc", SaveFormat.Doc);
 {{< /blocks/products/pf/agp/other-supported-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-    
+
 {{< /blocks/products/pf/main-wrap-class >}}

@@ -1,7 +1,7 @@
 ---
-title: Convert PDF to Images JPEG via C++ application 
+title: Convert PDF to Images JPEG via C++ application
 weight: 70
-url: /cpp/conversion/pdf-to-jpeg/ 
+url: /cpp/conversion/pdf-to-jpeg/
 description: Sample C++ conversion code for PDF document to JPEG image. Programmers can use this source code for batch PDF to images JPEG conversion within any C++ application.
 ---
 
@@ -14,11 +14,11 @@ description: Sample C++ conversion code for PDF document to JPEG image. Programm
 {{% blocks/products/pf/agp/content h2="How to Convert PDF to JPEG Using C++" %}}
 
  In order to convert PDF to JPEG, we’ll use
- [Aspose.PDF for C++](https://products.aspose.com/pdf/cpp) 
+ [Aspose.PDF for C++](https://products.aspose.com/pdf/cpp)
  API which is a feature-rich, powerful and easy to use document manipulation and conversion API for C++ platform. You can download its latest version directly, just open
- [NuGet](https://www.nuget.org/packages/aspose.pdf) 
+ [NuGet](https://www.nuget.org/packages/aspose.pdf)
  package manager, search for
- Aspose.PDF.Cpp 
+ Aspose.PDF.Cpp
  and install. You may also use the following command from the Package Manager Console.
 
 {{% blocks/products/pf/agp/code-block title="Command" offSpacer="true" %}}
@@ -43,12 +43,12 @@ PM> Install-Package Aspose.PDF.Cpp
 
 {{% /blocks/products/pf/agp/text %}}
 
-1.  Load PDF file using BindPdf of PdfConverter Class.
-1.  Call the DoConvert method.
-1.  Loop through each page to convert page by page.
-1.  Pass the output file path with (JPEG) file extension.
-1.  JPEG file will be saved at the specified path.
-1.  Open JPEG file in compatible program.
+1. Load PDF file using BindPdf of PdfConverter Class.
+1. Call the DoConvert method.
+1. Loop through each page to convert page by page.
+1. Pass the output file path with (JPEG) file extension.
+1. JPEG file will be saved at the specified path.
+1. Open JPEG file in compatible program.
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
@@ -68,17 +68,17 @@ PM> Install-Package Aspose.PDF.Cpp
 {{% blocks/products/pf/agp/code-block title="PDF to JPEG C++ Conversion Source Code" offSpacer="" %}}
 
 ```cs
-// instantiate PdfConverter 
+// instantiate PdfConverter
 System::SharedPtr<Aspose::Pdf::Facades::PdfConverter> JpegConverter = System::MakeObject<Aspose::Pdf::Facades::PdfConverter>();
-// load an existing PDF document 
-JpegConverter->BindPdf(dir + L"sourceFile.pdf"); 
-// convert PDF pages to images 
-JpegConverter->DoConvert(); 
-int32_t imageNumber = 1; 
-while (JpegConverter->HasNextImage()) { 
-// save each page in JPG format 
-PdfImageConverter->GetNextImage(dir + imageNumber + L".jpg", System::Drawing::Imaging::ImageFormat::get_Jpeg(), 800, 1000); 
-imageNumber++; 
+// load an existing PDF document
+JpegConverter->BindPdf(dir + L"sourceFile.pdf");
+// convert PDF pages to images
+JpegConverter->DoConvert();
+int32_t imageNumber = 1;
+while (JpegConverter->HasNextImage()) {
+// save each page in JPG format
+PdfImageConverter->GetNextImage(dir + imageNumber + L".jpg", System::Drawing::Imaging::ImageFormat::get_Jpeg(), 800, 1000);
+imageNumber++;
 }
 
 ```
@@ -88,7 +88,7 @@ imageNumber++;
 {{< /blocks/products/pf/agp/feature-section >}}
 
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
- 
+
 
 <!-- aboutfile Starts -->
 
@@ -140,5 +140,5 @@ A JPEG is a type of image format that is saved using the method of lossy compres
 {{< /blocks/products/pf/agp/other-supported-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-    
+
 {{< /blocks/products/pf/main-wrap-class >}}

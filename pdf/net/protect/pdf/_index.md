@@ -1,7 +1,7 @@
 ---
-title: Protect and lock PDF document via .NET 
+title: Protect and lock PDF document via .NET
 weight: 840
-url: /net/protect/pdf/ 
+url: /net/protect/pdf/
 description: C# source code to lock PDF file using password on .NET Framework, .NET Core, and PHP, VBScript, Delphi, C++ via COM Interop.
 ---
 
@@ -14,11 +14,11 @@ description: C# source code to lock PDF file using password on .NET Framework, .
 {{% blocks/products/pf/agp/content h2="How to Protect PDF File Using C#" %}}
 
  In order to protect PDF file, we’ll use
- [Aspose.PDF for .NET](https://products.aspose.com/pdf/net) 
+ [Aspose.PDF for .NET](https://products.aspose.com/pdf/net)
  API which is a feature-rich, powerful and easy to use document protection API for C# platform. Open
- [NuGet](https://www.nuget.org/packages/aspose.pdf) 
+ [NuGet](https://www.nuget.org/packages/aspose.pdf)
  package manager, search for
- **Aspose.PDF** 
+ **Aspose.PDF**
  and install. You may also use the following command from the Package Manager Console.
 
 {{% blocks/products/pf/agp/code-block title="Aspose.PDF" offSpacer="true" %}}
@@ -40,15 +40,15 @@ PM> Install-Package Aspose.PDF
 {{% blocks/products/pf/agp/text %}}
 
  You need
- [aspose.pdf.dll](https://downloads.aspose.com/pdf/net) 
+ [aspose.pdf.dll](https://downloads.aspose.com/pdf/net)
  referenced in your project to execute the following workflow.
 
 {{% /blocks/products/pf/agp/text %}}
 
-1.  Load PDF with an instance of Document
-1.  Create an object of DocumentPrivilege & set options
-1.  Call Document.Encrypt method to protect PDF with AES-128
-1.  Save result in PDF format
+1. Load PDF with an instance of Document
+1. Create an object of DocumentPrivilege & set options
+1. Call Document.Encrypt method to protect PDF with AES-128
+1. Save result in PDF format
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
@@ -90,7 +90,7 @@ using (var document = new Aspose.Pdf.Document("template.pdf"))
 {{< /blocks/products/pf/agp/feature-section >}}
 
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
- 
+
 
 <!-- aboutfile Starts -->
 
@@ -120,5 +120,5 @@ Portable Document Format (PDF) is a type of document created by Adobe back in 19
 <!-- aboutfile Ends -->
 
 {{< /blocks/products/pf/main-container >}}
-    
+
 {{< /blocks/products/pf/main-wrap-class >}}

@@ -1,7 +1,7 @@
 ---
-title: Convert MHTML to HTML via C# 
+title: Convert MHTML to HTML via C#
 weight: 2340
-url: /net/conversion/mhtml-to-html/ 
+url: /net/conversion/mhtml-to-html/
 description: Sample code for MHTML to HTML C# conversion. Use API example code for batch MHTML files to HTML conversion within VB.NET, Asp.NET or any .NET based application.
 ---
 
@@ -14,11 +14,11 @@ description: Sample code for MHTML to HTML C# conversion. Use API example code f
 {{% blocks/products/pf/agp/content h2="How to Convert MHTML to HTML Using C#" %}}
 
  In order to convert MHTML to HTML, we’ll use
- [Aspose.PDF for .NET](https://products.aspose.com/pdf/net) 
+ [Aspose.PDF for .NET](https://products.aspose.com/pdf/net)
  API which is a feature-rich, powerful and easy to use document manipulation and conversion API for C# platform. Open
- [NuGet](https://www.nuget.org/packages/aspose.pdf) 
+ [NuGet](https://www.nuget.org/packages/aspose.pdf)
  package manager, search for
- Aspose.PDF 
+ Aspose.PDF
  and install. You may also use the following command from the Package Manager Console.
 
 {{% blocks/products/pf/agp/code-block title="Package Manager Console Command" offSpacer="true" %}}
@@ -43,9 +43,9 @@ PM> Install-Package Aspose.PDF
 
 {{% /blocks/products/pf/agp/text %}}
 
-1.  Load MHTML file with an instance of Document
-1.  Call the Document.Save method while passing the output file path & SaveFormat.Html as parameters
-1.  HTML file will be saved at the specified path
+1. Load MHTML file with an instance of Document
+1. Call the Document.Save method while passing the output file path & SaveFormat.Html as parameters
+1. HTML file will be saved at the specified path
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
@@ -69,7 +69,7 @@ PM> Install-Package Aspose.PDF
 // load MHTML with an instance of Document
 var document = new Document("template.mhtml");
 // save document in HTML format
-document.Save("output.html", Aspose.Pdf.SaveFormat.Html); 
+document.Save("output.html", Aspose.Pdf.SaveFormat.Html);
 
 ```
 
@@ -78,7 +78,7 @@ document.Save("output.html", Aspose.Pdf.SaveFormat.Html);
 {{< /blocks/products/pf/agp/feature-section >}}
 
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
- 
+
 
 <!-- aboutfile Starts -->
 
@@ -138,5 +138,5 @@ HTML (Hyper Text Markup Language) is the extension for web pages created for dis
 {{< /blocks/products/pf/agp/other-supported-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-    
+
 {{< /blocks/products/pf/main-wrap-class >}}

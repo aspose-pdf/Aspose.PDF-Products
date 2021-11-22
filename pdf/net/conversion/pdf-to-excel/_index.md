@@ -1,8 +1,8 @@
 ---
-title: Convert PDF to Excel XLS XLSX C# | .NET PDF API 
+title: Convert PDF to Excel XLS XLSX C# | .NET PDF API
 weight: 2020
-url: /net/conversion/pdf-to-excel/ 
-description: PDF to Microsoft Excel XLS and XLSX C# conversion example code. Implement it within and reports generation automation solution.  
+url: /net/conversion/pdf-to-excel/
+description: PDF to Microsoft Excel XLS and XLSX C# conversion example code. Implement it within and reports generation automation solution.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -19,10 +19,10 @@ description: PDF to Microsoft Excel XLS and XLSX C# conversion example code. Imp
 
 {{% /blocks/products/pf/agp/text %}}
 
-1.  Load a PDF with tabular data via Document constructor
-1.  Create an instance of ExcelSaveOptions class for export
-1.  Call Document.Save method with output file path
-1.  Pass instance of ExcelSaveOptions as second parameter
+1. Load a PDF with tabular data via Document constructor
+1. Create an instance of ExcelSaveOptions class for export
+1. Call Document.Save method with output file path
+1. Pass instance of ExcelSaveOptions as second parameter
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
@@ -61,11 +61,11 @@ pdfDocument.Save("excel.xls", options);
 
 {{% /blocks/products/pf/agp/text %}}
 
-1.  Load a PDF with tabular data via Document constructor
-1.  Create an instance of ExcelSaveOptions class for export
-1.  Set ExcelSaveOptions.Format property to ExcelSaveOptions.ExcelFormat.XLSX
-1.  Call Document.Save method with output file path
-1.  Pass instance of ExcelSaveOptions as second parameter
+1. Load a PDF with tabular data via Document constructor
+1. Create an instance of ExcelSaveOptions class for export
+1. Set ExcelSaveOptions.Format property to ExcelSaveOptions.ExcelFormat.XLSX
+1. Call Document.Save method with output file path
+1. Pass instance of ExcelSaveOptions as second parameter
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
@@ -74,7 +74,7 @@ pdfDocument.Save("excel.xls", options);
 {{% blocks/products/pf/agp/text %}}
 
  As opposed to XLS, the XLSX file format is based on Open XML specifications and can hold more data (rows & columns) than XLS format. By default, Aspose.PDF saves the PDF in XLS format. it is also possible to save the data in XLSX format while setting the
- *ExcelSaveOptions.Format* 
+ *ExcelSaveOptions.Format*
  property.
 
 {{% /blocks/products/pf/agp/text %}}
@@ -107,11 +107,11 @@ pdfDocument.Save("excel.xlsx", options);
 
 {{% /blocks/products/pf/agp/text %}}
 
-1.  Load a PDF with tabular data via Document constructor
-1.  Create an instance of ExcelSaveOptions class for export
-1.  Set ExcelSaveOptions.MinimizeTheNumberOfWorksheets property to true
-1.  Call Document.Save method with output file path
-1.  Pass instance of ExcelSaveOptions as second parameter
+1. Load a PDF with tabular data via Document constructor
+1. Create an instance of ExcelSaveOptions class for export
+1. Set ExcelSaveOptions.MinimizeTheNumberOfWorksheets property to true
+1. Call Document.Save method with output file path
+1. Pass instance of ExcelSaveOptions as second parameter
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
@@ -120,7 +120,7 @@ pdfDocument.Save("excel.xlsx", options);
 {{% blocks/products/pf/agp/text %}}
 
  PDF documents can have any number of pages therefore each page in PDF represents a Worksheet in Excel format after the conversion. It is possible to control the conversion by setting the boolean type
- *ExcelSaveOptions.MinimizeTheNumberOfWorksheets* 
+ *ExcelSaveOptions.MinimizeTheNumberOfWorksheets*
  property to true. This ensures that all PDF pages are exported to single Worksheet of the resultant Excel file.
 
 {{% /blocks/products/pf/agp/text %}}
@@ -151,7 +151,7 @@ pdfDocument.Save("excel.xls", options);
     {{< blocks/products/pf/agp/faq-item question="What other output formats are supported?" answer="Along with Excel formats (XLS & XLSX), Aspose.PDF can also convert PDF to Word (DOC & DOCX), PowerPoint (PPTX) as well as XML, EPUB, TEX, HTML & image formats." >}}
     {{< blocks/products/pf/agp/faq-item question="Can I convert PDF to Excel on other platforms?" answer="Yes, you can perform the conversion on all Windows version (x86 & x64) as well as Linux x64 & Mac OS X x64." >}}
     {{< blocks/products/pf/agp/faq-item question="I do not have time to set up. Do you have a demo that I can try?" answer="Try [Online Demos](https://products.aspose.app/pdf/conversion/) to quickly check the conversion results." >}}
- 
+
 {{< /blocks/products/pf/agp/faq >}}
 
 <!-- aboutfile Starts -->
@@ -182,5 +182,5 @@ PDF was created by Adobe in 1990s to introduce a standard document representatio
 {{< blocks/products/pf/agp/other-supported-section-item href="/" name="" description="" >}}
 
 {{< /blocks/products/pf/main-container >}}
-    
+
 {{< /blocks/products/pf/main-wrap-class >}}

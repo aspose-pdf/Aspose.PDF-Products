@@ -1,7 +1,7 @@
 ---
-title: Protect and lock PDF document via C++ 
+title: Protect and lock PDF document via C++
 weight: 520
-url: /cpp/protect/pdf/ 
+url: /cpp/protect/pdf/
 description: C++ example code to lock PDF file using password on C++ Runtime Environment for Windows 32 bit, Windows 64 bit and Linux 64 bit.
 ---
 
@@ -14,11 +14,11 @@ description: C++ example code to lock PDF file using password on C++ Runtime Env
 {{% blocks/products/pf/agp/content h2="How to Secure PDF File Using C++" %}}
 
  In order to protect PDF file, we’ll use
- [Aspose.PDF for C++](https://products.aspose.com/pdf/cpp) 
+ [Aspose.PDF for C++](https://products.aspose.com/pdf/cpp)
  API which is a feature-rich, powerful and easy to use document encryption API for C++ platform. You can download its latest version directly, just open
- [NuGet](https://www.nuget.org/packages/aspose.pdf) 
+ [NuGet](https://www.nuget.org/packages/aspose.pdf)
  package manager, search for
- **Aspose.PDF.Cpp** 
+ **Aspose.PDF.Cpp**
  and install. You may also use the following command from the Package Manager Console.
 
 {{% blocks/products/pf/agp/code-block title="Aspose.PDF" offSpacer="true" %}}
@@ -43,10 +43,10 @@ PM> Install-Package Aspose.PDF.Cpp
 
 {{% /blocks/products/pf/agp/text %}}
 
-1.  Load PDF with an instance of Document
-1.  Set different privileges like allow printing, modifying content etc using DocumentPrivilege class
-1.  Use Document.Encrypt to set the previllages
-1.  Save the secure PDF using Save() method
+1. Load PDF with an instance of Document
+1. Set different privileges like allow printing, modifying content etc using DocumentPrivilege class
+1. Use Document.Encrypt to set the previllages
+1. Save the secure PDF using Save() method
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
@@ -74,7 +74,7 @@ auto doc = MakeObject<Document>(L"..\sourcePath\sourceFile.pdf");
 System::SharedPtr<Aspose::Pdf::Facades::DocumentPrivilege> privilege = Aspose::Pdf::Facades::DocumentPrivilege::get_Print();
 doc->Encrypt(L"user", L"owner", privilege, CryptoAlgorithm::AESx128, false);
 doc->Save(L"..\outputPath\protectedFile.pdf");
-//few other ways as well like 
+//few other ways as well like
 // Use predefined privilege and change some specifical permissions.
 // Use predefined privilege and change some specifical Adobe Professional permissions combination.
 
@@ -85,7 +85,7 @@ doc->Save(L"..\outputPath\protectedFile.pdf");
 {{< /blocks/products/pf/agp/feature-section >}}
 
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
- 
+
 
 <!-- aboutfile Starts -->
 
@@ -116,5 +116,5 @@ Portable Document Format (PDF) is a type of document created by Adobe back in 19
 <!-- aboutfile Ends -->
 
 {{< /blocks/products/pf/main-container >}}
-    
+
 {{< /blocks/products/pf/main-wrap-class >}}

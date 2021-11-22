@@ -1,7 +1,7 @@
 ---
-title: Convert PS to TXT via C# 
+title: Convert PS to TXT via C#
 weight: 2660
-url: /net/conversion/ps-to-txt/ 
+url: /net/conversion/ps-to-txt/
 description: Sample code for PS to TXT C# conversion. Use API example code for batch PS files to TXT conversion within VB.NET, Asp.NET or any .NET based application.
 ---
 
@@ -14,11 +14,11 @@ description: Sample code for PS to TXT C# conversion. Use API example code for b
 {{% blocks/products/pf/agp/content h2="How to Convert PS to TXT Using C#" %}}
 
  In order to convert PS to TXT, we’ll use
- [Aspose.PDF for .NET](https://products.aspose.com/pdf/net) 
+ [Aspose.PDF for .NET](https://products.aspose.com/pdf/net)
  API which is a feature-rich, powerful and easy to use document manipulation and conversion API for C# platform. Open
- [NuGet](https://www.nuget.org/packages/aspose.pdf) 
+ [NuGet](https://www.nuget.org/packages/aspose.pdf)
  package manager, search for
- Aspose.PDF 
+ Aspose.PDF
  and install. You may also use the following command from the Package Manager Console.
 
 {{% blocks/products/pf/agp/code-block title="Package Manager Console Command" offSpacer="true" %}}
@@ -43,9 +43,9 @@ PM> Install-Package Aspose.PDF
 
 {{% /blocks/products/pf/agp/text %}}
 
-1.  Load PS file with an instance of Document
-1.  Call the Document.Save method while passing the output file path & SaveFormat.Txt as parameters
-1.  TXT file will be saved at the specified path
+1. Load PS file with an instance of Document
+1. Call the Document.Save method while passing the output file path & SaveFormat.Txt as parameters
+1. TXT file will be saved at the specified path
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
@@ -69,7 +69,7 @@ PM> Install-Package Aspose.PDF
 // load PS with an instance of Document
 var document = new Document("template.ps");
 // save document in TXT format
-document.Save("output.txt", Aspose.Pdf.SaveFormat.Txt); 
+document.Save("output.txt", Aspose.Pdf.SaveFormat.Txt);
 
 ```
 
@@ -78,7 +78,7 @@ document.Save("output.txt", Aspose.Pdf.SaveFormat.Txt);
 {{< /blocks/products/pf/agp/feature-section >}}
 
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
- 
+
 
 <!-- aboutfile Starts -->
 
@@ -138,5 +138,5 @@ A file with .TXT extension represents a text document that contains plain text i
 {{< /blocks/products/pf/agp/other-supported-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-    
+
 {{< /blocks/products/pf/main-wrap-class >}}

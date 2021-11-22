@@ -1,7 +1,7 @@
 ---
-title: Create PDF File Programmatically via Java 
+title: Create PDF File Programmatically via Java
 weight: 7690
-url: /java/create/pdf/ 
+url: /java/create/pdf/
 description: Java Sample code for generating PDF documents. Use this code to create PDF files within Java based application.
 ---
 
@@ -14,7 +14,7 @@ description: Java Sample code for generating PDF documents. Use this code to cre
 {{% blocks/products/pf/agp/content h2="" %}}
 
  Creating Adobe Acrobat PDF file dynamically within running application is easy. In order to create PDF documents from scratch without requiring Adobe Acrobat, we’ll use
- [Aspose.PDF for Java](https://products.aspose.com/pdf/java) 
+ [Aspose.PDF for Java](https://products.aspose.com/pdf/java)
  API that offers different features for PDF creation, manipulation and conversion using Java platform. Beside **create PDF Java** code, programmers can enhance and update code to format text, insert bookmarks, images, tables and submission forms easily.
 {{% /blocks/products/pf/agp/content %}}
 
@@ -28,12 +28,12 @@ description: Java Sample code for generating PDF documents. Use this code to cre
 
 {{% /blocks/products/pf/agp/text %}}
 
-1.  Intialize Document class object.
-1.  Add a page using getPages().add() method.
-1.  Create a new TextFragment object and set its text.
-1.  Add TextFragment to the Paragraphs collection of the page using getParagraphs().add.
-1.  Save the PDF using save(.) method.
-1.  Double click and open the PDF file to view content.
+1. Intialize Document class object.
+1. Add a page using getPages().add() method.
+1. Create a new TextFragment object and set its text.
+1. Add TextFragment to the Paragraphs collection of the page using getParagraphs().add.
+1. Save the PDF using save(.) method.
+1. Double click and open the PDF file to view content.
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
@@ -41,7 +41,7 @@ description: Java Sample code for generating PDF documents. Use this code to cre
 
 {{% blocks/products/pf/agp/text %}}
 
-Before running the Java conversion sample source code, make sure that you have the following prerequisites.  
+Before running the Java conversion sample source code, make sure that you have the following prerequisites.
 
 {{% /blocks/products/pf/agp/text %}}
 
@@ -55,13 +55,13 @@ Before running the Java conversion sample source code, make sure that you have t
 ```cs
 // Initialize document object
 Document create_pdf = new Document();
- 
+
 //Add page
 Page page = create_pdf.getPages().add();
- 
+
 // Add text to new page
 page.getParagraphs().add(new TextFragment("desired content"));
- 
+
 // Save updated PDF
 create_pdf.save("generated-one.pdf");
 
@@ -74,7 +74,7 @@ create_pdf.save("generated-one.pdf");
 
 <!-- aboutfile Starts -->
 
-     
+
 {{% blocks/products/pf/agp/content h2="" %}}
 
  A PDF Processing Library to create cross-platform applications with the ability to generate, modify, convert, render, secure and print documents without using Adobe Acrobat. It supports converting various file formats into PDF including HTML and converting PDF documents into various output formats. Developers can easily render all HTML content in a single Page PDF as well as convert HTML files with SVG graphic tags to Tagged PDF files. Java PDF API offers compression, table creation, graph & image functions, hyperlinks, stamp and watermarking tasks, extended security controls & custom font handling.
@@ -89,11 +89,11 @@ create_pdf.save("generated-one.pdf");
 Portable Document Format (PDF) is a type of document created by Adobe back in 1990s. The purpose of this file format was to introduce a standard for representation of documents and other reference material in a format that is independent of application software, hardware as well as Operating System. PDF files can be opened in Adobe Acrobat Reader/Writer as well in most modern browsers like Chrome, Safari, Firefox via extensions/plug-ins. Most of the commercially available software suites also offer conversion of their documents to PDF file format without the requirement of any additional software component.
 
         {{< /blocks/products/pf/agp/about-file-text >}}
-{{< /blocks/products/pf/agp/about-file-section >}} 
-          
+{{< /blocks/products/pf/agp/about-file-section >}}
+
 
 <!-- aboutfile Ends -->
 
 {{< /blocks/products/pf/main-container >}}
-    
+
 {{< /blocks/products/pf/main-wrap-class >}}

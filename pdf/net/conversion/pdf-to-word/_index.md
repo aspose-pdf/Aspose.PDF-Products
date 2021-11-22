@@ -1,7 +1,7 @@
 ---
-title: Convert PDF to Microsft Word DOC DOCX via C# | .NET PDF API 
+title: Convert PDF to Microsft Word DOC DOCX via C# | .NET PDF API
 weight: 1040
-url: /net/conversion/pdf-to-word/ 
+url: /net/conversion/pdf-to-word/
 description: PDF to Microsoft Word DOC DOCX C# conversion source code. Easily integratable within any document management solution.
 ---
 
@@ -19,11 +19,11 @@ description: PDF to Microsoft Word DOC DOCX C# conversion source code. Easily in
 
 {{% /blocks/products/pf/agp/text %}}
 
-1.  Load a PDF via Document constructor
-1.  Create an instance of DocSaveOptions class for export
-1.  Set DocSaveOptions.Format property
-1.  Call Document.Save method with output file path
-1.  Pass instance of DocSaveOptions as second parameter
+1. Load a PDF via Document constructor
+1. Create an instance of DocSaveOptions class for export
+1. Set DocSaveOptions.Format property
+1. Call Document.Save method with output file path
+1. Pass instance of DocSaveOptions as second parameter
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
@@ -62,11 +62,11 @@ pdfDocument.Save("word.doc", saveOptions);
 
 {{% /blocks/products/pf/agp/text %}}
 
-1.  Load a PDF via Document class constructor
-1.  Create an instance of DocSaveOptions class for export
-1.  Set DocSaveOptions.Format property to DocSaveOptions.DocFormat.DocX
-1.  Call Document.Save method with output file path
-1.  Pass instance of DocSaveOptions as second parameter
+1. Load a PDF via Document class constructor
+1. Create an instance of DocSaveOptions class for export
+1. Set DocSaveOptions.Format property to DocSaveOptions.DocFormat.DocX
+1. Call Document.Save method with output file path
+1. Pass instance of DocSaveOptions as second parameter
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
@@ -75,7 +75,7 @@ pdfDocument.Save("word.doc", saveOptions);
 {{% blocks/products/pf/agp/text %}}
 
  As opposed to DOC, the DOCX file format is based on Open XML specifications. By default, Aspose.PDF saves the PDF in DOC format. It is also possible to save the PDF in DOCX format while setting the
- *DocSaveOptions.Format* 
+ *DocSaveOptions.Format*
  property.
 
 {{% /blocks/products/pf/agp/text %}}
@@ -106,11 +106,11 @@ pdfDocument.Save("word.docx", saveOptions);
 
 {{% /blocks/products/pf/agp/text %}}
 
-1.  Load a PDF via Document class constructor
-1.  Create an instance of DocSaveOptions class for export
-1.  Set DocSaveOptions.Mode property to DocSaveOptions.RecognitionMode.Textbox
-1.  Call Document.Save method with output file path
-1.  Pass instance of DocSaveOptions as second parameter
+1. Load a PDF via Document class constructor
+1. Create an instance of DocSaveOptions class for export
+1. Set DocSaveOptions.Mode property to DocSaveOptions.RecognitionMode.Textbox
+1. Call Document.Save method with output file path
+1. Pass instance of DocSaveOptions as second parameter
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
@@ -118,9 +118,9 @@ pdfDocument.Save("word.docx", saveOptions);
 
 {{% blocks/products/pf/agp/text %}}
 
-*DocSaveOptions.Mode* 
+*DocSaveOptions.Mode*
  allows to specify the recognition mode for PDF content, whereas setting the mode to
- *RecognitionMode.Textbox* 
+ *RecognitionMode.Textbox*
  is fast and good for preserving the original look of the PDF document. Every visually grouped block of text in the original PDF is converted into a Textbox while achieving maximum resemblance to the original PDF. However, since the resultant document entirely consists of Textboxes and it could make editing in Microsoft Word quite hard.
 
 {{% /blocks/products/pf/agp/text %}}
@@ -152,11 +152,11 @@ pdfDocument.Save("word.doc", saveOptions);
 
 {{% /blocks/products/pf/agp/text %}}
 
-1.  Load a PDF via Document class constructor
-1.  Create an instance of DocSaveOptions class for export
-1.  Set DocSaveOptions.Mode property to DocSaveOptions.RecognitionMode.Flow
-1.  Call Document.Save method with output file path
-1.  Pass instance of DocSaveOptions as second parameter
+1. Load a PDF via Document class constructor
+1. Create an instance of DocSaveOptions class for export
+1. Set DocSaveOptions.Mode property to DocSaveOptions.RecognitionMode.Flow
+1. Call Document.Save method with output file path
+1. Pass instance of DocSaveOptions as second parameter
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
@@ -165,9 +165,9 @@ pdfDocument.Save("word.doc", saveOptions);
 {{% blocks/products/pf/agp/text %}}
 
  Setting
- *DocSaveOptions.Mode* 
+ *DocSaveOptions.Mode*
  to
- *DocSaveOptions.RecognitionMode.Flow* 
+ *DocSaveOptions.RecognitionMode.Flow*
  allows the conversion engine perform grouping and multi-level analysis to restore the original document as per the author’s intent while producing an easily editable document. However, the resultant Word document may look different from the original PDF.
 
 {{% /blocks/products/pf/agp/text %}}
@@ -197,7 +197,7 @@ pdfDocument.Save("word.docx", saveOptions);
     {{< blocks/products/pf/agp/faq-item question="What other output formats are supported?" answer="Along with Word (DOC & DOCX) formats, Aspose.PDF can also convert PDF to Excel (XLS & XLSX), PowerPoint (PPTX) as well as XML, EPUB, TEX, HTML & image formats." >}}
     {{< blocks/products/pf/agp/faq-item question="Can I convert PDF to Excel on other platforms?" answer="Yes, you can perform the conversion on all Windows version (x86 & x64) as well as Linux x64 & Mac OS X x64." >}}
     {{< blocks/products/pf/agp/faq-item question="I do not have time to set up. Do you have a demo that I can try?" answer="Try [Online Demos](https://products.aspose.app/pdf/conversion/) to quickly check the conversion results." >}}
- 
+
 {{< /blocks/products/pf/agp/faq >}}
 
 <!-- aboutfile Starts -->
@@ -228,5 +228,5 @@ DOCX is a well-known format for Microsoft Word documents. Introduced from 2007 w
 {{< blocks/products/pf/agp/other-supported-section-item href="/" name="" description="" >}}
 
 {{< /blocks/products/pf/main-container >}}
-    
+
 {{< /blocks/products/pf/main-wrap-class >}}

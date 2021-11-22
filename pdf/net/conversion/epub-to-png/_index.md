@@ -43,9 +43,9 @@ PM> Install-Package Aspose.PDF
 
 {{% /blocks/products/pf/agp/text %}}
 
-1.  Load EPUB file with an instance of Document class
-1.  Create & set the instance of PngDevice class with Size & Resolution
-1.  Call PngDevice.Process method with page index & output file path as parameters
+1. Load EPUB file with an instance of Document class
+1. Create & set the instance of PngDevice class with Size & Resolution
+1. Call PngDevice.Process method with page index & output file path as parameters
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 

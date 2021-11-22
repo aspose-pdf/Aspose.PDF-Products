@@ -1,7 +1,7 @@
 ---
-title: Convert HTML to JPEG via Java 
+title: Convert HTML to JPEG via Java
 weight: 2460
-url: /java/conversion/html-to-jpeg/ 
+url: /java/conversion/html-to-jpeg/
 description: Sample Java conversion code for HTML format to JPEG file. Programmers can use this example code to export HTML to JPEG within any Web or Desktop Java based Application.
 ---
 
@@ -14,9 +14,9 @@ description: Sample Java conversion code for HTML format to JPEG file. Programme
 {{% blocks/products/pf/agp/content h2="How to Convert HTML to JPEG Using Java" %}}
 
  In order to render HTML to JPEG, we’ll use
- [Aspose.PDF for Java](https://products.aspose.com/pdf/java) 
+ [Aspose.PDF for Java](https://products.aspose.com/pdf/java)
  API which is a feature-rich, powerful and easy to use conversion API for Java platform. You can download its latest version directly from
- [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-pdf) 
+ [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-pdf)
  and install it within your Maven-based project by adding the following configurations to the pom.xml.
 
 {{% blocks/products/pf/agp/code-block title="Repository" offSpacer="true" %}}
@@ -59,9 +59,9 @@ description: Sample Java conversion code for HTML format to JPEG file. Programme
 
 {{% /blocks/products/pf/agp/text %}}
 
-1.  Load HTML file with an instance of Document class
-1.  Create & set JpegDevice class object with Size & Resolution
-1.  Call JpegDevice.process method with page index & output file path
+1. Load HTML file with an instance of Document class
+1. Create & set JpegDevice class object with Size & Resolution
+1. Call JpegDevice.process method with page index & output file path
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
@@ -88,7 +88,7 @@ Document document = new Document("template.html");
 PngDevice renderer = new JpegDevice();
 
 // convert first of a particular PDF page to JPEG format
-renderer.process(document.getPages().get_Item(1), "output.jpeg");   
+renderer.process(document.getPages().get_Item(1), "output.jpeg");
 
 ```
 
@@ -97,7 +97,7 @@ renderer.process(document.getPages().get_Item(1), "output.jpeg");
 {{< /blocks/products/pf/agp/feature-section >}}
 
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
- 
+
 
 <!-- aboutfile Starts -->
 
@@ -154,5 +154,5 @@ A JPEG is a type of image format that is saved using the method of lossy compres
 {{< /blocks/products/pf/agp/other-supported-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-    
+
 {{< /blocks/products/pf/main-wrap-class >}}

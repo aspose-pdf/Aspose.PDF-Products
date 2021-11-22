@@ -1,7 +1,7 @@
 ---
-title: Remove PDF Annotation via Java 
+title: Remove PDF Annotation via Java
 weight: 110
-url: /java/annotation/pdf/ 
+url: /java/annotation/pdf/
 description: Java sample code to delete PDF format annotations on Java Runtime Environment for JSP/JSF Application and Desktop Applications.
 ---
 
@@ -14,9 +14,9 @@ description: Java sample code to delete PDF format annotations on Java Runtime E
 {{% blocks/products/pf/agp/content h2="How to Annotate PDF File Using Java" %}}
 
  In order to annotate PDF file, we’ll use
- [Aspose.PDF for Java](https://products.aspose.com/pdf/java) 
+ [Aspose.PDF for Java](https://products.aspose.com/pdf/java)
  API which is a feature-rich, powerful and easy to use annotation API for Java platform. You can download its latest version directly from
- [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-pdf) 
+ [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-pdf)
  and install it within your Maven-based project by adding the following configurations to the pom.xml.
 
 {{% blocks/products/pf/agp/code-block title="Repository" offSpacer="true" %}}
@@ -57,11 +57,11 @@ description: Java sample code to delete PDF format annotations on Java Runtime E
 
 {{% /blocks/products/pf/agp/text %}}
 
-1.  Load PDF in an instance of Document class
-1.  Access the Page with Comments via its index
-1.  Get the Page Annotations
-1.  Call delete() method to clear
-1.  Save the file again
+1. Load PDF in an instance of Document class
+1. Access the Page with Comments via its index
+1. Get the Page Annotations
+1. Call delete() method to clear
+1. Save the file again
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
@@ -86,7 +86,7 @@ Document pdfDocument = new Document("input.pdf");
 // Delete all annotation
 pdfDocument.getPages().get_Item(1).getAnnotations().delete();
 // Save the update document
-pdfDocument.save("output.pdf");  
+pdfDocument.save("output.pdf");
 
 ```
 
@@ -95,7 +95,7 @@ pdfDocument.save("output.pdf");
 {{< /blocks/products/pf/agp/feature-section >}}
 
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
- 
+
 
 <!-- aboutfile Starts -->
 
@@ -125,5 +125,5 @@ Portable Document Format (PDF) is a type of document created by Adobe back in 19
 <!-- aboutfile Ends -->
 
 {{< /blocks/products/pf/main-container >}}
-    
+
 {{< /blocks/products/pf/main-wrap-class >}}

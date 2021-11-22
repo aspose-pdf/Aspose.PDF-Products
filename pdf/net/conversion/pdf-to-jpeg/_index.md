@@ -1,7 +1,7 @@
 ---
-title: Convert PDF to Images JPEG via C# 
+title: Convert PDF to Images JPEG via C#
 weight: 2080
-url: /net/conversion/pdf-to-jpeg/ 
+url: /net/conversion/pdf-to-jpeg/
 description: Sample code for PDF to JPEG image C# conversion. Use API example code for batch PDF files to images JPEG conversion within VB.NET, Asp.NET or any .NET based application.
 ---
 
@@ -14,11 +14,11 @@ description: Sample code for PDF to JPEG image C# conversion. Use API example co
 {{% blocks/products/pf/agp/content h2="How to Convert PDF to JPEG Images Using C#" %}}
 
  In order to convert PDF to JPEG Image, we’ll use
- [Aspose.PDF for .NET](https://products.aspose.com/pdf/net) 
+ [Aspose.PDF for .NET](https://products.aspose.com/pdf/net)
  API which is a feature-rich, powerful and easy to use document manipulation and conversion API for C# platform. Open
- [NuGet](https://www.nuget.org/packages/aspose.pdf) 
+ [NuGet](https://www.nuget.org/packages/aspose.pdf)
  package manager, search for
- Aspose.PDF 
+ Aspose.PDF
  and install. You may also use the following command from the Package Manager Console.
 
 {{% blocks/products/pf/agp/code-block title="Package Manager Console Command" offSpacer="true" %}}
@@ -43,9 +43,9 @@ PM> Install-Package Aspose.PDF
 
 {{% /blocks/products/pf/agp/text %}}
 
-1.  Load PDF file with an instance of Document class
-1.  Create & set the instance of JpegDevice class with Size & Resolution
-1.  Call JpegDevice.Process method with page index & output file path as parameters
+1. Load PDF file with an instance of Document class
+1. Create & set the instance of JpegDevice class with Size & Resolution
+1. Call JpegDevice.Process method with page index & output file path as parameters
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
@@ -73,7 +73,7 @@ var document = new Document("template.pdf");
 var renderer = new Devices.JpegDevice();
 
 // convert a particular page and save the image in JPEG format
-renderer.Process(document.Pages[1], "output.jpeg"); 
+renderer.Process(document.Pages[1], "output.jpeg");
 
 ```
 
@@ -82,7 +82,7 @@ renderer.Process(document.Pages[1], "output.jpeg");
 {{< /blocks/products/pf/agp/feature-section >}}
 
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
- 
+
 
 <!-- aboutfile Starts -->
 
@@ -143,5 +143,5 @@ A JPEG is a type of image format that is saved using the method of lossy compres
 {{< /blocks/products/pf/agp/other-supported-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-    
+
 {{< /blocks/products/pf/main-wrap-class >}}

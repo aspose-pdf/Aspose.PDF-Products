@@ -1,7 +1,7 @@
 ---
-title: Create PDF File Programmatically via C++ 
+title: Create PDF File Programmatically via C++
 weight: 7690
-url: /cpp/create/pdf/ 
+url: /cpp/create/pdf/
 description: C++ Sample code for creating PDF documents. Use this code to generate PDF files within C++ applications.
 ---
 
@@ -14,7 +14,7 @@ description: C++ Sample code for creating PDF documents. Use this code to genera
 {{% blocks/products/pf/agp/content h2="" %}}
 
  Creating Adobe Acrobat PDF file dynamically within running application is easy. In order to create PDF documents from scratch without requiring Adobe Acrobat, we’ll use
- [Aspose.PDF for C++](https://products.aspose.com/pdf/cpp) 
+ [Aspose.PDF for C++](https://products.aspose.com/pdf/cpp)
  API that offers different features for PDF creation, manipulation and conversion using C++ platform. Beside **create PDF C++** code, programmers can enhance and update code to create graphics, images and insert tables easily.
 {{% /blocks/products/pf/agp/content %}}
 
@@ -28,12 +28,12 @@ description: C++ Sample code for creating PDF documents. Use this code to genera
 
 {{% /blocks/products/pf/agp/text %}}
 
-1.  Create a Document object.
-1.  Using PageCollection, add a page.
-1.  Access the paragraph of the page.
-1.  Create a TextFragment object and add it to the paragraph.
-1.  Save the PDF file.
-1.  Double click and open the PDF file to view content.
+1. Create a Document object.
+1. Using PageCollection, add a page.
+1. Access the paragraph of the page.
+1. Create a TextFragment object and add it to the paragraph.
+1. Save the PDF file.
+1. Double click and open the PDF file to view content.
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
@@ -59,7 +59,7 @@ auto pages = new_pdf->get_Pages();
 pages->Add();
 // Numeration starts from 1
 auto page = pages->idx_get(1);
-auto paragraps = page->get_Paragraphs();	
+auto paragraps = page->get_Paragraphs();
 // Create text fragment
 auto text = MakeObject<TextFragment>(u"Create PDF using C++ library");
 auto ts = text->get_TextState();
@@ -74,7 +74,7 @@ paragraps->Add(MakeObject<TextFragment>(u"PDF created using C++ code"));
 new_pdf->Save(u"newlycreated.pdf");
 
 // Developers can also create PDF via TextBuilder class to add text fragments and paragraphs
-// as well as generate file with Images 
+// as well as generate file with Images
 
 ```
 
@@ -84,7 +84,7 @@ new_pdf->Save(u"newlycreated.pdf");
 
 <!-- aboutfile Starts -->
 
-     
+
 {{% blocks/products/pf/agp/content h2="" %}}
 
  A PDF Processing Library to create cross-platform applications with the ability to generate, modify, convert, render, secure and print documents without using Adobe Acrobat. It supports converting various file formats into PDF including HTML and converting PDF documents into various output formats. Developers can easily render all HTML content in a single Page PDF as well as convert HTML files with SVG graphic tags to Tagged PDF files. **C++ PDF library** offers compression, table creation, graph & image functions, hyperlinks, stamp and watermarking tasks, extended security controls & custom font handling.
@@ -100,10 +100,10 @@ Portable Document Format (PDF) is a type of document created by Adobe back in 19
 
         {{< /blocks/products/pf/agp/about-file-text >}}
 
-          {{< /blocks/products/pf/agp/about-file-section >}} 
+          {{< /blocks/products/pf/agp/about-file-section >}}
 
 <!-- aboutfile Ends -->
 
 {{< /blocks/products/pf/main-container >}}
-    
+
 {{< /blocks/products/pf/main-wrap-class >}}

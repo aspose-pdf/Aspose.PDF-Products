@@ -1,7 +1,7 @@
 ---
-title: Convert PDFA to EPUB via Java 
+title: Convert PDFA to EPUB via Java
 weight: 1700
-url: /java/conversion/pdfa-to-epub/ 
+url: /java/conversion/pdfa-to-epub/
 description: Sample Java conversion code for PDFA format to EPUB file. Programmers can use this example code to export PDFA to EPUB within any Web or Desktop Java based Application.
 ---
 
@@ -14,9 +14,9 @@ description: Sample Java conversion code for PDFA format to EPUB file. Programme
 {{% blocks/products/pf/agp/content h2="How to Convert PDFA to EPUB Using Java" %}}
 
  In order to render PDFA to EPUB, we’ll use
- [Aspose.PDF for Java](https://products.aspose.com/pdf/java) 
+ [Aspose.PDF for Java](https://products.aspose.com/pdf/java)
  API which is a feature-rich, powerful and easy to use conversion API for Java platform. You can download its latest version directly from
- [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-pdf) 
+ [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-pdf)
  and install it within your Maven-based project by adding the following configurations to the pom.xml.
 
 {{% blocks/products/pf/agp/code-block title="Repository" offSpacer="true" %}}
@@ -59,9 +59,9 @@ description: Sample Java conversion code for PDFA format to EPUB file. Programme
 
 {{% /blocks/products/pf/agp/text %}}
 
-1.  Load PDFA file with an instance of Document
-1.  Call Document.save method while passing the output file path & SaveFormat as parameters
-1.  EPUB file will be saved at the specified path
+1. Load PDFA file with an instance of Document
+1. Call Document.save method while passing the output file path & SaveFormat as parameters
+1. EPUB file will be saved at the specified path
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
@@ -84,7 +84,7 @@ description: Sample Java conversion code for PDFA format to EPUB file. Programme
 // load PDFA with an instance of Document
 Document document = new Document("template.pdfa");
 // save document in EPUB format
-document.save("output.epub", SaveFormat.Epub);   
+document.save("output.epub", SaveFormat.Epub);
 
 ```
 
@@ -93,7 +93,7 @@ document.save("output.epub", SaveFormat.Epub);
 {{< /blocks/products/pf/agp/feature-section >}}
 
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
- 
+
 
 <!-- aboutfile Starts -->
 
@@ -149,5 +149,5 @@ Files with .EPUB extension are an e-book file format that provide a standard dig
 {{< /blocks/products/pf/agp/other-supported-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-    
+
 {{< /blocks/products/pf/main-wrap-class >}}

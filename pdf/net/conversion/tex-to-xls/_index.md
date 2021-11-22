@@ -1,7 +1,7 @@
 ---
-title: Convert TEX to XLS via C# 
+title: Convert TEX to XLS via C#
 weight: 2530
-url: /net/conversion/tex-to-xls/ 
+url: /net/conversion/tex-to-xls/
 description: Sample code for TEX to XLS C# conversion. Use API example code for batch TEX files to XLS conversion within VB.NET, Asp.NET or any .NET based application.
 ---
 
@@ -14,11 +14,11 @@ description: Sample code for TEX to XLS C# conversion. Use API example code for 
 {{% blocks/products/pf/agp/content h2="How to Convert TEX to XLS Using C#" %}}
 
  In order to convert TEX to XLS, we’ll use
- [Aspose.PDF for .NET](https://products.aspose.com/pdf/net) 
+ [Aspose.PDF for .NET](https://products.aspose.com/pdf/net)
  API which is a feature-rich, powerful and easy to use document manipulation and conversion API for C# platform. Open
- [NuGet](https://www.nuget.org/packages/aspose.pdf) 
+ [NuGet](https://www.nuget.org/packages/aspose.pdf)
  package manager, search for
- Aspose.PDF 
+ Aspose.PDF
  and install. You may also use the following command from the Package Manager Console.
 
 {{% blocks/products/pf/agp/code-block title="Package Manager Console Command" offSpacer="true" %}}
@@ -43,9 +43,9 @@ PM> Install-Package Aspose.PDF
 
 {{% /blocks/products/pf/agp/text %}}
 
-1.  Load TEX file with an instance of Document
-1.  Call the Document.Save method while passing the output file path & SaveFormat.Xls as parameters
-1.  XLS file will be saved at the specified path
+1. Load TEX file with an instance of Document
+1. Call the Document.Save method while passing the output file path & SaveFormat.Xls as parameters
+1. XLS file will be saved at the specified path
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
@@ -69,7 +69,7 @@ PM> Install-Package Aspose.PDF
 // load TEX with an instance of Document
 var document = new Document("template.tex");
 // save document in XLS format
-document.Save("output.xls", Aspose.Pdf.SaveFormat.Xls); 
+document.Save("output.xls", Aspose.Pdf.SaveFormat.Xls);
 
 ```
 
@@ -78,7 +78,7 @@ document.Save("output.xls", Aspose.Pdf.SaveFormat.Xls);
 {{< /blocks/products/pf/agp/feature-section >}}
 
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
- 
+
 
 <!-- aboutfile Starts -->
 
@@ -138,5 +138,5 @@ Files with XLS extension represent Excel Binary File Format. Such files can be c
 {{< /blocks/products/pf/agp/other-supported-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-    
+
 {{< /blocks/products/pf/main-wrap-class >}}

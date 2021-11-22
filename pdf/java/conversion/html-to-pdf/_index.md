@@ -1,6 +1,6 @@
 ---
-title: Convert HTML to PDF via Java 
-url: /java/conversion/html-to-pdf/ 
+title: Convert HTML to PDF via Java
+url: /java/conversion/html-to-pdf/
 description: HTML5 to PDF Java conversion to convert single or multiple HTML pages. Code sample uses Java library to convert whole HTML containing CSS and SVG to PDF.
 ---
 
@@ -13,9 +13,9 @@ description: HTML5 to PDF Java conversion to convert single or multiple HTML pag
 {{% blocks/products/pf/agp/content h2="How to Convert HTML to PDF Using Java" %}}
 
  In order to render HTML to PDF, we’ll use
- [Aspose.PDF for Java](https://products.aspose.com/pdf/java) 
+ [Aspose.PDF for Java](https://products.aspose.com/pdf/java)
  API which is a feature-rich, powerful and easy to use PDF Processing API for Java platform. Even create password protected PDF documents. You can download its latest version directly from
- [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-pdf) 
+ [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-pdf)
  and install it within your Maven-based project by adding the following configurations to the pom.xml.
 
 {{% blocks/products/pf/agp/code-block title="Repository" offSpacer="true" %}}
@@ -58,10 +58,10 @@ description: HTML5 to PDF Java conversion to convert single or multiple HTML pag
 
 {{% /blocks/products/pf/agp/text %}}
 
-1.  Load HTML file with an instance of Document
-1.  Set Protection parameters for encrypted PDF generation
-1.  Call Document.save method while passing the output file path & SaveFormat as parameters
-1.  PDF file will be saved at the specified path
+1. Load HTML file with an instance of Document
+1. Set Protection parameters for encrypted PDF generation
+1. Call Document.save method while passing the output file path & SaveFormat as parameters
+1. PDF file will be saved at the specified path
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
@@ -91,10 +91,10 @@ Document html_doc = new Document("sourceDoc.html");
 html_doc.encrypt("user_password", "owner_Password", Permissions.ModifyContent , CryptoAlgorithm.AESx256);
 
 // save document in PDF format
-html_doc.save("output.pdf", SaveFormat.Pdf);   
+html_doc.save("output.pdf", SaveFormat.Pdf);
 
 // For converting HTML content into a single page PDF
-// Use HtmlLoadOptions and set conversion to single page PDF 
+// Use HtmlLoadOptions and set conversion to single page PDF
 // htmloptions.setRenderToSinglePage(true);
 
 ```
@@ -104,7 +104,7 @@ html_doc.save("output.pdf", SaveFormat.Pdf);
 {{< /blocks/products/pf/agp/feature-section >}}
 
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
- 
+
 
 <!-- aboutfile Starts -->
 
@@ -161,5 +161,5 @@ Portable Document Format (PDF) is a type of document created by Adobe back in 19
 {{< /blocks/products/pf/agp/other-supported-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-    
+
 {{< /blocks/products/pf/main-wrap-class >}}

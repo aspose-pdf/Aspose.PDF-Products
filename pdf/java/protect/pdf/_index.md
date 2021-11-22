@@ -1,7 +1,7 @@
 ---
-title: Protect and lock PDF document via Java 
+title: Protect and lock PDF document via Java
 weight: 1400
-url: /java/protect/pdf/ 
+url: /java/protect/pdf/
 description: Java sample code to lock PDF file using password on Java Runtime Environment for JSP/JSF Application and Desktop Applications.
 ---
 
@@ -14,9 +14,9 @@ description: Java sample code to lock PDF file using password on Java Runtime En
 {{% blocks/products/pf/agp/content h2="How to Secure PDF File Using Java" %}}
 
  In order to protect PDF file, we’ll use
- [Aspose.PDF for Java](https://products.aspose.com/pdf/java) 
+ [Aspose.PDF for Java](https://products.aspose.com/pdf/java)
  API which is a feature-rich, powerful and easy to use encryption API for Java platform. You can download its latest version directly from
- [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-pdf) 
+ [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-pdf)
  and install it within your Maven-based project by adding the following configurations to the pom.xml.
 
 {{% blocks/products/pf/agp/code-block title="Aspose.PDF" offSpacer="true" %}}
@@ -59,10 +59,10 @@ description: Java sample code to lock PDF file using password on Java Runtime En
 
 {{% /blocks/products/pf/agp/text %}}
 
-1.  Load PDF with an instance of Document
-1.  Use encrypt() method wiht cryptographic algorithm as parameter
-1.  Use RC4 40-bit or 128-bit key as well as can use AES 128-bit or 256-bit key as CryptoAlgorithm
-1.  Save the secure PDF using save() method
+1. Load PDF with an instance of Document
+1. Use encrypt() method wiht cryptographic algorithm as parameter
+1. Use RC4 40-bit or 128-bit key as well as can use AES 128-bit or 256-bit key as CryptoAlgorithm
+1. Save the secure PDF using save() method
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
@@ -98,7 +98,7 @@ pdfFile.save("EncryptedFile.pdf");
 {{< /blocks/products/pf/agp/feature-section >}}
 
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
- 
+
 
 <!-- aboutfile Starts -->
 
@@ -129,5 +129,5 @@ Portable Document Format (PDF) is a type of document created by Adobe back in 19
 <!-- aboutfile Ends -->
 
 {{< /blocks/products/pf/main-container >}}
-    
+
 {{< /blocks/products/pf/main-wrap-class >}}

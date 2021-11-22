@@ -1,7 +1,7 @@
 ---
-title: Convert XML to PNG via Java 
+title: Convert XML to PNG via Java
 weight: 430
-url: /java/conversion/xml-to-png/ 
+url: /java/conversion/xml-to-png/
 description: Sample Java conversion code for XML format to PNG file. Programmers can use this example code to export XML to PNG within any Web or Desktop Java based Application.
 ---
 
@@ -14,9 +14,9 @@ description: Sample Java conversion code for XML format to PNG file. Programmers
 {{% blocks/products/pf/agp/content h2="How to Convert XML to PNG Using Java" %}}
 
  In order to render XML to PNG, we’ll use
- [Aspose.PDF for Java](https://products.aspose.com/pdf/java) 
+ [Aspose.PDF for Java](https://products.aspose.com/pdf/java)
  API which is a feature-rich, powerful and easy to use conversion API for Java platform. You can download its latest version directly from
- [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-pdf) 
+ [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-pdf)
  and install it within your Maven-based project by adding the following configurations to the pom.xml.
 
 {{% blocks/products/pf/agp/code-block title="Repository" offSpacer="true" %}}
@@ -59,9 +59,9 @@ description: Sample Java conversion code for XML format to PNG file. Programmers
 
 {{% /blocks/products/pf/agp/text %}}
 
-1.  Load XML file with an instance of Document class
-1.  Create & set PngDevice class object with Size & Resolution
-1.  Call PngDevice.process method with page index & output file path
+1. Load XML file with an instance of Document class
+1. Create & set PngDevice class object with Size & Resolution
+1. Call PngDevice.process method with page index & output file path
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
@@ -88,7 +88,7 @@ Document document = new Document("template.xml");
 PngDevice renderer = new PngDevice();
 
 // convert first of a particular PDF page to PNG format
-renderer.process(document.getPages().get_Item(1), "output.png");   
+renderer.process(document.getPages().get_Item(1), "output.png");
 
 ```
 
@@ -97,7 +97,7 @@ renderer.process(document.getPages().get_Item(1), "output.png");
 {{< /blocks/products/pf/agp/feature-section >}}
 
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
- 
+
 
 <!-- aboutfile Starts -->
 
@@ -154,5 +154,5 @@ PNG, Portable Network Graphics, refers to a type of raster image file format tha
 {{< /blocks/products/pf/agp/other-supported-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-    
+
 {{< /blocks/products/pf/main-wrap-class >}}

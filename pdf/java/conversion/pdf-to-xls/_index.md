@@ -1,7 +1,7 @@
 ---
-title: Convert PDF to Microsoft Excel XLS via Java 
+title: Convert PDF to Microsoft Excel XLS via Java
 weight: 940
-url: /java/conversion/pdf-to-xls/ 
+url: /java/conversion/pdf-to-xls/
 description: Sample Java conversion for PDF format to XLS file. Programmers can use this example code to export PDF to Microsoft Excel XLS files within any Web or Desktop Java based Application.
 ---
 
@@ -14,9 +14,9 @@ description: Sample Java conversion for PDF format to XLS file. Programmers can 
 {{% blocks/products/pf/agp/content h2="How to Convert PDF to Excel XLS File Using Java" %}}
 
  In order to render PDF to XLS, we’ll use
- [Aspose.PDF for Java](https://products.aspose.com/pdf/java) 
+ [Aspose.PDF for Java](https://products.aspose.com/pdf/java)
  API which is a feature-rich, powerful and easy to use conversion API for Java platform. You can download its latest version directly from
- [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-pdf) 
+ [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-pdf)
  and install it within your Maven-based project by adding the following configurations to the pom.xml.
 
 {{% blocks/products/pf/agp/code-block title="Repository" offSpacer="true" %}}
@@ -59,9 +59,9 @@ description: Sample Java conversion for PDF format to XLS file. Programmers can 
 
 {{% /blocks/products/pf/agp/text %}}
 
-1.  Load PDF file with an instance of Document
-1.  Call Document.save method while passing the output file path & SaveFormat as parameters
-1.  XLS file will be saved at the specified path
+1. Load PDF file with an instance of Document
+1. Call Document.save method while passing the output file path & SaveFormat as parameters
+1. XLS file will be saved at the specified path
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
@@ -84,7 +84,7 @@ description: Sample Java conversion for PDF format to XLS file. Programmers can 
 // load PDF with an instance of Document
 Document document = new Document("template.pdf");
 // save document in XLS format
-document.save("output.xls", SaveFormat.Xls);   
+document.save("output.xls", SaveFormat.Xls);
 
 ```
 
@@ -93,7 +93,7 @@ document.save("output.xls", SaveFormat.Xls);
 {{< /blocks/products/pf/agp/feature-section >}}
 
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
- 
+
 
 <!-- aboutfile Starts -->
 
@@ -151,5 +151,5 @@ Files with XLS extension represent Excel Binary File Format. Such files can be c
 {{< /blocks/products/pf/agp/other-supported-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-    
+
 {{< /blocks/products/pf/main-wrap-class >}}

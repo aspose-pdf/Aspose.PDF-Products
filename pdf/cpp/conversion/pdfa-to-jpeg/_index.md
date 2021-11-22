@@ -1,7 +1,7 @@
 ---
-title: Convert PDFA to JPEG via C++ application 
+title: Convert PDFA to JPEG via C++ application
 weight: 40
-url: /cpp/conversion/pdfa-to-jpeg/ 
+url: /cpp/conversion/pdfa-to-jpeg/
 description: Sample C++ conversion code for PDFA document to JPEG format. Programmers can use this source code for batch PDFA to JPEG conversion within any C++ application.
 ---
 
@@ -14,11 +14,11 @@ description: Sample C++ conversion code for PDFA document to JPEG format. Progra
 {{% blocks/products/pf/agp/content h2="How to Convert PDFA to JPEG Using C++" %}}
 
  In order to convert PDFA to JPEG, we’ll use
- [Aspose.PDF for C++](https://products.aspose.com/pdf/cpp) 
+ [Aspose.PDF for C++](https://products.aspose.com/pdf/cpp)
  API which is a feature-rich, powerful and easy to use document manipulation and conversion API for C++ platform. You can download its latest version directly, just open
- [NuGet](https://www.nuget.org/packages/aspose.pdf) 
+ [NuGet](https://www.nuget.org/packages/aspose.pdf)
  package manager, search for
- Aspose.PDF.Cpp 
+ Aspose.PDF.Cpp
  and install. You may also use the following command from the Package Manager Console.
 
 {{% blocks/products/pf/agp/code-block title="Command" offSpacer="true" %}}
@@ -43,11 +43,11 @@ PM> Install-Package Aspose.PDF.Cpp
 
 {{% /blocks/products/pf/agp/text %}}
 
-1.  Load PDFA file with Aspose.PDF for C++.
-1.  Call the Save() method.
-1.  Pass the output file path with (JPEG) file extension.
-1.  JPEG file will be saved at the specified path.
-1.  Open JPEG file in compatible program.
+1. Load PDFA file with Aspose.PDF for C++.
+1. Call the Save() method.
+1. Pass the output file path with (JPEG) file extension.
+1. JPEG file will be saved at the specified path.
+1. Open JPEG file in compatible program.
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
@@ -80,7 +80,7 @@ doc->Save(u"convertedFile.jpeg", SaveFormat::Jpeg);
 {{< /blocks/products/pf/agp/feature-section >}}
 
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
- 
+
 
 <!-- aboutfile Starts -->
 
@@ -132,5 +132,5 @@ A JPEG is a type of image format that is saved using the method of lossy compres
 {{< /blocks/products/pf/agp/other-supported-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-    
+
 {{< /blocks/products/pf/main-wrap-class >}}

@@ -1,7 +1,7 @@
 ---
-title: Convert PDF to TEX via C# 
+title: Convert PDF to TEX via C#
 weight: 1820
-url: /net/conversion/pdf-to-tex/ 
+url: /net/conversion/pdf-to-tex/
 description: Sample code for PDF to TEX C# conversion. Use API example code for batch PDF files to TEX conversion within VB.NET, Asp.NET or any .NET based application.
 ---
 
@@ -14,11 +14,11 @@ description: Sample code for PDF to TEX C# conversion. Use API example code for 
 {{% blocks/products/pf/agp/content h2="How to Convert PDF to TEX Using C#" %}}
 
  In order to convert PDF to TEX, we’ll use
- [Aspose.PDF for .NET](https://products.aspose.com/pdf/net) 
+ [Aspose.PDF for .NET](https://products.aspose.com/pdf/net)
  API which is a feature-rich, powerful and easy to use document manipulation and conversion API for C# platform. Open
- [NuGet](https://www.nuget.org/packages/aspose.pdf) 
+ [NuGet](https://www.nuget.org/packages/aspose.pdf)
  package manager, search for
- Aspose.PDF 
+ Aspose.PDF
  and install. You may also use the following command from the Package Manager Console.
 
 {{% blocks/products/pf/agp/code-block title="Package Manager Console Command" offSpacer="true" %}}
@@ -43,9 +43,9 @@ PM> Install-Package Aspose.PDF
 
 {{% /blocks/products/pf/agp/text %}}
 
-1.  Load PDF file with an instance of Document
-1.  Call the Document.Save method while passing the output file path & SaveFormat.Tex as parameters
-1.  TEX file will be saved at the specified path
+1. Load PDF file with an instance of Document
+1. Call the Document.Save method while passing the output file path & SaveFormat.Tex as parameters
+1. TEX file will be saved at the specified path
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
@@ -69,7 +69,7 @@ PM> Install-Package Aspose.PDF
 // load PDF with an instance of Document
 var document = new Document("template.pdf");
 // save document in TEX format
-document.Save("output.tex", Aspose.Pdf.SaveFormat.Tex); 
+document.Save("output.tex", Aspose.Pdf.SaveFormat.Tex);
 
 ```
 
@@ -78,7 +78,7 @@ document.Save("output.tex", Aspose.Pdf.SaveFormat.Tex);
 {{< /blocks/products/pf/agp/feature-section >}}
 
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
- 
+
 
 <!-- aboutfile Starts -->
 
@@ -139,5 +139,5 @@ TeX is a language that comprises of programming as well as mark-up features, use
 {{< /blocks/products/pf/agp/other-supported-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-    
+
 {{< /blocks/products/pf/main-wrap-class >}}

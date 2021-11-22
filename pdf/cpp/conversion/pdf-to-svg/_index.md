@@ -1,7 +1,7 @@
 ---
-title: Convert PDF to SVG via C++ application 
+title: Convert PDF to SVG via C++ application
 weight: 1850
-url: /cpp/conversion/pdf-to-svg/ 
+url: /cpp/conversion/pdf-to-svg/
 description: Sample C++ conversion code for PDF document to SVG format. Programmers can use this source code for batch PDF to SVG conversion within any C++ application.
 ---
 
@@ -14,11 +14,11 @@ description: Sample C++ conversion code for PDF document to SVG format. Programm
 {{% blocks/products/pf/agp/content h2="How to Convert PDF to SVG Using C++" %}}
 
  In order to convert PDF to SVG, we’ll use
- [Aspose.PDF for C++](https://products.aspose.com/pdf/cpp) 
+ [Aspose.PDF for C++](https://products.aspose.com/pdf/cpp)
  API which is a feature-rich, powerful and easy to use document manipulation and conversion API for C++ platform. You can download its latest version directly, just open
- [NuGet](https://www.nuget.org/packages/aspose.pdf) 
+ [NuGet](https://www.nuget.org/packages/aspose.pdf)
  package manager, search for
- Aspose.PDF.Cpp 
+ Aspose.PDF.Cpp
  and install. You may also use the following command from the Package Manager Console.
 
 {{% blocks/products/pf/agp/code-block title="Command" offSpacer="true" %}}
@@ -43,11 +43,11 @@ PM> Install-Package Aspose.PDF.Cpp
 
 {{% /blocks/products/pf/agp/text %}}
 
-1.  Load PDF file with Aspose.PDF for C++.
-1.  Call the Save() method.
-1.  Pass the output file path with (SVG) file extension.
-1.  SVG file will be saved at the specified path.
-1.  Open SVG file in compatible program.
+1. Load PDF file with Aspose.PDF for C++.
+1. Call the Save() method.
+1. Pass the output file path with (SVG) file extension.
+1. SVG file will be saved at the specified path.
+1. Open SVG file in compatible program.
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
@@ -80,7 +80,7 @@ doc->Save(u"convertedFile.svg", SaveFormat::Svg);
 {{< /blocks/products/pf/agp/feature-section >}}
 
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
- 
+
 
 <!-- aboutfile Starts -->
 
@@ -132,5 +132,5 @@ SVG files are Scalable Vector Graphics Files that use XML based text format for 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-    
+
 {{< /blocks/products/pf/main-wrap-class >}}

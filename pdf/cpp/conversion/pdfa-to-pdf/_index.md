@@ -1,7 +1,7 @@
 ---
-title: Convert PDFA to PDF via C++ application 
+title: Convert PDFA to PDF via C++ application
 weight: 2490
-url: /cpp/conversion/pdfa-to-pdf/ 
+url: /cpp/conversion/pdfa-to-pdf/
 description: Sample C++ conversion code for PDFA document to PDF format. Programmers can use this source code for batch PDFA to PDF conversion within any C++ application.
 ---
 
@@ -14,11 +14,11 @@ description: Sample C++ conversion code for PDFA document to PDF format. Program
 {{% blocks/products/pf/agp/content h2="How to Convert PDFA to PDF Using C++" %}}
 
  In order to convert PDFA to PDF, we’ll use
- [Aspose.PDF for C++](https://products.aspose.com/pdf/cpp) 
+ [Aspose.PDF for C++](https://products.aspose.com/pdf/cpp)
  API which is a feature-rich, powerful and easy to use document manipulation and conversion API for C++ platform. You can download its latest version directly, just open
- [NuGet](https://www.nuget.org/packages/aspose.pdf) 
+ [NuGet](https://www.nuget.org/packages/aspose.pdf)
  package manager, search for
- Aspose.PDF.Cpp 
+ Aspose.PDF.Cpp
  and install. You may also use the following command from the Package Manager Console.
 
 {{% blocks/products/pf/agp/code-block title="Command" offSpacer="true" %}}
@@ -43,11 +43,11 @@ PM> Install-Package Aspose.PDF.Cpp
 
 {{% /blocks/products/pf/agp/text %}}
 
-1.  Load PDFA file with Aspose.PDF for C++.
-1.  Call the Save() method.
-1.  Pass the output file path with (PDF) file extension.
-1.  PDF file will be saved at the specified path.
-1.  Open PDF file in compatible program.
+1. Load PDFA file with Aspose.PDF for C++.
+1. Call the Save() method.
+1. Pass the output file path with (PDF) file extension.
+1. PDF file will be saved at the specified path.
+1. Open PDF file in compatible program.
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
@@ -80,7 +80,7 @@ doc->Save(u"convertedFile.pdf", SaveFormat::Pdf);
 {{< /blocks/products/pf/agp/feature-section >}}
 
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
- 
+
 
 <!-- aboutfile Starts -->
 
@@ -132,5 +132,5 @@ Portable Document Format (PDF) is a type of document created by Adobe back in 19
 {{< /blocks/products/pf/agp/other-supported-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-    
+
 {{< /blocks/products/pf/main-wrap-class >}}

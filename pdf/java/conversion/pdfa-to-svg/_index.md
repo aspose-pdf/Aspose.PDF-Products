@@ -1,7 +1,7 @@
 ---
-title: Convert PDFA to SVG via Java 
+title: Convert PDFA to SVG via Java
 weight: 2280
-url: /java/conversion/pdfa-to-svg/ 
+url: /java/conversion/pdfa-to-svg/
 description: Sample Java conversion code for PDFA format to SVG file. Programmers can use this example code to export PDFA to SVG within any Web or Desktop Java based Application.
 ---
 
@@ -14,9 +14,9 @@ description: Sample Java conversion code for PDFA format to SVG file. Programmer
 {{% blocks/products/pf/agp/content h2="How to Convert PDFA to SVG Using Java" %}}
 
  In order to render PDFA to SVG, we’ll use
- [Aspose.PDF for Java](https://products.aspose.com/pdf/java) 
+ [Aspose.PDF for Java](https://products.aspose.com/pdf/java)
  API which is a feature-rich, powerful and easy to use conversion API for Java platform. You can download its latest version directly from
- [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-pdf) 
+ [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-pdf)
  and install it within your Maven-based project by adding the following configurations to the pom.xml.
 
 {{% blocks/products/pf/agp/code-block title="Repository" offSpacer="true" %}}
@@ -59,9 +59,9 @@ description: Sample Java conversion code for PDFA format to SVG file. Programmer
 
 {{% /blocks/products/pf/agp/text %}}
 
-1.  Load PDFA file with an instance of Document
-1.  Call Document.save method while passing the output file path & SaveFormat as parameters
-1.  SVG file will be saved at the specified path
+1. Load PDFA file with an instance of Document
+1. Call Document.save method while passing the output file path & SaveFormat as parameters
+1. SVG file will be saved at the specified path
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
@@ -84,7 +84,7 @@ description: Sample Java conversion code for PDFA format to SVG file. Programmer
 // load PDFA with an instance of Document
 Document document = new Document("template.pdfa");
 // save document in SVG format
-document.save("output.svg", SaveFormat.Svg);   
+document.save("output.svg", SaveFormat.Svg);
 
 ```
 
@@ -93,7 +93,7 @@ document.save("output.svg", SaveFormat.Svg);
 {{< /blocks/products/pf/agp/feature-section >}}
 
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
- 
+
 
 <!-- aboutfile Starts -->
 
@@ -149,5 +149,5 @@ SVG files are Scalable Vector Graphics Files that use XML based text format for 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-    
+
 {{< /blocks/products/pf/main-wrap-class >}}

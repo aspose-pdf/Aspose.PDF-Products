@@ -1,7 +1,7 @@
 ---
-title: Convert XML to EPUB via Java 
+title: Convert XML to EPUB via Java
 weight: 1330
-url: /java/conversion/xml-to-epub/ 
+url: /java/conversion/xml-to-epub/
 description: Sample Java conversion code for XML format to EPUB file. Programmers can use this example code to export XML to EPUB within any Web or Desktop Java based Application.
 ---
 
@@ -14,9 +14,9 @@ description: Sample Java conversion code for XML format to EPUB file. Programmer
 {{% blocks/products/pf/agp/content h2="How to Convert XML to EPUB Using Java" %}}
 
  In order to render XML to EPUB, we’ll use
- [Aspose.PDF for Java](https://products.aspose.com/pdf/java) 
+ [Aspose.PDF for Java](https://products.aspose.com/pdf/java)
  API which is a feature-rich, powerful and easy to use conversion API for Java platform. You can download its latest version directly from
- [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-pdf) 
+ [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-pdf)
  and install it within your Maven-based project by adding the following configurations to the pom.xml.
 
 {{% blocks/products/pf/agp/code-block title="Repository" offSpacer="true" %}}
@@ -59,9 +59,9 @@ description: Sample Java conversion code for XML format to EPUB file. Programmer
 
 {{% /blocks/products/pf/agp/text %}}
 
-1.  Load XML file with an instance of Document
-1.  Call Document.save method while passing the output file path & SaveFormat as parameters
-1.  EPUB file will be saved at the specified path
+1. Load XML file with an instance of Document
+1. Call Document.save method while passing the output file path & SaveFormat as parameters
+1. EPUB file will be saved at the specified path
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
@@ -84,7 +84,7 @@ description: Sample Java conversion code for XML format to EPUB file. Programmer
 // load XML with an instance of Document
 Document document = new Document("template.xml");
 // save document in EPUB format
-document.save("output.epub", SaveFormat.Epub);   
+document.save("output.epub", SaveFormat.Epub);
 
 ```
 
@@ -93,7 +93,7 @@ document.save("output.epub", SaveFormat.Epub);
 {{< /blocks/products/pf/agp/feature-section >}}
 
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
- 
+
 
 <!-- aboutfile Starts -->
 
@@ -150,5 +150,5 @@ Files with .EPUB extension are an e-book file format that provide a standard dig
 {{< /blocks/products/pf/agp/other-supported-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-    
+
 {{< /blocks/products/pf/main-wrap-class >}}

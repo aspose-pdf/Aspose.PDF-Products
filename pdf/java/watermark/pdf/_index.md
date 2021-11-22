@@ -1,7 +1,7 @@
 ---
-title: Watermark PDF document via Java 
+title: Watermark PDF document via Java
 weight: 2380
-url: /java/watermark/pdf/ 
+url: /java/watermark/pdf/
 description: Java sample code to add or remove watermark to PDF file on Java Runtime Environment for JSP/JSF Application and Desktop Applications.
 ---
 
@@ -14,9 +14,9 @@ description: Java sample code to add or remove watermark to PDF file on Java Run
 {{% blocks/products/pf/agp/content h2="How to Watermark PDF File Using Java" %}}
 
  In order to watermark PDF file, we’ll use
- [Aspose.PDF for Java](https://products.aspose.com/pdf/java) 
+ [Aspose.PDF for Java](https://products.aspose.com/pdf/java)
  API which is a feature-rich, powerful and easy to use warermarking API for Java platform. You can download its latest version directly from
- [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-pdf) 
+ [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-pdf)
  and install it within your Maven-based project by adding the following configurations to the pom.xml.
 
 {{% blocks/products/pf/agp/code-block title="Repository" offSpacer="true" %}}
@@ -57,11 +57,11 @@ description: Java sample code to add or remove watermark to PDF file on Java Run
 
 {{% /blocks/products/pf/agp/text %}}
 
-1.  Load PDF file with an instance of Document
-1.  Create an instance of TextStamp
-1.  Set properties of TextStamp object
-1.  Add watermark using addStamp method
-1.  Save document
+1. Load PDF file with an instance of Document
+1. Create an instance of TextStamp
+1. Set properties of TextStamp object
+1. Add watermark using addStamp method
+1. Save document
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
@@ -99,7 +99,7 @@ textStamp.getTextState().setForegroundColor(Color.getGreen());
 // add stamp to particular page
 pdfDocument.getPages().get_Item(1).addStamp(textStamp);
 // save output document
-pdfDocument.save("TextStamp_output.pdf");  
+pdfDocument.save("TextStamp_output.pdf");
 
 ```
 
@@ -108,7 +108,7 @@ pdfDocument.save("TextStamp_output.pdf");
 {{< /blocks/products/pf/agp/feature-section >}}
 
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
- 
+
 
 <!-- aboutfile Starts -->
 
@@ -138,5 +138,5 @@ Portable Document Format (PDF) is a type of document created by Adobe back in 19
 <!-- aboutfile Ends -->
 
 {{< /blocks/products/pf/main-container >}}
-    
+
 {{< /blocks/products/pf/main-wrap-class >}}

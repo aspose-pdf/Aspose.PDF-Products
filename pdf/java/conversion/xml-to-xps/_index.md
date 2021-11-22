@@ -1,7 +1,7 @@
 ---
-title: Convert XML to XPS via Java 
+title: Convert XML to XPS via Java
 weight: 1080
-url: /java/conversion/xml-to-xps/ 
+url: /java/conversion/xml-to-xps/
 description: Sample Java conversion code for XML format to XPS file. Programmers can use this example code to export XML to XPS within any Web or Desktop Java based Application.
 ---
 
@@ -14,9 +14,9 @@ description: Sample Java conversion code for XML format to XPS file. Programmers
 {{% blocks/products/pf/agp/content h2="How to Convert XML to XPS Using Java" %}}
 
  In order to render XML to XPS, we’ll use
- [Aspose.PDF for Java](https://products.aspose.com/pdf/java) 
+ [Aspose.PDF for Java](https://products.aspose.com/pdf/java)
  API which is a feature-rich, powerful and easy to use conversion API for Java platform. You can download its latest version directly from
- [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-pdf) 
+ [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-pdf)
  and install it within your Maven-based project by adding the following configurations to the pom.xml.
 
 {{% blocks/products/pf/agp/code-block title="Repository" offSpacer="true" %}}
@@ -59,9 +59,9 @@ description: Sample Java conversion code for XML format to XPS file. Programmers
 
 {{% /blocks/products/pf/agp/text %}}
 
-1.  Load XML file with an instance of Document
-1.  Call Document.save method while passing the output file path & SaveFormat as parameters
-1.  XPS file will be saved at the specified path
+1. Load XML file with an instance of Document
+1. Call Document.save method while passing the output file path & SaveFormat as parameters
+1. XPS file will be saved at the specified path
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
@@ -84,7 +84,7 @@ description: Sample Java conversion code for XML format to XPS file. Programmers
 // load XML with an instance of Document
 Document document = new Document("template.xml");
 // save document in XPS format
-document.save("output.xps", SaveFormat.Xps);   
+document.save("output.xps", SaveFormat.Xps);
 
 ```
 
@@ -93,7 +93,7 @@ document.save("output.xps", SaveFormat.Xps);
 {{< /blocks/products/pf/agp/feature-section >}}
 
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
- 
+
 
 <!-- aboutfile Starts -->
 
@@ -150,5 +150,5 @@ An XPS file represents page layout files that are based on XML Paper Specificati
 {{< /blocks/products/pf/agp/other-supported-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-    
+
 {{< /blocks/products/pf/main-wrap-class >}}

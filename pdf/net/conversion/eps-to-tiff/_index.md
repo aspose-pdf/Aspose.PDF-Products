@@ -43,9 +43,9 @@ PM> Install-Package Aspose.PDF
 
 {{% /blocks/products/pf/agp/text %}}
 
-1.  Load EPS file with an instance of Document class
-1.  Create & set the instance of TiffDevice class with Size & Resolution
-1.  Call TiffDevice.Process method with page index & output file path as parameters
+1. Load EPS file with an instance of Document class
+1. Create & set the instance of TiffDevice class with Size & Resolution
+1. Call TiffDevice.Process method with page index & output file path as parameters
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 

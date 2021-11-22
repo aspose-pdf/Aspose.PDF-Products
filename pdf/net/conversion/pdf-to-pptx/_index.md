@@ -1,7 +1,7 @@
 ---
-title: Convert PDF to Microsoft PowerPoint PPTX File via C# 
+title: Convert PDF to Microsoft PowerPoint PPTX File via C#
 weight: 1380
-url: /net/conversion/pdf-to-pptx/ 
+url: /net/conversion/pdf-to-pptx/
 description: Sample code for PDF to PPTX C# conversion. Use API example code for batch PDF to Microsoft PowerPoint PPTX conversion within VB.NET, Asp.NET or any .NET based application.
 ---
 
@@ -14,11 +14,11 @@ description: Sample code for PDF to PPTX C# conversion. Use API example code for
 {{% blocks/products/pf/agp/content h2="How to Convert PDF to PPTX Using C#" %}}
 
  In order to convert PDF to PPTX, we’ll use
- [Aspose.PDF for .NET](https://products.aspose.com/pdf/net) 
+ [Aspose.PDF for .NET](https://products.aspose.com/pdf/net)
  API which is a feature-rich, powerful and easy to use document manipulation and conversion API for C# platform. Open
- [NuGet](https://www.nuget.org/packages/aspose.pdf) 
+ [NuGet](https://www.nuget.org/packages/aspose.pdf)
  package manager, search for
- Aspose.PDF 
+ Aspose.PDF
  and install. You may also use the following command from the Package Manager Console.
 
 {{% blocks/products/pf/agp/code-block title="Package Manager Console Command" offSpacer="true" %}}
@@ -43,9 +43,9 @@ PM> Install-Package Aspose.PDF
 
 {{% /blocks/products/pf/agp/text %}}
 
-1.  Load PDF file with an instance of Document
-1.  Call the Document.Save method while passing the output file path & SaveFormat.Pptx as parameters
-1.  PPTX file will be saved at the specified path
+1. Load PDF file with an instance of Document
+1. Call the Document.Save method while passing the output file path & SaveFormat.Pptx as parameters
+1. PPTX file will be saved at the specified path
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
@@ -69,7 +69,7 @@ PM> Install-Package Aspose.PDF
 // load PDF with an instance of Document
 var document = new Document("template.pdf");
 // save document in PPTX format
-document.Save("output.pptx", Aspose.Pdf.SaveFormat.Pptx); 
+document.Save("output.pptx", Aspose.Pdf.SaveFormat.Pptx);
 
 ```
 
@@ -78,7 +78,7 @@ document.Save("output.pptx", Aspose.Pdf.SaveFormat.Pptx);
 {{< /blocks/products/pf/agp/feature-section >}}
 
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
- 
+
 
 <!-- aboutfile Starts -->
 
@@ -139,5 +139,5 @@ Files with PPTX extension are presentation files created with popular Microsoft 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-    
+
 {{< /blocks/products/pf/main-wrap-class >}}

@@ -43,9 +43,9 @@ PM> Install-Package Aspose.PDF
 
 {{% /blocks/products/pf/agp/text %}}
 
-1.  Load EPS file with an instance of Document
-1.  Call the Document.Save method while passing the output file path & SaveFormat.Txt as parameters
-1.  TXT file will be saved at the specified path
+1. Load EPS file with an instance of Document
+1. Call the Document.Save method while passing the output file path & SaveFormat.Txt as parameters
+1. TXT file will be saved at the specified path
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
