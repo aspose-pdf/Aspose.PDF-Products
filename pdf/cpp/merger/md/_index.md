@@ -1,7 +1,7 @@
 ---
-title: Merge MD Files via C++ 
+title: Merge MD Files via C++
 weight: 2570
-url: /cpp/merger/md/ 
+url: /cpp/merger/md/
 description: C++ example code to combine MD documents on C++ Runtime Environment for Windows 32 bit, Windows 64 bit and Linux 64 bit.
 ---
 
@@ -14,11 +14,11 @@ description: C++ example code to combine MD documents on C++ Runtime Environment
 {{% blocks/products/pf/agp/content h2="How to Merge MD File Using C++" %}}
 
  In order to merge MD file, we’ll use
- [Aspose.PDF for C++](https://products.aspose.com/pdf/cpp) 
+ [Aspose.PDF for C++](https://products.aspose.com/pdf/cpp)
  API which is a feature-rich, powerful and easy to use document merger API for C++ platform. You can download its latest version directly, just open
- [NuGet](https://www.nuget.org/packages/aspose.pdf) 
+ [NuGet](https://www.nuget.org/packages/aspose.pdf)
  package manager, search for
- **Aspose.PDF.Cpp** 
+ **Aspose.PDF.Cpp**
  and install. You may also use the following command from the Package Manager Console.
 
 {{% blocks/products/pf/agp/code-block title="Command" offSpacer="true" %}}
@@ -40,7 +40,7 @@ PM> Install-Package Aspose.PDF.Cpp
 {{% blocks/products/pf/agp/text %}}
 
  A basic document merging and concatenating with
- [Aspose.PDF for C++](https://products.aspose.com/pdf/cpp) 
+ [Aspose.PDF for C++](https://products.aspose.com/pdf/cpp)
  APIs can be done with just few lines of code.
 
 {{% /blocks/products/pf/agp/text %}}
@@ -60,8 +60,8 @@ PM> Install-Package Aspose.PDF.Cpp
 
 {{% /blocks/products/pf/agp/text %}}
 
--  Microsoft Windows or a compatible OS with C++ Runtime Environment for Windows 32 bit, Windows 64 bit and Linux 64 bit.
--  Aspose.PDF for C++ DLL referenced in your project.
+- Microsoft Windows or a compatible OS with C++ Runtime Environment for Windows 32 bit, Windows 64 bit and Linux 64 bit.
+- Aspose.PDF for C++ DLL referenced in your project.
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
@@ -78,7 +78,7 @@ auto doc2 = MakeObject<Document>(u"file2.md");
 doc1->get_Pages()->Add(doc2->get_Pages());
 
 // Save concatenated output file
-doc1->Save(u"merged-output.md");  
+doc1->Save(u"merged-output.md");
 
 ```
 
@@ -87,7 +87,7 @@ doc1->Save(u"merged-output.md");
 {{< /blocks/products/pf/agp/feature-section >}}
 
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
- 
+
 
 <!-- aboutfile Starts -->
 
@@ -108,7 +108,7 @@ doc1->Save(u"merged-output.md");
             {{< blocks/products/pf/agp/democard icon="fa-download" text=" It will be merged and concatenated instantly." >}}
 
         {{< blocks/products/pf/agp/about-file-text fileFormat="MD" readMoreLink="https://docs.fileformat.com/word-processing/md/" >}}
-Text files created with Markdown language dialects is saved with .MD or .MARKDOWN file extension. MD files are saved in plain text format that uses Markdown language which also includes inline text symbols, defining how a text can be formatted such as indentations, table formatting, fonts, and headers.  MD files can be converted to HTML with a program called Markdown. Markdown language is released by John Gruber. 
+Text files created with Markdown language dialects is saved with .MD or .MARKDOWN file extension. MD files are saved in plain text format that uses Markdown language which also includes inline text symbols, defining how a text can be formatted such as indentations, table formatting, fonts, and headers.  MD files can be converted to HTML with a program called Markdown. Markdown language is released by John Gruber.
 
         {{< /blocks/products/pf/agp/about-file-text >}}
 
@@ -131,5 +131,5 @@ Text files created with Markdown language dialects is saved with .MD or .MARKDOW
 {{< /blocks/products/pf/agp/other-supported-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-    
+
 {{< /blocks/products/pf/main-wrap-class >}}

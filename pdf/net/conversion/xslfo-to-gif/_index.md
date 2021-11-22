@@ -1,6 +1,6 @@
 ---
-title: Convert XSLFO to GIF via C# 
-url: /net/conversion/xslfo-to-gif/ 
+title: Convert XSLFO to GIF via C#
+url: /net/conversion/xslfo-to-gif/
 description: Sample code for XSLFO to GIF C# conversion. Use API example code for batch XSLFO files to GIF conversion within VB.NET, Asp.NET or any .NET based application.
 ---
 
@@ -13,11 +13,11 @@ description: Sample code for XSLFO to GIF C# conversion. Use API example code fo
 {{% blocks/products/pf/agp/content h2="How to Convert XSLFO to GIF Using C#" %}}
 
  In order to convert XSLFO to GIF, we’ll use
- [Aspose.PDF for .NET](https://products.aspose.com/pdf/net) 
+ [Aspose.PDF for .NET](https://products.aspose.com/pdf/net)
  API which is a feature-rich, powerful and easy to use document manipulation and conversion API for C# platform. Open
- [NuGet](https://www.nuget.org/packages/aspose.pdf) 
+ [NuGet](https://www.nuget.org/packages/aspose.pdf)
  package manager, search for
- Aspose.PDF 
+ Aspose.PDF
  and install. You may also use the following command from the Package Manager Console.
 
 {{% blocks/products/pf/agp/code-block title="Package Manager Console Command" offSpacer="true" %}}
@@ -57,9 +57,9 @@ PM> Install-Package Aspose.PDF
 
 {{% /blocks/products/pf/agp/text %}}
 
--  Microsoft Windows or a compatible OS with .NET Framework, .NET Core, and PHP, VBScript, Delphi, C++ via COM Interop.
--  Development environment like Microsoft Visual Studio.
--  Aspose.PDF for .NET DLL referenced in your project.
+- Microsoft Windows or a compatible OS with .NET Framework, .NET Core, and PHP, VBScript, Delphi, C++ via COM Interop.
+- Development environment like Microsoft Visual Studio.
+- Aspose.PDF for .NET DLL referenced in your project.
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
@@ -69,7 +69,7 @@ PM> Install-Package Aspose.PDF
 // load XSLFO with an instance of Document
 var document = new Document("template.xslfo");
 // save document in GIF format
-document.Save("output.gif", Aspose.Pdf.SaveFormat.Gif); 
+document.Save("output.gif", Aspose.Pdf.SaveFormat.Gif);
 
 ```
 
@@ -78,7 +78,7 @@ document.Save("output.gif", Aspose.Pdf.SaveFormat.Gif);
 {{< /blocks/products/pf/agp/feature-section >}}
 
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
- 
+
 
 <!-- aboutfile Starts -->
 
@@ -117,5 +117,5 @@ A GIF or Graphical Interchange Format is a type of highly compressed image. Owne
 
 
 {{< /blocks/products/pf/main-container >}}
-    
+
 {{< /blocks/products/pf/main-wrap-class >}}

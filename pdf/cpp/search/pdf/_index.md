@@ -1,7 +1,7 @@
 ---
-title: Search PDF document without opening via C++ 
+title: Search PDF document without opening via C++
 weight: 1510
-url: /cpp/search/pdf/ 
+url: /cpp/search/pdf/
 description: C++ example code to search words with pattern in PDF file on C++ Runtime Environment for Windows 32 bit, Windows 64 bit and Linux 64 bit.
 ---
 
@@ -14,11 +14,11 @@ description: C++ example code to search words with pattern in PDF file on C++ Ru
 {{% blocks/products/pf/agp/content h2="How to Search PDF File Using C++" %}}
 
  In order to search PDF file, we’ll use
- [Aspose.PDF for C++](https://products.aspose.com/pdf/cpp) 
+ [Aspose.PDF for C++](https://products.aspose.com/pdf/cpp)
  API which is a feature-rich, powerful and easy to use document searching API for C++ platform. You can download its latest version directly, just open
- [NuGet](https://www.nuget.org/packages/aspose.pdf) 
+ [NuGet](https://www.nuget.org/packages/aspose.pdf)
  package manager, search for
- **Aspose.PDF.Cpp** 
+ **Aspose.PDF.Cpp**
  and install. You may also use the following command from the Package Manager Console.
 
 {{% blocks/products/pf/agp/code-block title="Command" offSpacer="true" %}}
@@ -60,8 +60,8 @@ PM> Install-Package Aspose.PDF.Cpp
 
 {{% /blocks/products/pf/agp/text %}}
 
--  Microsoft Windows or a compatible OS with C++ Runtime Environment for Windows 32 bit, Windows 64 bit and Linux 64 bit.
--  Aspose.PDF for C++ DLL referenced in your project.
+- Microsoft Windows or a compatible OS with C++ Runtime Environment for Windows 32 bit, Windows 64 bit and Linux 64 bit.
+- Aspose.PDF for C++ DLL referenced in your project.
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
@@ -76,8 +76,8 @@ doc->get_Pages()->idx_get(1)->Accept(absorber);
 // Numeration of TextFragments starts from 1
 auto ts = absorber->get_TextFragments()->idx_get(1)->get_TextState();
 ts->set_Font(FontRepository::FindFont(L"TimesNewRoman"));
-ts->set_BackgroundColor(Aspose::Pdf::Color::get_Yellow());	
-doc->Save(L"..\\directoryPath\\outputFile.pdf");  
+ts->set_BackgroundColor(Aspose::Pdf::Color::get_Yellow());
+doc->Save(L"..\\directoryPath\\outputFile.pdf");
 
 ```
 
@@ -86,7 +86,7 @@ doc->Save(L"..\\directoryPath\\outputFile.pdf");
 {{< /blocks/products/pf/agp/feature-section >}}
 
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
- 
+
 
 <!-- aboutfile Starts -->
 
@@ -108,7 +108,7 @@ doc->Save(L"..\\directoryPath\\outputFile.pdf");
     {{< /blocks/products/pf/agp/demobox >}}
 
     {{< blocks/products/pf/agp/about-file-text fileFormat="PDF " readMoreLink="https://docs.fileformat.com/view/pdf/" >}}
-Portable Document Format (PDF) is a type of document created by Adobe back in 1990s. The purpose of this file format was to introduce a standard for representation of documents and other reference material in a format that is independent of application software, hardware as well as Operating System. PDF files can be opened in Adobe Acrobat Reader/Writer as well in most modern browsers like Chrome, Safari, Firefox via extensions/plug-ins. Most of the commercially available software suites also offer conversion of their documents to PDF file format without the requirement of any additional software component. Thus, PDF file format has full capability to contain information like text, images, hyperlinks, form-fields, rich media, digital signatures, attachments, metadata, Geospatial features and 3D objects in it that can become as part of source document. 
+Portable Document Format (PDF) is a type of document created by Adobe back in 1990s. The purpose of this file format was to introduce a standard for representation of documents and other reference material in a format that is independent of application software, hardware as well as Operating System. PDF files can be opened in Adobe Acrobat Reader/Writer as well in most modern browsers like Chrome, Safari, Firefox via extensions/plug-ins. Most of the commercially available software suites also offer conversion of their documents to PDF file format without the requirement of any additional software component. Thus, PDF file format has full capability to contain information like text, images, hyperlinks, form-fields, rich media, digital signatures, attachments, metadata, Geospatial features and 3D objects in it that can become as part of source document.
 
     {{< /blocks/products/pf/agp/about-file-text >}}
 
@@ -117,5 +117,5 @@ Portable Document Format (PDF) is a type of document created by Adobe back in 19
 <!-- aboutfile Ends -->
 
 {{< /blocks/products/pf/main-container >}}
-    
+
 {{< /blocks/products/pf/main-wrap-class >}}

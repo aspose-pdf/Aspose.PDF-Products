@@ -1,7 +1,7 @@
 ---
-title: Unlock PDF document via .NET 
+title: Unlock PDF document via .NET
 weight: 1860
-url: /net/unlock/pdf/ 
+url: /net/unlock/pdf/
 description: C# source code to unlock password protected PDF file on .NET Framework, .NET Core, and PHP, VBScript, Delphi, C++ via COM Interop.
 ---
 
@@ -14,11 +14,11 @@ description: C# source code to unlock password protected PDF file on .NET Framew
 {{% blocks/products/pf/agp/content h2="How to Unlock PDF File Using C#" %}}
 
  In order to remove protection PDF file, we’ll use
- [Aspose.PDF for .NET](https://products.aspose.com/pdf/net) 
+ [Aspose.PDF for .NET](https://products.aspose.com/pdf/net)
  API which is a feature-rich, powerful and easy to use document protection API for C# platform. Open
- [NuGet](https://www.nuget.org/packages/aspose.pdf) 
+ [NuGet](https://www.nuget.org/packages/aspose.pdf)
  package manager, search for
- **Aspose.PDF** 
+ **Aspose.PDF**
  and install. You may also use the following command from the Package Manager Console.
 
 {{% blocks/products/pf/agp/code-block title="Aspose.PDF" offSpacer="true" %}}
@@ -40,7 +40,7 @@ PM> Install-Package Aspose.PDF
 {{% blocks/products/pf/agp/text %}}
 
  You need
- [aspose.pdf.dll](https://downloads.aspose.com/pdf/net) 
+ [aspose.pdf.dll](https://downloads.aspose.com/pdf/net)
  referenced in your project to execute the following workflow.
 
 {{% /blocks/products/pf/agp/text %}}
@@ -55,9 +55,9 @@ PM> Install-Package Aspose.PDF
 
 {{% /blocks/products/pf/agp/text %}}
 
--  Microsoft Windows or a compatible OS with .NET Framework, .NET Core, and PHP, VBScript, Delphi, C++ via COM Interop
--  Development environment like Microsoft Visual Studio
--  Aspose.PDF for .NET referenced in your project
+- Microsoft Windows or a compatible OS with .NET Framework, .NET Core, and PHP, VBScript, Delphi, C++ via COM Interop
+- Development environment like Microsoft Visual Studio
+- Aspose.PDF for .NET referenced in your project
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
@@ -72,7 +72,7 @@ PM> Install-Package Aspose.PDF
 {{< /blocks/products/pf/agp/feature-section >}}
 
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
- 
+
 
 <!-- aboutfile Starts -->
 
@@ -102,5 +102,5 @@ Portable Document Format (PDF) is a type of document created by Adobe back in 19
 <!-- aboutfile Ends -->
 
 {{< /blocks/products/pf/main-container >}}
-    
+
 {{< /blocks/products/pf/main-wrap-class >}}

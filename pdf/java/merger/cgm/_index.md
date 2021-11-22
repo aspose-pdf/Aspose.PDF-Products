@@ -1,7 +1,7 @@
 ---
-title: Merge CGM Files via Java 
+title: Merge CGM Files via Java
 weight: 1590
-url: /java/merger/cgm/ 
+url: /java/merger/cgm/
 description: Java sample code to combine CGM documents on Java Runtime Environment for JSP/JSF Application and Desktop Applications.
 ---
 
@@ -14,9 +14,9 @@ description: Java sample code to combine CGM documents on Java Runtime Environme
 {{% blocks/products/pf/agp/content h2="How to Merge CGM Files Using Java" %}}
 
  In order to merge CGM file, we’ll use
- [Aspose.PDF for Java](https://products.aspose.com/pdf/java) 
+ [Aspose.PDF for Java](https://products.aspose.com/pdf/java)
  API which is a feature-rich, powerful and easy to use merger API for Java platform. You can download its latest version directly from
- [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-pdf) 
+ [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-pdf)
  and install it within your Maven-based project by adding the following configurations to the pom.xml.
 
 {{% blocks/products/pf/agp/code-block title="Repository" offSpacer="true" %}}
@@ -56,7 +56,7 @@ description: Java sample code to combine CGM documents on Java Runtime Environme
 {{% blocks/products/pf/agp/text %}}
 
  A basic document merging and concatenating with
- [Aspose.PDF for Java](https://products.aspose.com/pdf/java) 
+ [Aspose.PDF for Java](https://products.aspose.com/pdf/java)
  APIs can be done with just few lines of code.
 
 {{% /blocks/products/pf/agp/text %}}
@@ -75,7 +75,7 @@ description: Java sample code to combine CGM documents on Java Runtime Environme
 
 {{% /blocks/products/pf/agp/text %}}
 
--  Microsoft Windows or a compatible OS with Java Runtime Environment for JSP/JSF Application and Desktop Applications.
+- Microsoft Windows or a compatible OS with Java Runtime Environment for JSP/JSF Application and Desktop Applications.
 -  Get latest version of Aspose.PDF for Java directly from
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-pdf)  .
 
@@ -88,7 +88,7 @@ description: Java sample code to combine CGM documents on Java Runtime Environme
 PdfFileEditor fileEditor = new PdfFileEditor();
 String[] files = new String[] { "file1.cgm", "file2.cgm", "pdf3.cgm" };
 // Merge multiple CGM files
-fileEditor.concatenate(files, "merged-cgm.cgm");  
+fileEditor.concatenate(files, "merged-cgm.cgm");
 
 ```
 
@@ -97,7 +97,7 @@ fileEditor.concatenate(files, "merged-cgm.cgm");
 {{< /blocks/products/pf/agp/feature-section >}}
 
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
- 
+
 
 <!-- aboutfile Starts -->
 
@@ -118,7 +118,7 @@ fileEditor.concatenate(files, "merged-cgm.cgm");
             {{< blocks/products/pf/agp/democard icon="fa-download" text=" It will be merged and concatenated instantly." >}}
 
         {{< blocks/products/pf/agp/about-file-text fileFormat="CGM" readMoreLink="https://docs.fileformat.com/page-description-language/cgm/" >}}
-Computer Graphics Metafile (CGM) is free, platform-independent, international standard metafile format for storing and exchanging of vector graphics (2D), raster graphics, and text. CGM uses object-oriented approach and many function provisions for image production. CGM uses these object-oriented characteristics for remolding graphical elements to render an image. A metafile contains necessary information that defines other files. In CGM, a text based source file contains all graphical elements that can be later compiled into a binary file. Basically CGM is a way to facilitate 2D graphical data interchange, independent from any particular platform, or device. 
+Computer Graphics Metafile (CGM) is free, platform-independent, international standard metafile format for storing and exchanging of vector graphics (2D), raster graphics, and text. CGM uses object-oriented approach and many function provisions for image production. CGM uses these object-oriented characteristics for remolding graphical elements to render an image. A metafile contains necessary information that defines other files. In CGM, a text based source file contains all graphical elements that can be later compiled into a binary file. Basically CGM is a way to facilitate 2D graphical data interchange, independent from any particular platform, or device.
 
         {{< /blocks/products/pf/agp/about-file-text >}}
 
@@ -141,5 +141,5 @@ Computer Graphics Metafile (CGM) is free, platform-independent, international st
 {{< /blocks/products/pf/agp/other-supported-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-    
+
 {{< /blocks/products/pf/main-wrap-class >}}

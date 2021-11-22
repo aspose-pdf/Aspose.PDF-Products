@@ -1,7 +1,7 @@
 ---
-title: Merge XML Files via .NET 
+title: Merge XML Files via .NET
 weight: 1190
-url: /net/merger/xml/ 
+url: /net/merger/xml/
 description: C# source code to combine XML documents on .NET Framework, .NET Core, and PHP, VBScript, Delphi, C++ via COM Interop.
 ---
 
@@ -14,11 +14,11 @@ description: C# source code to combine XML documents on .NET Framework, .NET Cor
 {{% blocks/products/pf/agp/content h2="How to Merge XML File Using C#" %}}
 
  In order to merge XML file, we’ll use
- [Aspose.PDF for .NET](https://products.aspose.com/pdf/net) 
+ [Aspose.PDF for .NET](https://products.aspose.com/pdf/net)
  API which is a feature-rich, powerful and easy to use document manipulation and merging API for C# platform. Open
- [NuGet](https://www.nuget.org/packages/aspose.pdf) 
+ [NuGet](https://www.nuget.org/packages/aspose.pdf)
  package manager, search for
- **Aspose.PDF** 
+ **Aspose.PDF**
  and install. You may also use the following command from the Package Manager Console.
 
 {{% blocks/products/pf/agp/code-block title="Command" offSpacer="true" %}}
@@ -40,7 +40,7 @@ PM> Install-Package Aspose.PDF
 {{% blocks/products/pf/agp/text %}}
 
  A basic document merging and concatenating with
- [Aspose.PDF for .NET](https://products.aspose.com/pdf/net) 
+ [Aspose.PDF for .NET](https://products.aspose.com/pdf/net)
  APIs can be done with just few lines of code.
 
 {{% /blocks/products/pf/agp/text %}}
@@ -61,9 +61,9 @@ PM> Install-Package Aspose.PDF
 
 {{% /blocks/products/pf/agp/text %}}
 
--  Microsoft Windows or a compatible OS with .NET Framework, .NET Core, and PHP, VBScript, Delphi, C++ via COM Interop
--  Development environment like Microsoft Visual Studio
--  Aspose.PDF for .NET DLL referenced in your project - Install from NuGet using the Download button above
+- Microsoft Windows or a compatible OS with .NET Framework, .NET Core, and PHP, VBScript, Delphi, C++ via COM Interop
+- Development environment like Microsoft Visual Studio
+- Aspose.PDF for .NET DLL referenced in your project - Install from NuGet using the Download button above
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
@@ -77,9 +77,9 @@ PM> Install-Package Aspose.PDF
     // Add pages of second document to the first
     file1.Pages.Add(file2.Pages);
     // Save concatenated output file
-    file1.Save("ConcatenatedFiles_out.xml");  
+    file1.Save("ConcatenatedFiles_out.xml");
 
-    
+
 
 ```
 
@@ -88,7 +88,7 @@ PM> Install-Package Aspose.PDF
 {{< /blocks/products/pf/agp/feature-section >}}
 
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
- 
+
 
 <!-- aboutfile Starts -->
 
@@ -109,7 +109,7 @@ PM> Install-Package Aspose.PDF
             {{< blocks/products/pf/agp/democard icon="fa-download" text=" It will be merged and concatenated instantly." >}}
 
         {{< blocks/products/pf/agp/about-file-text fileFormat="XML" readMoreLink="https://docs.fileformat.com/web/xml/" >}}
-XML stands for Extensible Markup Language that is similar to HTML but different in using tags for defining objects. The whole idea behind creation of XML file format was to store and transport data without being dependent on software or hardware tools. Its popularity is due to it being both human as well as machine readable. This enables it to create common data protocols in the form of objects to be stored and shared over network such as World Wide Web (WWW). The "X" in XML is for extensible which implies that the language can be extended to any number of symbols as per user requirements. It is for these features that many standard file formats make use of it such as Microsoft Open XML, LibreOffice OpenDocument, XHTML and SVG. 
+XML stands for Extensible Markup Language that is similar to HTML but different in using tags for defining objects. The whole idea behind creation of XML file format was to store and transport data without being dependent on software or hardware tools. Its popularity is due to it being both human as well as machine readable. This enables it to create common data protocols in the form of objects to be stored and shared over network such as World Wide Web (WWW). The "X" in XML is for extensible which implies that the language can be extended to any number of symbols as per user requirements. It is for these features that many standard file formats make use of it such as Microsoft Open XML, LibreOffice OpenDocument, XHTML and SVG.
 
         {{< /blocks/products/pf/agp/about-file-text >}}
 
@@ -132,5 +132,5 @@ XML stands for Extensible Markup Language that is similar to HTML but different 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-    
+
 {{< /blocks/products/pf/main-wrap-class >}}

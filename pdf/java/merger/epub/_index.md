@@ -1,7 +1,7 @@
 ---
-title: Merge EPUB Files via Java 
+title: Merge EPUB Files via Java
 weight: 1020
-url: /java/merger/epub/ 
+url: /java/merger/epub/
 description: Java sample code to combine EPUB documents on Java Runtime Environment for JSP/JSF Application and Desktop Applications.
 ---
 
@@ -14,9 +14,9 @@ description: Java sample code to combine EPUB documents on Java Runtime Environm
 {{% blocks/products/pf/agp/content h2="How to Merge EPUB Files Using Java" %}}
 
  In order to merge EPUB file, we’ll use
- [Aspose.PDF for Java](https://products.aspose.com/pdf/java) 
+ [Aspose.PDF for Java](https://products.aspose.com/pdf/java)
  API which is a feature-rich, powerful and easy to use merger API for Java platform. You can download its latest version directly from
- [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-pdf) 
+ [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-pdf)
  and install it within your Maven-based project by adding the following configurations to the pom.xml.
 
 {{% blocks/products/pf/agp/code-block title="Repository" offSpacer="true" %}}
@@ -56,7 +56,7 @@ description: Java sample code to combine EPUB documents on Java Runtime Environm
 {{% blocks/products/pf/agp/text %}}
 
  A basic document merging and concatenating with
- [Aspose.PDF for Java](https://products.aspose.com/pdf/java) 
+ [Aspose.PDF for Java](https://products.aspose.com/pdf/java)
  APIs can be done with just few lines of code.
 
 {{% /blocks/products/pf/agp/text %}}
@@ -75,7 +75,7 @@ description: Java sample code to combine EPUB documents on Java Runtime Environm
 
 {{% /blocks/products/pf/agp/text %}}
 
--  Microsoft Windows or a compatible OS with Java Runtime Environment for JSP/JSF Application and Desktop Applications.
+- Microsoft Windows or a compatible OS with Java Runtime Environment for JSP/JSF Application and Desktop Applications.
 -  Get latest version of Aspose.PDF for Java directly from
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-pdf)  .
 
@@ -88,7 +88,7 @@ description: Java sample code to combine EPUB documents on Java Runtime Environm
 PdfFileEditor fileEditor = new PdfFileEditor();
 String[] files = new String[] { "file1.epub", "file2.epub", "pdf3.epub" };
 // Merge multiple EPUB files
-fileEditor.concatenate(files, "merged-epub.epub");  
+fileEditor.concatenate(files, "merged-epub.epub");
 
 ```
 
@@ -97,7 +97,7 @@ fileEditor.concatenate(files, "merged-epub.epub");
 {{< /blocks/products/pf/agp/feature-section >}}
 
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
- 
+
 
 <!-- aboutfile Starts -->
 
@@ -118,7 +118,7 @@ fileEditor.concatenate(files, "merged-epub.epub");
             {{< blocks/products/pf/agp/democard icon="fa-download" text=" It will be merged and concatenated instantly." >}}
 
         {{< blocks/products/pf/agp/about-file-text fileFormat="EPUB" readMoreLink="https://docs.fileformat.com/ebook/epub/" >}}
-Files with .EPUB extension are an e-book file format that provide a standard digital publication format for publishers and consumers. The format has been so common by now that it is supported by many e-readers and software applications. For example, on Mac OS, the pre-installed Books software provides the support for opening such files. In addition, there are a lot of compatible software available for smartphones, tablets and computers. EPUB file standards are maintained by the International Digital Publishing Forum (IDPF). The version EPUB 3 is also endorsed by the Book Industry Study Group (BISG), a leading book trade association for standardized best practices, research, information and events, for packaging of content. 
+Files with .EPUB extension are an e-book file format that provide a standard digital publication format for publishers and consumers. The format has been so common by now that it is supported by many e-readers and software applications. For example, on Mac OS, the pre-installed Books software provides the support for opening such files. In addition, there are a lot of compatible software available for smartphones, tablets and computers. EPUB file standards are maintained by the International Digital Publishing Forum (IDPF). The version EPUB 3 is also endorsed by the Book Industry Study Group (BISG), a leading book trade association for standardized best practices, research, information and events, for packaging of content.
 
         {{< /blocks/products/pf/agp/about-file-text >}}
 
@@ -141,5 +141,5 @@ Files with .EPUB extension are an e-book file format that provide a standard dig
 {{< /blocks/products/pf/agp/other-supported-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-    
+
 {{< /blocks/products/pf/main-wrap-class >}}

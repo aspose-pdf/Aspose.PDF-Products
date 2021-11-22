@@ -1,7 +1,7 @@
 ---
-title: Merge CGM Files via .NET 
+title: Merge CGM Files via .NET
 weight: 970
-url: /net/merger/cgm/ 
+url: /net/merger/cgm/
 description: C# source code to combine CGM documents on .NET Framework, .NET Core, and PHP, VBScript, Delphi, C++ via COM Interop.
 ---
 
@@ -14,11 +14,11 @@ description: C# source code to combine CGM documents on .NET Framework, .NET Cor
 {{% blocks/products/pf/agp/content h2="How to Merge CGM File Using C#" %}}
 
  In order to merge CGM file, we’ll use
- [Aspose.PDF for .NET](https://products.aspose.com/pdf/net) 
+ [Aspose.PDF for .NET](https://products.aspose.com/pdf/net)
  API which is a feature-rich, powerful and easy to use document manipulation and merging API for C# platform. Open
- [NuGet](https://www.nuget.org/packages/aspose.pdf) 
+ [NuGet](https://www.nuget.org/packages/aspose.pdf)
  package manager, search for
- **Aspose.PDF** 
+ **Aspose.PDF**
  and install. You may also use the following command from the Package Manager Console.
 
 {{% blocks/products/pf/agp/code-block title="Command" offSpacer="true" %}}
@@ -40,7 +40,7 @@ PM> Install-Package Aspose.PDF
 {{% blocks/products/pf/agp/text %}}
 
  A basic document merging and concatenating with
- [Aspose.PDF for .NET](https://products.aspose.com/pdf/net) 
+ [Aspose.PDF for .NET](https://products.aspose.com/pdf/net)
  APIs can be done with just few lines of code.
 
 {{% /blocks/products/pf/agp/text %}}
@@ -61,9 +61,9 @@ PM> Install-Package Aspose.PDF
 
 {{% /blocks/products/pf/agp/text %}}
 
--  Microsoft Windows or a compatible OS with .NET Framework, .NET Core, and PHP, VBScript, Delphi, C++ via COM Interop
--  Development environment like Microsoft Visual Studio
--  Aspose.PDF for .NET DLL referenced in your project - Install from NuGet using the Download button above
+- Microsoft Windows or a compatible OS with .NET Framework, .NET Core, and PHP, VBScript, Delphi, C++ via COM Interop
+- Development environment like Microsoft Visual Studio
+- Aspose.PDF for .NET DLL referenced in your project - Install from NuGet using the Download button above
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
@@ -77,9 +77,9 @@ PM> Install-Package Aspose.PDF
     // Add pages of second document to the first
     file1.Pages.Add(file2.Pages);
     // Save concatenated output file
-    file1.Save("ConcatenatedFiles_out.cgm");  
+    file1.Save("ConcatenatedFiles_out.cgm");
 
-    
+
 
 ```
 
@@ -88,7 +88,7 @@ PM> Install-Package Aspose.PDF
 {{< /blocks/products/pf/agp/feature-section >}}
 
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
- 
+
 
 <!-- aboutfile Starts -->
 
@@ -109,7 +109,7 @@ PM> Install-Package Aspose.PDF
             {{< blocks/products/pf/agp/democard icon="fa-download" text=" It will be merged and concatenated instantly." >}}
 
         {{< blocks/products/pf/agp/about-file-text fileFormat="CGM" readMoreLink="https://docs.fileformat.com/page-description-language/cgm/" >}}
-Computer Graphics Metafile (CGM) is free, platform-independent, international standard metafile format for storing and exchanging of vector graphics (2D), raster graphics, and text. CGM uses object-oriented approach and many function provisions for image production. CGM uses these object-oriented characteristics for remolding graphical elements to render an image. A metafile contains necessary information that defines other files. In CGM, a text based source file contains all graphical elements that can be later compiled into a binary file. Basically CGM is a way to facilitate 2D graphical data interchange, independent from any particular platform, or device. 
+Computer Graphics Metafile (CGM) is free, platform-independent, international standard metafile format for storing and exchanging of vector graphics (2D), raster graphics, and text. CGM uses object-oriented approach and many function provisions for image production. CGM uses these object-oriented characteristics for remolding graphical elements to render an image. A metafile contains necessary information that defines other files. In CGM, a text based source file contains all graphical elements that can be later compiled into a binary file. Basically CGM is a way to facilitate 2D graphical data interchange, independent from any particular platform, or device.
 
         {{< /blocks/products/pf/agp/about-file-text >}}
 
@@ -132,5 +132,5 @@ Computer Graphics Metafile (CGM) is free, platform-independent, international st
 {{< /blocks/products/pf/agp/other-supported-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-    
+
 {{< /blocks/products/pf/main-wrap-class >}}

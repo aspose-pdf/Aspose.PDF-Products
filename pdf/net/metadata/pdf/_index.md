@@ -1,7 +1,7 @@
 ---
-title: View or Edit PDF Metadata via C# 
+title: View or Edit PDF Metadata via C#
 weight: 2450
-url: /net/metadata/pdf/ 
+url: /net/metadata/pdf/
 description: C# source code to edit or view PDF format metadata on .NET Framework, .NET Core.
 ---
 
@@ -14,11 +14,11 @@ description: C# source code to edit or view PDF format metadata on .NET Framewor
 {{% blocks/products/pf/agp/content h2="How to Extract PDF Metadata Using C#" %}}
 
  In order to extract PDF metadata, we’ll use
- [Aspose.PDF for .NET](https://products.aspose.com/pdf/net) 
+ [Aspose.PDF for .NET](https://products.aspose.com/pdf/net)
  API which is a feature-rich, powerful and easy to use document metadata API for C# platform. Open
- [NuGet](https://www.nuget.org/packages/aspose.pdf) 
+ [NuGet](https://www.nuget.org/packages/aspose.pdf)
  package manager, search for
- **Aspose.PDF** 
+ **Aspose.PDF**
  and install. You may also use the following command from the Package Manager Console.
 
 {{% blocks/products/pf/agp/code-block title="Command" offSpacer="true" %}}
@@ -57,9 +57,9 @@ PM> Install-Package Aspose.PDF
 
 {{% /blocks/products/pf/agp/text %}}
 
--  Microsoft Windows or a compatible OS with .NET Framework, .NET Core.
--  Development environment like Microsoft Visual Studio.
--  Aspose.PDF for .NET referenced in your project.
+- Microsoft Windows or a compatible OS with .NET Framework, .NET Core.
+- Development environment like Microsoft Visual Studio.
+- Aspose.PDF for .NET referenced in your project.
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
@@ -77,7 +77,7 @@ Console.WriteLine("Creation Date: {0}", pdfInfo.CreationDate);
 Console.WriteLine("Keywords: {0}", pdfInfo.Keywords);
 Console.WriteLine("Modify Date: {0}", pdfInfo.ModDate);
 Console.WriteLine("Subject: {0}", pdfInfo.Subject);
-Console.WriteLine("Title: {0}", pdfInfo.Title);  
+Console.WriteLine("Title: {0}", pdfInfo.Title);
 
 ```
 
@@ -86,7 +86,7 @@ Console.WriteLine("Title: {0}", pdfInfo.Title);
 {{< /blocks/products/pf/agp/feature-section >}}
 
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
- 
+
 
 <!-- aboutfile Starts -->
 
@@ -116,5 +116,5 @@ Portable Document Format (PDF) is a type of document created by Adobe back in 19
 <!-- aboutfile Ends -->
 
 {{< /blocks/products/pf/main-container >}}
-    
+
 {{< /blocks/products/pf/main-wrap-class >}}

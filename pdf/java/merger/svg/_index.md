@@ -1,7 +1,7 @@
 ---
-title: Merge SVG Files via Java 
+title: Merge SVG Files via Java
 weight: 1680
-url: /java/merger/svg/ 
+url: /java/merger/svg/
 description: Java sample code to combine SVG documents on Java Runtime Environment for JSP/JSF Application and Desktop Applications.
 ---
 
@@ -14,9 +14,9 @@ description: Java sample code to combine SVG documents on Java Runtime Environme
 {{% blocks/products/pf/agp/content h2="How to Merge SVG Files Using Java" %}}
 
  In order to merge SVG file, we’ll use
- [Aspose.PDF for Java](https://products.aspose.com/pdf/java) 
+ [Aspose.PDF for Java](https://products.aspose.com/pdf/java)
  API which is a feature-rich, powerful and easy to use merger API for Java platform. You can download its latest version directly from
- [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-pdf) 
+ [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-pdf)
  and install it within your Maven-based project by adding the following configurations to the pom.xml.
 
 {{% blocks/products/pf/agp/code-block title="Repository" offSpacer="true" %}}
@@ -56,7 +56,7 @@ description: Java sample code to combine SVG documents on Java Runtime Environme
 {{% blocks/products/pf/agp/text %}}
 
  A basic document merging and concatenating with
- [Aspose.PDF for Java](https://products.aspose.com/pdf/java) 
+ [Aspose.PDF for Java](https://products.aspose.com/pdf/java)
  APIs can be done with just few lines of code.
 
 {{% /blocks/products/pf/agp/text %}}
@@ -75,7 +75,7 @@ description: Java sample code to combine SVG documents on Java Runtime Environme
 
 {{% /blocks/products/pf/agp/text %}}
 
--  Microsoft Windows or a compatible OS with Java Runtime Environment for JSP/JSF Application and Desktop Applications.
+- Microsoft Windows or a compatible OS with Java Runtime Environment for JSP/JSF Application and Desktop Applications.
 -  Get latest version of Aspose.PDF for Java directly from
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-pdf)  .
 
@@ -88,7 +88,7 @@ description: Java sample code to combine SVG documents on Java Runtime Environme
 PdfFileEditor fileEditor = new PdfFileEditor();
 String[] files = new String[] { "file1.svg", "file2.svg", "pdf3.svg" };
 // Merge multiple SVG files
-fileEditor.concatenate(files, "merged-svg.svg");  
+fileEditor.concatenate(files, "merged-svg.svg");
 
 ```
 
@@ -97,7 +97,7 @@ fileEditor.concatenate(files, "merged-svg.svg");
 {{< /blocks/products/pf/agp/feature-section >}}
 
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
- 
+
 
 <!-- aboutfile Starts -->
 
@@ -118,7 +118,7 @@ fileEditor.concatenate(files, "merged-svg.svg");
             {{< blocks/products/pf/agp/democard icon="fa-download" text=" It will be merged and concatenated instantly." >}}
 
         {{< blocks/products/pf/agp/about-file-text fileFormat="SVG" readMoreLink="https://docs.fileformat.com/page-description-language/svg/" >}}
-SVG files are Scalable Vector Graphics Files that use XML based text format for describing the appearance of image. The word Scalable refers to the fact that the SVG can be scaled to different sizes without losing any quality. Text based description of such files make them independent of resolution. It is one of the mostly used format for building website and print graphics in order to achieve scalability. The format can only be used for two-dimensional graphics though. SVG files can be viewed/opened in almost all modern browsers including Chrome, Internet Explorer, Firefox, and Safari. 
+SVG files are Scalable Vector Graphics Files that use XML based text format for describing the appearance of image. The word Scalable refers to the fact that the SVG can be scaled to different sizes without losing any quality. Text based description of such files make them independent of resolution. It is one of the mostly used format for building website and print graphics in order to achieve scalability. The format can only be used for two-dimensional graphics though. SVG files can be viewed/opened in almost all modern browsers including Chrome, Internet Explorer, Firefox, and Safari.
 
         {{< /blocks/products/pf/agp/about-file-text >}}
 
@@ -141,5 +141,5 @@ SVG files are Scalable Vector Graphics Files that use XML based text format for 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-    
+
 {{< /blocks/products/pf/main-wrap-class >}}

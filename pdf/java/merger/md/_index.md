@@ -1,7 +1,7 @@
 ---
-title: Merge MD Files via Java 
+title: Merge MD Files via Java
 weight: 2190
-url: /java/merger/md/ 
+url: /java/merger/md/
 description: Java sample code to combine MD documents on Java Runtime Environment for JSP/JSF Application and Desktop Applications.
 ---
 
@@ -14,9 +14,9 @@ description: Java sample code to combine MD documents on Java Runtime Environmen
 {{% blocks/products/pf/agp/content h2="How to Merge MD Files Using Java" %}}
 
  In order to merge MD file, we’ll use
- [Aspose.PDF for Java](https://products.aspose.com/pdf/java) 
+ [Aspose.PDF for Java](https://products.aspose.com/pdf/java)
  API which is a feature-rich, powerful and easy to use merger API for Java platform. You can download its latest version directly from
- [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-pdf) 
+ [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-pdf)
  and install it within your Maven-based project by adding the following configurations to the pom.xml.
 
 {{% blocks/products/pf/agp/code-block title="Repository" offSpacer="true" %}}
@@ -56,7 +56,7 @@ description: Java sample code to combine MD documents on Java Runtime Environmen
 {{% blocks/products/pf/agp/text %}}
 
  A basic document merging and concatenating with
- [Aspose.PDF for Java](https://products.aspose.com/pdf/java) 
+ [Aspose.PDF for Java](https://products.aspose.com/pdf/java)
  APIs can be done with just few lines of code.
 
 {{% /blocks/products/pf/agp/text %}}
@@ -75,7 +75,7 @@ description: Java sample code to combine MD documents on Java Runtime Environmen
 
 {{% /blocks/products/pf/agp/text %}}
 
--  Microsoft Windows or a compatible OS with Java Runtime Environment for JSP/JSF Application and Desktop Applications.
+- Microsoft Windows or a compatible OS with Java Runtime Environment for JSP/JSF Application and Desktop Applications.
 -  Get latest version of Aspose.PDF for Java directly from
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-pdf)  .
 
@@ -88,7 +88,7 @@ description: Java sample code to combine MD documents on Java Runtime Environmen
 PdfFileEditor fileEditor = new PdfFileEditor();
 String[] files = new String[] { "file1.md", "file2.md", "pdf3.md" };
 // Merge multiple MD files
-fileEditor.concatenate(files, "merged-md.md");  
+fileEditor.concatenate(files, "merged-md.md");
 
 ```
 
@@ -97,7 +97,7 @@ fileEditor.concatenate(files, "merged-md.md");
 {{< /blocks/products/pf/agp/feature-section >}}
 
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
- 
+
 
 <!-- aboutfile Starts -->
 
@@ -118,7 +118,7 @@ fileEditor.concatenate(files, "merged-md.md");
             {{< blocks/products/pf/agp/democard icon="fa-download" text=" It will be merged and concatenated instantly." >}}
 
         {{< blocks/products/pf/agp/about-file-text fileFormat="MD" readMoreLink="https://docs.fileformat.com/word-processing/md/" >}}
-Text files created with Markdown language dialects is saved with .MD or .MARKDOWN file extension. MD files are saved in plain text format that uses Markdown language which also includes inline text symbols, defining how a text can be formatted such as indentations, table formatting, fonts, and headers.  MD files can be converted to HTML with a program called Markdown. Markdown language is released by John Gruber. 
+Text files created with Markdown language dialects is saved with .MD or .MARKDOWN file extension. MD files are saved in plain text format that uses Markdown language which also includes inline text symbols, defining how a text can be formatted such as indentations, table formatting, fonts, and headers.  MD files can be converted to HTML with a program called Markdown. Markdown language is released by John Gruber.
 
         {{< /blocks/products/pf/agp/about-file-text >}}
 
@@ -141,5 +141,5 @@ Text files created with Markdown language dialects is saved with .MD or .MARKDOW
 {{< /blocks/products/pf/agp/other-supported-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-    
+
 {{< /blocks/products/pf/main-wrap-class >}}

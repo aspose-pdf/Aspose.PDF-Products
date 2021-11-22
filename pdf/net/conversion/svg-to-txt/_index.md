@@ -1,6 +1,6 @@
 ---
-title: Convert SVG to TXT via C# 
-url: /net/conversion/svg-to-txt/ 
+title: Convert SVG to TXT via C#
+url: /net/conversion/svg-to-txt/
 description: Sample code for SVG to TXT C# conversion. Use API example code for batch SVG files to TXT conversion within VB.NET, Asp.NET or any .NET based application.
 ---
 
@@ -13,11 +13,11 @@ description: Sample code for SVG to TXT C# conversion. Use API example code for 
 {{% blocks/products/pf/agp/content h2="How to Convert SVG to TXT Using C#" %}}
 
  In order to convert SVG to TXT, we’ll use
- [Aspose.PDF for .NET](https://products.aspose.com/pdf/net) 
+ [Aspose.PDF for .NET](https://products.aspose.com/pdf/net)
  API which is a feature-rich, powerful and easy to use document manipulation and conversion API for C# platform. Open
- [NuGet](https://www.nuget.org/packages/aspose.pdf) 
+ [NuGet](https://www.nuget.org/packages/aspose.pdf)
  package manager, search for
- Aspose.PDF 
+ Aspose.PDF
  and install. You may also use the following command from the Package Manager Console.
 
 {{% blocks/products/pf/agp/code-block title="Package Manager Console Command" offSpacer="true" %}}
@@ -57,9 +57,9 @@ PM> Install-Package Aspose.PDF
 
 {{% /blocks/products/pf/agp/text %}}
 
--  Microsoft Windows or a compatible OS with .NET Framework, .NET Core, and PHP, VBScript, Delphi, C++ via COM Interop.
--  Development environment like Microsoft Visual Studio.
--  Aspose.PDF for .NET DLL referenced in your project.
+- Microsoft Windows or a compatible OS with .NET Framework, .NET Core, and PHP, VBScript, Delphi, C++ via COM Interop.
+- Development environment like Microsoft Visual Studio.
+- Aspose.PDF for .NET DLL referenced in your project.
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
@@ -69,7 +69,7 @@ PM> Install-Package Aspose.PDF
 // load SVG with an instance of Document
 var document = new Document("template.svg");
 // save document in TXT format
-document.Save("output.txt", Aspose.Pdf.SaveFormat.Txt); 
+document.Save("output.txt", Aspose.Pdf.SaveFormat.Txt);
 
 ```
 
@@ -78,7 +78,7 @@ document.Save("output.txt", Aspose.Pdf.SaveFormat.Txt);
 {{< /blocks/products/pf/agp/feature-section >}}
 
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
- 
+
 
 <!-- aboutfile Starts -->
 
@@ -117,5 +117,5 @@ A file with .TXT extension represents a text document that contains plain text i
 
 
 {{< /blocks/products/pf/main-container >}}
-    
+
 {{< /blocks/products/pf/main-wrap-class >}}

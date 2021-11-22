@@ -1,7 +1,7 @@
 ---
-title: Merge CGM Files via C++ 
+title: Merge CGM Files via C++
 weight: 360
-url: /cpp/merger/cgm/ 
+url: /cpp/merger/cgm/
 description: C++ example code to combine CGM documents on C++ Runtime Environment for Windows 32 bit, Windows 64 bit and Linux 64 bit.
 ---
 
@@ -14,11 +14,11 @@ description: C++ example code to combine CGM documents on C++ Runtime Environmen
 {{% blocks/products/pf/agp/content h2="How to Merge CGM File Using C++" %}}
 
  In order to merge CGM file, we’ll use
- [Aspose.PDF for C++](https://products.aspose.com/pdf/cpp) 
+ [Aspose.PDF for C++](https://products.aspose.com/pdf/cpp)
  API which is a feature-rich, powerful and easy to use document merger API for C++ platform. You can download its latest version directly, just open
- [NuGet](https://www.nuget.org/packages/aspose.pdf) 
+ [NuGet](https://www.nuget.org/packages/aspose.pdf)
  package manager, search for
- **Aspose.PDF.Cpp** 
+ **Aspose.PDF.Cpp**
  and install. You may also use the following command from the Package Manager Console.
 
 {{% blocks/products/pf/agp/code-block title="Command" offSpacer="true" %}}
@@ -40,7 +40,7 @@ PM> Install-Package Aspose.PDF.Cpp
 {{% blocks/products/pf/agp/text %}}
 
  A basic document merging and concatenating with
- [Aspose.PDF for C++](https://products.aspose.com/pdf/cpp) 
+ [Aspose.PDF for C++](https://products.aspose.com/pdf/cpp)
  APIs can be done with just few lines of code.
 
 {{% /blocks/products/pf/agp/text %}}
@@ -60,8 +60,8 @@ PM> Install-Package Aspose.PDF.Cpp
 
 {{% /blocks/products/pf/agp/text %}}
 
--  Microsoft Windows or a compatible OS with C++ Runtime Environment for Windows 32 bit, Windows 64 bit and Linux 64 bit.
--  Aspose.PDF for C++ DLL referenced in your project.
+- Microsoft Windows or a compatible OS with C++ Runtime Environment for Windows 32 bit, Windows 64 bit and Linux 64 bit.
+- Aspose.PDF for C++ DLL referenced in your project.
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
@@ -78,7 +78,7 @@ auto doc2 = MakeObject<Document>(u"file2.cgm");
 doc1->get_Pages()->Add(doc2->get_Pages());
 
 // Save concatenated output file
-doc1->Save(u"merged-output.cgm");  
+doc1->Save(u"merged-output.cgm");
 
 ```
 
@@ -87,7 +87,7 @@ doc1->Save(u"merged-output.cgm");
 {{< /blocks/products/pf/agp/feature-section >}}
 
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
- 
+
 
 <!-- aboutfile Starts -->
 
@@ -108,7 +108,7 @@ doc1->Save(u"merged-output.cgm");
             {{< blocks/products/pf/agp/democard icon="fa-download" text=" It will be merged and concatenated instantly." >}}
 
         {{< blocks/products/pf/agp/about-file-text fileFormat="CGM" readMoreLink="https://docs.fileformat.com/page-description-language/cgm/" >}}
-Computer Graphics Metafile (CGM) is free, platform-independent, international standard metafile format for storing and exchanging of vector graphics (2D), raster graphics, and text. CGM uses object-oriented approach and many function provisions for image production. CGM uses these object-oriented characteristics for remolding graphical elements to render an image. A metafile contains necessary information that defines other files. In CGM, a text based source file contains all graphical elements that can be later compiled into a binary file. Basically CGM is a way to facilitate 2D graphical data interchange, independent from any particular platform, or device. 
+Computer Graphics Metafile (CGM) is free, platform-independent, international standard metafile format for storing and exchanging of vector graphics (2D), raster graphics, and text. CGM uses object-oriented approach and many function provisions for image production. CGM uses these object-oriented characteristics for remolding graphical elements to render an image. A metafile contains necessary information that defines other files. In CGM, a text based source file contains all graphical elements that can be later compiled into a binary file. Basically CGM is a way to facilitate 2D graphical data interchange, independent from any particular platform, or device.
 
         {{< /blocks/products/pf/agp/about-file-text >}}
 
@@ -131,5 +131,5 @@ Computer Graphics Metafile (CGM) is free, platform-independent, international st
 {{< /blocks/products/pf/agp/other-supported-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-    
+
 {{< /blocks/products/pf/main-wrap-class >}}

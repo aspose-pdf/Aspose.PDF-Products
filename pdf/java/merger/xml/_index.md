@@ -1,7 +1,7 @@
 ---
-title: Merge XML Files via Java 
+title: Merge XML Files via Java
 weight: 1780
-url: /java/merger/xml/ 
+url: /java/merger/xml/
 description: Java sample code to combine XML documents on Java Runtime Environment for JSP/JSF Application and Desktop Applications.
 ---
 
@@ -14,9 +14,9 @@ description: Java sample code to combine XML documents on Java Runtime Environme
 {{% blocks/products/pf/agp/content h2="How to Merge XML Files Using Java" %}}
 
  In order to merge XML file, we’ll use
- [Aspose.PDF for Java](https://products.aspose.com/pdf/java) 
+ [Aspose.PDF for Java](https://products.aspose.com/pdf/java)
  API which is a feature-rich, powerful and easy to use merger API for Java platform. You can download its latest version directly from
- [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-pdf) 
+ [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-pdf)
  and install it within your Maven-based project by adding the following configurations to the pom.xml.
 
 {{% blocks/products/pf/agp/code-block title="Repository" offSpacer="true" %}}
@@ -56,7 +56,7 @@ description: Java sample code to combine XML documents on Java Runtime Environme
 {{% blocks/products/pf/agp/text %}}
 
  A basic document merging and concatenating with
- [Aspose.PDF for Java](https://products.aspose.com/pdf/java) 
+ [Aspose.PDF for Java](https://products.aspose.com/pdf/java)
  APIs can be done with just few lines of code.
 
 {{% /blocks/products/pf/agp/text %}}
@@ -75,7 +75,7 @@ description: Java sample code to combine XML documents on Java Runtime Environme
 
 {{% /blocks/products/pf/agp/text %}}
 
--  Microsoft Windows or a compatible OS with Java Runtime Environment for JSP/JSF Application and Desktop Applications.
+- Microsoft Windows or a compatible OS with Java Runtime Environment for JSP/JSF Application and Desktop Applications.
 -  Get latest version of Aspose.PDF for Java directly from
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-pdf)  .
 
@@ -88,7 +88,7 @@ description: Java sample code to combine XML documents on Java Runtime Environme
 PdfFileEditor fileEditor = new PdfFileEditor();
 String[] files = new String[] { "file1.xml", "file2.xml", "pdf3.xml" };
 // Merge multiple XML files
-fileEditor.concatenate(files, "merged-xml.xml");  
+fileEditor.concatenate(files, "merged-xml.xml");
 
 ```
 
@@ -97,7 +97,7 @@ fileEditor.concatenate(files, "merged-xml.xml");
 {{< /blocks/products/pf/agp/feature-section >}}
 
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
- 
+
 
 <!-- aboutfile Starts -->
 
@@ -118,7 +118,7 @@ fileEditor.concatenate(files, "merged-xml.xml");
             {{< blocks/products/pf/agp/democard icon="fa-download" text=" It will be merged and concatenated instantly." >}}
 
         {{< blocks/products/pf/agp/about-file-text fileFormat="XML" readMoreLink="https://docs.fileformat.com/web/xml/" >}}
-XML stands for Extensible Markup Language that is similar to HTML but different in using tags for defining objects. The whole idea behind creation of XML file format was to store and transport data without being dependent on software or hardware tools. Its popularity is due to it being both human as well as machine readable. This enables it to create common data protocols in the form of objects to be stored and shared over network such as World Wide Web (WWW). The "X" in XML is for extensible which implies that the language can be extended to any number of symbols as per user requirements. It is for these features that many standard file formats make use of it such as Microsoft Open XML, LibreOffice OpenDocument, XHTML and SVG. 
+XML stands for Extensible Markup Language that is similar to HTML but different in using tags for defining objects. The whole idea behind creation of XML file format was to store and transport data without being dependent on software or hardware tools. Its popularity is due to it being both human as well as machine readable. This enables it to create common data protocols in the form of objects to be stored and shared over network such as World Wide Web (WWW). The "X" in XML is for extensible which implies that the language can be extended to any number of symbols as per user requirements. It is for these features that many standard file formats make use of it such as Microsoft Open XML, LibreOffice OpenDocument, XHTML and SVG.
 
         {{< /blocks/products/pf/agp/about-file-text >}}
 
@@ -141,5 +141,5 @@ XML stands for Extensible Markup Language that is similar to HTML but different 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-    
+
 {{< /blocks/products/pf/main-wrap-class >}}

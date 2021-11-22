@@ -1,7 +1,7 @@
 ---
-title: Merge XML Files via C++ 
+title: Merge XML Files via C++
 weight: 160
-url: /cpp/merger/xml/ 
+url: /cpp/merger/xml/
 description: C++ example code to combine XML documents on C++ Runtime Environment for Windows 32 bit, Windows 64 bit and Linux 64 bit.
 ---
 
@@ -14,11 +14,11 @@ description: C++ example code to combine XML documents on C++ Runtime Environmen
 {{% blocks/products/pf/agp/content h2="How to Merge XML File Using C++" %}}
 
  In order to merge XML file, we’ll use
- [Aspose.PDF for C++](https://products.aspose.com/pdf/cpp) 
+ [Aspose.PDF for C++](https://products.aspose.com/pdf/cpp)
  API which is a feature-rich, powerful and easy to use document merger API for C++ platform. You can download its latest version directly, just open
- [NuGet](https://www.nuget.org/packages/aspose.pdf) 
+ [NuGet](https://www.nuget.org/packages/aspose.pdf)
  package manager, search for
- **Aspose.PDF.Cpp** 
+ **Aspose.PDF.Cpp**
  and install. You may also use the following command from the Package Manager Console.
 
 {{% blocks/products/pf/agp/code-block title="Command" offSpacer="true" %}}
@@ -40,7 +40,7 @@ PM> Install-Package Aspose.PDF.Cpp
 {{% blocks/products/pf/agp/text %}}
 
  A basic document merging and concatenating with
- [Aspose.PDF for C++](https://products.aspose.com/pdf/cpp) 
+ [Aspose.PDF for C++](https://products.aspose.com/pdf/cpp)
  APIs can be done with just few lines of code.
 
 {{% /blocks/products/pf/agp/text %}}
@@ -60,8 +60,8 @@ PM> Install-Package Aspose.PDF.Cpp
 
 {{% /blocks/products/pf/agp/text %}}
 
--  Microsoft Windows or a compatible OS with C++ Runtime Environment for Windows 32 bit, Windows 64 bit and Linux 64 bit.
--  Aspose.PDF for C++ DLL referenced in your project.
+- Microsoft Windows or a compatible OS with C++ Runtime Environment for Windows 32 bit, Windows 64 bit and Linux 64 bit.
+- Aspose.PDF for C++ DLL referenced in your project.
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
@@ -78,7 +78,7 @@ auto doc2 = MakeObject<Document>(u"file2.xml");
 doc1->get_Pages()->Add(doc2->get_Pages());
 
 // Save concatenated output file
-doc1->Save(u"merged-output.xml");  
+doc1->Save(u"merged-output.xml");
 
 ```
 
@@ -87,7 +87,7 @@ doc1->Save(u"merged-output.xml");
 {{< /blocks/products/pf/agp/feature-section >}}
 
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
- 
+
 
 <!-- aboutfile Starts -->
 
@@ -108,7 +108,7 @@ doc1->Save(u"merged-output.xml");
             {{< blocks/products/pf/agp/democard icon="fa-download" text=" It will be merged and concatenated instantly." >}}
 
         {{< blocks/products/pf/agp/about-file-text fileFormat="XML" readMoreLink="https://docs.fileformat.com/web/xml/" >}}
-XML stands for Extensible Markup Language that is similar to HTML but different in using tags for defining objects. The whole idea behind creation of XML file format was to store and transport data without being dependent on software or hardware tools. Its popularity is due to it being both human as well as machine readable. This enables it to create common data protocols in the form of objects to be stored and shared over network such as World Wide Web (WWW). The "X" in XML is for extensible which implies that the language can be extended to any number of symbols as per user requirements. It is for these features that many standard file formats make use of it such as Microsoft Open XML, LibreOffice OpenDocument, XHTML and SVG. 
+XML stands for Extensible Markup Language that is similar to HTML but different in using tags for defining objects. The whole idea behind creation of XML file format was to store and transport data without being dependent on software or hardware tools. Its popularity is due to it being both human as well as machine readable. This enables it to create common data protocols in the form of objects to be stored and shared over network such as World Wide Web (WWW). The "X" in XML is for extensible which implies that the language can be extended to any number of symbols as per user requirements. It is for these features that many standard file formats make use of it such as Microsoft Open XML, LibreOffice OpenDocument, XHTML and SVG.
 
         {{< /blocks/products/pf/agp/about-file-text >}}
 
@@ -131,5 +131,5 @@ XML stands for Extensible Markup Language that is similar to HTML but different 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-    
+
 {{< /blocks/products/pf/main-wrap-class >}}

@@ -1,6 +1,6 @@
 ---
-title: View SVG File Formats via .NET 
-url: /net/viewer/svg/ 
+title: View SVG File Formats via .NET
+url: /net/viewer/svg/
 description: C# source code to load, render and display SVG documents on .NET Framework, .NET Core, Windows Azure, Mono or Xamarin Platforms.
 ---
 
@@ -51,9 +51,9 @@ PM> Install-Package Aspose.PDF
 
 {{% /blocks/products/pf/agp/text %}}
 
--  Microsoft Windows or a compatible OS with .NET Framework, .NET Core, Windows Azure, Mono or Xamarin Platforms
--  Development environment like Microsoft Visual Studio
--  Aspose.PDF for .NET referenced in your project
+- Microsoft Windows or a compatible OS with .NET Framework, .NET Core, Windows Azure, Mono or Xamarin Platforms
+- Development environment like Microsoft Visual Studio
+- Aspose.PDF for .NET referenced in your project
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
@@ -77,7 +77,7 @@ System.Diagnostics.Process.Start(output);
 {{< /blocks/products/pf/agp/feature-section >}}
 
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
- 
+
 
 <!-- aboutfile Starts -->
 
@@ -109,5 +109,5 @@ SVG files are Scalable Vector Graphics Files that use XML based text format for 
 
 
 {{< /blocks/products/pf/main-container >}}
-    
+
 {{< /blocks/products/pf/main-wrap-class >}}

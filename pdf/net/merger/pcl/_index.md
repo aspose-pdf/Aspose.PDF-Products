@@ -1,7 +1,7 @@
 ---
-title: Merge PCL Files via .NET 
+title: Merge PCL Files via .NET
 weight: 440
-url: /net/merger/pcl/ 
+url: /net/merger/pcl/
 description: C# source code to combine PCL documents on .NET Framework, .NET Core, and PHP, VBScript, Delphi, C++ via COM Interop.
 ---
 
@@ -14,11 +14,11 @@ description: C# source code to combine PCL documents on .NET Framework, .NET Cor
 {{% blocks/products/pf/agp/content h2="How to Merge PCL File Using C#" %}}
 
  In order to merge PCL file, we’ll use
- [Aspose.PDF for .NET](https://products.aspose.com/pdf/net) 
+ [Aspose.PDF for .NET](https://products.aspose.com/pdf/net)
  API which is a feature-rich, powerful and easy to use document manipulation and merging API for C# platform. Open
- [NuGet](https://www.nuget.org/packages/aspose.pdf) 
+ [NuGet](https://www.nuget.org/packages/aspose.pdf)
  package manager, search for
- **Aspose.PDF** 
+ **Aspose.PDF**
  and install. You may also use the following command from the Package Manager Console.
 
 {{% blocks/products/pf/agp/code-block title="Command" offSpacer="true" %}}
@@ -40,7 +40,7 @@ PM> Install-Package Aspose.PDF
 {{% blocks/products/pf/agp/text %}}
 
  A basic document merging and concatenating with
- [Aspose.PDF for .NET](https://products.aspose.com/pdf/net) 
+ [Aspose.PDF for .NET](https://products.aspose.com/pdf/net)
  APIs can be done with just few lines of code.
 
 {{% /blocks/products/pf/agp/text %}}
@@ -61,9 +61,9 @@ PM> Install-Package Aspose.PDF
 
 {{% /blocks/products/pf/agp/text %}}
 
--  Microsoft Windows or a compatible OS with .NET Framework, .NET Core, and PHP, VBScript, Delphi, C++ via COM Interop
--  Development environment like Microsoft Visual Studio
--  Aspose.PDF for .NET DLL referenced in your project - Install from NuGet using the Download button above
+- Microsoft Windows or a compatible OS with .NET Framework, .NET Core, and PHP, VBScript, Delphi, C++ via COM Interop
+- Development environment like Microsoft Visual Studio
+- Aspose.PDF for .NET DLL referenced in your project - Install from NuGet using the Download button above
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
@@ -77,9 +77,9 @@ PM> Install-Package Aspose.PDF
     // Add pages of second document to the first
     file1.Pages.Add(file2.Pages);
     // Save concatenated output file
-    file1.Save("ConcatenatedFiles_out.pcl");  
+    file1.Save("ConcatenatedFiles_out.pcl");
 
-    
+
 
 ```
 
@@ -88,7 +88,7 @@ PM> Install-Package Aspose.PDF
 {{< /blocks/products/pf/agp/feature-section >}}
 
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
- 
+
 
 <!-- aboutfile Starts -->
 
@@ -109,7 +109,7 @@ PM> Install-Package Aspose.PDF
             {{< blocks/products/pf/agp/democard icon="fa-download" text=" It will be merged and concatenated instantly." >}}
 
         {{< blocks/products/pf/agp/about-file-text fileFormat="PCL" readMoreLink="https://docs.fileformat.com/page-description-language/pcl/" >}}
-PCL stands for Printer Command Language which is a Page Description Language introduced by Hewlett Packard (HP). HP created PCL to provide an efficient way for controlling printer features across many different printing devices. The format was originally developed for HP's dot matrix and Inkjet printers, but has been part of various thermal, matrix and page printers with the passage of time. The format underwent several different revisions, resulting in different versions where each version was enhanced to meet the demands of time with respect to the printer control features. Today, PCL is the most widely spread printer language in the laster printer market. 
+PCL stands for Printer Command Language which is a Page Description Language introduced by Hewlett Packard (HP). HP created PCL to provide an efficient way for controlling printer features across many different printing devices. The format was originally developed for HP's dot matrix and Inkjet printers, but has been part of various thermal, matrix and page printers with the passage of time. The format underwent several different revisions, resulting in different versions where each version was enhanced to meet the demands of time with respect to the printer control features. Today, PCL is the most widely spread printer language in the laster printer market.
 
         {{< /blocks/products/pf/agp/about-file-text >}}
 
@@ -132,5 +132,5 @@ PCL stands for Printer Command Language which is a Page Description Language int
 {{< /blocks/products/pf/agp/other-supported-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-    
+
 {{< /blocks/products/pf/main-wrap-class >}}

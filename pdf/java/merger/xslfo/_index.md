@@ -1,7 +1,7 @@
 ---
-title: Merge XSLFO Files via Java 
+title: Merge XSLFO Files via Java
 weight: 2940
-url: /java/merger/xslfo/ 
+url: /java/merger/xslfo/
 description: Java sample code to combine XSLFO documents on Java Runtime Environment for JSP/JSF Application and Desktop Applications.
 ---
 
@@ -14,9 +14,9 @@ description: Java sample code to combine XSLFO documents on Java Runtime Environ
 {{% blocks/products/pf/agp/content h2="How to Merge XSLFO Files Using Java" %}}
 
  In order to merge XSLFO file, we’ll use
- [Aspose.PDF for Java](https://products.aspose.com/pdf/java) 
+ [Aspose.PDF for Java](https://products.aspose.com/pdf/java)
  API which is a feature-rich, powerful and easy to use merger API for Java platform. You can download its latest version directly from
- [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-pdf) 
+ [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-pdf)
  and install it within your Maven-based project by adding the following configurations to the pom.xml.
 
 {{% blocks/products/pf/agp/code-block title="Repository" offSpacer="true" %}}
@@ -56,7 +56,7 @@ description: Java sample code to combine XSLFO documents on Java Runtime Environ
 {{% blocks/products/pf/agp/text %}}
 
  A basic document merging and concatenating with
- [Aspose.PDF for Java](https://products.aspose.com/pdf/java) 
+ [Aspose.PDF for Java](https://products.aspose.com/pdf/java)
  APIs can be done with just few lines of code.
 
 {{% /blocks/products/pf/agp/text %}}
@@ -75,7 +75,7 @@ description: Java sample code to combine XSLFO documents on Java Runtime Environ
 
 {{% /blocks/products/pf/agp/text %}}
 
--  Microsoft Windows or a compatible OS with Java Runtime Environment for JSP/JSF Application and Desktop Applications.
+- Microsoft Windows or a compatible OS with Java Runtime Environment for JSP/JSF Application and Desktop Applications.
 -  Get latest version of Aspose.PDF for Java directly from
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-pdf)  .
 
@@ -88,7 +88,7 @@ description: Java sample code to combine XSLFO documents on Java Runtime Environ
 PdfFileEditor fileEditor = new PdfFileEditor();
 String[] files = new String[] { "file1.xslfo", "file2.xslfo", "pdf3.xslfo" };
 // Merge multiple XSLFO files
-fileEditor.concatenate(files, "merged-xslfo.xslfo");  
+fileEditor.concatenate(files, "merged-xslfo.xslfo");
 
 ```
 
@@ -97,7 +97,7 @@ fileEditor.concatenate(files, "merged-xslfo.xslfo");
 {{< /blocks/products/pf/agp/feature-section >}}
 
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
- 
+
 
 <!-- aboutfile Starts -->
 
@@ -118,7 +118,7 @@ fileEditor.concatenate(files, "merged-xslfo.xslfo");
             {{< blocks/products/pf/agp/democard icon="fa-download" text=" It will be merged and concatenated instantly." >}}
 
         {{< blocks/products/pf/agp/about-file-text fileFormat="XSLFO" readMoreLink="https://docs.fileformat.com/page-description-language/xslfo/" >}}
-XSL-FO (XSL Formatting Objects) is a powerful stylesheet language for formatting XML documents. The semantics of the bounded form of paper and print are expressed by XSL-FO when the dimensions are fixed. In contrast to HTML, which represents the semantics of the unbounded form of a browser window with variable dimensions. The XML documents formatted by XSL-FO are mostly used to generate PDF files. XSL (Extensible Stylesheet Language) is a set of feature complete W3C technologies intended to design for the formatting and exchange of XML documents and XSL-FO is a part of this language. XSLT and XPath are also other parts of XSL. 
+XSL-FO (XSL Formatting Objects) is a powerful stylesheet language for formatting XML documents. The semantics of the bounded form of paper and print are expressed by XSL-FO when the dimensions are fixed. In contrast to HTML, which represents the semantics of the unbounded form of a browser window with variable dimensions. The XML documents formatted by XSL-FO are mostly used to generate PDF files. XSL (Extensible Stylesheet Language) is a set of feature complete W3C technologies intended to design for the formatting and exchange of XML documents and XSL-FO is a part of this language. XSLT and XPath are also other parts of XSL.
 
         {{< /blocks/products/pf/agp/about-file-text >}}
 
@@ -141,5 +141,5 @@ XSL-FO (XSL Formatting Objects) is a powerful stylesheet language for formatting
 {{< /blocks/products/pf/agp/other-supported-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-    
+
 {{< /blocks/products/pf/main-wrap-class >}}

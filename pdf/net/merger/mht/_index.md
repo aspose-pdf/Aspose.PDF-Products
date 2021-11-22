@@ -1,6 +1,6 @@
 ---
-title: Merge MHT Files via .NET 
-url: /net/merger/mht/ 
+title: Merge MHT Files via .NET
+url: /net/merger/mht/
 description: Try our On-Premise message merger APIs to combine MHT documents on .NET Framework, .NET Core, and Xamarin Platforms.
 ---
 
@@ -33,7 +33,7 @@ PM> Install-Package Aspose.PDF
 {{% blocks/products/pf/agp/text %}}
 
  A basic document merging and concatenating with
- [Aspose.PDF for .NET](https://products.aspose.com/pdf/net) 
+ [Aspose.PDF for .NET](https://products.aspose.com/pdf/net)
  APIs can be done with just few lines of code.
 
 {{% /blocks/products/pf/agp/text %}}
@@ -55,9 +55,9 @@ PM> Install-Package Aspose.PDF
 
 {{% /blocks/products/pf/agp/text %}}
 
--  Microsoft Windows or a compatible OS with .NET Framework, .NET Core, Windows Azure, Mono or Xamarin Platforms
--  Development environment like Microsoft Visual Studio
--  Aspose.PDF for .NET DLL referenced in your project - Install from NuGet using the Download button above
+- Microsoft Windows or a compatible OS with .NET Framework, .NET Core, Windows Azure, Mono or Xamarin Platforms
+- Development environment like Microsoft Visual Studio
+- Aspose.PDF for .NET DLL referenced in your project - Install from NuGet using the Download button above
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
@@ -71,9 +71,9 @@ PM> Install-Package Aspose.PDF
     // Add pages of second document to the first
     file1.Pages.Add(file2.Pages);
     // Save concatenated output file
-    file1.Save("ConcatenatedFiles_out.mht");  
+    file1.Save("ConcatenatedFiles_out.mht");
 
-        
+
 
 ```
 
@@ -82,7 +82,7 @@ PM> Install-Package Aspose.PDF
 {{< /blocks/products/pf/agp/feature-section >}}
 
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
- 
+
 
 <!-- aboutfile Starts -->
 
@@ -103,7 +103,7 @@ Aspose.PDF API can be used for PDF document manipulation and parsing within appl
             {{< blocks/products/pf/agp/democard icon="fa-download" text=" It will be merged and concatenated instantly." >}}
 
         {{< blocks/products/pf/agp/about-file-text fileFormat="MHT" readMoreLink="https://docs.fileformat.com/web/mht/" >}}
-A file with .mht extension is a MIME enabled archiving file format that contains different types of data into a single file. It can store data such as text, images, page styling in the form of CSS files, JavaScript, and other resources as embedded resources in it. MHT files, having MIME type message/rfc822, encapsulate all the contents of an HTML file as a single archive file for storing on archiving on storage devices. Software applications such as Microsoft Word lets you convert your WORD documents to MHT by exporting as MHT file. MHT files can be opened using popular browsers such as Microsoft Internet Explore and Google Chrome. 
+A file with .mht extension is a MIME enabled archiving file format that contains different types of data into a single file. It can store data such as text, images, page styling in the form of CSS files, JavaScript, and other resources as embedded resources in it. MHT files, having MIME type message/rfc822, encapsulate all the contents of an HTML file as a single archive file for storing on archiving on storage devices. Software applications such as Microsoft Word lets you convert your WORD documents to MHT by exporting as MHT file. MHT files can be opened using popular browsers such as Microsoft Internet Explore and Google Chrome.
 
         {{< /blocks/products/pf/agp/about-file-text >}}
 
@@ -113,5 +113,5 @@ A file with .mht extension is a MIME enabled archiving file format that contains
 
 
 {{< /blocks/products/pf/main-container >}}
-    
+
 {{< /blocks/products/pf/main-wrap-class >}}

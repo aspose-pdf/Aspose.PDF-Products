@@ -1,7 +1,7 @@
 ---
-title: Merge EPUB Files via C++ 
+title: Merge EPUB Files via C++
 weight: 120
-url: /cpp/merger/epub/ 
+url: /cpp/merger/epub/
 description: C++ example code to combine EPUB documents on C++ Runtime Environment for Windows 32 bit, Windows 64 bit and Linux 64 bit.
 ---
 
@@ -14,11 +14,11 @@ description: C++ example code to combine EPUB documents on C++ Runtime Environme
 {{% blocks/products/pf/agp/content h2="How to Merge EPUB File Using C++" %}}
 
  In order to merge EPUB file, we’ll use
- [Aspose.PDF for C++](https://products.aspose.com/pdf/cpp) 
+ [Aspose.PDF for C++](https://products.aspose.com/pdf/cpp)
  API which is a feature-rich, powerful and easy to use document merger API for C++ platform. You can download its latest version directly, just open
- [NuGet](https://www.nuget.org/packages/aspose.pdf) 
+ [NuGet](https://www.nuget.org/packages/aspose.pdf)
  package manager, search for
- **Aspose.PDF.Cpp** 
+ **Aspose.PDF.Cpp**
  and install. You may also use the following command from the Package Manager Console.
 
 {{% blocks/products/pf/agp/code-block title="Command" offSpacer="true" %}}
@@ -40,7 +40,7 @@ PM> Install-Package Aspose.PDF.Cpp
 {{% blocks/products/pf/agp/text %}}
 
  A basic document merging and concatenating with
- [Aspose.PDF for C++](https://products.aspose.com/pdf/cpp) 
+ [Aspose.PDF for C++](https://products.aspose.com/pdf/cpp)
  APIs can be done with just few lines of code.
 
 {{% /blocks/products/pf/agp/text %}}
@@ -60,8 +60,8 @@ PM> Install-Package Aspose.PDF.Cpp
 
 {{% /blocks/products/pf/agp/text %}}
 
--  Microsoft Windows or a compatible OS with C++ Runtime Environment for Windows 32 bit, Windows 64 bit and Linux 64 bit.
--  Aspose.PDF for C++ DLL referenced in your project.
+- Microsoft Windows or a compatible OS with C++ Runtime Environment for Windows 32 bit, Windows 64 bit and Linux 64 bit.
+- Aspose.PDF for C++ DLL referenced in your project.
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
@@ -78,7 +78,7 @@ auto doc2 = MakeObject<Document>(u"file2.epub");
 doc1->get_Pages()->Add(doc2->get_Pages());
 
 // Save concatenated output file
-doc1->Save(u"merged-output.epub");  
+doc1->Save(u"merged-output.epub");
 
 ```
 
@@ -87,7 +87,7 @@ doc1->Save(u"merged-output.epub");
 {{< /blocks/products/pf/agp/feature-section >}}
 
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
- 
+
 
 <!-- aboutfile Starts -->
 
@@ -108,7 +108,7 @@ doc1->Save(u"merged-output.epub");
             {{< blocks/products/pf/agp/democard icon="fa-download" text=" It will be merged and concatenated instantly." >}}
 
         {{< blocks/products/pf/agp/about-file-text fileFormat="EPUB" readMoreLink="https://docs.fileformat.com/ebook/epub/" >}}
-Files with .EPUB extension are an e-book file format that provide a standard digital publication format for publishers and consumers. The format has been so common by now that it is supported by many e-readers and software applications. For example, on Mac OS, the pre-installed Books software provides the support for opening such files. In addition, there are a lot of compatible software available for smartphones, tablets and computers. EPUB file standards are maintained by the International Digital Publishing Forum (IDPF). The version EPUB 3 is also endorsed by the Book Industry Study Group (BISG), a leading book trade association for standardized best practices, research, information and events, for packaging of content. 
+Files with .EPUB extension are an e-book file format that provide a standard digital publication format for publishers and consumers. The format has been so common by now that it is supported by many e-readers and software applications. For example, on Mac OS, the pre-installed Books software provides the support for opening such files. In addition, there are a lot of compatible software available for smartphones, tablets and computers. EPUB file standards are maintained by the International Digital Publishing Forum (IDPF). The version EPUB 3 is also endorsed by the Book Industry Study Group (BISG), a leading book trade association for standardized best practices, research, information and events, for packaging of content.
 
         {{< /blocks/products/pf/agp/about-file-text >}}
 
@@ -131,5 +131,5 @@ Files with .EPUB extension are an e-book file format that provide a standard dig
 {{< /blocks/products/pf/agp/other-supported-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-    
+
 {{< /blocks/products/pf/main-wrap-class >}}

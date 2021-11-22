@@ -1,6 +1,6 @@
 ---
-title: Convert XPS to TIFF via C# 
-url: /net/conversion/xps-to-tiff/ 
+title: Convert XPS to TIFF via C#
+url: /net/conversion/xps-to-tiff/
 description: Sample code for XPS to TIFF C# conversion. Use API example code for batch XPS files to TIFF conversion within VB.NET, Asp.NET or any .NET based application.
 ---
 
@@ -13,11 +13,11 @@ description: Sample code for XPS to TIFF C# conversion. Use API example code for
 {{% blocks/products/pf/agp/content h2="How to Convert XPS to TIFF Using C#" %}}
 
  In order to convert XPS to TIFF, we’ll use
- [Aspose.PDF for .NET](https://products.aspose.com/pdf/net) 
+ [Aspose.PDF for .NET](https://products.aspose.com/pdf/net)
  API which is a feature-rich, powerful and easy to use document manipulation and conversion API for C# platform. Open
- [NuGet](https://www.nuget.org/packages/aspose.pdf) 
+ [NuGet](https://www.nuget.org/packages/aspose.pdf)
  package manager, search for
- Aspose.PDF 
+ Aspose.PDF
  and install. You may also use the following command from the Package Manager Console.
 
 {{% blocks/products/pf/agp/code-block title="Package Manager Console Command" offSpacer="true" %}}
@@ -43,7 +43,7 @@ PM> Install-Package Aspose.PDF
 {{% /blocks/products/pf/agp/text %}}
 
 1. Load XPS file with an instance of Document class
-1. Create & set the instance of TiffDevice class with Size & Resolution 
+1. Create & set the instance of TiffDevice class with Size & Resolution
 1. Call TiffDevice.Process method with page index & output file path as parameters
 
 
@@ -57,9 +57,9 @@ PM> Install-Package Aspose.PDF
 
 {{% /blocks/products/pf/agp/text %}}
 
--  Microsoft Windows or a compatible OS with .NET Framework, .NET Core, and PHP, VBScript, Delphi, C++ via COM Interop.
--  Development environment like Microsoft Visual Studio.
--  Aspose.PDF for .NET DLL referenced in your project.
+- Microsoft Windows or a compatible OS with .NET Framework, .NET Core, and PHP, VBScript, Delphi, C++ via COM Interop.
+- Development environment like Microsoft Visual Studio.
+- Aspose.PDF for .NET DLL referenced in your project.
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
@@ -73,7 +73,7 @@ var document = new Document("template.xps");
 var renderer = new Devices.TiffDevice();
 
 // convert a particular page and save the image in TIFF format
-renderer.Process(document.Pages[1], "output.tiff"); 
+renderer.Process(document.Pages[1], "output.tiff");
 
 ```
 
@@ -82,7 +82,7 @@ renderer.Process(document.Pages[1], "output.tiff");
 {{< /blocks/products/pf/agp/feature-section >}}
 
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
- 
+
 
 <!-- aboutfile Starts -->
 
@@ -121,5 +121,5 @@ TIFF or TIF, Tagged Image File Format, represents raster images that are meant f
 
 
 {{< /blocks/products/pf/main-container >}}
-    
+
 {{< /blocks/products/pf/main-wrap-class >}}

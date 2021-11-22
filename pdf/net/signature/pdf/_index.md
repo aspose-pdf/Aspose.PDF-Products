@@ -1,7 +1,7 @@
 ---
-title: Add and Verify PDF Digital Signature via C# 
+title: Add and Verify PDF Digital Signature via C#
 weight: 1830
-url: /net/signature/pdf/ 
+url: /net/signature/pdf/
 description: C# source code to create electronic signature in PDF documents on .NET Framework, .NET Core, and PHP, VBScript, Delphi, C++ via COM Interop.
 ---
 
@@ -14,11 +14,11 @@ description: C# source code to create electronic signature in PDF documents on .
 {{% blocks/products/pf/agp/content h2="How to Digitally Sign PDF File Using C#" %}}
 
  In order to electronically sign PDF file, we’ll use
- [Aspose.PDF for .NET](https://products.aspose.com/pdf/net) 
+ [Aspose.PDF for .NET](https://products.aspose.com/pdf/net)
  API which is a feature-rich, powerful and easy to use digital signature API for C# platform. Open
- [NuGet](https://www.nuget.org/packages/aspose.pdf) 
+ [NuGet](https://www.nuget.org/packages/aspose.pdf)
  package manager, search for
- **Aspose.PDF** 
+ **Aspose.PDF**
  and install. You may also use the following command from the Package Manager Console.
 
 {{% blocks/products/pf/agp/code-block title="Command" offSpacer="true" %}}
@@ -40,7 +40,7 @@ PM> Install-Package Aspose.PDF
 {{% blocks/products/pf/agp/text %}}
 
  A basic document digital signature with
- [Aspose.PDF for .NET](https://products.aspose.com/pdf/net) 
+ [Aspose.PDF for .NET](https://products.aspose.com/pdf/net)
  APIs can be done with just few lines of code. One can create and add electronic signature to multiple PDF documents as well as save resultant signed document as DOC, DOCX, PPTX.
 
 {{% /blocks/products/pf/agp/text %}}
@@ -61,9 +61,9 @@ PM> Install-Package Aspose.PDF
 
 {{% /blocks/products/pf/agp/text %}}
 
--  Microsoft Windows or a compatible OS with .NET Framework, .NET Core, and PHP, VBScript, Delphi, C++ via COM Interop
--  Development environment like Microsoft Visual Studio
--  Aspose.PDF for .NET DLL referenced in your project - Install from NuGet using the Download button above
+- Microsoft Windows or a compatible OS with .NET Framework, .NET Core, and PHP, VBScript, Delphi, C++ via COM Interop
+- Development environment like Microsoft Visual Studio
+- Aspose.PDF for .NET DLL referenced in your project - Install from NuGet using the Download button above
 -  Add namespace in class file
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
@@ -86,9 +86,9 @@ textStamp.Width = page.PageInfo.Width / 3;
 textStamp.TextState.ForegroundColor = Color.FromRgb(System.Drawing.Color.Aqua);
 page.AddStamp(textStamp);
 
-esign_doc.Save("esignedFile.pdf", SaveFormat.Pdf);  
+esign_doc.Save("esignedFile.pdf", SaveFormat.Pdf);
 
-// Here is the source code to verify digital signatures in C# 
+// Here is the source code to verify digital signatures in C#
 // https://gist.github.com/aspose-com-gists/03c3ca31623750822d7c80438a76d786#file-verify-digital-signature-cs
 
 ```
@@ -98,7 +98,7 @@ esign_doc.Save("esignedFile.pdf", SaveFormat.Pdf);
 {{< /blocks/products/pf/agp/feature-section >}}
 
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
- 
+
 
 <!-- aboutfile Starts -->
 
@@ -119,7 +119,7 @@ esign_doc.Save("esignedFile.pdf", SaveFormat.Pdf);
             {{< blocks/products/pf/agp/democard icon="fa-download" text=" It will be electronically signed instantly." >}}
 
         {{< blocks/products/pf/agp/about-file-text fileFormat="PDF" readMoreLink="https://docs.fileformat.com/view/pdf/" >}}
-Portable Document Format (PDF) is a type of document created by Adobe back in 1990s. The purpose of this file format was to introduce a standard for representation of documents and other reference material in a format that is independent of application software, hardware as well as Operating System. PDF files can be opened in Adobe Acrobat Reader/Writer as well in most modern browsers like Chrome, Safari, Firefox via extensions/plug-ins. Most of the commercially available software suites also offer conversion of their documents to PDF file format without the requirement of any additional software component. Thus, PDF file format has full capability to contain information like text, images, hyperlinks, form-fields, rich media, digital signatures, attachments, metadata, Geospatial features and 3D objects in it that can become as part of source document. 
+Portable Document Format (PDF) is a type of document created by Adobe back in 1990s. The purpose of this file format was to introduce a standard for representation of documents and other reference material in a format that is independent of application software, hardware as well as Operating System. PDF files can be opened in Adobe Acrobat Reader/Writer as well in most modern browsers like Chrome, Safari, Firefox via extensions/plug-ins. Most of the commercially available software suites also offer conversion of their documents to PDF file format without the requirement of any additional software component. Thus, PDF file format has full capability to contain information like text, images, hyperlinks, form-fields, rich media, digital signatures, attachments, metadata, Geospatial features and 3D objects in it that can become as part of source document.
 
         {{< /blocks/products/pf/agp/about-file-text >}}
 
@@ -128,5 +128,5 @@ Portable Document Format (PDF) is a type of document created by Adobe back in 19
 <!-- aboutfile Ends -->
 
 {{< /blocks/products/pf/main-container >}}
-    
+
 {{< /blocks/products/pf/main-wrap-class >}}

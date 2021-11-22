@@ -57,9 +57,9 @@ PM> Install-Package Aspose.PDF
 
 {{% /blocks/products/pf/agp/text %}}
 
--  Microsoft Windows or a compatible OS with .NET Framework, .NET Core, and PHP, VBScript, Delphi, C++ via COM Interop.
--  Development environment like Microsoft Visual Studio.
--  Aspose.PDF for .NET DLL referenced in your project.
+- Microsoft Windows or a compatible OS with .NET Framework, .NET Core, and PHP, VBScript, Delphi, C++ via COM Interop.
+- Development environment like Microsoft Visual Studio.
+- Aspose.PDF for .NET DLL referenced in your project.
 -  Add namespace in relevant class
 
 {{% /blocks/products/pf/agp/feature-section-col %}}

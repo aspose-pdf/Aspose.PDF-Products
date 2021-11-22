@@ -1,7 +1,7 @@
 ---
-title: Edit or View PDF Document Metadata via C++ 
+title: Edit or View PDF Document Metadata via C++
 weight: 2390
-url: /cpp/metadata/pdf/ 
+url: /cpp/metadata/pdf/
 description: C++ example code to edit or view PDF file metadata on C++ Runtime Environment for Windows 32 bit, Windows 64 bit and Linux 64 bit.
 ---
 
@@ -14,11 +14,11 @@ description: C++ example code to edit or view PDF file metadata on C++ Runtime E
 {{% blocks/products/pf/agp/content h2="How to Get PDF Metadata Using C++" %}}
 
  In order to extract PDF metadata, we’ll use
- [Aspose.PDF for C++](https://products.aspose.com/pdf/cpp) 
+ [Aspose.PDF for C++](https://products.aspose.com/pdf/cpp)
  API which is a feature-rich, powerful and easy to use document metadata extraction API for C++ platform. You can download its latest version directly, just open
- [NuGet](https://www.nuget.org/packages/aspose.pdf) 
+ [NuGet](https://www.nuget.org/packages/aspose.pdf)
  package manager, search for
- **Aspose.PDF.Cpp** 
+ **Aspose.PDF.Cpp**
  and install. You may also use the following command from the Package Manager Console.
 
 {{% blocks/products/pf/agp/code-block title="Command" offSpacer="true" %}}
@@ -58,8 +58,8 @@ PM> Install-Package Aspose.PDF.Cpp
 
 {{% /blocks/products/pf/agp/text %}}
 
--  Microsoft Windows or a compatible OS with C++ Runtime Environment for Windows 32 bit, Windows 64 bit and Linux 64 bit.
--  Aspose.PDF for C++ DLL referenced in your project.
+- Microsoft Windows or a compatible OS with C++ Runtime Environment for Windows 32 bit, Windows 64 bit and Linux 64 bit.
+- Aspose.PDF for C++ DLL referenced in your project.
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
@@ -73,7 +73,7 @@ auto info = doc->get_Info();
 info->set_Author(L"Author Name");
 info->set_Subject(L"Working with Document Info");
 info->set_Title(L"Get / set document info");
-	
+
 // Save document
 doc->get_Pages()->Add();
 doc->Save(L"..\\Data\\Document\\DocumentInfo.pdf");
@@ -86,7 +86,7 @@ info = doc->get_Info();
 Console::WriteLine(L"Author: {0}", info->get_Author());
 Console::WriteLine(L"Subject: {0}", info->get_Subject());
 Console::WriteLine(L"Title: {0}", info->get_Title());
-Console::WriteLine(L"Get / Set document info finished.");  
+Console::WriteLine(L"Get / Set document info finished.");
 
 ```
 
@@ -95,7 +95,7 @@ Console::WriteLine(L"Get / Set document info finished.");
 {{< /blocks/products/pf/agp/feature-section >}}
 
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
- 
+
 
 <!-- aboutfile Starts -->
 
@@ -125,5 +125,5 @@ Portable Document Format (PDF) is a type of document created by Adobe back in 19
 <!-- aboutfile Ends -->
 
 {{< /blocks/products/pf/main-container >}}
-    
+
 {{< /blocks/products/pf/main-wrap-class >}}

@@ -1,7 +1,7 @@
 ---
-title: Merge PDF Files via C# 
+title: Merge PDF Files via C#
 weight: 2200
-url: /net/merger/pdf/ 
+url: /net/merger/pdf/
 description: C# source code to merge multiple PDF documents on .NET Framework, .NET Core. Even use code in web-based application using ASP.NET.
 ---
 
@@ -14,11 +14,11 @@ description: C# source code to merge multiple PDF documents on .NET Framework, .
 {{% blocks/products/pf/agp/content h2="How to Merge Multiple PDF Files Using C#" %}}
 
  In order to merge PDFs in C#, we’ll use
- [Aspose.PDF for .NET](https://products.aspose.com/pdf/net) 
+ [Aspose.PDF for .NET](https://products.aspose.com/pdf/net)
  API which is a feature-rich, powerful and easy to use document manipulation and merging API for C# platform. Open
- [NuGet](https://www.nuget.org/packages/aspose.pdf) 
+ [NuGet](https://www.nuget.org/packages/aspose.pdf)
  package manager, search for
- **Aspose.PDF** 
+ **Aspose.PDF**
  and install. You may also use the following command from the Package Manager Console.
 
 {{% blocks/products/pf/agp/code-block title="Command" offSpacer="true" %}}
@@ -39,8 +39,8 @@ PM> Install-Package Aspose.PDF
 
 {{% blocks/products/pf/agp/text %}}
 
- A basic merging pdfs programmatically with 
- [Aspose.PDF for .NET](https://products.aspose.com/pdf/net) 
+ A basic merging pdfs programmatically with
+ [Aspose.PDF for .NET](https://products.aspose.com/pdf/net)
  APIs can be done with just few lines of code.
 
 {{% /blocks/products/pf/agp/text %}}
@@ -61,9 +61,9 @@ Before executing the code below, please make sure that you have the following pr
 
 {{% /blocks/products/pf/agp/text %}}
 
--  Microsoft Windows or a compatible OS with .NET Framework, .NET Core
--  Development environment like Microsoft Visual Studio
--  Include Aspose.PDF for .NET DLL reference in your project 
+- Microsoft Windows or a compatible OS with .NET Framework, .NET Core
+- Development environment like Microsoft Visual Studio
+-  Include Aspose.PDF for .NET DLL reference in your project
 -  Add namespace in relevant class
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
@@ -78,7 +78,7 @@ Before executing the code below, please make sure that you have the following pr
     // Add pages of second document to the first
     merge_file1.Pages.Add(merge_file2.Pages);
     // Save concatenated output file
-    merge_file1.Save("mergedPDF.pdf");    
+    merge_file1.Save("mergedPDF.pdf");
 
 ```
 
@@ -106,7 +106,7 @@ Before executing the code below, please make sure that you have the following pr
             {{< blocks/products/pf/agp/democard icon="fa-download" text=" It will be merged and concatenated instantly." >}}
 
         {{< blocks/products/pf/agp/about-file-text fileFormat="PDF" readMoreLink="https://docs.fileformat.com/view/pdf/" >}}
-Portable Document Format (PDF) is a type of document created by Adobe back in 1990s. The purpose of this file format was to introduce a standard for representation of documents and other reference material in a format that is independent of application software, hardware as well as Operating System. PDF files can be opened in Adobe Acrobat Reader/Writer as well in most modern browsers like Chrome, Safari, Firefox via extensions/plug-ins. Most of the commercially available software suites also offer conversion of their documents to PDF file format without the requirement of any additional software component. Thus, PDF file format has full capability to contain information like text, images, hyperlinks, form-fields, rich media, digital signatures, attachments, metadata, Geospatial features and 3D objects in it that can become as part of source document. 
+Portable Document Format (PDF) is a type of document created by Adobe back in 1990s. The purpose of this file format was to introduce a standard for representation of documents and other reference material in a format that is independent of application software, hardware as well as Operating System. PDF files can be opened in Adobe Acrobat Reader/Writer as well in most modern browsers like Chrome, Safari, Firefox via extensions/plug-ins. Most of the commercially available software suites also offer conversion of their documents to PDF file format without the requirement of any additional software component. Thus, PDF file format has full capability to contain information like text, images, hyperlinks, form-fields, rich media, digital signatures, attachments, metadata, Geospatial features and 3D objects in it that can become as part of source document.
 
         {{< /blocks/products/pf/agp/about-file-text >}}
 
@@ -115,5 +115,5 @@ Portable Document Format (PDF) is a type of document created by Adobe back in 19
 <!-- aboutfile Ends -->
 
 {{< /blocks/products/pf/main-container >}}
-    
+
 {{< /blocks/products/pf/main-wrap-class >}}

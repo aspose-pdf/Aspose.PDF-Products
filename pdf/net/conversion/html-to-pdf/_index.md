@@ -1,6 +1,6 @@
 ---
-title: Convert HTML to PDF via C# 
-url: /net/conversion/html-to-pdf/ 
+title: Convert HTML to PDF via C#
+url: /net/conversion/html-to-pdf/
 description: Convert HTML File to PDF using C# or VB.NET. C# HTML to PDF converter API can easily be used within any ASP.NET or .NET application
 ---
 
@@ -13,11 +13,11 @@ description: Convert HTML File to PDF using C# or VB.NET. C# HTML to PDF convert
 {{% blocks/products/pf/agp/content h2="How to Convert HTML to PDF Using C#" %}}
 
  In order to convert HTML to PDF, we’ll use
- [Aspose.PDF for .NET](https://products.aspose.com/pdf/net) 
+ [Aspose.PDF for .NET](https://products.aspose.com/pdf/net)
  API which is a feature-rich, powerful and easy to use PDF manipulation and conversion API for C# platform. Even one can also generates password-protected PDF files. Open
- [NuGet](https://www.nuget.org/packages/aspose.pdf) 
+ [NuGet](https://www.nuget.org/packages/aspose.pdf)
  package manager, search for
- Aspose.PDF 
+ Aspose.PDF
  and install. You may also use the following command from the Package Manager Console.
 
 {{% blocks/products/pf/agp/code-block title="Package Manager Console Command" offSpacer="true" %}}
@@ -59,9 +59,9 @@ PM> Install-Package Aspose.PDF
 
 {{% /blocks/products/pf/agp/text %}}
 
--  Microsoft Windows or a compatible OS with .NET Framework, .NET Core, and PHP, VBScript, Delphi, C++ via COM Interop.
--  Development environment like Microsoft Visual Studio.
--  Aspose.PDF for .NET DLL referenced in your project.
+- Microsoft Windows or a compatible OS with .NET Framework, .NET Core, and PHP, VBScript, Delphi, C++ via COM Interop.
+- Development environment like Microsoft Visual Studio.
+- Aspose.PDF for .NET DLL referenced in your project.
 - Add namespace in relevant class
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
@@ -74,7 +74,7 @@ var htmlDoc = new Document("template.html");
 // For HTML to encrypted PDF Set encryption parameters
 htmlDoc.Encrypt("user_password", "owner_Password", Permissions.ModifyContent, CryptoAlgorithm.AESx256);
 // save document in PDF format
-htmlDoc.Save("output.pdf", SaveFormat.Pdf); 
+htmlDoc.Save("output.pdf", SaveFormat.Pdf);
 
 ```
 
@@ -83,7 +83,7 @@ htmlDoc.Save("output.pdf", SaveFormat.Pdf);
 {{< /blocks/products/pf/agp/feature-section >}}
 
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
- 
+
 
 <!-- aboutfile Starts -->
 
@@ -120,5 +120,5 @@ Portable Document Format (PDF) is a type of document created by Adobe back in 19
 <!-- aboutfile Ends -->
 
 {{< /blocks/products/pf/main-container >}}
-    
+
 {{< /blocks/products/pf/main-wrap-class >}}

@@ -1,6 +1,6 @@
 ---
-title: Convert XPS to XLSX via C# 
-url: /net/conversion/xps-to-xlsx/ 
+title: Convert XPS to XLSX via C#
+url: /net/conversion/xps-to-xlsx/
 description: Sample code for XPS to XLSX C# conversion. Use API example code for batch XPS files to XLSX conversion within VB.NET, Asp.NET or any .NET based application.
 ---
 
@@ -13,11 +13,11 @@ description: Sample code for XPS to XLSX C# conversion. Use API example code for
 {{% blocks/products/pf/agp/content h2="How to Convert XPS to XLSX Using C#" %}}
 
  In order to convert XPS to XLSX, we’ll use
- [Aspose.PDF for .NET](https://products.aspose.com/pdf/net) 
+ [Aspose.PDF for .NET](https://products.aspose.com/pdf/net)
  API which is a feature-rich, powerful and easy to use document manipulation and conversion API for C# platform. Open
- [NuGet](https://www.nuget.org/packages/aspose.pdf) 
+ [NuGet](https://www.nuget.org/packages/aspose.pdf)
  package manager, search for
- Aspose.PDF 
+ Aspose.PDF
  and install. You may also use the following command from the Package Manager Console.
 
 {{% blocks/products/pf/agp/code-block title="Package Manager Console Command" offSpacer="true" %}}
@@ -57,9 +57,9 @@ PM> Install-Package Aspose.PDF
 
 {{% /blocks/products/pf/agp/text %}}
 
--  Microsoft Windows or a compatible OS with .NET Framework, .NET Core, and PHP, VBScript, Delphi, C++ via COM Interop.
--  Development environment like Microsoft Visual Studio.
--  Aspose.PDF for .NET DLL referenced in your project.
+- Microsoft Windows or a compatible OS with .NET Framework, .NET Core, and PHP, VBScript, Delphi, C++ via COM Interop.
+- Development environment like Microsoft Visual Studio.
+- Aspose.PDF for .NET DLL referenced in your project.
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
@@ -69,7 +69,7 @@ PM> Install-Package Aspose.PDF
 // load XPS with an instance of Document
 var document = new Document("template.xps");
 // save document in XLSX format
-document.Save("output.xlsx", Aspose.Pdf.SaveFormat.Xlsx); 
+document.Save("output.xlsx", Aspose.Pdf.SaveFormat.Xlsx);
 
 ```
 
@@ -78,7 +78,7 @@ document.Save("output.xlsx", Aspose.Pdf.SaveFormat.Xlsx);
 {{< /blocks/products/pf/agp/feature-section >}}
 
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
- 
+
 
 <!-- aboutfile Starts -->
 
@@ -117,5 +117,5 @@ XLSX is well-known format for Microsoft Excel documents that was introduced by M
 
 
 {{< /blocks/products/pf/main-container >}}
-    
+
 {{< /blocks/products/pf/main-wrap-class >}}

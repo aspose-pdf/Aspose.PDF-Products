@@ -1,7 +1,7 @@
 ---
-title: Edit or View PDF Files Metadata via Java 
+title: Edit or View PDF Files Metadata via Java
 weight: 2600
-url: /java/metadata/pdf/ 
+url: /java/metadata/pdf/
 description: Java sample code to edit or view PDF format metadata on Java Runtime Environment for JSP/JSF Application and Desktop Applications.
 ---
 
@@ -14,9 +14,9 @@ description: Java sample code to edit or view PDF format metadata on Java Runtim
 {{% blocks/products/pf/agp/content h2="How to Extract PDF Metadata Using Java" %}}
 
  In order to get PDF file metadata, we’ll use
- [Aspose.PDF for Java](https://products.aspose.com/pdf/java) 
+ [Aspose.PDF for Java](https://products.aspose.com/pdf/java)
  API which is a feature-rich, powerful and easy to use metadata API for Java platform. You can download its latest version directly from
- [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-pdf) 
+ [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-pdf)
  and install it within your Maven-based project by adding the following configurations to the pom.xml.
 
 {{% blocks/products/pf/agp/code-block title="Repository" offSpacer="true" %}}
@@ -74,7 +74,7 @@ description: Java sample code to edit or view PDF format metadata on Java Runtim
 
 {{% /blocks/products/pf/agp/text %}}
 
--  Microsoft Windows or a compatible OS with Java Runtime Environment for JSP/JSF Application and Desktop Applications.
+- Microsoft Windows or a compatible OS with Java Runtime Environment for JSP/JSF Application and Desktop Applications.
 -  Get latest version of Aspose.PDF for Java directly from
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-pdf)  .
 
@@ -95,7 +95,7 @@ docInfo.setModDate(new java.util.Date());
 docInfo.setSubject("PDF Information");
 docInfo.setTitle("Setting PDF Document Information");
 // save update document with new information
-pdfDocument.save("Updated_Information.pdf");  
+pdfDocument.save("Updated_Information.pdf");
 
 ```
 
@@ -104,7 +104,7 @@ pdfDocument.save("Updated_Information.pdf");
 {{< /blocks/products/pf/agp/feature-section >}}
 
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
- 
+
 
 <!-- aboutfile Starts -->
 
@@ -134,5 +134,5 @@ Portable Document Format (PDF) is a type of document created by Adobe back in 19
 <!-- aboutfile Ends -->
 
 {{< /blocks/products/pf/main-container >}}
-    
+
 {{< /blocks/products/pf/main-wrap-class >}}
