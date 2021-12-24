@@ -6,7 +6,7 @@ description: PDF viewer and converter library for mobile apps. Generate merge sp
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1="PDF Processing API for Android Apps" h2="Generate, view, manipulate & convert PDF files from within Android apps without requiring Adobe Acrobat." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/pdf/headers/aspose_pdf-for-android-java.svg" pfName="Aspose.PDF" subTitlepfName="for Android via Java" downloadUrl="https://downloads.aspose.com/pdf/androidjava" >}}
+{{< blocks/products/pf/upper-banner h1="PDF Processing API for Android Apps" h2="Generate, view, manipulate & convert PDF files from within Android apps without requiring Adobe Acrobat." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/pdf/headers/aspose_pdf-for-android-java.svg" pfName="Aspose.PDF" subTitlepfName="for Android via Java" downloadUrl="https://downloads.aspose.com/pdf/androidjava" >}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.PDF" subTitlepfName="for Android via Java" >}}
 
@@ -14,7 +14,7 @@ description: PDF viewer and converter library for mobile apps. Generate merge sp
 
 {{< blocks/products/pf/tab-content >}}
 <p>
- Aspose.PDF for Android Java is a PDF Processing API that enables the Android apps to read, write, manipulate &amp; render PDF documents. API supports a vast array of industry-standard file formats including HTML, TXT, EPUB, XPS &amp; images.
+ Aspose.PDF for Android Java is a PDF Processing API that enables the Android apps to read, write, manipulate &amp; render PDF documents. API supports a vast array of industry-standard file formats including HTML, TXT, EPUB, XPS &amp; images.
 </p>
 
 <p>
@@ -131,7 +131,7 @@ description: PDF viewer and converter library for mobile apps. Generate merge sp
 
 {{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/carousel-item h3="Supported File Formats" description="Android PDF Library supports the most commonly used [file formats](https://docs.aspose.com/pdf/java/supported-file-formats/)." >}}
+{{< blocks/products/pf/carousel-item h3="Supported File Formats" description="Android PDF Library supports the most commonly used [file formats](https://docs.aspose.com/pdf/java/supported-file-formats/)." >}}
 <div class="diagram1 d2 d1-android">
  <div class="d1-row">
   <div class="d1-col d1-left">
@@ -338,7 +338,7 @@ pFile.save(SD_PATH + "output.html", SaveFormat.Html);</code></pre>
      Content Manipulation Capabilities
     </h2>
     <p>
-     Android PDF library provides many features to manipulate PDF file content. You can add, remove, update and delete text, images, bookmarks, hyperlinks, attachments, annotations and much more. It also supports adding, moving, renaming and deleting form fields or change the visual appearance of a form field, specify attributes like mandatory, hidden, read-only and so on. Import or export form fields and their data to and from XML. Integration with database lets you import and export form field contents to or from a data source or submit form fields data to an external web link.
+     Android PDF library provides many features to manipulate PDF file content. You can add, remove, update and delete text, images, bookmarks, hyperlinks, attachments, annotations and much more. It also supports adding, moving, renaming and deleting form fields or change the visual appearance of a form field, specify attributes like mandatory, hidden, read-only and so on. Import or export form fields and their data to and from XML. Integration with database lets you import and export form field contents to or from a data source or submit form fields data to an external web link.
     </p>
    </div>
    <div class="col-lg-12">
@@ -383,7 +383,7 @@ pFile.save(SD_PATH + "output.html", SaveFormat.Html);</code></pre>
      PDF Security Features
     </h2>
     <p>
-     API offers 40-bit or 128-bit encryption. One can also set user and master passwords for more security. Content manipulation in files like copying content, printing, degraded printing, annotation modification, form field completion as well as PDF file assembly can all be restricted by using this library.
+     API offers 40-bit or 128-bit encryption. One can also set user and master passwords for more security. Content manipulation in files like copying content, printing, degraded printing, annotation modification, form field completion as well as PDF file assembly can all be restricted by using this library.
     </p>
    </div>
    <!--

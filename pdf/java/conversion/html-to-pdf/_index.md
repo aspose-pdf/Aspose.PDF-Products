@@ -116,7 +116,7 @@ html_doc.save("output.pdf", SaveFormat.Pdf);
 
     {{% blocks/products/pf/agp/content h2="Java PDF Document Manipulation Library" %}}
 
- Aspose.PDF API can be used for PDF document manipulation and parsing within applications. One can create, modify, compress, secure, print or save PDF to TXT, HTML, PCL, XFA, XML, XPS, EPUB, TEX, Images and more formats. Even developers can also convert the web page by just providing URL within InputStream to the PDF document. Aspose.PDF is a standalone API and it does not depend on any software including Adobe Acrobat. ‎
+ Aspose.PDF API can be used for PDF document manipulation and parsing within applications. One can create, modify, compress, secure, print or save PDF to TXT, HTML, PCL, XFA, XML, XPS, EPUB, TEX, Images and more formats. Even developers can also convert the web page by just providing URL within InputStream to the PDF document. Aspose.PDF is a standalone API and it does not depend on any software including Adobe Acrobat. 
 
 
 

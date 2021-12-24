@@ -18,7 +18,7 @@ description: SQL Server Reporting Services rendering extension - Export PDF PDF/
 </p>
 
 <p>
- Aspose.PDF for Reporting Services supports RDL report features like specifying page orientation within reports, Add footnotes &amp; endnotes for text boxes, specify security constraints and add corresponding XMP metadata into resultant PDF documents, tables, charts, images and much more. This allows generating the highest quality PDF and XPS file which look almost similar to the main report design.
+ Aspose.PDF for Reporting Services supports RDL report features like specifying page orientation within reports, Add footnotes &amp; endnotes for text boxes, specify security constraints and add corresponding XMP metadata into resultant PDF documents, tables, charts, images and much more. This allows generating the highest quality PDF and XPS file which look almost similar to the main report design.
 </p>
 
 {{< /blocks/products/pf/tab-content >}}
@@ -248,7 +248,7 @@ description: SQL Server Reporting Services rendering extension - Export PDF PDF/
     <em class="fa fa-list-alt ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
-     Create table of contents, tables and figures list for PDF files
+     Create table of contents, tables and figures list for PDF files
     </p>
    </div>
    <div class="col-lg-4">
@@ -267,7 +267,7 @@ description: SQL Server Reporting Services rendering extension - Export PDF PDF/
    </div>
    <!--
 
-<div class="col-lg-4"><em class="fa fa-file-code-o ico-blue fa-2x col-lg-2"> </em>
+<div class="col-lg-4"><em class="fa fa-file-code-o ico-blue fa-2x col-lg-2"> </em>
 
 <p class="col-lg-10">Render HTML code within textboxes in HTML rather than standard plain text</p>
 
@@ -292,7 +292,7 @@ description: SQL Server Reporting Services rendering extension - Export PDF PDF/
     <em class="fa fa-font ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
-     Embed font information into the resultant file
+     Embed font information into the resultant file
     </p>
    </div>
    <div class="col-lg-4">
@@ -328,7 +328,7 @@ description: SQL Server Reporting Services rendering extension - Export PDF PDF/
      Broad RDL Support
     </h2>
     <p>
-     Aspose.PDF for Reporting Services supports the RDL specification. So no need to customize or redesign existing reports to work with the extension. One can use any RDL report designer of his choice and the exported report will be exactly similar as designed.
+     Aspose.PDF for Reporting Services supports the RDL specification. So no need to customize or redesign existing reports to work with the extension. One can use any RDL report designer of his choice and the exported report will be exactly similar as designed.
     </p>
     <!-- 
 

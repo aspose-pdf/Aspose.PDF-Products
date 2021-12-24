@@ -105,7 +105,7 @@ document.save("output.xls", SaveFormat.Xls);
 
     {{% blocks/products/pf/agp/content h2="" %}}
 
- **Java PDF Converter** API can be used for PDF document manipulation and parsing within applications. One can create, modify, compress, secure, print or save PDF to TXT, HTML, PCL, XFA, XML, XPS, EPUB, TEX, Images and more formats. It is a standalone API and it does not depend on any software including Adobe Acrobat. ‎
+ **Java PDF Converter** API can be used for PDF document manipulation and parsing within applications. One can create, modify, compress, secure, print or save PDF to TXT, HTML, PCL, XFA, XML, XPS, EPUB, TEX, Images and more formats. It is a standalone API and it does not depend on any software including Adobe Acrobat. 
 
 
 

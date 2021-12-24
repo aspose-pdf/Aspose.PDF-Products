@@ -51,13 +51,13 @@ description: Java sample code to redact sensitive information in PDF file on Jav
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps to Redact PDF Files in Java" %}}
+{{% blocks/products/pf/agp/feature-section-col title="Steps to Redact PDF Files in Java" %}}
 
 {{% blocks/products/pf/agp/text %}}
 
- A basic document search and replace text in contents, comments or metadata with
+ A basic document search and replace text in contents, comments or metadata with
  [Aspose.PDF for Java](https://products.aspose.com/pdf/java)
- APIs can be done with just few lines of code. A PDF modifier - search and replace sensitive information in PDF documents using plain text or RegEx based search.
+ APIs can be done with just few lines of code. A PDF modifier - search and replace sensitive information in PDF documents using plain text or RegEx based search.
 
 {{% /blocks/products/pf/agp/text %}}
 
@@ -83,7 +83,7 @@ description: Java sample code to redact sensitive information in PDF file on Jav
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
-{{% blocks/products/pf/agp/code-block title="Redact PDF Files - Java" offSpacer="" %}}
+{{% blocks/products/pf/agp/code-block title="Redact PDF Files - Java" offSpacer="" %}}
 
 ```cs
 Document doc = new Document("sourceFile.pdf");
@@ -112,7 +112,7 @@ doc.save("output.pdf");
 
 {{% blocks/products/pf/agp/content h2="About Aspose.PDF for Java API" %}}
 
- Aspose.PDF API can be used for PDF document manipulation and parsing within applications. One can create, modify, compress, secure, print or save PDF to TXT, HTML, PCL, XFA, XML, XPS, EPUB, TEX, Images and more formats. Aspose.PDF is a standalone API and it does not depend on any software including Adobe Acrobat. ‎
+ Aspose.PDF API can be used for PDF document manipulation and parsing within applications. One can create, modify, compress, secure, print or save PDF to TXT, HTML, PCL, XFA, XML, XPS, EPUB, TEX, Images and more formats. Aspose.PDF is a standalone API and it does not depend on any software including Adobe Acrobat. 
 
 
 
@@ -120,7 +120,7 @@ doc.save("output.pdf");
 
 {{< blocks/products/pf/agp/about-file-section >}}
 
-    {{< blocks/products/pf/agp/demobox sectionTitle="Online PDF Redaction Live Demos" sectionDescription="Search and replace text in contents, comments or metadata in PDF documents right now by visiting our [Live Demos website](https://products.aspose.app/pdf/redaction). The live demo has the following benefits" >}}
+    {{< blocks/products/pf/agp/demobox sectionTitle="Online PDF Redaction Live Demos" sectionDescription="Search and replace text in contents, comments or metadata in PDF documents right now by visiting our [Live Demos website](https://products.aspose.app/pdf/redaction). The live demo has the following benefits" >}}
         {{< blocks/products/pf/agp/democard icon="fa-cogs" text=" No need to download Aspose API." >}}
         {{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write any code." >}}
         {{< blocks/products/pf/agp/democard icon="fa-file-text" text=" Just upload your PDF files." >}}

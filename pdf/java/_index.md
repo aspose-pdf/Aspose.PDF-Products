@@ -14,11 +14,11 @@ description: Java PDF processing library to create read and edit files. Convert 
 
 {{< blocks/products/pf/tab-content >}}
 <p>
- Aspose.PDF for Java is a fast and lightweight processing API to create, modify, render, secure as well as print PDF files without the use of Adobe Acrobat. API also supports working with TXT, HTML, PCL, XML, XPS and image file formats.
+ Aspose.PDF for Java is a fast and lightweight processing API to create, modify, render, secure as well as print PDF files without the use of Adobe Acrobat. API also supports working with TXT, HTML, PCL, XML, XPS and image file formats.
 </p>
 
 <p>
- Aspose.PDF for Java is an affordably priced, feature-rich API that offers table creation and manipulation, compression options, graph support, image functions, extensive hyperlink functionality, custom font handling, and extended security controls. Moreover, developers can create PDF files directly using API or via XML templates and can manage form fields embedded in the documents as well as create forms.
+ Aspose.PDF for Java is an affordably priced, feature-rich API that offers table creation and manipulation, compression options, graph support, image functions, extensive hyperlink functionality, custom font handling, and extended security controls. Moreover, developers can create PDF files directly using API or via XML templates and can manage form fields embedded in the documents as well as create forms.
 </p>
 
 {{< /blocks/products/pf/tab-content >}}
@@ -294,7 +294,7 @@ description: Java PDF processing library to create read and edit files. Convert 
      <strong>
       Others:
      </strong>
-     CGM, MHT, PCL, MD, XSLFO
+     CGM, MHT, PCL, MD, XSLFO
     </li>
    </ul>
   </div>
@@ -420,14 +420,14 @@ description: Java PDF processing library to create read and edit files. Convert 
    </div>
    <div class="col-lg-12">
     <h2 class="h2title">
-     Convert PDF to Different Formats
+     Convert PDF to Different Formats
     </h2>
     <p>
      Aspose.PDF for Java allows converting PDF to any of different supported formats like Word, HTML, PowerPoint, etc within Java applications is easy with just a few lines of code.
     </p>
     <div class="codeblock" id="code">
      <h3>
-      Save PDF in various formats - Java
+      Save PDF in various formats - Java
      </h3>
      <pre><code class="java">// load the document
 
@@ -469,7 +469,7 @@ pdoc.save(dir + "output.html", SaveFormat.Html);</code></pre>
      Protect PDF Files with Ease
     </h2>
     <p>
-     API offers the facility to encrypt documents with a verity of encryption algorithms and key sizes. One can also set user and master passwords for more security. Content manipulation like copying, printing, form field completion, annotation modification, degraded printing as well as PDF files assembly can all be restricted via this library.
+     API offers the facility to encrypt documents with a verity of encryption algorithms and key sizes. One can also set user and master passwords for more security. Content manipulation like copying, printing, form field completion, annotation modification, degraded printing as well as PDF files assembly can all be restricted via this library.
     </p>
     <div class="codeblock" id="code">
      <h3>
@@ -524,7 +524,7 @@ pfile.save(dir + "output.pdf");</code></pre>
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< blocks/products/pf/testimonials title="What People Are Saying" subTitle="Don't just take our word for it. See what users have to say about Aspose.PDF APIs." caseStudiesLink="https://downloads.aspose.com/corporate/case-studies/aspose.pdf/" >}}
+{{< blocks/products/pf/testimonials title="What People Are Saying" subTitle="Don't just take our word for it. See what users have to say about Aspose.PDF APIs." caseStudiesLink="https://downloads.aspose.com/corporate/case-studies/aspose.pdf/" >}}
 
 {{< blocks/products/pf/testimonials-quote >}}
 <p class="first">

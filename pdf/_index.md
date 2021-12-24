@@ -6,7 +6,7 @@ description: Create PDF file manipulation applications using On Premise or Cloud
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1="PDF File Processing Solution" h2="Aspose.PDF provides the most complete set of PDF manipulation and parsing solution for developers & end-users." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/pdf/headers/aspose_pdf-brand.svg" imageAlt="Aspose.PDF Product Family" >}}
+{{< blocks/products/pf/upper-banner h1="PDF File Processing Solution" h2="Aspose.PDF provides the most complete set of PDF manipulation and parsing solution for developers & end-users." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/pdf/headers/aspose_pdf-brand.svg" imageAlt="Aspose.PDF Product Family" >}}
 
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/product-card-row title="Aspose.PDF On Premise APIs Include" >}}
@@ -20,7 +20,7 @@ Java APIs to create, manipulate and convert PDF documents in any application bas
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/product pfName="Aspose.PDF for " title="C++" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-cpp.svg" productLink="https://products.aspose.com/pdf/cpp/" >}}
-Native C++ library to create, load, manipulate, and render PDF documents from within pure C++ apps.
+Native C++ library to create, load, manipulate, and render PDF documents from within pure C++ apps.
 {{< /blocks/products/pf/product >}}
 
 {{< blocks/products/pf/center-button href="https://products.aspose.com/pdf/family/" innerText="View All On Premise APIs" >}}
@@ -56,7 +56,7 @@ Just upload your PDF file to view or edit the metadata from any browser. No inst
 {{< /blocks/products/pf/product-ld >}}
 
 {{< blocks/products/pf/product-ld pfName="Aspose.PDF " title="Viewer" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_viewer-app.png" productLink="https://products.aspose.app/pdf/viewer" rV="4.2" rC="56">}}
-View PDF documents within your favorite browser from anywhere.
+View PDF documents within your favorite browser from anywhere.
 {{< /blocks/products/pf/product-ld >}}
 
 {{< blocks/products/pf/center-button href="https://products.aspose.app/pdf/family" innerText="View All Cross Platform Apps" >}}
@@ -65,7 +65,7 @@ View PDF documents within your favorite browser from anywhere.
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< blocks/products/pf/testimonials title="What People Are Saying" subTitle="Don't just take our word for it. See what users have to say about Aspose.PDF." caseStudiesLink="https://downloads.aspose.com/corporate/case-studies/aspose.pdf/" >}}
+{{< blocks/products/pf/testimonials title="What People Are Saying" subTitle="Don't just take our word for it. See what users have to say about Aspose.PDF." caseStudiesLink="https://downloads.aspose.com/corporate/case-studies/aspose.pdf/" >}}
 
 {{< blocks/products/pf/testimonials-quote >}}
 <p class="first">

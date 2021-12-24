@@ -33,7 +33,7 @@ description: C# ASP.NET VB.NET library to generate edit and parse PDF files. Lib
    </header>
    <ul>
     <li>
-     Generate PDF from Scratch
+     Generate PDF from Scratch
     </li>
     <li>
      Update Existing PDF Files
@@ -352,7 +352,7 @@ description: C# ASP.NET VB.NET library to generate edit and parse PDF files. Lib
      <em class="fa fa-file-pdf-o ico-blue fa-2x col-lg-2">
      </em>
      <p class="col-lg-10">
-      Generate PDF documents using product API
+      Generate PDF documents using product API
      </p>
     </div>
     <div class="col-lg-4">
@@ -376,31 +376,31 @@ description: C# ASP.NET VB.NET library to generate edit and parse PDF files. Lib
       Convert PDF to multiple formats
      </p>
     </div>
-    <!--<div class="col-lg-4"><em class="fa fa-list-alt ico-blue fa-2x col-lg-2"> </em>
+    <!--<div class="col-lg-4"><em class="fa fa-list-alt ico-blue fa-2x col-lg-2"> </em>
 
 <p class="col-lg-10">Convert PDF to Excel spreadsheets</p>
 
 </div>
 
-<div class="col-lg-4"><em class="fa fa-file-powerpoint-o   ico-blue fa-2x col-lg-2"> </em>
+<div class="col-lg-4"><em class="fa fa-file-powerpoint-o   ico-blue fa-2x col-lg-2"> </em>
 
 <p class="col-lg-10">Convert PDF to PowerPoint presentations</p>
 
 </div>
 
-<div class="col-lg-4"><em class="fa fa-file-word-o   ico-blue fa-2x col-lg-2"> </em>
+<div class="col-lg-4"><em class="fa fa-file-word-o   ico-blue fa-2x col-lg-2"> </em>
 
 <p class="col-lg-10">Convert PDF to Word document formats</p>
 
 </div>
 
-<div class="col-lg-4"><em class="fa fa-file-text   ico-blue fa-2x col-lg-2"> </em>
+<div class="col-lg-4"><em class="fa fa-file-text   ico-blue fa-2x col-lg-2"> </em>
 
 <p class="col-lg-10">Convert PDF to PostScript format</p>
 
 </div>
 
-<div class="col-lg-4"><em class="fa fa-text-width  ico-blue fa-2x col-lg-2"> </em>
+<div class="col-lg-4"><em class="fa fa-text-width  ico-blue fa-2x col-lg-2"> </em>
 
 <p class="col-lg-10">Different text manipulation options including Add, Replace and Search</p>
 
@@ -498,7 +498,7 @@ pfile.Save(dir + "output.html", Aspose.Pdf.SaveFormat.Html);</code></pre>
      Aspose.PDF for .NET offers the capability to generate documents from scratch. You can use its API or transform images, XML, XSL-FO, HTML, SVG, PCL, XPS, EPUB or simple text files to PDF documents. Moreover, you can specify XMP metadata, author details, creator details, and title information during the PDF generation.
     </p>
     <p>
-     This library is also a good choice when you need to edit or manipulate existing PDF documents. It allows you to concatenate or merge two or more PDF files, append new pages to an existing file, extract pages, insert pages at a particular location in an existing file, split documents or create N-up's (number of pages over the single page) and booklets.
+     This library is also a good choice when you need to edit or manipulate existing PDF documents. It allows you to concatenate or merge two or more PDF files, append new pages to an existing file, extract pages, insert pages at a particular location in an existing file, split documents or create N-up's (number of pages over the single page) and booklets.
     </p>
    </div>
    <div class="col-lg-12">
@@ -517,7 +517,7 @@ pfile.Save(dir + "output.html", Aspose.Pdf.SaveFormat.Html);</code></pre>
      Process PDF Form Fields
     </h2>
     <p>
-     Aspose.PDF for .NET provides advanced features beyond simple form fields processing. With this single product, you get a bunch of features from the addition of form fields to advanced abilities such as dynamically rename, remove and copy form fields across the documents, set JavaScript for the push button and flatten form fields. This product is also great when it comes to specifying field attributes such as READ_ONLY, REQUIRED, NO_EXPORT, HIDDEN, NO ZOOM. You can also easily specify visual attributes such as field Alignment, BorderStyle, ButtonStyle, FontSize, TextColor, TextEncoding or define custom positioning to place the form fields at an absolute position within the document.
+     Aspose.PDF for .NET provides advanced features beyond simple form fields processing. With this single product, you get a bunch of features from the addition of form fields to advanced abilities such as dynamically rename, remove and copy form fields across the documents, set JavaScript for the push button and flatten form fields. This product is also great when it comes to specifying field attributes such as READ_ONLY, REQUIRED, NO_EXPORT, HIDDEN, NO ZOOM. You can also easily specify visual attributes such as field Alignment, BorderStyle, ButtonStyle, FontSize, TextColor, TextEncoding or define custom positioning to place the form fields at an absolute position within the document.
     </p>
     <p>
      Aspose.PDF for .NET also supports importing &amp; exporting form fields data from XML, FDF or XFDF files. Moreover, you can bind form fields with OLEDB or ODBCDB data sources. API also allows to import an image or barcode, get field data with rich text formatting or add submit button to post data to a specified URL.
@@ -587,7 +587,7 @@ using (var converter = new Aspose.Pdf.Facades.PdfConverter())
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< blocks/products/pf/testimonials title="What People Are Saying" subTitle="Don't just take our word for it. See what users have to say about APIs." caseStudiesLink="https://downloads.aspose.com/corporate/case-studies/aspose.pdf/" >}}
+{{< blocks/products/pf/testimonials title="What People Are Saying" subTitle="Don't just take our word for it. See what users have to say about APIs." caseStudiesLink="https://downloads.aspose.com/corporate/case-studies/aspose.pdf/" >}}
 
 {{< blocks/products/pf/testimonials-quote >}}
 <p class="first">

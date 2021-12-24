@@ -205,7 +205,7 @@ description: SharePoint PDF Converter App that exports SharePoint Lists list Ite
    </div>
    <!--
 
-<div class="col-lg-4"><em class="fa fa-html5 ico-blue fa-2x col-lg-2"> </em>
+<div class="col-lg-4"><em class="fa fa-html5 ico-blue fa-2x col-lg-2"> </em>
 
 <p class="col-lg-10">Concatenate supported file formats(HTML, Text and Image) during conversion</p>
 

@@ -6,7 +6,7 @@ description: Integrate PDF library in your C++ applications to create manipulate
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1="C++ PDF Parser API" h2="Create, manipulate and convert PDF files within C++ applications without requiring Adobe Acrobat." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/pdf/headers/aspose_pdf-for-cpp.svg" pfName="Aspose.PDF" subTitlepfName="for C++" downloadUrl="https://downloads.aspose.com/pdf/cpp" >}}
+{{< blocks/products/pf/upper-banner h1="C++ PDF Parser API" h2="Create, manipulate and convert PDF files within C++ applications without requiring Adobe Acrobat." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/pdf/headers/aspose_pdf-for-cpp.svg" pfName="Aspose.PDF" subTitlepfName="for C++" downloadUrl="https://downloads.aspose.com/pdf/cpp" >}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.PDF" subTitlepfName="for C++" >}}
 
@@ -14,11 +14,11 @@ description: Integrate PDF library in your C++ applications to create manipulate
 
 {{< blocks/products/pf/tab-content >}}
 <p>
- Aspose.PDF for C++ is a native C++ library that enables the developers to add PDF processing capabilities to their C++ applications. API can be used to build any type of 32-bit and 64-bit C++ applications to generate or read, convert and manipulate PDF files without the use of Adobe Acrobat.
+ Aspose.PDF for C++ is a native C++ library that enables the developers to add PDF processing capabilities to their C++ applications. API can be used to build any type of 32-bit and 64-bit C++ applications to generate or read, convert and manipulate PDF files without the use of Adobe Acrobat.
 </p>
 
 <p>
- Aspose.PDF for C++ API allows to perform a range of document processing tasks such as form processing, get and set metadata information, text &amp; page manipulation, management of annotations, add or remove bookmarks and watermarks, attachments, custom font handling and much more.
+ Aspose.PDF for C++ API allows to perform a range of document processing tasks such as form processing, get and set metadata information, text &amp; page manipulation, management of annotations, add or remove bookmarks and watermarks, attachments, custom font handling and much more.
 </p>
 
 {{< /blocks/products/pf/tab-content >}}
@@ -66,7 +66,7 @@ description: Integrate PDF library in your C++ applications to create manipulate
    </ul>
    <!-- 
 
-<header><i class="fa fa-pencil"> </i>Annotation</header>
+<header><i class="fa fa-pencil"> </i>Annotation</header>
 
 <ul>
 
@@ -81,7 +81,7 @@ description: Integrate PDF library in your C++ applications to create manipulate
 -->
    <!-- 
 
-<header><i class="fa fa-lock"> </i>Secured PDF Files</header>
+<header><i class="fa fa-lock"> </i>Secured PDF Files</header>
 
 <ul>
 
@@ -97,7 +97,7 @@ description: Integrate PDF library in your C++ applications to create manipulate
   </div>
   <!--/left-->
   <div class="d1-col d1-right">
-   <!-- <header><i class="fa fa-random"> </i>Transform to PDF</header>
+   <!-- <header><i class="fa fa-random"> </i>Transform to PDF</header>
 
 <ul>
 
@@ -308,7 +308,7 @@ description: Integrate PDF library in your C++ applications to create manipulate
  <div class="row">
   <div class="container">
    <h2 class="pr-ft">
-    Advanced C++ PDF Library Features
+    Advanced C++ PDF Library Features
    </h2>
    <p>
    </p>
@@ -401,7 +401,7 @@ description: Integrate PDF library in your C++ applications to create manipulate
      Manipulate PDF Files On the Fly
     </h2>
     <p>
-     Aspose.PDF for C++ is a good choice for modifying or manipulating existing PDF files within your applications. This library allows you to open or load PDF file, extract pages, insert pages at a particular location in the file or create N-up's (number of pages over single page) and booklets. You may also use the API to add, update &amp; delete images, attachments, bookmarks, annotations, hyperlinks, watermarks and form fields from an existing PDF.
+     Aspose.PDF for C++ is a good choice for modifying or manipulating existing PDF files within your applications. This library allows you to open or load PDF file, extract pages, insert pages at a particular location in the file or create N-up's (number of pages over single page) and booklets. You may also use the API to add, update &amp; delete images, attachments, bookmarks, annotations, hyperlinks, watermarks and form fields from an existing PDF.
     </p>
    </div>
    <div class="col-lg-12">
@@ -455,7 +455,7 @@ while (converter-&gt;HasNextImage())
      Form Field Processing
     </h2>
     <p>
-     Aspose.PDF for C++ offers the capabilities to add form fields to the PDF document, that is; you can dynamically generate form fields in PDF documents. Just order the position of the form fields as per a table or by custom positioning, and the form fields will be placed in the exact position every time.
+     Aspose.PDF for C++ offers the capabilities to add form fields to the PDF document, that is; you can dynamically generate form fields in PDF documents. Just order the position of the form fields as per a table or by custom positioning, and the form fields will be placed in the exact position every time.
     </p>
    </div>
    <div class="col-lg-12">
