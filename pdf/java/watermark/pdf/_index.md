@@ -15,7 +15,7 @@ description: Java sample code to add or remove watermark to PDF file on Java Run
 
  In order to watermark PDF file, we’ll use
  [Aspose.PDF for Java](https://products.aspose.com/pdf/java)
- API which is a feature-rich, powerful and easy to use warermarking API for Java platform. You can download its latest version directly from
+ API which is a feature-rich, powerful and easy to use watermarking API for Java platform. You can download its latest version directly from
  [Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-pdf)
  and install it within your Maven-based project by adding the following configurations to the pom.xml.
 
