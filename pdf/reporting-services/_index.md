@@ -84,7 +84,7 @@ description: SQL Server Reporting Services rendering extension - Export PDF PDF/
  </div>
  <!--/row-->
  <div class="d1-logo">
-  <img alt="RDL to PDF Converter" src="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-reporting-services.svg"/>
+  <img width="70" height="75" alt="RDL to PDF Converter" src="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-reporting-services.svg"/>
   <header>
    Aspose.PDF
   </header>
@@ -136,7 +136,7 @@ description: SQL Server Reporting Services rendering extension - Export PDF PDF/
  </div>
  <!--/row-->
  <div class="d1-logo">
-  <img alt="PDF Exporter for Reporting Services" src="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-reporting-services.svg"/>
+  <img width="70" height="75" alt="PDF Exporter for Reporting Services" src="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-reporting-services.svg"/>
   <header>
    Aspose.PDF
   </header>
@@ -198,7 +198,7 @@ description: SQL Server Reporting Services rendering extension - Export PDF PDF/
  </div>
  <!--/row-->
  <div class="d1-logo">
-  <img alt="PDF Rendering Extension" src="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-reporting-services.svg"/>
+  <img width="70" height="75" alt="PDF Rendering Extension" src="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-reporting-services.svg"/>
   <header>
    Aspose.PDF
   </header>

@@ -56,7 +56,7 @@ description: SharePoint PDF Converter App that exports SharePoint Lists list Ite
  </div>
  <!--/row-->
  <div class="d1-logo">
-  <img alt="SharePoint PDF Exporter" src="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-sharepoint.svg"/>
+  <img width="70" height="75" alt="SharePoint PDF Exporter" src="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-sharepoint.svg"/>
   <header>
    Aspose.PDF
   </header>
@@ -106,7 +106,7 @@ description: SharePoint PDF Converter App that exports SharePoint Lists list Ite
  </div>
  <!--/row-->
  <div class="d1-logo">
-  <img alt="PDF App for SharePoint" src="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-sharepoint.svg"/>
+  <img width="70" height="75" alt="PDF App for SharePoint" src="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-sharepoint.svg"/>
   <header>
    Aspose.PDF
   </header>
@@ -148,7 +148,7 @@ description: SharePoint PDF Converter App that exports SharePoint Lists list Ite
   </div>
   <!--/row-->
   <div class="d1-logo">
-   <img alt="SharePoint PDF Converter" src="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-sharepoint.svg"/>
+   <img width="70" height="75" alt="SharePoint PDF Converter" src="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-sharepoint.svg"/>
    <header>
     Aspose.PDF
    </header>

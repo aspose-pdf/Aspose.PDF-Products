@@ -73,7 +73,7 @@ description: PDF viewer and converter library for mobile apps. Generate merge sp
  </div>
  <!--/row-->
  <div class="d1-logo">
-  <img alt="Android PDF API" src="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-android-java.svg"/>
+  <img width="70" height="75" alt="Android PDF API" src="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-android-java.svg"/>
   <header>
    Aspose.PDF
   </header>
@@ -113,7 +113,7 @@ description: PDF viewer and converter library for mobile apps. Generate merge sp
  </div>
  <!--/row-->
  <div class="d1-logo">
-  <img alt="PDF Manipulation APIs for Android" src="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-android-java.svg"/>
+  <img width="70" height="75" alt="PDF Manipulation APIs for Android" src="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-android-java.svg"/>
   <header>
    Aspose.PDF
   </header>
@@ -201,7 +201,7 @@ description: PDF viewer and converter library for mobile apps. Generate merge sp
   </div>
   <!--/row-->
   <div class="d1-logo">
-   <img alt="Android PDF Processing Library" src="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-android-java.svg"/>
+   <img width="70" height="75" alt="Android PDF Processing Library" src="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-android-java.svg"/>
    <header>
     Aspose.PDF
    </header>

@@ -159,7 +159,7 @@ description: C# ASP.NET VB.NET library to generate edit and parse PDF files. Lib
  </div>
  <!--/row-->
  <div class="d1-logo">
-  <img alt="PDF .NET API" src="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-net.svg"/>
+  <img width="70" height="75" alt="PDF .NET API" src="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-net.svg"/>
   <header>
    Aspose.PDF
   </header>
@@ -219,7 +219,7 @@ description: C# ASP.NET VB.NET library to generate edit and parse PDF files. Lib
  </div>
  <!--/row-->
  <div class="d1-logo">
-  <img alt="PDF Programming APIs" src="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-net.svg"/>
+  <img width="70" height="75" alt="PDF Programming APIs" src="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-net.svg"/>
   <header>
    Aspose.PDF
   </header>
@@ -315,7 +315,7 @@ description: C# ASP.NET VB.NET library to generate edit and parse PDF files. Lib
  </div>
  <!--/row-->
  <div class="d1-logo">
-  <img alt="PDF API for .NET Developers" src="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-net.svg"/>
+  <img width="70" height="75" alt="PDF API for .NET Developers" src="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-net.svg"/>
   <header>
    Aspose.PDF
   </header>

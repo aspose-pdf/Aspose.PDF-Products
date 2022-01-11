@@ -147,7 +147,7 @@ description: Integrate PDF library in your C++ applications to create manipulate
  </div>
  <!--/row-->
  <div class="d1-logo">
-  <img alt="PDF C++ Library" src="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-cpp.svg"/>
+  <img width="70" height="75" alt="PDF C++ Library" src="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-cpp.svg"/>
   <header>
    Aspose.PDF
   </header>
@@ -193,7 +193,7 @@ description: Integrate PDF library in your C++ applications to create manipulate
  </div>
  <!--/row-->
  <div class="d1-logo">
-  <img alt="PDF Processing APIs" src="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-cpp.svg"/>
+  <img width="70" height="75" alt="PDF Processing APIs" src="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-cpp.svg"/>
   <header>
    Aspose.PDF
   </header>
@@ -280,7 +280,7 @@ description: Integrate PDF library in your C++ applications to create manipulate
  </div>
  <!--/row-->
  <div class="d1-logo">
-  <img alt="PDF Manipulation API for C++" src="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-cpp.svg"/>
+  <img width="70" height="75" alt="PDF Manipulation API for C++" src="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-cpp.svg"/>
   <header>
    Aspose.PDF
   </header>

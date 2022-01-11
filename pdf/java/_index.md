@@ -154,7 +154,7 @@ description: Java PDF processing library to create read and edit files. Convert 
  </div>
  <!--/row-->
  <div class="d1-logo">
-  <img alt="PDF Java API" src="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-java.svg"/>
+  <img width="70" height="75" alt="PDF Java API" src="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-java.svg"/>
   <header>
    Aspose.PDF
   </header>
@@ -197,7 +197,7 @@ description: Java PDF processing library to create read and edit files. Convert 
  </div>
  <!--/row-->
  <div class="d1-logo">
-  <img alt="PDF Processing APIs" src="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-java.svg"/>
+  <img width="70" height="75" alt="PDF Processing APIs" src="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-java.svg"/>
   <header>
    Aspose.PDF
   </header>
@@ -302,7 +302,7 @@ description: Java PDF processing library to create read and edit files. Convert 
  </div>
  <!--/row-->
  <div class="d1-logo">
-  <img alt="PDF Manipulation API for Java" src="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-java.svg"/>
+  <img width="70" height="75" alt="PDF Manipulation API for Java" src="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-java.svg"/>
   <header>
    Aspose.PDF
   </header>

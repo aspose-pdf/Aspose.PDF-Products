@@ -48,7 +48,7 @@ description: Export PDF reports from Jasper Reports and JasperServer. Easily con
  </div>
  <!--/row-->
  <div class="d1-logo">
-  <img alt="JasperReports Extension for PDF" src="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-jasperreports.svg"/>
+  <img width="70" height="75" alt="JasperReports Extension for PDF" src="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-jasperreports.svg"/>
   <header>
    Aspose.PDF
   </header>
@@ -95,7 +95,7 @@ description: Export PDF reports from Jasper Reports and JasperServer. Easily con
  </div>
  <!--/row-->
  <div class="d1-logo">
-  <img alt="PDF Exporter for JasperReports" src="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-jasperreports.svg"/>
+  <img width="70" height="75" alt="PDF Exporter for JasperReports" src="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-jasperreports.svg"/>
   <header>
    Aspose.PDF
   </header>
@@ -156,7 +156,7 @@ description: Export PDF reports from Jasper Reports and JasperServer. Easily con
  </div>
  <!--/row-->
  <div class="d1-logo">
-  <img alt="JasperReports to PDF Converter" src="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-jasperreports.svg"/>
+  <img width="70" height="75" alt="JasperReports to PDF Converter" src="https://www.aspose.cloud/templates/aspose/img/products/pdf/aspose_pdf-for-jasperreports.svg"/>
   <header>
    Aspose.PDF
   </header>
