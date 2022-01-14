@@ -39,9 +39,11 @@ PM> Install-Package Aspose.PDF
 
 {{% blocks/products/pf/agp/text %}}
 
- You need
- [aspose.pdf.dll](https://downloads.aspose.com/pdf/net)
- referenced in your project to execute the following workflow.
+Developers can easily unlock Adobe PDF files by executing the following workflow.
+
+1. Load protected document in an instance of `Document` class
+1. Call `Document.Decrypt` method to remove protection
+1. Save the result back in PDF format with `Document.Save` method
 
 {{% /blocks/products/pf/agp/text %}}
 
@@ -64,7 +66,12 @@ PM> Install-Package Aspose.PDF
 {{% blocks/products/pf/agp/code-block title="Command" offSpacer="" %}}
 
 ```cs
-
+// Open document
+Document document = new Document("document.pdf", "password");
+// Unlock PDF
+document.Decrypt();
+// Save updated PDF
+document.Save("document-unlock.pdf");
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
@@ -78,7 +85,7 @@ PM> Install-Package Aspose.PDF
 
     {{% blocks/products/pf/agp/content h2="About Aspose.PDF for .NET API" %}}
 
- Aspose.PDF API can be used for PDF document manipulation and parsing within applications. One can create, modify, compress, secure, print or save PDF to TXT, HTML, PCL, XFA, XML, XPS, EPUB, TEX, Images and more formats. Aspose.PDF is a standalone API and it does not depend on any software including Adobe Acrobat. 
+ Aspose.PDF API can be used for PDF document manipulation and parsing within applications. One can create, modify, compress, secure, print or save PDF to TXT, HTML, PCL, XFA, XML, XPS, EPUB, TEX, Images and more formats. Aspose.PDF is a standalone API and it does not depend on any software including Adobe Acrobat.
 
 
 
