@@ -1,5 +1,5 @@
 ---
-title: PDF Document Conversion via C++ 
+title: PDF Document Conversion via C++
 url: /cpp/conversion/
 description: Convert PDF to HTML Image Microsoft Word and many other formats with just few lines of C++ code.
 ---
@@ -27,7 +27,7 @@ pdftodoc->Save(u"pdf-to-word.doc", SaveFormat::Doc);
 {{< blocks/products/pf/feature-page-options pairs="pdf-to-doc pdf-to-docx" >}}
 
 {{% blocks/products/pf/feature-page-section  h2="Converting PDF to HTML" %}}
-Process of converting PDF to HTML in general, is almost same loading the file and call the Save methd having output HTML document path and SaveFormat::Html as parameters. Moreover, for specific HTML saving settings, C++ PDF Parser library provides [HtmlSaveOptions class](https://apireference.aspose.com/pdf/cpp/class/aspose.pdf.html_save_options), having different special functionalities like setting for fonts, splitting HTML and CSS in multiple pages, folder for images and more. 
+Process of converting PDF to HTML in general, is almost same loading the file and call the Save methd having output HTML document path and SaveFormat::Html as parameters. Moreover, for specific HTML saving settings, C++ PDF Parser library provides [HtmlSaveOptions class](https://apireference.aspose.com/pdf/cpp/class/aspose.pdf.html_save_options), having different special functionalities like setting for fonts, splitting HTML and CSS in multiple pages, folder for images and more.
 {{% blocks/products/pf/feature-page-code h3="PDF to HTML Converter C++ Code" %}}
 
 ```cs
@@ -46,6 +46,7 @@ pdftoHTMLoptions->FontSavingMode = HtmlSaveOptions::FontSavingModes::SaveInAllFo
 // PDF to HTML Conversion
 pdftoHtmlObj->Save(u"pdfto.html", pdftoHTMLoptions);
 ```
+
 {{% /blocks/products/pf/feature-page-code %}}
 {{% /blocks/products/pf/feature-page-section %}}
 
@@ -54,20 +55,22 @@ pdftoHtmlObj->Save(u"pdfto.html", pdftoHTMLoptions);
 {{% blocks/products/pf/feature-page-section  h2="Save PDF to Images" %}}
 PDF pages to image conversion including TIFF, JPEG, BMP, PNG, etc is easy within C++ based applications using code snippets listed below. Developers can use the [PdfConverter class](https://apireference.aspose.com/pdf/cpp/class/aspose.pdf.facades.pdf_converter#details), Calling the BindPdf for loading the file. Convert the pages via DoConvert then looping through each page and saving as required format image.
 {{% blocks/products/pf/feature-page-code h3="C++ PDF to Image Converter Code" %}}
+
 ```cs
-// instantiate PdfConverter 
+// instantiate PdfConverter
 System::SharedPtr<Aspose::Pdf::Facades::PdfConverter> PdfImageConverter = System::MakeObject<Aspose::Pdf::Facades::PdfConverter>();
-// load an existing PDF document 
-PdfImageConverter->BindPdf(dir + L"sourceFile.pdf"); 
-// convert PDF pages to images 
-PdfImageConverter->DoConvert(); 
-int32_t imageNumber = 1; 
-while (PdfImageConverter->HasNextImage()) { 
-// save each page in JPG format 
-PdfImageConverter->GetNextImage(dir + imageNumber + L".jpg", System::Drawing::Imaging::ImageFormat::get_Jpeg(), 800, 1000); 
-imageNumber++; 
+// load an existing PDF document
+PdfImageConverter->BindPdf(dir + L"sourceFile.pdf");
+// convert PDF pages to images
+PdfImageConverter->DoConvert();
+int32_t imageNumber = 1;
+while (PdfImageConverter->HasNextImage()) {
+// save each page in JPG format
+PdfImageConverter->GetNextImage(dir + imageNumber + L".jpg", System::Drawing::Imaging::ImageFormat::get_Jpeg(), 800, 1000);
+imageNumber++;
 }
 ```
+
 {{% /blocks/products/pf/feature-page-code %}}
 {{% /blocks/products/pf/feature-page-section %}}
 
