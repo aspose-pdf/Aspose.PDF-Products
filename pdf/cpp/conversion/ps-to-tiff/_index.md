@@ -1,6 +1,6 @@
 ---
-title: Convert PS to TIFF via C++ application 
-url: /cpp/conversion/ps-to-tiff/ 
+title: Convert PS to TIFF via C++ application
+url: /cpp/conversion/ps-to-tiff/
 description: Sample C++ conversion code for PS document to TIFF format. Programmers can use this source code for batch PS to TIFF conversion within any C++ application.
 ---
 
@@ -13,11 +13,11 @@ description: Sample C++ conversion code for PS document to TIFF format. Programm
 {{% blocks/products/pf/agp/content h2="How to Convert PS to TIFF Using C++" %}}
 
  In order to convert PS to TIFF, we’ll use
- [Aspose.PDF for C++](https://products.aspose.com/pdf/cpp) 
+ [Aspose.PDF for C++](https://products.aspose.com/pdf/cpp)
  API which is a feature-rich, powerful and easy to use document manipulation and conversion API for C++ platform. You can download its latest version directly, just open
- [NuGet](https://www.nuget.org/packages/aspose.pdf) 
+ [NuGet](https://www.nuget.org/packages/aspose.pdf)
  package manager, search for
- Aspose.PDF.Cpp 
+ Aspose.PDF.Cpp
  and install. You may also use the following command from the Package Manager Console.
 
 {{% blocks/products/pf/agp/code-block title="Command" offSpacer="true" %}}
@@ -66,12 +66,19 @@ PM> Install-Package Aspose.PDF.Cpp
 
 {{% blocks/products/pf/agp/code-block title="PS to TIFF C++ Conversion Source Code" offSpacer="" %}}
 
-```cs
-// Load the PS.
-auto doc = MakeObject<Document>(u"sourceFile.ps");
+```cpp
+    // Create LoadOptions
+    auto loadOptions = MakeObject<PsLoadOptions>();
+    // Load the PostScript.
+    auto document = MakeObject<Document>(u"sourceFile.ps", loadOptions);
 
-// Save in TIFF format.
-doc->Save(u"convertedFile.tiff", SaveFormat::Tiff);
+    // create an object of emfDevice
+    auto renderer = MakeObject<Aspose::Pdf::Devices::TiffDevice>();
+
+    auto imageStream = System::IO::File::OpenWrite(u"output.tiff");
+
+    // convert a particular page and save the image in EMF format
+    renderer->Process(document, 1, 1, imageStream);
 
 ```
 
@@ -80,7 +87,7 @@ doc->Save(u"convertedFile.tiff", SaveFormat::Tiff);
 {{< /blocks/products/pf/agp/feature-section >}}
 
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
- 
+
 
 <!-- aboutfile Starts -->
 
@@ -92,7 +99,7 @@ doc->Save(u"convertedFile.tiff", SaveFormat::Tiff);
 
     {{% blocks/products/pf/agp/content h2="C++ PDF Document Manipulation Library" %}}
 
- Aspose.PDF API can be used for PDF document manipulation and parsing within applications. One can create, modify, compress, secure, print or save PDF to TXT, HTML, PCL, XFA, XML, XPS, EPUB, TEX, Images and more formats. Aspose.PDF is a standalone API and it does not depend on any software including Adobe Acrobat. 
+ Aspose.PDF API can be used for PDF document manipulation and parsing within applications. One can create, modify, compress, secure, print or save PDF to TXT, HTML, PCL, XFA, XML, XPS, EPUB, TEX, Images and more formats. Aspose.PDF is a standalone API and it does not depend on any software including Adobe Acrobat.
 
 
 
@@ -119,5 +126,5 @@ TIFF or TIF, Tagged Image File Format, represents raster images that are meant f
 <!-- aboutfile Ends -->
 
 {{< /blocks/products/pf/main-container >}}
-    
+
 {{< /blocks/products/pf/main-wrap-class >}}

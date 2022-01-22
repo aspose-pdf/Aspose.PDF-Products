@@ -1,6 +1,6 @@
 ---
-title: Convert TEX to DOCX via C++ application 
-url: /cpp/conversion/tex-to-docx/ 
+title: Convert TEX to DOCX via C++ application
+url: /cpp/conversion/tex-to-docx/
 description: Sample C++ conversion code for TEX document to DOCX format. Programmers can use this source code for batch TEX to DOCX conversion within any C++ application.
 ---
 
@@ -13,11 +13,11 @@ description: Sample C++ conversion code for TEX document to DOCX format. Program
 {{% blocks/products/pf/agp/content h2="How to Convert TEX to DOCX Using C++" %}}
 
  In order to convert TEX to DOCX, we’ll use
- [Aspose.PDF for C++](https://products.aspose.com/pdf/cpp) 
+ [Aspose.PDF for C++](https://products.aspose.com/pdf/cpp)
  API which is a feature-rich, powerful and easy to use document manipulation and conversion API for C++ platform. You can download its latest version directly, just open
- [NuGet](https://www.nuget.org/packages/aspose.pdf) 
+ [NuGet](https://www.nuget.org/packages/aspose.pdf)
  package manager, search for
- Aspose.PDF.Cpp 
+ Aspose.PDF.Cpp
  and install. You may also use the following command from the Package Manager Console.
 
 {{% blocks/products/pf/agp/code-block title="Command" offSpacer="true" %}}
@@ -66,13 +66,16 @@ PM> Install-Package Aspose.PDF.Cpp
 
 {{% blocks/products/pf/agp/code-block title="TEX to DOCX C++ Conversion Source Code" offSpacer="" %}}
 
-```cs
-// Load the TEX.
-auto doc = MakeObject<Document>(u"sourceFile.tex");
-
-// Save in DOCX format.
-doc->Save(u"convertedFile.docx", SaveFormat::Docx);
-
+```cpp
+    // Create LoadOptions
+    auto loadOptions = MakeObject<TeXLoadOptions>();
+    // Load the LaTeX
+    auto document = MakeObject<Document>(u"sourceFile.tex", loadOptions);
+    // Create SaveOptions
+    auto saveOptions = MakeObject<DocSaveOptions>();
+    saveOptions->set_Format(DocSaveOptions::DocFormat::DocX);
+    // Save the file into MS document format
+    document->Save(u"convertedFile.docx", saveOptions);
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
@@ -80,7 +83,7 @@ doc->Save(u"convertedFile.docx", SaveFormat::Docx);
 {{< /blocks/products/pf/agp/feature-section >}}
 
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
- 
+
 
 <!-- aboutfile Starts -->
 
@@ -92,7 +95,7 @@ doc->Save(u"convertedFile.docx", SaveFormat::Docx);
 
     {{% blocks/products/pf/agp/content h2="C++ PDF Document Manipulation Library" %}}
 
- Aspose.PDF API can be used for PDF document manipulation and parsing within applications. One can create, modify, compress, secure, print or save PDF to TXT, HTML, PCL, XFA, XML, XPS, EPUB, TEX, Images and more formats. Aspose.PDF is a standalone API and it does not depend on any software including Adobe Acrobat. 
+ Aspose.PDF API can be used for PDF document manipulation and parsing within applications. One can create, modify, compress, secure, print or save PDF to TXT, HTML, PCL, XFA, XML, XPS, EPUB, TEX, Images and more formats. Aspose.PDF is a standalone API and it does not depend on any software including Adobe Acrobat.
 
 
 
@@ -121,5 +124,5 @@ DOCX is a well-known format for Microsoft Word documents. Introduced from 2007 w
 
 
 {{< /blocks/products/pf/main-container >}}
-    
+
 {{< /blocks/products/pf/main-wrap-class >}}
