@@ -1,6 +1,6 @@
 ---
-title: Convert PDFA to TEX via C++ application 
-url: /cpp/conversion/pdfa-to-tex/ 
+title: Convert PDFA to TEX via C++ application
+url: /cpp/conversion/pdfa-to-tex/
 description: Sample C++ conversion code for PDFA document to TEX format. Programmers can use this source code for batch PDFA to TEX conversion within any C++ application.
 ---
 
@@ -13,11 +13,11 @@ description: Sample C++ conversion code for PDFA document to TEX format. Program
 {{% blocks/products/pf/agp/content h2="How to Convert PDFA to TEX Using C++" %}}
 
  In order to convert PDFA to TEX, we’ll use
- [Aspose.PDF for C++](https://products.aspose.com/pdf/cpp) 
+ [Aspose.PDF for C++](https://products.aspose.com/pdf/cpp)
  API which is a feature-rich, powerful and easy to use document manipulation and conversion API for C++ platform. You can download its latest version directly, just open
- [NuGet](https://www.nuget.org/packages/aspose.pdf) 
+ [NuGet](https://www.nuget.org/packages/aspose.pdf)
  package manager, search for
- Aspose.PDF.Cpp 
+ Aspose.PDF.Cpp
  and install. You may also use the following command from the Package Manager Console.
 
 {{% blocks/products/pf/agp/code-block title="Command" offSpacer="true" %}}
@@ -64,15 +64,11 @@ PM> Install-Package Aspose.PDF.Cpp
 
 {{% blocks/products/pf/agp/code-block title="PDFA to TEX C++ Conversion Source Code" offSpacer="" %}}
 
-```cs
-&lt;dependency&gt;
-&lt;groupId&gt;com.aspose&lt;/groupId&gt;
-&lt;artifactId&gt;aspose-pdf&lt;/artifactId&gt;
-&lt;version&gt;version of aspose-pdf API&lt;/version&gt;
-&lt;classifier&gt;jdk17&lt;/classifier&gt;
-&lt;/dependency&gt;
-
-
+```cpp
+    // Load the PDF.
+    auto document = MakeObject<Document>(u"sourceFile.pdf");
+    // Save the file into TeX document format
+    document->Save(u"convertedFile.svg", SaveFormat::TeX);
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
@@ -80,7 +76,7 @@ PM> Install-Package Aspose.PDF.Cpp
 {{< /blocks/products/pf/agp/feature-section >}}
 
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
- 
+
 
 <!-- aboutfile Starts -->
 
@@ -92,7 +88,7 @@ PM> Install-Package Aspose.PDF.Cpp
 
     {{% blocks/products/pf/agp/content h2="C++ PDF Document Manipulation Library" %}}
 
- Aspose.PDF API can be used for PDF document manipulation and parsing within applications. One can create, modify, compress, secure, print or save PDF to TXT, HTML, PCL, XFA, XML, XPS, EPUB, TEX, Images and more formats. Aspose.PDF is a standalone API and it does not depend on any software including Adobe Acrobat. 
+ Aspose.PDF API can be used for PDF document manipulation and parsing within applications. One can create, modify, compress, secure, print or save PDF to TXT, HTML, PCL, XFA, XML, XPS, EPUB, TEX, Images and more formats. Aspose.PDF is a standalone API and it does not depend on any software including Adobe Acrobat.
 
 
 
@@ -125,5 +121,5 @@ TeX is a language that comprises of programming as well as mark-up features, use
 {{< /blocks/products/pf/agp/other-supported-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-    
+
 {{< /blocks/products/pf/main-wrap-class >}}
