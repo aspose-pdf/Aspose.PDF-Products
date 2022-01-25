@@ -67,25 +67,20 @@ PM> Install-Package Aspose.PDF.Cpp
 {{% blocks/products/pf/agp/code-block title="PS to GIF C++ Conversion Source Code" offSpacer="" %}}
 
 ```cpp
-    // Create LoadOptions
-    auto loadOptions = MakeObject<PsLoadOptions>();
-    // Load the PostScript.
-    auto document = MakeObject<Document>(u"sourceFile.ps", loadOptions);
+// Load the PS.
+auto doc = MakeObject<Document>(u"sourceFile.ps");
 
-    // create an object of emfDevice
-    auto renderer = MakeObject<Aspose::Pdf::Devices::GifDevice>();
+// Save in GIF format.
+doc->Save(u"convertedFile.gif", SaveFormat::Gif);
 
-    auto imageStream = System::IO::File::OpenWrite(u"output.gif");
-
-    // convert a particular page and save the image in GIF format
-    renderer->Process(document->get_Pages()->idx_get(1), imageStream);
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
+    {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
+
 
 <!-- aboutfile Starts -->
 

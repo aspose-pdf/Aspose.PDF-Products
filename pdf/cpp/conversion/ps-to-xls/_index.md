@@ -67,17 +67,12 @@ PM> Install-Package Aspose.PDF.Cpp
 {{% blocks/products/pf/agp/code-block title="PS to XLS C++ Conversion Source Code" offSpacer="" %}}
 
 ```cpp
-    // Create LoadOptions
-    auto loadOptions = MakeObject<PsLoadOptions>();
-    // Load the PostScript.
-    auto document = MakeObject<Document>(u"sourceFile.ps", loadOptions);
+// Load the PS.
+auto doc = MakeObject<Document>(u"sourceFile.ps");
 
-    // Create SaveOptions
-    auto saveOptions = MakeObject<ExcelSaveOptions>();
-    saveOptions->set_Format(ExcelSaveOptions::ExcelFormat::XMLSpreadSheet2003);
+// Save in XLS format.
+doc->Save(u"convertedFile.xls", SaveFormat::Xls);
 
-    // Save the file into XLS document format
-    document->Save(u"convertedFile.xls", saveOptions);
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

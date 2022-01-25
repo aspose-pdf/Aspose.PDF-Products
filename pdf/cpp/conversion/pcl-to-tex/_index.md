@@ -67,17 +67,12 @@ PM> Install-Package Aspose.PDF.Cpp
 {{% blocks/products/pf/agp/code-block title="PCL to TEX C++ Conversion Source Code" offSpacer="" %}}
 
 ```cpp
-    // Create LoadOptions
-    auto loadOptions = MakeObject<PclLoadOptions>();
+// Load the PCL.
+auto doc = MakeObject<Document>(u"sourceFile.pcl");
 
-    // Load the PCL
-    auto document = MakeObject<Document>(u"sourceFile.pcl", loadOptions);
+// Save in TEX format.
+doc->Save(u"convertedFile.tex", SaveFormat::Tex);
 
-    // Create SaveOptions
-    auto saveOptions = MakeObject<TeXSaveOptions>();
-
-    // Save the file into SVG document format
-    document->Save(u"convertedFile.tex", saveOptions);
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

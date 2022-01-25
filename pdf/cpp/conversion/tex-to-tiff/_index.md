@@ -67,18 +67,12 @@ PM> Install-Package Aspose.PDF.Cpp
 {{% blocks/products/pf/agp/code-block title="TEX to TIFF C++ Conversion Source Code" offSpacer="" %}}
 
 ```cpp
-    // Create LoadOptions
-    auto loadOptions = MakeObject<TeXLoadOptions>();
-    // Load the LaTeX
-    auto document = MakeObject<Document>(u"sourceFile.tex", loadOptions);
+// Load the TEX.
+auto doc = MakeObject<Document>(u"sourceFile.tex");
 
-    // create an object of emfDevice
-    auto renderer = MakeObject<Aspose::Pdf::Devices::TiffDevice>();
+// Save in TIFF format.
+doc->Save(u"convertedFile.tiff", SaveFormat::Tiff);
 
-    auto imageStream = System::IO::File::OpenWrite(u"output.tiff");
-
-    // convert a particular page and save the image in EMF format
-    renderer->Process(document, 1, 1, imageStream);
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

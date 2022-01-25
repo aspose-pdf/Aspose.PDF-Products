@@ -67,18 +67,11 @@ PM> Install-Package Aspose.PDF.Cpp
 {{% blocks/products/pf/agp/code-block title="PCL to EMF C++ Conversion Source Code" offSpacer="" %}}
 
 ```cpp
-    // Create LoadOptions
-    auto loadOptions = MakeObject<MhtLoadOptions>();
-    // Load the PCL
-    auto document = MakeObject<Document>(u"sourceFile.epub", loadOptions);
+// Load the PCL.
+auto doc = MakeObject<Document>(u"sourceFile.pcl");
 
-    // create an object of emfDevice
-    auto renderer = MakeObject<Aspose::Pdf::Devices::EmfDevice>();
-
-    auto imageStream = System::IO::File::OpenWrite(u"output.emf");
-
-    // convert a particular page and save the image in EMF format
-    renderer->Process(document->get_Pages()->idx_get(1), imageStream);
+// Save in EMF format.
+doc->Save(u"convertedFile.emf", SaveFormat::Emf);
 
 ```
 

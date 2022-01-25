@@ -72,8 +72,8 @@ auto loadoptions = MakeObject<EpubLoadOptions>();
 // Load the EPUB.
 auto document = MakeObject<Document>(u"sourceFile.epub", loadoptions);
 
-// Save the file into XPS document format
-document->Save(u"convertedFile.xps", SaveFormat::Xps);
+// Save the file into SVG document format
+document->Save(u"convertedFile.xls", SaveFormat::Xps);
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

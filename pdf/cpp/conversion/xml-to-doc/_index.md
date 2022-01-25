@@ -65,18 +65,14 @@ PM> Install-Package Aspose.PDF.Cpp
 {{% blocks/products/pf/agp/code-block title="XML to DOC C++ Conversion Source Code" offSpacer="" %}}
 
 ```cpp
-    // Instantiate XslFoLoadOption object
-    auto options = new XslFoLoadOptions(u"template.xsl");
+&lt;dependency&gt;
+&lt;groupId&gt;com.aspose&lt;/groupId&gt;
+&lt;artifactId&gt;aspose-pdf&lt;/artifactId&gt;
+&lt;version&gt;version of aspose-pdf API&lt;/version&gt;
+&lt;classifier&gt;jdk17&lt;/classifier&gt;
+&lt;/dependency&gt;
 
-    // Create Document object
-    auto document = MakeObject<Document>(u"sourceFile.xml", options);
 
-    // Create SaveOptions
-    auto saveOptions = MakeObject<DocSaveOptions>();
-    saveOptions->set_Format(DocSaveOptions::DocFormat::Doc);
-
-    // Save the file into MS document format
-    document->Save(u"convertedFile.doc", saveOptions);
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

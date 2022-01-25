@@ -67,15 +67,12 @@ PM> Install-Package Aspose.PDF.Cpp
 {{% blocks/products/pf/agp/code-block title="TEX to SVG C++ Conversion Source Code" offSpacer="" %}}
 
 ```cpp
-    // Create LoadOptions
-    auto loadOptions = MakeObject<TeXLoadOptions>();
-    // Load the LaTeX.
-    auto document = MakeObject<Document>(u"sourceFile.tex", loadOptions);
-    // Create SaveOptions
-    auto saveOptions = MakeObject<SvgSaveOptions>();
+// Load the TEX.
+auto doc = MakeObject<Document>(u"sourceFile.tex");
 
-    // Save the file into SVG document format
-    document->Save(u"convertedFile.svg", saveOptions);
+// Save in SVG format.
+doc->Save(u"convertedFile.svg", SaveFormat::Svg);
+
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

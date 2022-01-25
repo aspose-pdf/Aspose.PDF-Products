@@ -67,15 +67,12 @@ PM> Install-Package Aspose.PDF.Cpp
 {{% blocks/products/pf/agp/code-block title="PS to TEX C++ Conversion Source Code" offSpacer="" %}}
 
 ```cpp
-    // Create LoadOptions
-    auto loadOptions = MakeObject<PsLoadOptions>();
-    // Load the PostScript.
-    auto document = MakeObject<Document>(u"sourceFile.ps", loadOptions);
-    // Create SaveOptions
-    auto saveOptions = MakeObject<TeXSaveOptions>();
+// Load the PS.
+auto doc = MakeObject<Document>(u"sourceFile.ps");
 
-    // Save the file into SVG document format
-    document->Save(u"convertedFile.tex", saveOptions);
+// Save in TEX format.
+doc->Save(u"convertedFile.tex", SaveFormat::Tex);
+
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

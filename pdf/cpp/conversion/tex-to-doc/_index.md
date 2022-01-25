@@ -67,15 +67,12 @@ PM> Install-Package Aspose.PDF.Cpp
 {{% blocks/products/pf/agp/code-block title="TEX to DOC C++ Conversion Source Code" offSpacer="" %}}
 
 ```cpp
-    // Create LoadOptions
-    auto loadOptions = MakeObject<TeXLoadOptions>();
-    // Load the LaTeX.
-    auto document = MakeObject<Document>(u"sourceFile.tex", loadOptions);
-    // Create SaveOptions
-    auto saveOptions = MakeObject<DocSaveOptions>();
-    saveOptions->set_Format(DocSaveOptions::DocFormat::Doc);
-    // Save the file into MS document format
-    document->Save(u"convertedFile.doc", saveOptions);
+// Load the TEX.
+auto doc = MakeObject<Document>(u"sourceFile.tex");
+
+// Save in DOC format.
+doc->Save(u"convertedFile.doc", SaveFormat::Doc);
+
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

@@ -67,15 +67,12 @@ PM> Install-Package Aspose.PDF.Cpp
 {{% blocks/products/pf/agp/code-block title="PCL to DOC C++ Conversion Source Code" offSpacer="" %}}
 
 ```cpp
-    // Create LoadOptions
-    auto loadOptions = MakeObject<PclLoadOptions>();
-    // Load the PCL
-    auto document = MakeObject<Document>(u"sourceFile.pcl", loadOptions);
-    // Create SaveOptions
-    auto saveOptions = MakeObject<DocSaveOptions>();
-    saveOptions->set_Format(DocSaveOptions::DocFormat::Doc);
-    // Save the file into MS document format
-    document->Save(u"convertedFile.doc", saveOptions);
+// Load the PCL.
+auto doc = MakeObject<Document>(u"sourceFile.pcl");
+
+// Save in DOC format.
+doc->Save(u"convertedFile.doc", SaveFormat::Doc);
+
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

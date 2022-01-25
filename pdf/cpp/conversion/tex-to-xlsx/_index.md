@@ -67,17 +67,12 @@ PM> Install-Package Aspose.PDF.Cpp
 {{% blocks/products/pf/agp/code-block title="TEX to XLSX C++ Conversion Source Code" offSpacer="" %}}
 
 ```cpp
-    // Create LoadOptions
-    auto loadOptions = MakeObject<TeXLoadOptions>();
-    // Load the LaTeX.
-    auto document = MakeObject<Document>(u"sourceFile.tex", loadOptions);
+// Load the TEX.
+auto doc = MakeObject<Document>(u"sourceFile.tex");
 
-    // Create SaveOptions
-    auto saveOptions = MakeObject<ExcelSaveOptions>();
-    saveOptions->set_Format(ExcelSaveOptions::ExcelFormat::XLSX);
+// Save in XLSX format.
+doc->Save(u"convertedFile.xlsx", SaveFormat::Xlsx);
 
-    // Save the file into XLSX document format
-    document->Save(u"convertedFile.xlsx", saveOptions);
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

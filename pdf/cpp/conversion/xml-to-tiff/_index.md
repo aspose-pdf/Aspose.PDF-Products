@@ -64,20 +64,15 @@ PM> Install-Package Aspose.PDF.Cpp
 
 {{% blocks/products/pf/agp/code-block title="XML to TIFF C++ Conversion Source Code" offSpacer="" %}}
 
-```cs
-    // Instantiate XslFoLoadOption object
-    auto options = new XslFoLoadOptions(u"template.xsl");
+```cpp
+&lt;dependency&gt;
+&lt;groupId&gt;com.aspose&lt;/groupId&gt;
+&lt;artifactId&gt;aspose-pdf&lt;/artifactId&gt;
+&lt;version&gt;version of aspose-pdf API&lt;/version&gt;
+&lt;classifier&gt;jdk17&lt;/classifier&gt;
+&lt;/dependency&gt;
 
-    // Create Document object
-    auto document = MakeObject<Document>(u"sourceFile.xml", options);
 
-    // create an object of emfDevice
-    auto renderer = MakeObject<Aspose::Pdf::Devices::TiffDevice>();
-
-    auto imageStream = System::IO::File::OpenWrite(u"output.tiff");
-
-    // convert a particular page and save the image in EMF format
-    renderer->Process(document, 1, 1, imageStream);
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

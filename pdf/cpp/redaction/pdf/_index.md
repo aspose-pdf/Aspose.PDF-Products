@@ -70,7 +70,7 @@ PM> Install-Package Aspose.PDF.Cpp
 
 {{% blocks/products/pf/agp/code-block title="Redact PDF Files - C++" offSpacer="" %}}
 
-```cs
+```cpp
 // Load PDF file
 auto pdfDocument = MakeObject<Document>(u"sourceFile.pdf");
 
@@ -107,7 +107,7 @@ pdfDocument->Save(u"outputFile.pdf");
 
 {{% blocks/products/pf/agp/content h2="About Aspose.PDF for C++ API" %}}
 
- Aspose.PDF API can be used for PDF document manipulation and parsing within applications. One can create, modify, compress, secure, print or save PDF to TXT, HTML, PCL, XFA, XML, XPS, EPUB, TEX, Images and more formats. Aspose.PDF is a standalone API and it does not depend on any software including Adobe Acrobat. 
+ Aspose.PDF API can be used for PDF document manipulation and parsing within applications. One can create, modify, compress, secure, print or save PDF to TXT, HTML, PCL, XFA, XML, XPS, EPUB, TEX, Images and more formats. Aspose.PDF is a standalone API and it does not depend on any software including Adobe Acrobat.
 
 
 

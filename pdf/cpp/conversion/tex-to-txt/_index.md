@@ -67,15 +67,12 @@ PM> Install-Package Aspose.PDF.Cpp
 {{% blocks/products/pf/agp/code-block title="TEX to TXT C++ Conversion Source Code" offSpacer="" %}}
 
 ```cpp
-    // Create LoadOptions
-    auto loadOptions = MakeObject<TeXLoadOptions>();
-    // Load the LaTeX.
-    auto document = MakeObject<Document>(u"sourceFile.tex", loadOptions);
+// Load the TEX.
+auto doc = MakeObject<Document>(u"sourceFile.tex");
 
-    auto ta = MakeObject<Aspose::Pdf::Text::TextAbsorber>();
-    ta->Visit(document);
-    // Save the extracted text in text file
-    System::IO::File::WriteAllText(u"output.txt", ta->get_Text());
+// Save in TXT format.
+doc->Save(u"convertedFile.txt", SaveFormat::Txt);
+
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

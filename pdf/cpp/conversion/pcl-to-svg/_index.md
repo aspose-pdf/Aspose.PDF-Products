@@ -67,17 +67,12 @@ PM> Install-Package Aspose.PDF.Cpp
 {{% blocks/products/pf/agp/code-block title="PCL to SVG C++ Conversion Source Code" offSpacer="" %}}
 
 ```cpp
-    // Create LoadOptions
-    auto loadOptions = MakeObject<PclLoadOptions>();
+// Load the PCL.
+auto doc = MakeObject<Document>(u"sourceFile.pcl");
 
-    // Load the PCL.
-    auto document = MakeObject<Document>(u"sourceFile.pcl", loadOptions);
+// Save in SVG format.
+doc->Save(u"convertedFile.svg", SaveFormat::Svg);
 
-    // Create SaveOptions
-    auto saveOptions = MakeObject<SvgSaveOptions>();
-
-    // Save the file into SVG document format
-    document->Save(u"convertedFile.svg", saveOptions);
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

@@ -67,16 +67,11 @@ PM> Install-Package Aspose.PDF.Cpp
 {{% blocks/products/pf/agp/code-block title="PDFA to PNG C++ Conversion Source Code" offSpacer="" %}}
 
 ```cpp
-    // Load the PDF.
-    auto document = MakeObject<Document>(u"sourceFile.pdf");
+// Load the PDFA.
+auto doc = MakeObject<Document>(u"sourceFile.pdfa");
 
-    // create an object of PngDevice
-    auto renderer = MakeObject<Aspose::Pdf::Devices::PngDevice>();
-
-    auto imageStream = System::IO::File::OpenWrite(u"output.png");
-
-    // convert a particular page and save the image in PNG format
-    renderer->Process(document->get_Pages()->idx_get(1), imageStream);
+// Save in PNG format.
+doc->Save(u"convertedFile.png", SaveFormat::Png);
 
 ```
 

@@ -65,19 +65,14 @@ PM> Install-Package Aspose.PDF.Cpp
 {{% blocks/products/pf/agp/code-block title="XML to BMP C++ Conversion Source Code" offSpacer="" %}}
 
 ```cpp
-    // Instantiate XslFoLoadOption object
-    auto options = new XslFoLoadOptions(u"template.xsl");
+&lt;dependency&gt;
+&lt;groupId&gt;com.aspose&lt;/groupId&gt;
+&lt;artifactId&gt;aspose-pdf&lt;/artifactId&gt;
+&lt;version&gt;version of aspose-pdf API&lt;/version&gt;
+&lt;classifier&gt;jdk17&lt;/classifier&gt;
+&lt;/dependency&gt;
 
-    // Create Document object
-    auto document = MakeObject<Document>(u"sourceFile.xml", options);
 
-    // Create an object of BmpDevice
-    auto renderer = MakeObject<Aspose::Pdf::Devices::BmpDevice>();
-
-    auto imageStream = System::IO::File::OpenWrite(u"output.bmp");
-
-    // Convert a particular page and save the image in BMP format
-    renderer->Process(document->get_Pages()->idx_get(1), imageStream);
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

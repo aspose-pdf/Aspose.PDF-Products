@@ -66,13 +66,13 @@ PM> Install-Package Aspose.PDF.Cpp
 
 {{% blocks/products/pf/agp/code-block title="PDF to HTML C++ Conversion Source Code" offSpacer="" %}}
 
-```cs
-    // Load the PDF.
-    auto document = MakeObject<Document>(u"sourceFile.pdf");
-    // Create SaveOptions
-    auto saveOptions = MakeObject<HtmlSaveOptions>();
-    // Save the file into HTML document format
-    document->Save(u"convertedFile.html", saveOptions);
+```cpp
+// Load the PDF.
+auto doc = MakeObject<Document>(u"sourceFile.pdf");
+
+// Save in HTML format.
+doc->Save(u"convertedFile.html", SaveFormat::Html);
+
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

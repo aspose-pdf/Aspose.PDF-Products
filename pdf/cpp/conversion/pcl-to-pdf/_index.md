@@ -67,13 +67,12 @@ PM> Install-Package Aspose.PDF.Cpp
 {{% blocks/products/pf/agp/code-block title="PCL to PDF C++ Conversion Source Code" offSpacer="" %}}
 
 ```cpp
-    // Create LoadOptions
-    auto loadOptions = MakeObject<PclLoadOptions>();
-    // Load the PCL.
-    auto document = MakeObject<Document>(u"sourceFile.pcl", loadOptions);
+// Load the PCL.
+auto doc = MakeObject<Document>(u"sourceFile.pcl");
 
-    // Save the file into PDF document format
-    document->Save(u"convertedFile.pdf");
+// Save in PDF format.
+doc->Save(u"convertedFile.pdf", SaveFormat::Pdf);
+
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

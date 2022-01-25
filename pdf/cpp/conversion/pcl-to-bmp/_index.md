@@ -67,25 +67,19 @@ PM> Install-Package Aspose.PDF.Cpp
 {{% blocks/products/pf/agp/code-block title="PCL to BMP C++ Conversion Source Code" offSpacer="" %}}
 
 ```cpp
-    // Create LoadOptions
-    auto loadOptions = MakeObject<PclLoadOptions>();
-    // Load the PCL
-    auto document = MakeObject<Document>(u"sourceFile.pcl", loadOptions);
+// Load the PCL.
+auto doc = MakeObject<Document>(u"sourceFile.pcl");
 
-    // create an object of BmpDevice
-    auto renderer = MakeObject<Aspose::Pdf::Devices::BmpDevice>();
+// Save in BMP format.
+doc->Save(u"convertedFile.bmp", SaveFormat::Bmp);
 
-    auto imageStream = System::IO::File::OpenWrite(u"output.bmp");
-
-    // Сonvert a particular page and save the image in BMP format
-    renderer->Process(document->get_Pages()->idx_get(1), imageStream);
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
+    {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
 
 
 <!-- aboutfile Starts -->

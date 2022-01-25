@@ -67,15 +67,12 @@ PM> Install-Package Aspose.PDF.Cpp
 {{% blocks/products/pf/agp/code-block title="PCL to TXT C++ Conversion Source Code" offSpacer="" %}}
 
 ```cpp
-    // Create LoadOptions
-    auto loadOptions = MakeObject<PclLoadOptions>();
-    // Load the PCL.
-    auto document = MakeObject<Document>(u"sourceFile.pcl", loadOptions);
+// Load the PCL.
+auto doc = MakeObject<Document>(u"sourceFile.pcl");
 
-    auto ta = MakeObject<Aspose::Pdf::Text::TextAbsorber>();
-    ta->Visit(document);
-    // Save the extracted text in text file
-    System::IO::File::WriteAllText(u"output.txt", ta->get_Text());
+// Save in TXT format.
+doc->Save(u"convertedFile.txt", SaveFormat::Txt);
+
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

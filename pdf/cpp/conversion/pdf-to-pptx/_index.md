@@ -67,12 +67,11 @@ PM> Install-Package Aspose.PDF.Cpp
 {{% blocks/products/pf/agp/code-block title="PDF to PPTX C++ Conversion Source Code" offSpacer="" %}}
 
 ```cpp
-    // Load the PDF.
-    auto document = MakeObject<Document>(u"sourceFile.pdf");
-    // Create SaveOptions
-    auto saveOptions = MakeObject<PptxSaveOptions>();
-    // Save the file into PPTX document format
-    document->Save(u"convertedFile.pptx", saveOptions);
+// Load the PDF.
+auto doc = MakeObject<Document>(u"sourceFile.pdf");
+
+// Save in PPTX format.
+doc->Save(u"convertedFile.pptx", SaveFormat::Pptx);
 
 ```
 

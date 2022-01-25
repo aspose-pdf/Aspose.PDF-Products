@@ -67,14 +67,12 @@ PM> Install-Package Aspose.PDF.Cpp
 {{% blocks/products/pf/agp/code-block title="PDF to PDFA C++ Conversion Source Code" offSpacer="" %}}
 
 ```cpp
-    // Load the PDF.
-    auto document = MakeObject<Document>(u"sourceFile.pdf");
-    // Convert to PDF/A compliant document
-    // During conversion process, the validation is also performed
-    document->Convert(u"logfile.xml", PdfFormat::PDF_A_1B, ConvertErrorAction::Delete);
+// Load the PDF.
+auto doc = MakeObject<Document>(u"sourceFile.pdf");
 
-    // Save the file into PDF document format
-    document->Save(u"convertedFile.pdf");
+// Save in PDFA format.
+doc->Save(u"convertedFile.pdfa", SaveFormat::Pdfa);
+
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

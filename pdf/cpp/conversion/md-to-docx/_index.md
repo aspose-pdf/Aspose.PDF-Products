@@ -66,13 +66,16 @@ PM> Install-Package Aspose.PDF.Cpp
 
 {{% blocks/products/pf/agp/code-block title="MD to DOCX C++ Conversion Source Code" offSpacer="" %}}
 
-```cs
-// Load the MD.
-auto doc = MakeObject<Document>(u"sourceFile.md");
-
-// Save in DOCX format.
-doc->Save(u"convertedFile.docx", SaveFormat::Docx);
-
+```cpp
+// Create LoadOptions
+auto loadOptions = MakeObject<MdLoadOptions>();
+// Load the Markdown
+auto document = MakeObject<Document>(u"sourceFile.md", loadOptions);
+// Create SaveOptions
+auto saveOptions = MakeObject<DocSaveOptions>();
+saveOptions->set_Format(DocSaveOptions::DocFormat::DocX);
+// Save the file into MS document format
+document->Save(u"convertedFile.docx", saveOptions);
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
@@ -80,6 +83,7 @@ doc->Save(u"convertedFile.docx", SaveFormat::Docx);
 {{< /blocks/products/pf/agp/feature-section >}}
 
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
+
 
 <!-- aboutfile Starts -->
 

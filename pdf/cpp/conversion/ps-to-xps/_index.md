@@ -48,6 +48,7 @@ PM> Install-Package Aspose.PDF.Cpp
 1. XPS file will be saved at the specified path.
 1. Open XPS file in compatible program.
 
+
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
 {{% blocks/products/pf/agp/feature-section-col title="System Requirements" %}}
@@ -66,19 +67,20 @@ PM> Install-Package Aspose.PDF.Cpp
 {{% blocks/products/pf/agp/code-block title="PS to XPS C++ Conversion Source Code" offSpacer="" %}}
 
 ```cpp
-    // Create LoadOptions
-    auto loadOptions = MakeObject<PsLoadOptions>();
-    // Load the PostScript.
-    auto document = MakeObject<Document>(u"sourceFile.ps", loadOptions);
-    // Save the file into XPS document format
-    document->Save(u"convertedFile.xls", SaveFormat::Xps);
+// Load the PS.
+auto doc = MakeObject<Document>(u"sourceFile.ps");
+
+// Save in XPS format.
+doc->Save(u"convertedFile.xps", SaveFormat::Xps);
+
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
+    {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
+
 
 <!-- aboutfile Starts -->
 

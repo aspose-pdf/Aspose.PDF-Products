@@ -67,14 +67,12 @@ PM> Install-Package Aspose.PDF.Cpp
 {{% blocks/products/pf/agp/code-block title="TEX to HTML C++ Conversion Source Code" offSpacer="" %}}
 
 ```cpp
-    // Create LoadOptions
-    auto loadOptions = MakeObject<TeXLoadOptions>();
-    // Load the LaTeX
-    auto document = MakeObject<Document>(u"sourceFile.tex", loadOptions);
-    // Create SaveOptions
-    auto saveOptions = MakeObject<HtmlSaveOptions>();
-    // Save the file into HTML document format
-    document->Save(u"convertedFile.html", saveOptions);
+// Load the TEX.
+auto doc = MakeObject<Document>(u"sourceFile.tex");
+
+// Save in HTML format.
+doc->Save(u"convertedFile.html", SaveFormat::Html);
+
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

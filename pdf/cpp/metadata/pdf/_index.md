@@ -43,10 +43,10 @@ PM> Install-Package Aspose.PDF.Cpp
 
 {{% /blocks/products/pf/agp/text %}}
 
-+  Create instance using MakeObject Document
-+  Get Info using get\_Info()
-+  Set relevant document properties
-+  Save document
++ Create instance using MakeObject Document
++ Get Info using get_Info()
++ Set relevant document properties
++ Save document
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
@@ -58,15 +58,14 @@ PM> Install-Package Aspose.PDF.Cpp
 
 {{% /blocks/products/pf/agp/text %}}
 
-- Microsoft Windows or a compatible OS with C++ Runtime Environment for Windows 32 bit, Windows 64 bit and Linux 64 bit.
-- Aspose.PDF for C++ DLL referenced in your project.
++ Microsoft Windows or a compatible OS with C++ Runtime Environment for Windows 32 bit, Windows 64 bit and Linux 64 bit.
++ Aspose.PDF for C++ DLL referenced in your project.
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
 {{% blocks/products/pf/agp/code-block title="Extract Metadata of PDF - C++" offSpacer="" %}}
 
-```cs
-
+```cpp
 auto doc = MakeObject<Document>();
 auto info = doc->get_Info();
 // Set document information
@@ -87,7 +86,6 @@ Console::WriteLine(L"Author: {0}", info->get_Author());
 Console::WriteLine(L"Subject: {0}", info->get_Subject());
 Console::WriteLine(L"Title: {0}", info->get_Title());
 Console::WriteLine(L"Get / Set document info finished.");
-
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
@@ -101,7 +99,7 @@ Console::WriteLine(L"Get / Set document info finished.");
 
     {{% blocks/products/pf/agp/content h2="About Aspose.PDF for C++ API" %}}
 
- Aspose.PDF API can be used for PDF document manipulation and parsing within applications. One can create, modify, compress, secure, print or save PDF to TXT, HTML, PCL, XFA, XML, XPS, EPUB, TEX, Images and more formats. Aspose.PDF is a standalone API and it does not depend on any software including Adobe Acrobat. 
+ Aspose.PDF API can be used for PDF document manipulation and parsing within applications. One can create, modify, compress, secure, print or save PDF to TXT, HTML, PCL, XFA, XML, XPS, EPUB, TEX, Images and more formats. Aspose.PDF is a standalone API and it does not depend on any software including Adobe Acrobat.
 
 
 

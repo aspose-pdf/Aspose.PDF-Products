@@ -67,14 +67,12 @@ PM> Install-Package Aspose.PDF.Cpp
 {{% blocks/products/pf/agp/code-block title="PS to HTML C++ Conversion Source Code" offSpacer="" %}}
 
 ```cpp
-    // Create LoadOptions
-    auto loadOptions = MakeObject<PsLoadOptions>();
-    // Load the PostScript.
-    auto document = MakeObject<Document>(u"sourceFile.ps", loadOptions);
-    // Create SaveOptions
-    auto saveOptions = MakeObject<HtmlSaveOptions>();
-    // Save the file into MS document format
-    document->Save(u"convertedFile.html", saveOptions);
+// Load the PS.
+auto doc = MakeObject<Document>(u"sourceFile.ps");
+
+// Save in HTML format.
+doc->Save(u"convertedFile.html", SaveFormat::Html);
+
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

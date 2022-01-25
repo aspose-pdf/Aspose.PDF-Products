@@ -66,7 +66,7 @@ PM> Install-Package Aspose.PDF.Cpp
 
 {{% blocks/products/pf/agp/code-block title="EPUB to SVG C++ Conversion Source Code" offSpacer="" %}}
 
-```cs
+```cpp
 // Create LoadOptions
 auto loadoptions = MakeObject<EpubLoadOptions>();
 // Load the EPUB.

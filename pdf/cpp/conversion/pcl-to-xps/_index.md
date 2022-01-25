@@ -67,13 +67,12 @@ PM> Install-Package Aspose.PDF.Cpp
 {{% blocks/products/pf/agp/code-block title="PCL to XPS C++ Conversion Source Code" offSpacer="" %}}
 
 ```cpp
-    // Create LoadOptions
-    auto loadOptions = MakeObject<PclLoadOptions>();
-    // Load the PCL.
-    auto document = MakeObject<Document>(u"sourceFile.pcl", loadOptions);
+// Load the PCL.
+auto doc = MakeObject<Document>(u"sourceFile.pcl");
 
-    // Save the file into SVG document format
-    document->Save(u"convertedFile.xls", SaveFormat::Xps);
+// Save in XPS format.
+doc->Save(u"convertedFile.xps", SaveFormat::Xps);
+
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

@@ -67,17 +67,12 @@ PM> Install-Package Aspose.PDF.Cpp
 {{% blocks/products/pf/agp/code-block title="PCL to XLSX C++ Conversion Source Code" offSpacer="" %}}
 
 ```cpp
-    // Create LoadOptions
-    auto loadOptions = MakeObject<PclLoadOptions>();
-    // Load the PCL.
-    auto document = MakeObject<Document>(u"sourceFile.pcl", loadOptions);
+// Load the PCL.
+auto doc = MakeObject<Document>(u"sourceFile.pcl");
 
-    // Create SaveOptions
-    auto saveOptions = MakeObject<ExcelSaveOptions>();
-    saveOptions->set_Format(ExcelSaveOptions::ExcelFormat::XLSX);
+// Save in XLSX format.
+doc->Save(u"convertedFile.xlsx", SaveFormat::Xlsx);
 
-    // Save the file into SVG document format
-    document->Save(u"convertedFile.xls", saveOptions);
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

@@ -66,16 +66,12 @@ PM> Install-Package Aspose.PDF.Cpp
 
 {{% blocks/products/pf/agp/code-block title="PDF to XLS C++ Conversion Source Code" offSpacer="" %}}
 
-```cs
-    // Load the PDF.
-    auto document = MakeObject<Document>(u"sourceFile.pdf");
+```cpp
+// Load the PDF.
+auto doc = MakeObject<Document>(u"sourceFile.pdf");
 
-    // Create SaveOptions
-    auto saveOptions = MakeObject<ExcelSaveOptions>();
-    saveOptions->set_Format(ExcelSaveOptions::ExcelFormat::XMLSpreadSheet2003);
-
-    // Save the file into XLS document format
-    document->Save(u"convertedFile.xls", saveOptions);
+// Save in XLS format.
+doc->Save(u"convertedFile.xls", SaveFormat::Xls);
 
 ```
 

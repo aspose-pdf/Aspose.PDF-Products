@@ -67,13 +67,11 @@ PM> Install-Package Aspose.PDF.Cpp
 {{% blocks/products/pf/agp/code-block title="PDFA to DOCX C++ Conversion Source Code" offSpacer="" %}}
 
 ```cpp
-    // Load the PDF/A
-    auto document = MakeObject<Document>(u"sourceFile.pdf");
-    // Create SaveOptions
-    auto saveOptions = MakeObject<DocSaveOptions>();
-    saveOptions->set_Format(DocSaveOptions::DocFormat::DocX);
-    // Save the file into MS document format
-    document->Save(u"convertedFile.docx", saveOptions);
+// Load the PDFA.
+auto doc = MakeObject<Document>(u"sourceFile.pdfa");
+
+// Save in DOCX format.
+doc->Save(u"convertedFile.docx", SaveFormat::Docx);
 
 ```
 
@@ -81,7 +79,7 @@ PM> Install-Package Aspose.PDF.Cpp
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
+    {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
 
 
 <!-- aboutfile Starts -->

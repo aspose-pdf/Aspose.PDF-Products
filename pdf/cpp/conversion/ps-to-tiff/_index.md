@@ -67,18 +67,11 @@ PM> Install-Package Aspose.PDF.Cpp
 {{% blocks/products/pf/agp/code-block title="PS to TIFF C++ Conversion Source Code" offSpacer="" %}}
 
 ```cpp
-    // Create LoadOptions
-    auto loadOptions = MakeObject<PsLoadOptions>();
-    // Load the PostScript.
-    auto document = MakeObject<Document>(u"sourceFile.ps", loadOptions);
+// Load the PS.
+auto doc = MakeObject<Document>(u"sourceFile.ps");
 
-    // create an object of emfDevice
-    auto renderer = MakeObject<Aspose::Pdf::Devices::TiffDevice>();
-
-    auto imageStream = System::IO::File::OpenWrite(u"output.tiff");
-
-    // convert a particular page and save the image in EMF format
-    renderer->Process(document, 1, 1, imageStream);
+// Save in TIFF format.
+doc->Save(u"convertedFile.tiff", SaveFormat::Tiff);
 
 ```
 

@@ -65,18 +65,14 @@ PM> Install-Package Aspose.PDF.Cpp
 {{% blocks/products/pf/agp/code-block title="XML to PDFA C++ Conversion Source Code" offSpacer="" %}}
 
 ```cpp
-// Instantiate XslFoLoadOption object
-    auto options = new XslFoLoadOptions(u"template.xsl");
+&lt;dependency&gt;
+&lt;groupId&gt;com.aspose&lt;/groupId&gt;
+&lt;artifactId&gt;aspose-pdf&lt;/artifactId&gt;
+&lt;version&gt;version of aspose-pdf API&lt;/version&gt;
+&lt;classifier&gt;jdk17&lt;/classifier&gt;
+&lt;/dependency&gt;
 
-    // Create Document object
-    auto document = MakeObject<Document>(u"sourceFile.xml", options);
 
-    // Convert to PDF/A compliant document
-    // During conversion process, the validation is also performed
-    document->Convert(u"logfile.xml", PdfFormat::PDF_A_1B, ConvertErrorAction::Delete);
-
-    // Save the file into PDF document format
-    document->Save(u"convertedFile.pdf");
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

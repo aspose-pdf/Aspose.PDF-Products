@@ -1,6 +1,6 @@
 ---
-title: Convert MHTML to XLSX via C++ application 
-url: /cpp/conversion/mhtml-to-xlsx/ 
+title: Convert MHTML to XLSX via C++ application
+url: /cpp/conversion/mhtml-to-xlsx/
 description: Sample C++ conversion code for MHTML document to XLSX format. Programmers can use this source code for batch MHTML to XLSX conversion within any C++ application.
 ---
 
@@ -13,11 +13,11 @@ description: Sample C++ conversion code for MHTML document to XLSX format. Progr
 {{% blocks/products/pf/agp/content h2="How to Convert MHTML to XLSX Using C++" %}}
 
  In order to convert MHTML to XLSX, we’ll use
- [Aspose.PDF for C++](https://products.aspose.com/pdf/cpp) 
+ [Aspose.PDF for C++](https://products.aspose.com/pdf/cpp)
  API which is a feature-rich, powerful and easy to use document manipulation and conversion API for C++ platform. You can download its latest version directly, just open
- [NuGet](https://www.nuget.org/packages/aspose.pdf) 
+ [NuGet](https://www.nuget.org/packages/aspose.pdf)
  package manager, search for
- Aspose.PDF.Cpp 
+ Aspose.PDF.Cpp
  and install. You may also use the following command from the Package Manager Console.
 
 {{% blocks/products/pf/agp/code-block title="Command" offSpacer="true" %}}
@@ -66,13 +66,18 @@ PM> Install-Package Aspose.PDF.Cpp
 
 {{% blocks/products/pf/agp/code-block title="MHTML to XLSX C++ Conversion Source Code" offSpacer="" %}}
 
-```cs
-// Load the MHTML.
-auto doc = MakeObject<Document>(u"sourceFile.mhtml");
+```cpp
+// Create LoadOptions
+auto loadOptions = MakeObject<MhtLoadOptions>();
+// Load the MHTML
+auto document = MakeObject<Document>(u"sourceFile.mht", loadOptions);
 
-// Save in XLSX format.
-doc->Save(u"convertedFile.xlsx", SaveFormat::Xlsx);
+// Create SaveOptions
+auto saveOptions = MakeObject<ExcelSaveOptions>();
+saveOptions->set_Format(ExcelSaveOptions::ExcelFormat::XLSX);
 
+// Save the file into SVG document format
+document->Save(u"convertedFile.xls", saveOptions);
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
@@ -80,7 +85,7 @@ doc->Save(u"convertedFile.xlsx", SaveFormat::Xlsx);
 {{< /blocks/products/pf/agp/feature-section >}}
 
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
- 
+
 
 <!-- aboutfile Starts -->
 
@@ -92,7 +97,7 @@ doc->Save(u"convertedFile.xlsx", SaveFormat::Xlsx);
 
     {{% blocks/products/pf/agp/content h2="C++ PDF Document Manipulation Library" %}}
 
- Aspose.PDF API can be used for PDF document manipulation and parsing within applications. One can create, modify, compress, secure, print or save PDF to TXT, HTML, PCL, XFA, XML, XPS, EPUB, TEX, Images and more formats. Aspose.PDF is a standalone API and it does not depend on any software including Adobe Acrobat. 
+ Aspose.PDF API can be used for PDF document manipulation and parsing within applications. One can create, modify, compress, secure, print or save PDF to TXT, HTML, PCL, XFA, XML, XPS, EPUB, TEX, Images and more formats. Aspose.PDF is a standalone API and it does not depend on any software including Adobe Acrobat.
 
 
 
@@ -121,5 +126,5 @@ XLSX is well-known format for Microsoft Excel documents that was introduced by M
 
 
 {{< /blocks/products/pf/main-container >}}
-    
+
 {{< /blocks/products/pf/main-wrap-class >}}

@@ -67,10 +67,12 @@ PM> Install-Package Aspose.PDF.Cpp
 {{% blocks/products/pf/agp/code-block title="PDF to TEX C++ Conversion Source Code" offSpacer="" %}}
 
 ```cpp
-    // Load the PDF.
-    auto document = MakeObject<Document>(u"sourceFile.pdf");
-    // Save the file into TeX document format
-    document->Save(u"convertedFile.svg", SaveFormat::TeX);
+// Load the PDF.
+auto doc = MakeObject<Document>(u"sourceFile.pdf");
+
+// Save in TEX format.
+doc->Save(u"convertedFile.tex", SaveFormat::Tex);
+
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

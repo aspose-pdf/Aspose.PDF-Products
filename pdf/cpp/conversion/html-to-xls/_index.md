@@ -1,6 +1,6 @@
 ---
-title: Convert HTML to XLS via C++ application 
-url: /cpp/conversion/html-to-xls/ 
+title: Convert HTML to XLS via C++ application
+url: /cpp/conversion/html-to-xls/
 description: Sample C++ conversion code for HTML document to XLS format. Programmers can use this source code for batch HTML to XLS conversion within any C++ application.
 ---
 
@@ -13,11 +13,11 @@ description: Sample C++ conversion code for HTML document to XLS format. Program
 {{% blocks/products/pf/agp/content h2="How to Convert HTML to XLS Using C++" %}}
 
  In order to convert HTML to XLS, we’ll use
- [Aspose.PDF for C++](https://products.aspose.com/pdf/cpp) 
+ [Aspose.PDF for C++](https://products.aspose.com/pdf/cpp)
  API which is a feature-rich, powerful and easy to use document manipulation and conversion API for C++ platform. You can download its latest version directly, just open
- [NuGet](https://www.nuget.org/packages/aspose.pdf) 
+ [NuGet](https://www.nuget.org/packages/aspose.pdf)
  package manager, search for
- Aspose.PDF.Cpp 
+ Aspose.PDF.Cpp
  and install. You may also use the following command from the Package Manager Console.
 
 {{% blocks/products/pf/agp/code-block title="Command" offSpacer="true" %}}
@@ -64,15 +64,18 @@ PM> Install-Package Aspose.PDF.Cpp
 
 {{% blocks/products/pf/agp/code-block title="HTML to XLS C++ Conversion Source Code" offSpacer="" %}}
 
-```cs
-&lt;dependency&gt;
-&lt;groupId&gt;com.aspose&lt;/groupId&gt;
-&lt;artifactId&gt;aspose-pdf&lt;/artifactId&gt;
-&lt;version&gt;version of aspose-pdf API&lt;/version&gt;
-&lt;classifier&gt;jdk17&lt;/classifier&gt;
-&lt;/dependency&gt;
+```cpp
+// Create LoadOptions
+auto loadOptions = MakeObject<HtmlLoadOptions>();
+// Load the EPUB.
+auto document = MakeObject<Document>(u"sourceFile.html", loadOptions);
 
+// Create SaveOptions
+auto saveOptions = MakeObject<ExcelSaveOptions>();
+saveOptions->set_Format(ExcelSaveOptions::ExcelFormat::XMLSpreadSheet2003);
 
+// Save the file into SVG document format
+document->Save(u"convertedFile.xls", saveOptions);
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
@@ -80,7 +83,7 @@ PM> Install-Package Aspose.PDF.Cpp
 {{< /blocks/products/pf/agp/feature-section >}}
 
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
- 
+
 
 <!-- aboutfile Starts -->
 
@@ -92,7 +95,7 @@ PM> Install-Package Aspose.PDF.Cpp
 
     {{% blocks/products/pf/agp/content h2="C++ PDF Document Manipulation Library" %}}
 
- Aspose.PDF API can be used for PDF document manipulation and parsing within applications. One can create, modify, compress, secure, print or save PDF to TXT, HTML, PCL, XFA, XML, XPS, EPUB, TEX, Images and more formats. Aspose.PDF is a standalone API and it does not depend on any software including Adobe Acrobat. 
+ Aspose.PDF API can be used for PDF document manipulation and parsing within applications. One can create, modify, compress, secure, print or save PDF to TXT, HTML, PCL, XFA, XML, XPS, EPUB, TEX, Images and more formats. Aspose.PDF is a standalone API and it does not depend on any software including Adobe Acrobat.
 
 
 
@@ -121,5 +124,5 @@ Files with XLS extension represent Excel Binary File Format. Such files can be c
 
 
 {{< /blocks/products/pf/main-container >}}
-    
+
 {{< /blocks/products/pf/main-wrap-class >}}

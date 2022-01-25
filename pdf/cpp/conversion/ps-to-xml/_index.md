@@ -66,14 +66,13 @@ PM> Install-Package Aspose.PDF.Cpp
 
 {{% blocks/products/pf/agp/code-block title="PS to XML C++ Conversion Source Code" offSpacer="" %}}
 
-```cs
-    // Create LoadOptions
-    auto loadOptions = MakeObject<PsLoadOptions>();
-    // Load the PostScript.
-    auto document = MakeObject<Document>(u"sourceFile.ps", loadOptions);
+```cpp
+// Load the PS.
+auto doc = MakeObject<Document>(u"sourceFile.ps");
 
-    // Save the file into XML document format
-    document->Save(u"convertedFile.xml", SaveFormat::Xml);
+// Save in XML format.
+doc->Save(u"convertedFile.xml", SaveFormat::Xml);
+
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

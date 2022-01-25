@@ -66,16 +66,13 @@ PM> Install-Package Aspose.PDF.Cpp
 
 {{% blocks/products/pf/agp/code-block title="PCL to PPTX C++ Conversion Source Code" offSpacer="" %}}
 
-```cs
-    // Create LoadOptions
-    auto loadOptions = MakeObject<PclLoadOptions>();
-    // Load the PCL.
-    auto document = MakeObject<Document>(u"sourceFile.pcl", loadOptions);
-    // Create SaveOptions
-    auto saveOptions = MakeObject<PptxSaveOptions>();
+```cpp
+// Load the PCL.
+auto doc = MakeObject<Document>(u"sourceFile.pcl");
 
-    // Save the file into PPTX document format
-    document->Save(u"convertedFile.pptx", saveOptions);
+// Save in PPTX format.
+doc->Save(u"convertedFile.pptx", SaveFormat::Pptx);
+
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

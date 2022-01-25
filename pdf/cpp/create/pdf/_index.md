@@ -52,7 +52,7 @@ description: C++ Sample code for creating PDF documents. Use this code to genera
 
 {{% blocks/products/pf/agp/code-block title="Following source code shows how to create a PDF file using C++." offSpacer="" %}}
 
-```cs
+```cpp
 // Create document
 auto new_pdf = MakeObject<Document>();
 auto pages = new_pdf->get_Pages();

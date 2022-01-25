@@ -66,7 +66,7 @@ PM> Install-Package Aspose.PDF.Cpp
 
 {{% blocks/products/pf/agp/code-block title="PDF to PNG Image C++ Conversion Source Code" offSpacer="" %}}
 
-```cs
+```cpp
 System::SharedPtr<Aspose::Pdf::Facades::PdfConverter> PngConverter = System::MakeObject<Aspose::Pdf::Facades::PdfConverter>();
 PngConverter->BindPdf(L"D:\\Test\\test.pdf");
 PngConverter->DoConvert();
@@ -98,7 +98,7 @@ while (PngConverter->HasNextImage())
 
     {{% blocks/products/pf/agp/content h2="" %}}
 
- C++ PDF API can be used for PDF document manipulation and parsing within applications. One can create, modify, compress, secure, print or save PDF to TXT, HTML, PCL, XFA, XML, XPS, EPUB, TEX, Images and more formats. It is a standalone API and it does not depend on any software including Adobe Acrobat. 
+ C++ PDF API can be used for PDF document manipulation and parsing within applications. One can create, modify, compress, secure, print or save PDF to TXT, HTML, PCL, XFA, XML, XPS, EPUB, TEX, Images and more formats. It is a standalone API and it does not depend on any software including Adobe Acrobat.
 
 
 

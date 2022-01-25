@@ -66,19 +66,13 @@ PM> Install-Package Aspose.PDF.Cpp
 
 {{% blocks/products/pf/agp/code-block title="TEX to BMP C++ Conversion Source Code" offSpacer="" %}}
 
-```cs
-    // Create LoadOptions
-    auto loadOptions = MakeObject<TeXLoadOptions>();
-    // Load LaTeX.
-    auto document = MakeObject<Document>(u"sourceFile.tex", loadOptions);
+```cpp
+// Load the TEX.
+auto doc = MakeObject<Document>(u"sourceFile.tex");
 
-    // create an object of BmpDevice
-    auto renderer = MakeObject<Aspose::Pdf::Devices::BmpDevice>();
+// Save in BMP format.
+doc->Save(u"convertedFile.bmp", SaveFormat::Bmp);
 
-    auto imageStream = System::IO::File::OpenWrite(u"output.bmp");
-
-    // convert a particular page and save the image in BMP format
-    renderer->Process(document->get_Pages()->idx_get(1), imageStream);
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

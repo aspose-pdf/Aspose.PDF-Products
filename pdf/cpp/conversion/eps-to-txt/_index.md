@@ -1,6 +1,6 @@
 ---
-title: Convert EPS to TXT via C++ application 
-url: /cpp/conversion/eps-to-txt/ 
+title: Convert EPS to TXT via C++ application
+url: /cpp/conversion/eps-to-txt/
 description: Sample C++ conversion code for EPS document to TXT format. Programmers can use this source code for batch EPS to TXT conversion within any C++ application.
 ---
 
@@ -13,11 +13,11 @@ description: Sample C++ conversion code for EPS document to TXT format. Programm
 {{% blocks/products/pf/agp/content h2="How to Convert EPS to TXT Using C++" %}}
 
  In order to convert EPS to TXT, we’ll use
- [Aspose.PDF for C++](https://products.aspose.com/pdf/cpp) 
+ [Aspose.PDF for C++](https://products.aspose.com/pdf/cpp)
  API which is a feature-rich, powerful and easy to use document manipulation and conversion API for C++ platform. You can download its latest version directly, just open
- [NuGet](https://www.nuget.org/packages/aspose.pdf) 
+ [NuGet](https://www.nuget.org/packages/aspose.pdf)
  package manager, search for
- Aspose.PDF.Cpp 
+ Aspose.PDF.Cpp
  and install. You may also use the following command from the Package Manager Console.
 
 {{% blocks/products/pf/agp/code-block title="Command" offSpacer="true" %}}
@@ -66,7 +66,7 @@ PM> Install-Package Aspose.PDF.Cpp
 
 {{% blocks/products/pf/agp/code-block title="EPS to TXT C++ Conversion Source Code" offSpacer="" %}}
 
-```cs
+```cpp
 // Load the EPS.
 auto doc = MakeObject<Document>(u"sourceFile.eps");
 
@@ -80,7 +80,7 @@ doc->Save(u"convertedFile.txt", SaveFormat::Txt);
 {{< /blocks/products/pf/agp/feature-section >}}
 
     {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
- 
+
 
 <!-- aboutfile Starts -->
 
@@ -92,7 +92,7 @@ doc->Save(u"convertedFile.txt", SaveFormat::Txt);
 
     {{% blocks/products/pf/agp/content h2="C++ PDF Document Manipulation Library" %}}
 
- Aspose.PDF API can be used for PDF document manipulation and parsing within applications. One can create, modify, compress, secure, print or save PDF to TXT, HTML, PCL, XFA, XML, XPS, EPUB, TEX, Images and more formats. Aspose.PDF is a standalone API and it does not depend on any software including Adobe Acrobat. 
+ Aspose.PDF API can be used for PDF document manipulation and parsing within applications. One can create, modify, compress, secure, print or save PDF to TXT, HTML, PCL, XFA, XML, XPS, EPUB, TEX, Images and more formats. Aspose.PDF is a standalone API and it does not depend on any software including Adobe Acrobat.
 
 
 
@@ -120,5 +120,5 @@ A file with .TXT extension represents a text document that contains plain text i
 
 
 {{< /blocks/products/pf/main-container >}}
-    
+
 {{< /blocks/products/pf/main-wrap-class >}}

@@ -67,11 +67,12 @@ PM> Install-Package Aspose.PDF.Cpp
 {{% blocks/products/pf/agp/code-block title="PDF to XPS C++ Conversion Source Code" offSpacer="" %}}
 
 ```cpp
-    // Load the PDF.
-    auto document = MakeObject<Document>(u"sourceFile.pdf");
+// Load the PDF.
+auto doc = MakeObject<Document>(u"sourceFile.pdf");
 
-    // Save the file into XPS document format
-    document->Save(u"convertedFile.xps", SaveFormat::Xps);
+// Save in XPS format.
+doc->Save(u"convertedFile.xps", SaveFormat::Xps);
+
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

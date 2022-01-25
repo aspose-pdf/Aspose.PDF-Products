@@ -67,13 +67,12 @@ PM> Install-Package Aspose.PDF.Cpp
 {{% blocks/products/pf/agp/code-block title="TEX to XML C++ Conversion Source Code" offSpacer="" %}}
 
 ```cpp
-    // Create LoadOptions
-    auto loadOptions = MakeObject<TeXLoadOptions>();
-    // Load the LaTeX.
-    auto document = MakeObject<Document>(u"sourceFile.tex", loadOptions);
+// Load the TEX.
+auto doc = MakeObject<Document>(u"sourceFile.tex");
 
-    // Save the file into XML document format
-    document->Save(u"convertedFile.xml", SaveFormat::Xml)
+// Save in XML format.
+doc->Save(u"convertedFile.xml", SaveFormat::Xml);
+
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

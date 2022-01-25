@@ -67,16 +67,12 @@ PM> Install-Package Aspose.PDF.Cpp
 {{% blocks/products/pf/agp/code-block title="PDF to EMF C++ Conversion Source Code" offSpacer="" %}}
 
 ```cpp
-    // Load the PDF.
-    auto document = MakeObject<Document>(u"sourceFile.pdf");
+// Load the PDF.
+auto doc = MakeObject<Document>(u"sourceFile.pdf");
 
-    // create an object of emfDevice
-    auto renderer = MakeObject<Aspose::Pdf::Devices::EmfDevice>();
+// Save in EMF format.
+doc->Save(u"convertedFile.emf", SaveFormat::Emf);
 
-    auto imageStream = System::IO::File::OpenWrite(u"output.emf");
-
-    // convert a particular page and save the image in EMF format
-    renderer->Process(document->get_Pages()->idx_get(1), imageStream);
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

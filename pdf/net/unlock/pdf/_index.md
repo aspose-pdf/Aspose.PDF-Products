@@ -39,11 +39,9 @@ PM> Install-Package Aspose.PDF
 
 {{% blocks/products/pf/agp/text %}}
 
-Developers can easily unlock Adobe PDF files by executing the following workflow.
-
-1. Load protected document in an instance of `Document` class
-1. Call `Document.Decrypt` method to remove protection
-1. Save the result back in PDF format with `Document.Save` method
+ You need
+ [aspose.pdf.dll](https://downloads.aspose.com/pdf/net)
+ referenced in your project to execute the following workflow.
 
 {{% /blocks/products/pf/agp/text %}}
 
@@ -66,45 +64,37 @@ Developers can easily unlock Adobe PDF files by executing the following workflow
 {{% blocks/products/pf/agp/code-block title="Command" offSpacer="" %}}
 
 ```cs
-// Open document
-Document document = new Document("document.pdf", "password");
-// Unlock PDF
-document.Decrypt();
-// Save updated PDF
-document.Save("document-unlock.pdf");
+
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-    {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
-
+{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
 
 <!-- aboutfile Starts -->
 
-    {{% blocks/products/pf/agp/content h2="About Aspose.PDF for .NET API" %}}
+{{% blocks/products/pf/agp/content h2="About Aspose.PDF for .NET API" %}}
 
- Aspose.PDF API can be used for PDF document manipulation and parsing within applications. One can create, modify, compress, secure, print or save PDF to TXT, HTML, PCL, XFA, XML, XPS, EPUB, TEX, Images and more formats. Aspose.PDF is a standalone API and it does not depend on any software including Adobe Acrobat.
+Aspose.PDF API can be used for PDF document manipulation and parsing within applications. One can create, modify, compress, secure, print or save PDF to TXT, HTML, PCL, XFA, XML, XPS, EPUB, TEX, Images and more formats. Aspose.PDF is a standalone API and it does not depend on any software including Adobe Acrobat.
 
+{{% /blocks/products/pf/agp/content %}}
 
+   {{< blocks/products/pf/agp/about-file-section >}}
 
-    {{% /blocks/products/pf/agp/content %}}
-
-    {{< blocks/products/pf/agp/about-file-section >}}
-
-        {{< blocks/products/pf/agp/demobox sectionTitle="Free App to Unlock PDF" sectionDescription="Check our live demos to [unlock PDF files](https://products.aspose.app/pdf/unlock/pdf) with following benefits." >}}
+{{< blocks/products/pf/agp/demobox sectionTitle="Free App to Unlock PDF" sectionDescription="Check our live demos to [unlock PDF files](https://products.aspose.app/pdf/unlock/pdf) with following benefits." >}}
             {{< blocks/products/pf/agp/democard icon="fa-cogs" text=" No need to download or setup anything" >}}
             {{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write or compile code" >}}
             {{< blocks/products/pf/agp/democard icon="fa-file-text" text=" Just upload PDF file and hit the \"Unlock\" button" >}}
             {{< blocks/products/pf/agp/democard icon="fa-download" text=" Download the resultant PDF file from the link" >}}
 
-        {{< blocks/products/pf/agp/about-file-text fileFormat="PDF" readMoreLink="https://docs.fileformat.com/view/pdf/" >}}
+{{< blocks/products/pf/agp/about-file-text fileFormat="PDF" readMoreLink="https://docs.fileformat.com/view/pdf/" >}}
 Portable Document Format (PDF) is a type of document created by Adobe back in 1990s. The purpose of this file format was to introduce a standard for representation of documents and other reference material in a format that is independent of application software, hardware as well as Operating System. PDF files can be opened in Adobe Acrobat Reader/Writer as well in most modern browsers like Chrome, Safari, Firefox via extensions/plug-ins. Most of the commercially available software suites also offer conversion of their documents to PDF file format without the requirement of any additional software component. Thus, PDF file format has full capability to contain information like text, images, hyperlinks, form-fields, rich media, digital signatures, attachments, metadata, Geospatial features and 3D objects in it that can become as part of source document.
 
-        {{< /blocks/products/pf/agp/about-file-text >}}
+{{< /blocks/products/pf/agp/about-file-text >}}
 
-    {{< /blocks/products/pf/agp/about-file-section >}}
+{{< /blocks/products/pf/agp/about-file-section >}}
 
 <!-- aboutfile Ends -->
 

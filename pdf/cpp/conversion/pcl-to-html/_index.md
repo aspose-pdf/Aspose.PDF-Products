@@ -66,17 +66,13 @@ PM> Install-Package Aspose.PDF.Cpp
 
 {{% blocks/products/pf/agp/code-block title="PCL to HTML C++ Conversion Source Code" offSpacer="" %}}
 
-```cs
-    // Create LoadOptions
-    auto loadOptions = MakeObject<PclLoadOptions>();
-    // Load the HTML
-    auto document = MakeObject<Document>(u"sourceFile.pcl", loadOptions);
+```cpp
+// Load the PCL.
+auto doc = MakeObject<Document>(u"sourceFile.pcl");
 
-    // Create SaveOptions
-    auto saveOptions = MakeObject<HtmlSaveOptions>();
+// Save in HTML format.
+doc->Save(u"convertedFile.html", SaveFormat::Html);
 
-    // Save the file into HTML document format
-    document->Save(u"convertedFile.html", saveOptions);
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

@@ -67,12 +67,12 @@ PM> Install-Package Aspose.PDF.Cpp
 {{% blocks/products/pf/agp/code-block title="PDF to SVG C++ Conversion Source Code" offSpacer="" %}}
 
 ```cpp
-	// Load the PDF.
-	auto document = MakeObject<Document>(u"sourceFile.pdf");
-	// Create SaveOptions
-	auto saveOptions = MakeObject<SvgSaveOptions>();
-	// Save the file into SVG document format
-	document->Save(u"convertedFile.svg", saveOptions);
+// Load the PDF.
+auto doc = MakeObject<Document>(u"sourceFile.pdf");
+
+// Save in SVG format.
+doc->Save(u"convertedFile.svg", SaveFormat::Svg);
+
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

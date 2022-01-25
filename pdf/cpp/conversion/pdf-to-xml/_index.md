@@ -67,11 +67,12 @@ PM> Install-Package Aspose.PDF.Cpp
 {{% blocks/products/pf/agp/code-block title="PDF to XML C++ Conversion Source Code" offSpacer="" %}}
 
 ```cpp
-    // Load the PDF.
-    auto document = MakeObject<Document>(u"sourceFile.pdf");
+// Load the PDF.
+auto doc = MakeObject<Document>(u"sourceFile.pdf");
 
-    // Save the file into XML document format
-    document->Save(u"convertedFile.xml", SaveFormat::Xml);
+// Save in XML format.
+doc->Save(u"convertedFile.xml", SaveFormat::Xml);
+
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

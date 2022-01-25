@@ -67,22 +67,19 @@ PM> Install-Package Aspose.PDF.Cpp
 {{% blocks/products/pf/agp/code-block title="PS to DOC C++ Conversion Source Code" offSpacer="" %}}
 
 ```cpp
-    // Create LoadOptions
-    auto loadOptions = MakeObject<PsLoadOptions>();
-    // Load the EPUB.
-    auto document = MakeObject<Document>(u"sourceFile.ps", loadOptions);
-    // Create SaveOptions
-    auto saveOptions = MakeObject<DocSaveOptions>();
-    saveOptions->set_Format(DocSaveOptions::DocFormat::Doc);
-    // Save the file into MS document format
-    document->Save(u"convertedFile.doc", saveOptions);
+// Load the PS.
+auto doc = MakeObject<Document>(u"sourceFile.ps");
+
+// Save in DOC format.
+doc->Save(u"convertedFile.doc", SaveFormat::Doc);
+
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
+    {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
 
 
 <!-- aboutfile Starts -->

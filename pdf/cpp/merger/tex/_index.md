@@ -67,7 +67,7 @@ PM> Install-Package Aspose.PDF.Cpp
 
 {{% blocks/products/pf/agp/code-block title="Merge TEX Files - C++" offSpacer="" %}}
 
-```cs
+```cpp
 // Open first document
 auto doc1 = MakeObject<Document>(u"file1.tex");
 
@@ -93,7 +93,7 @@ doc1->Save(u"merged-output.tex");
 
     {{% blocks/products/pf/agp/content h2="About Aspose.PDF for C++ API" %}}
 
- Aspose.PDF API can be used for PDF document manipulation and parsing within applications. One can create, modify, compress, secure, print or save PDF to TXT, HTML, PCL, XFA, XML, XPS, EPUB, TEX, Images and more formats. Aspose.PDF is a standalone API and it does not depend on any software including Adobe Acrobat. 
+ Aspose.PDF API can be used for PDF document manipulation and parsing within applications. One can create, modify, compress, secure, print or save PDF to TXT, HTML, PCL, XFA, XML, XPS, EPUB, TEX, Images and more formats. Aspose.PDF is a standalone API and it does not depend on any software including Adobe Acrobat.
 
 
 
