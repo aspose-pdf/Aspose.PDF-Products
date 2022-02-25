@@ -69,7 +69,7 @@ PM> Install-Package Aspose.PDF
 // load PDF with an instance of Document
 var document = new Document("template.pdf");
 // save document in XLSX format
-document.Save("excel_output.xlsx", Aspose.Pdf.SaveFormat.Xlsx);
+document.Save("excel_output.xlsx", Aspose.Pdf.SaveFormat.Excel);
 
 ```
 

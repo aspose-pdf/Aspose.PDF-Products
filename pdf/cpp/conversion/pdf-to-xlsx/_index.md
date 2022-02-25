@@ -71,8 +71,7 @@ PM> Install-Package Aspose.PDF.Cpp
 auto doc = MakeObject<Document>(u"sourceFile.pdf");
 
 // Save in XLSX format.
-doc->Save(u"convertedFile.xlsx", SaveFormat::Xlsx);
-
+doc->Save(u"convertedFile.xlsx", SaveFormat::Excel);
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

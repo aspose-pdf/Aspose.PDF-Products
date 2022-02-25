@@ -84,7 +84,7 @@ description: Sample Java conversion for PDF format to XLS file. Programmers can 
 // load PDF with an instance of Document
 Document document = new Document("template.pdf");
 // save document in XLS format
-document.save("output.xls", SaveFormat.Xls);
+document.save("output.xls", SaveFormat.Excel);
 
 ```
 
@@ -105,7 +105,7 @@ document.save("output.xls", SaveFormat.Xls);
 
     {{% blocks/products/pf/agp/content h2="" %}}
 
- **Java PDF Converter** API can be used for PDF document manipulation and parsing within applications. One can create, modify, compress, secure, print or save PDF to TXT, HTML, PCL, XFA, XML, XPS, EPUB, TEX, Images and more formats. It is a standalone API and it does not depend on any software including Adobe Acrobat. 
+ **Java PDF Converter** API can be used for PDF document manipulation and parsing within applications. One can create, modify, compress, secure, print or save PDF to TXT, HTML, PCL, XFA, XML, XPS, EPUB, TEX, Images and more formats. It is a standalone API and it does not depend on any software including Adobe Acrobat.
 
 
 
